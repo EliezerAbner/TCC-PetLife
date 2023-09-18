@@ -45,12 +45,15 @@ BEGIN
 		THEN INSERT INTO cidade (estadoId, nomeCidade) VALUES (estado, cidade);
 	END IF;
         
-    SELECT MAX(cidadeId)
+    SELECT cidadeId
 		INTO _cidadeId
-        FROM cidade;
+        FROM cidade
+		WHERE nomeCidade = cidade;
         
 	INSERT
 		INTO endereco (clienteId, cidadeId, rua, numero, cep)
         VALUES (_clienteId, _cidadeId, rua, numero, cep);
     
 END;
+
+
