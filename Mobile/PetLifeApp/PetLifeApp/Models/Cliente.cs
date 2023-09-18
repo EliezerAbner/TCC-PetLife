@@ -1,6 +1,7 @@
 ﻿using MySqlConnector;
 using System;
 using System.Collections.Generic;
+using System.Security.Cryptography;
 using System.Text;
 
 namespace PetLifeApp.Models
@@ -8,6 +9,13 @@ namespace PetLifeApp.Models
     class Cliente
     {
         private int id;
+        private string senha;
+        public string Senha 
+        { 
+            get { return senha; } 
+            
+            set { senha = Encode(value); } 
+        }
 
         private static string conn = @"server=sql.freedb.tech;port=3306;database=freedb_matadoresDePorco;user id=freedb_user001;password=pk6rmPza!vD4MGY;charset=utf8";
 
@@ -22,49 +30,101 @@ namespace PetLifeApp.Models
         public string Estado { get; set; }
         public string Telefone { get; set; }
 
-        private void Insercao(string sql)
-        {
-            using (MySqlConnection con = new MySqlConnection(conn))
-            {
-                con.Open();
-                using (MySqlCommand cmd = new MySqlCommand(sql, con))
-                {
-                    cmd.ExecuteNonQuery();
-                }
-                con.Close();
-            }
-        }
-
         public void NovoCliente(Cliente cliente)
         {
             try
             {
-                Insercao("INSERT INTO cliente (nome, dataNascimento) VALUES (" + cliente.Nome + ", " + cliente.dataNascimento + ")");
-
-                using (MySqlConnection con = new MySqlConnection())
+                using (MySqlConnection con = new MySqlConnection(conn))
                 {
-                    string sql = "SELECT clienteId FROM cliente WHERE nome=" + cliente.Nome + "";
-
+                    string sql = "CALL novo_cliente('"+cliente.Nome+"', "+cliente.dataNascimento+", '"+cliente.Email+"', '"+cliente.senha+"', '"+cliente.Rua+"', '"+cliente.Numero+"', '"+cliente.Cep+"', '"+cliente.Cidade+"', '"+cliente.Estado+"', '"+cliente.Telefone+"')";
                     con.Open();
                     using (MySqlCommand cmd = new MySqlCommand(sql, con))
                     {
-                        id = (int)cmd.ExecuteScalar();
+                        cmd.ExecuteNonQuery();
                     }
-                    con.Close();
                 }
-
-                Insercao("INSERT INTO endereco (clienteId, rua, numero, cep, cidade, estado) VALUES (" + id + ", " + cliente.Rua + ", " + cliente.Numero + ", " + cliente.Cep + ", " + cliente.Cidade + ", " + cliente.Estado + ", )");
-
-
-
-                //inserir endereço
-                //inserir email
-                //inserir login
-                //inserir telefone
             }
             catch (Exception ex)
             {
-                throw;
+                throw new Exception(ex.Message);
+            }
+        }
+
+        public void EditarCliente(Cliente cliente)
+        {
+            try
+            {
+                using (MySqlConnection con = new MySqlConnection(conn))
+                {
+                    ObterId(cliente.Nome);
+                    string sql = "CALL editar_cliente("+id+" '"+cliente.Nome+"', "+cliente.dataNascimento+", '"+cliente.Email+"', '"+cliente.senha+"', '"+cliente.Rua+"', '"+cliente.Numero+"', '"+cliente.Cep+"', '"+cliente.Cidade+"', '"+cliente.Estado+"', '"+cliente.Telefone+"')";
+                    con.Open();
+                    using (MySqlCommand cmd = new MySqlCommand(sql, con))
+                    {
+                        cmd.ExecuteNonQuery();
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
+
+        public void ExcluirCliente(int id)
+        {
+            try
+            {
+                using(MySqlConnection con = new MySqlConnection(conn))
+                {
+                    string sql = "CALL excluir_cliente("+id+")";
+                    con.Open();
+                    using (MySqlCommand cmd = new MySqlCommand(sql, con))
+                    {
+                        cmd.ExecuteNonQuery();
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
+
+        private static string Encode(string senha)
+        {
+            using (SHA256 sha256Hash = SHA256.Create())
+            {
+                byte[] bytes = sha256Hash.ComputeHash(Encoding.UTF8.GetBytes(senha));
+
+                StringBuilder builder = new StringBuilder();
+                for (int i = 0; i < bytes.Length; i++)
+                {
+                    builder.Append(bytes[i].ToString("x2"));
+                }
+                return builder.ToString();
+            }
+        }
+
+        private int ObterId (string nome)
+        {
+            try
+            {
+                using (MySqlConnection con = new MySqlConnection(conn))
+                {
+                    string sql = "SELECT clienteId FROM cliente WHERE nome=" + nome + "";
+                    con.Open();
+                    using (MySqlCommand cmd = new MySqlCommand(sql, con))
+                    {
+                        int id = (int)cmd.ExecuteScalar();
+                    }
+                    con.Close();
+                }
+                return id;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
             }
         }
     }

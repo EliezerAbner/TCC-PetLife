@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xHwtrejMBewbTpVruUK0/RdC6uKN0nOasiWjNRdnrhiXhCyR+LDrG8sdC1J5PA6ks6CLw32EIX1f41yNmGbaYQ==",
+  "dgSpecHash": "D/68U1tl0zIhNJFecAP/6LwyKGDTYP/AvCXZdsVP0BJ1dPx236iryfONX1dr2Wc8KNByPJurB+rrAUaUrAgmzA==",
   "success": true,
-  "projectFilePath": "C:\\Programas\\TCC-PetLife\\Mobile\\PetLifeApp\\PetLifeApp\\PetLifeApp.csproj",
+  "projectFilePath": "C:\\Programas\\Xamarin\\TCC-PetLife\\Mobile\\PetLifeApp\\PetLifeApp\\PetLifeApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\eliez\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\eliez\\.nuget\\packages\\mysqlconnector\\2.2.7\\mysqlconnector.2.2.7.nupkg.sha512",
