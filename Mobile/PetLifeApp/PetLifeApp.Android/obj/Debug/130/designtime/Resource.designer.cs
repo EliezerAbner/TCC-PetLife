@@ -216,6 +216,2640 @@ namespace PetLifeApp.Droid
 			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_type = global::PetLifeApp.Droid.Resource.Styleable.GradientColor_android_type;
 			global::Xamarin.Essentials.Resource.Xml.image_share_filepaths = global::PetLifeApp.Droid.Resource.Xml.image_share_filepaths;
 			global::Xamarin.Essentials.Resource.Xml.xamarin_essentials_fileprovider_file_paths = global::PetLifeApp.Droid.Resource.Xml.xamarin_essentials_fileprovider_file_paths;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.abc_fade_in = global::PetLifeApp.Droid.Resource.Animation.abc_fade_in;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.abc_fade_out = global::PetLifeApp.Droid.Resource.Animation.abc_fade_out;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.abc_grow_fade_in_from_bottom = global::PetLifeApp.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.abc_popup_enter = global::PetLifeApp.Droid.Resource.Animation.abc_popup_enter;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.abc_popup_exit = global::PetLifeApp.Droid.Resource.Animation.abc_popup_exit;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.abc_shrink_fade_out_from_bottom = global::PetLifeApp.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.abc_slide_in_bottom = global::PetLifeApp.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.abc_slide_in_top = global::PetLifeApp.Droid.Resource.Animation.abc_slide_in_top;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.abc_slide_out_bottom = global::PetLifeApp.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.abc_slide_out_top = global::PetLifeApp.Droid.Resource.Animation.abc_slide_out_top;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.abc_tooltip_enter = global::PetLifeApp.Droid.Resource.Animation.abc_tooltip_enter;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.abc_tooltip_exit = global::PetLifeApp.Droid.Resource.Animation.abc_tooltip_exit;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation = global::PetLifeApp.Droid.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation = global::PetLifeApp.Droid.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.btn_checkbox_to_checked_icon_null_animation = global::PetLifeApp.Droid.Resource.Animation.btn_checkbox_to_checked_icon_null_animation;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation = global::PetLifeApp.Droid.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation = global::PetLifeApp.Droid.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation = global::PetLifeApp.Droid.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation = global::PetLifeApp.Droid.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation = global::PetLifeApp.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation = global::PetLifeApp.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation = global::PetLifeApp.Droid.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation = global::PetLifeApp.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation = global::PetLifeApp.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.design_bottom_sheet_slide_in = global::PetLifeApp.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.design_bottom_sheet_slide_out = global::PetLifeApp.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.design_snackbar_in = global::PetLifeApp.Droid.Resource.Animation.design_snackbar_in;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.design_snackbar_out = global::PetLifeApp.Droid.Resource.Animation.design_snackbar_out;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.EnterFromLeft = global::PetLifeApp.Droid.Resource.Animation.EnterFromLeft;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.EnterFromRight = global::PetLifeApp.Droid.Resource.Animation.EnterFromRight;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.ExitToLeft = global::PetLifeApp.Droid.Resource.Animation.ExitToLeft;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.ExitToRight = global::PetLifeApp.Droid.Resource.Animation.ExitToRight;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.fragment_fast_out_extra_slow_in = global::PetLifeApp.Droid.Resource.Animation.fragment_fast_out_extra_slow_in;
+			global::Xamarin.Forms.PancakeView.Resource.Animator.design_appbar_state_list_animator = global::PetLifeApp.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::Xamarin.Forms.PancakeView.Resource.Animator.design_fab_hide_motion_spec = global::PetLifeApp.Droid.Resource.Animator.design_fab_hide_motion_spec;
+			global::Xamarin.Forms.PancakeView.Resource.Animator.design_fab_show_motion_spec = global::PetLifeApp.Droid.Resource.Animator.design_fab_show_motion_spec;
+			global::Xamarin.Forms.PancakeView.Resource.Animator.mtrl_btn_state_list_anim = global::PetLifeApp.Droid.Resource.Animator.mtrl_btn_state_list_anim;
+			global::Xamarin.Forms.PancakeView.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::PetLifeApp.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
+			global::Xamarin.Forms.PancakeView.Resource.Animator.mtrl_chip_state_list_anim = global::PetLifeApp.Droid.Resource.Animator.mtrl_chip_state_list_anim;
+			global::Xamarin.Forms.PancakeView.Resource.Animator.mtrl_fab_hide_motion_spec = global::PetLifeApp.Droid.Resource.Animator.mtrl_fab_hide_motion_spec;
+			global::Xamarin.Forms.PancakeView.Resource.Animator.mtrl_fab_show_motion_spec = global::PetLifeApp.Droid.Resource.Animator.mtrl_fab_show_motion_spec;
+			global::Xamarin.Forms.PancakeView.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::PetLifeApp.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
+			global::Xamarin.Forms.PancakeView.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec = global::PetLifeApp.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionBarDivider = global::PetLifeApp.Droid.Resource.Attribute.actionBarDivider;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionBarItemBackground = global::PetLifeApp.Droid.Resource.Attribute.actionBarItemBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionBarPopupTheme = global::PetLifeApp.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionBarSize = global::PetLifeApp.Droid.Resource.Attribute.actionBarSize;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionBarSplitStyle = global::PetLifeApp.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionBarStyle = global::PetLifeApp.Droid.Resource.Attribute.actionBarStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionBarTabBarStyle = global::PetLifeApp.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionBarTabStyle = global::PetLifeApp.Droid.Resource.Attribute.actionBarTabStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionBarTabTextStyle = global::PetLifeApp.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionBarTheme = global::PetLifeApp.Droid.Resource.Attribute.actionBarTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionBarWidgetTheme = global::PetLifeApp.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionButtonStyle = global::PetLifeApp.Droid.Resource.Attribute.actionButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionDropDownStyle = global::PetLifeApp.Droid.Resource.Attribute.actionDropDownStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionLayout = global::PetLifeApp.Droid.Resource.Attribute.actionLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionMenuTextAppearance = global::PetLifeApp.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionMenuTextColor = global::PetLifeApp.Droid.Resource.Attribute.actionMenuTextColor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionModeBackground = global::PetLifeApp.Droid.Resource.Attribute.actionModeBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionModeCloseButtonStyle = global::PetLifeApp.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionModeCloseDrawable = global::PetLifeApp.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionModeCopyDrawable = global::PetLifeApp.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionModeCutDrawable = global::PetLifeApp.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionModeFindDrawable = global::PetLifeApp.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionModePasteDrawable = global::PetLifeApp.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionModePopupWindowStyle = global::PetLifeApp.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionModeSelectAllDrawable = global::PetLifeApp.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionModeShareDrawable = global::PetLifeApp.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionModeSplitBackground = global::PetLifeApp.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionModeStyle = global::PetLifeApp.Droid.Resource.Attribute.actionModeStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionModeWebSearchDrawable = global::PetLifeApp.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionOverflowButtonStyle = global::PetLifeApp.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionOverflowMenuStyle = global::PetLifeApp.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionProviderClass = global::PetLifeApp.Droid.Resource.Attribute.actionProviderClass;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionViewClass = global::PetLifeApp.Droid.Resource.Attribute.actionViewClass;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.activityChooserViewStyle = global::PetLifeApp.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.alertDialogButtonGroupStyle = global::PetLifeApp.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.alertDialogCenterButtons = global::PetLifeApp.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.alertDialogStyle = global::PetLifeApp.Droid.Resource.Attribute.alertDialogStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.alertDialogTheme = global::PetLifeApp.Droid.Resource.Attribute.alertDialogTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.allowStacking = global::PetLifeApp.Droid.Resource.Attribute.allowStacking;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.alpha = global::PetLifeApp.Droid.Resource.Attribute.alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.alphabeticModifiers = global::PetLifeApp.Droid.Resource.Attribute.alphabeticModifiers;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.arrowHeadLength = global::PetLifeApp.Droid.Resource.Attribute.arrowHeadLength;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.arrowShaftLength = global::PetLifeApp.Droid.Resource.Attribute.arrowShaftLength;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.autoCompleteTextViewStyle = global::PetLifeApp.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.autoSizeMaxTextSize = global::PetLifeApp.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.autoSizeMinTextSize = global::PetLifeApp.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.autoSizePresetSizes = global::PetLifeApp.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.autoSizeStepGranularity = global::PetLifeApp.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.autoSizeTextType = global::PetLifeApp.Droid.Resource.Attribute.autoSizeTextType;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.background = global::PetLifeApp.Droid.Resource.Attribute.background;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.backgroundSplit = global::PetLifeApp.Droid.Resource.Attribute.backgroundSplit;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.backgroundStacked = global::PetLifeApp.Droid.Resource.Attribute.backgroundStacked;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.backgroundTint = global::PetLifeApp.Droid.Resource.Attribute.backgroundTint;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.backgroundTintMode = global::PetLifeApp.Droid.Resource.Attribute.backgroundTintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.barLength = global::PetLifeApp.Droid.Resource.Attribute.barLength;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.behavior_autoHide = global::PetLifeApp.Droid.Resource.Attribute.behavior_autoHide;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.behavior_fitToContents = global::PetLifeApp.Droid.Resource.Attribute.behavior_fitToContents;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.behavior_hideable = global::PetLifeApp.Droid.Resource.Attribute.behavior_hideable;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.behavior_overlapTop = global::PetLifeApp.Droid.Resource.Attribute.behavior_overlapTop;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.behavior_peekHeight = global::PetLifeApp.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.behavior_skipCollapsed = global::PetLifeApp.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.borderlessButtonStyle = global::PetLifeApp.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.borderWidth = global::PetLifeApp.Droid.Resource.Attribute.borderWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.bottomAppBarStyle = global::PetLifeApp.Droid.Resource.Attribute.bottomAppBarStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.bottomNavigationStyle = global::PetLifeApp.Droid.Resource.Attribute.bottomNavigationStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.bottomSheetDialogTheme = global::PetLifeApp.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.bottomSheetStyle = global::PetLifeApp.Droid.Resource.Attribute.bottomSheetStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.boxBackgroundColor = global::PetLifeApp.Droid.Resource.Attribute.boxBackgroundColor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.boxBackgroundMode = global::PetLifeApp.Droid.Resource.Attribute.boxBackgroundMode;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.boxCollapsedPaddingTop = global::PetLifeApp.Droid.Resource.Attribute.boxCollapsedPaddingTop;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.boxCornerRadiusBottomEnd = global::PetLifeApp.Droid.Resource.Attribute.boxCornerRadiusBottomEnd;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.boxCornerRadiusBottomStart = global::PetLifeApp.Droid.Resource.Attribute.boxCornerRadiusBottomStart;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.boxCornerRadiusTopEnd = global::PetLifeApp.Droid.Resource.Attribute.boxCornerRadiusTopEnd;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.boxCornerRadiusTopStart = global::PetLifeApp.Droid.Resource.Attribute.boxCornerRadiusTopStart;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.boxStrokeColor = global::PetLifeApp.Droid.Resource.Attribute.boxStrokeColor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.boxStrokeWidth = global::PetLifeApp.Droid.Resource.Attribute.boxStrokeWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.buttonBarButtonStyle = global::PetLifeApp.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.buttonBarNegativeButtonStyle = global::PetLifeApp.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.buttonBarNeutralButtonStyle = global::PetLifeApp.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.buttonBarPositiveButtonStyle = global::PetLifeApp.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.buttonBarStyle = global::PetLifeApp.Droid.Resource.Attribute.buttonBarStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.buttonCompat = global::PetLifeApp.Droid.Resource.Attribute.buttonCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.buttonGravity = global::PetLifeApp.Droid.Resource.Attribute.buttonGravity;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.buttonIconDimen = global::PetLifeApp.Droid.Resource.Attribute.buttonIconDimen;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.buttonPanelSideLayout = global::PetLifeApp.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.buttonStyle = global::PetLifeApp.Droid.Resource.Attribute.buttonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.buttonStyleSmall = global::PetLifeApp.Droid.Resource.Attribute.buttonStyleSmall;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.buttonTint = global::PetLifeApp.Droid.Resource.Attribute.buttonTint;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.buttonTintMode = global::PetLifeApp.Droid.Resource.Attribute.buttonTintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.cardBackgroundColor = global::PetLifeApp.Droid.Resource.Attribute.cardBackgroundColor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.cardCornerRadius = global::PetLifeApp.Droid.Resource.Attribute.cardCornerRadius;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.cardElevation = global::PetLifeApp.Droid.Resource.Attribute.cardElevation;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.cardMaxElevation = global::PetLifeApp.Droid.Resource.Attribute.cardMaxElevation;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.cardPreventCornerOverlap = global::PetLifeApp.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.cardUseCompatPadding = global::PetLifeApp.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.cardViewStyle = global::PetLifeApp.Droid.Resource.Attribute.cardViewStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.checkboxStyle = global::PetLifeApp.Droid.Resource.Attribute.checkboxStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.checkedChip = global::PetLifeApp.Droid.Resource.Attribute.checkedChip;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.checkedIcon = global::PetLifeApp.Droid.Resource.Attribute.checkedIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.checkedIconEnabled = global::PetLifeApp.Droid.Resource.Attribute.checkedIconEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.checkedIconVisible = global::PetLifeApp.Droid.Resource.Attribute.checkedIconVisible;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.checkedTextViewStyle = global::PetLifeApp.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipBackgroundColor = global::PetLifeApp.Droid.Resource.Attribute.chipBackgroundColor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipCornerRadius = global::PetLifeApp.Droid.Resource.Attribute.chipCornerRadius;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipEndPadding = global::PetLifeApp.Droid.Resource.Attribute.chipEndPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipGroupStyle = global::PetLifeApp.Droid.Resource.Attribute.chipGroupStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipIcon = global::PetLifeApp.Droid.Resource.Attribute.chipIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipIconEnabled = global::PetLifeApp.Droid.Resource.Attribute.chipIconEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipIconSize = global::PetLifeApp.Droid.Resource.Attribute.chipIconSize;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipIconTint = global::PetLifeApp.Droid.Resource.Attribute.chipIconTint;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipIconVisible = global::PetLifeApp.Droid.Resource.Attribute.chipIconVisible;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipMinHeight = global::PetLifeApp.Droid.Resource.Attribute.chipMinHeight;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipSpacing = global::PetLifeApp.Droid.Resource.Attribute.chipSpacing;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipSpacingHorizontal = global::PetLifeApp.Droid.Resource.Attribute.chipSpacingHorizontal;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipSpacingVertical = global::PetLifeApp.Droid.Resource.Attribute.chipSpacingVertical;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipStandaloneStyle = global::PetLifeApp.Droid.Resource.Attribute.chipStandaloneStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipStartPadding = global::PetLifeApp.Droid.Resource.Attribute.chipStartPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipStrokeColor = global::PetLifeApp.Droid.Resource.Attribute.chipStrokeColor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipStrokeWidth = global::PetLifeApp.Droid.Resource.Attribute.chipStrokeWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipStyle = global::PetLifeApp.Droid.Resource.Attribute.chipStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.closeIcon = global::PetLifeApp.Droid.Resource.Attribute.closeIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.closeIconEnabled = global::PetLifeApp.Droid.Resource.Attribute.closeIconEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.closeIconEndPadding = global::PetLifeApp.Droid.Resource.Attribute.closeIconEndPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.closeIconSize = global::PetLifeApp.Droid.Resource.Attribute.closeIconSize;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.closeIconStartPadding = global::PetLifeApp.Droid.Resource.Attribute.closeIconStartPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.closeIconTint = global::PetLifeApp.Droid.Resource.Attribute.closeIconTint;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.closeIconVisible = global::PetLifeApp.Droid.Resource.Attribute.closeIconVisible;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.closeItemLayout = global::PetLifeApp.Droid.Resource.Attribute.closeItemLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.collapseContentDescription = global::PetLifeApp.Droid.Resource.Attribute.collapseContentDescription;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.collapsedTitleGravity = global::PetLifeApp.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.collapsedTitleTextAppearance = global::PetLifeApp.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.collapseIcon = global::PetLifeApp.Droid.Resource.Attribute.collapseIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.collectionViewStyle = global::PetLifeApp.Droid.Resource.Attribute.collectionViewStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.color = global::PetLifeApp.Droid.Resource.Attribute.color;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.colorAccent = global::PetLifeApp.Droid.Resource.Attribute.colorAccent;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.colorBackgroundFloating = global::PetLifeApp.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.colorButtonNormal = global::PetLifeApp.Droid.Resource.Attribute.colorButtonNormal;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.colorControlActivated = global::PetLifeApp.Droid.Resource.Attribute.colorControlActivated;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.colorControlHighlight = global::PetLifeApp.Droid.Resource.Attribute.colorControlHighlight;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.colorControlNormal = global::PetLifeApp.Droid.Resource.Attribute.colorControlNormal;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.colorError = global::PetLifeApp.Droid.Resource.Attribute.colorError;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.colorPrimary = global::PetLifeApp.Droid.Resource.Attribute.colorPrimary;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.colorPrimaryDark = global::PetLifeApp.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.colorSecondary = global::PetLifeApp.Droid.Resource.Attribute.colorSecondary;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.colorSwitchThumbNormal = global::PetLifeApp.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.commitIcon = global::PetLifeApp.Droid.Resource.Attribute.commitIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.contentDescription = global::PetLifeApp.Droid.Resource.Attribute.contentDescription;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.contentInsetEnd = global::PetLifeApp.Droid.Resource.Attribute.contentInsetEnd;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.contentInsetEndWithActions = global::PetLifeApp.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.contentInsetLeft = global::PetLifeApp.Droid.Resource.Attribute.contentInsetLeft;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.contentInsetRight = global::PetLifeApp.Droid.Resource.Attribute.contentInsetRight;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.contentInsetStart = global::PetLifeApp.Droid.Resource.Attribute.contentInsetStart;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.contentInsetStartWithNavigation = global::PetLifeApp.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.contentPadding = global::PetLifeApp.Droid.Resource.Attribute.contentPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.contentPaddingBottom = global::PetLifeApp.Droid.Resource.Attribute.contentPaddingBottom;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.contentPaddingLeft = global::PetLifeApp.Droid.Resource.Attribute.contentPaddingLeft;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.contentPaddingRight = global::PetLifeApp.Droid.Resource.Attribute.contentPaddingRight;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.contentPaddingTop = global::PetLifeApp.Droid.Resource.Attribute.contentPaddingTop;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.contentScrim = global::PetLifeApp.Droid.Resource.Attribute.contentScrim;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.controlBackground = global::PetLifeApp.Droid.Resource.Attribute.controlBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.coordinatorLayoutStyle = global::PetLifeApp.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.cornerRadius = global::PetLifeApp.Droid.Resource.Attribute.cornerRadius;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.counterEnabled = global::PetLifeApp.Droid.Resource.Attribute.counterEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.counterMaxLength = global::PetLifeApp.Droid.Resource.Attribute.counterMaxLength;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.counterOverflowTextAppearance = global::PetLifeApp.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.counterTextAppearance = global::PetLifeApp.Droid.Resource.Attribute.counterTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.customNavigationLayout = global::PetLifeApp.Droid.Resource.Attribute.customNavigationLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.defaultQueryHint = global::PetLifeApp.Droid.Resource.Attribute.defaultQueryHint;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.dialogCornerRadius = global::PetLifeApp.Droid.Resource.Attribute.dialogCornerRadius;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.dialogPreferredPadding = global::PetLifeApp.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.dialogTheme = global::PetLifeApp.Droid.Resource.Attribute.dialogTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.displayOptions = global::PetLifeApp.Droid.Resource.Attribute.displayOptions;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.divider = global::PetLifeApp.Droid.Resource.Attribute.divider;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.dividerHorizontal = global::PetLifeApp.Droid.Resource.Attribute.dividerHorizontal;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.dividerPadding = global::PetLifeApp.Droid.Resource.Attribute.dividerPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.dividerVertical = global::PetLifeApp.Droid.Resource.Attribute.dividerVertical;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.drawableBottomCompat = global::PetLifeApp.Droid.Resource.Attribute.drawableBottomCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.drawableEndCompat = global::PetLifeApp.Droid.Resource.Attribute.drawableEndCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.drawableLeftCompat = global::PetLifeApp.Droid.Resource.Attribute.drawableLeftCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.drawableRightCompat = global::PetLifeApp.Droid.Resource.Attribute.drawableRightCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.drawableSize = global::PetLifeApp.Droid.Resource.Attribute.drawableSize;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.drawableStartCompat = global::PetLifeApp.Droid.Resource.Attribute.drawableStartCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.drawableTint = global::PetLifeApp.Droid.Resource.Attribute.drawableTint;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.drawableTintMode = global::PetLifeApp.Droid.Resource.Attribute.drawableTintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.drawableTopCompat = global::PetLifeApp.Droid.Resource.Attribute.drawableTopCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.drawerArrowStyle = global::PetLifeApp.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.dropdownListPreferredItemHeight = global::PetLifeApp.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.dropDownListViewStyle = global::PetLifeApp.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.editTextBackground = global::PetLifeApp.Droid.Resource.Attribute.editTextBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.editTextColor = global::PetLifeApp.Droid.Resource.Attribute.editTextColor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.editTextStyle = global::PetLifeApp.Droid.Resource.Attribute.editTextStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.elevation = global::PetLifeApp.Droid.Resource.Attribute.elevation;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.enforceMaterialTheme = global::PetLifeApp.Droid.Resource.Attribute.enforceMaterialTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.enforceTextAppearance = global::PetLifeApp.Droid.Resource.Attribute.enforceTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.errorEnabled = global::PetLifeApp.Droid.Resource.Attribute.errorEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.errorTextAppearance = global::PetLifeApp.Droid.Resource.Attribute.errorTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.expandActivityOverflowButtonDrawable = global::PetLifeApp.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.expanded = global::PetLifeApp.Droid.Resource.Attribute.expanded;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.expandedTitleGravity = global::PetLifeApp.Droid.Resource.Attribute.expandedTitleGravity;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.expandedTitleMargin = global::PetLifeApp.Droid.Resource.Attribute.expandedTitleMargin;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.expandedTitleMarginBottom = global::PetLifeApp.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.expandedTitleMarginEnd = global::PetLifeApp.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.expandedTitleMarginStart = global::PetLifeApp.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.expandedTitleMarginTop = global::PetLifeApp.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.expandedTitleTextAppearance = global::PetLifeApp.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.fabAlignmentMode = global::PetLifeApp.Droid.Resource.Attribute.fabAlignmentMode;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.fabCradleMargin = global::PetLifeApp.Droid.Resource.Attribute.fabCradleMargin;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.fabCradleRoundedCornerRadius = global::PetLifeApp.Droid.Resource.Attribute.fabCradleRoundedCornerRadius;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.fabCradleVerticalOffset = global::PetLifeApp.Droid.Resource.Attribute.fabCradleVerticalOffset;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.fabCustomSize = global::PetLifeApp.Droid.Resource.Attribute.fabCustomSize;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.fabSize = global::PetLifeApp.Droid.Resource.Attribute.fabSize;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.fastScrollEnabled = global::PetLifeApp.Droid.Resource.Attribute.fastScrollEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::PetLifeApp.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::PetLifeApp.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.fastScrollVerticalThumbDrawable = global::PetLifeApp.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.fastScrollVerticalTrackDrawable = global::PetLifeApp.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.firstBaselineToTopHeight = global::PetLifeApp.Droid.Resource.Attribute.firstBaselineToTopHeight;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.floatingActionButtonStyle = global::PetLifeApp.Droid.Resource.Attribute.floatingActionButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.font = global::PetLifeApp.Droid.Resource.Attribute.font;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.fontFamily = global::PetLifeApp.Droid.Resource.Attribute.fontFamily;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.fontProviderAuthority = global::PetLifeApp.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.fontProviderCerts = global::PetLifeApp.Droid.Resource.Attribute.fontProviderCerts;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.fontProviderFetchStrategy = global::PetLifeApp.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.fontProviderFetchTimeout = global::PetLifeApp.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.fontProviderPackage = global::PetLifeApp.Droid.Resource.Attribute.fontProviderPackage;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.fontProviderQuery = global::PetLifeApp.Droid.Resource.Attribute.fontProviderQuery;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.fontStyle = global::PetLifeApp.Droid.Resource.Attribute.fontStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.fontVariationSettings = global::PetLifeApp.Droid.Resource.Attribute.fontVariationSettings;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.fontWeight = global::PetLifeApp.Droid.Resource.Attribute.fontWeight;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.foregroundInsidePadding = global::PetLifeApp.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.gapBetweenBars = global::PetLifeApp.Droid.Resource.Attribute.gapBetweenBars;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.goIcon = global::PetLifeApp.Droid.Resource.Attribute.goIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.headerLayout = global::PetLifeApp.Droid.Resource.Attribute.headerLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.height = global::PetLifeApp.Droid.Resource.Attribute.height;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.helperText = global::PetLifeApp.Droid.Resource.Attribute.helperText;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.helperTextEnabled = global::PetLifeApp.Droid.Resource.Attribute.helperTextEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.helperTextTextAppearance = global::PetLifeApp.Droid.Resource.Attribute.helperTextTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.hideMotionSpec = global::PetLifeApp.Droid.Resource.Attribute.hideMotionSpec;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.hideOnContentScroll = global::PetLifeApp.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.hideOnScroll = global::PetLifeApp.Droid.Resource.Attribute.hideOnScroll;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.hintAnimationEnabled = global::PetLifeApp.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.hintEnabled = global::PetLifeApp.Droid.Resource.Attribute.hintEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.hintTextAppearance = global::PetLifeApp.Droid.Resource.Attribute.hintTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.homeAsUpIndicator = global::PetLifeApp.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.homeLayout = global::PetLifeApp.Droid.Resource.Attribute.homeLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.hoveredFocusedTranslationZ = global::PetLifeApp.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.icon = global::PetLifeApp.Droid.Resource.Attribute.icon;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.iconEndPadding = global::PetLifeApp.Droid.Resource.Attribute.iconEndPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.iconGravity = global::PetLifeApp.Droid.Resource.Attribute.iconGravity;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.iconifiedByDefault = global::PetLifeApp.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.iconPadding = global::PetLifeApp.Droid.Resource.Attribute.iconPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.iconSize = global::PetLifeApp.Droid.Resource.Attribute.iconSize;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.iconStartPadding = global::PetLifeApp.Droid.Resource.Attribute.iconStartPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.iconTint = global::PetLifeApp.Droid.Resource.Attribute.iconTint;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.iconTintMode = global::PetLifeApp.Droid.Resource.Attribute.iconTintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.imageButtonStyle = global::PetLifeApp.Droid.Resource.Attribute.imageButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.indeterminateProgressStyle = global::PetLifeApp.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.initialActivityCount = global::PetLifeApp.Droid.Resource.Attribute.initialActivityCount;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.insetForeground = global::PetLifeApp.Droid.Resource.Attribute.insetForeground;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.isLightTheme = global::PetLifeApp.Droid.Resource.Attribute.isLightTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.itemBackground = global::PetLifeApp.Droid.Resource.Attribute.itemBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.itemHorizontalPadding = global::PetLifeApp.Droid.Resource.Attribute.itemHorizontalPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.itemHorizontalTranslationEnabled = global::PetLifeApp.Droid.Resource.Attribute.itemHorizontalTranslationEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.itemIconPadding = global::PetLifeApp.Droid.Resource.Attribute.itemIconPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.itemIconSize = global::PetLifeApp.Droid.Resource.Attribute.itemIconSize;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.itemIconTint = global::PetLifeApp.Droid.Resource.Attribute.itemIconTint;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.itemPadding = global::PetLifeApp.Droid.Resource.Attribute.itemPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.itemSpacing = global::PetLifeApp.Droid.Resource.Attribute.itemSpacing;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.itemTextAppearance = global::PetLifeApp.Droid.Resource.Attribute.itemTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.itemTextAppearanceActive = global::PetLifeApp.Droid.Resource.Attribute.itemTextAppearanceActive;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.itemTextAppearanceInactive = global::PetLifeApp.Droid.Resource.Attribute.itemTextAppearanceInactive;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.itemTextColor = global::PetLifeApp.Droid.Resource.Attribute.itemTextColor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.keylines = global::PetLifeApp.Droid.Resource.Attribute.keylines;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.labelVisibilityMode = global::PetLifeApp.Droid.Resource.Attribute.labelVisibilityMode;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.lastBaselineToBottomHeight = global::PetLifeApp.Droid.Resource.Attribute.lastBaselineToBottomHeight;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.layout = global::PetLifeApp.Droid.Resource.Attribute.layout;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.layoutManager = global::PetLifeApp.Droid.Resource.Attribute.layoutManager;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.layout_anchor = global::PetLifeApp.Droid.Resource.Attribute.layout_anchor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.layout_anchorGravity = global::PetLifeApp.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.layout_behavior = global::PetLifeApp.Droid.Resource.Attribute.layout_behavior;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.layout_collapseMode = global::PetLifeApp.Droid.Resource.Attribute.layout_collapseMode;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.layout_collapseParallaxMultiplier = global::PetLifeApp.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.layout_dodgeInsetEdges = global::PetLifeApp.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.layout_insetEdge = global::PetLifeApp.Droid.Resource.Attribute.layout_insetEdge;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.layout_keyline = global::PetLifeApp.Droid.Resource.Attribute.layout_keyline;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.layout_scrollFlags = global::PetLifeApp.Droid.Resource.Attribute.layout_scrollFlags;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.layout_scrollInterpolator = global::PetLifeApp.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.liftOnScroll = global::PetLifeApp.Droid.Resource.Attribute.liftOnScroll;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.lineHeight = global::PetLifeApp.Droid.Resource.Attribute.lineHeight;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.lineSpacing = global::PetLifeApp.Droid.Resource.Attribute.lineSpacing;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.listChoiceBackgroundIndicator = global::PetLifeApp.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.listChoiceIndicatorMultipleAnimated = global::PetLifeApp.Droid.Resource.Attribute.listChoiceIndicatorMultipleAnimated;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.listChoiceIndicatorSingleAnimated = global::PetLifeApp.Droid.Resource.Attribute.listChoiceIndicatorSingleAnimated;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.listDividerAlertDialog = global::PetLifeApp.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.listItemLayout = global::PetLifeApp.Droid.Resource.Attribute.listItemLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.listLayout = global::PetLifeApp.Droid.Resource.Attribute.listLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.listMenuViewStyle = global::PetLifeApp.Droid.Resource.Attribute.listMenuViewStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.listPopupWindowStyle = global::PetLifeApp.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.listPreferredItemHeight = global::PetLifeApp.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.listPreferredItemHeightLarge = global::PetLifeApp.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.listPreferredItemHeightSmall = global::PetLifeApp.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.listPreferredItemPaddingEnd = global::PetLifeApp.Droid.Resource.Attribute.listPreferredItemPaddingEnd;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.listPreferredItemPaddingLeft = global::PetLifeApp.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.listPreferredItemPaddingRight = global::PetLifeApp.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.listPreferredItemPaddingStart = global::PetLifeApp.Droid.Resource.Attribute.listPreferredItemPaddingStart;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.logo = global::PetLifeApp.Droid.Resource.Attribute.logo;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.logoDescription = global::PetLifeApp.Droid.Resource.Attribute.logoDescription;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.materialButtonStyle = global::PetLifeApp.Droid.Resource.Attribute.materialButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.materialCardViewStyle = global::PetLifeApp.Droid.Resource.Attribute.materialCardViewStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.maxActionInlineWidth = global::PetLifeApp.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.maxButtonHeight = global::PetLifeApp.Droid.Resource.Attribute.maxButtonHeight;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.maxImageSize = global::PetLifeApp.Droid.Resource.Attribute.maxImageSize;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.measureWithLargestChild = global::PetLifeApp.Droid.Resource.Attribute.measureWithLargestChild;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.menu = global::PetLifeApp.Droid.Resource.Attribute.menu;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.multiChoiceItemLayout = global::PetLifeApp.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.navigationContentDescription = global::PetLifeApp.Droid.Resource.Attribute.navigationContentDescription;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.navigationIcon = global::PetLifeApp.Droid.Resource.Attribute.navigationIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.navigationMode = global::PetLifeApp.Droid.Resource.Attribute.navigationMode;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.navigationViewStyle = global::PetLifeApp.Droid.Resource.Attribute.navigationViewStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.numericModifiers = global::PetLifeApp.Droid.Resource.Attribute.numericModifiers;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.overlapAnchor = global::PetLifeApp.Droid.Resource.Attribute.overlapAnchor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.paddingBottomNoButtons = global::PetLifeApp.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.paddingEnd = global::PetLifeApp.Droid.Resource.Attribute.paddingEnd;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.paddingStart = global::PetLifeApp.Droid.Resource.Attribute.paddingStart;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.paddingTopNoTitle = global::PetLifeApp.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.panelBackground = global::PetLifeApp.Droid.Resource.Attribute.panelBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.panelMenuListTheme = global::PetLifeApp.Droid.Resource.Attribute.panelMenuListTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.panelMenuListWidth = global::PetLifeApp.Droid.Resource.Attribute.panelMenuListWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.passwordToggleContentDescription = global::PetLifeApp.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.passwordToggleDrawable = global::PetLifeApp.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.passwordToggleEnabled = global::PetLifeApp.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.passwordToggleTint = global::PetLifeApp.Droid.Resource.Attribute.passwordToggleTint;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.passwordToggleTintMode = global::PetLifeApp.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.popupMenuStyle = global::PetLifeApp.Droid.Resource.Attribute.popupMenuStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.popupTheme = global::PetLifeApp.Droid.Resource.Attribute.popupTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.popupWindowStyle = global::PetLifeApp.Droid.Resource.Attribute.popupWindowStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.preserveIconSpacing = global::PetLifeApp.Droid.Resource.Attribute.preserveIconSpacing;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.pressedTranslationZ = global::PetLifeApp.Droid.Resource.Attribute.pressedTranslationZ;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.progressBarPadding = global::PetLifeApp.Droid.Resource.Attribute.progressBarPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.progressBarStyle = global::PetLifeApp.Droid.Resource.Attribute.progressBarStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.queryBackground = global::PetLifeApp.Droid.Resource.Attribute.queryBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.queryHint = global::PetLifeApp.Droid.Resource.Attribute.queryHint;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.radioButtonStyle = global::PetLifeApp.Droid.Resource.Attribute.radioButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.ratingBarStyle = global::PetLifeApp.Droid.Resource.Attribute.ratingBarStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.ratingBarStyleIndicator = global::PetLifeApp.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.ratingBarStyleSmall = global::PetLifeApp.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.recyclerViewStyle = global::PetLifeApp.Droid.Resource.Attribute.recyclerViewStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.reverseLayout = global::PetLifeApp.Droid.Resource.Attribute.reverseLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.rippleColor = global::PetLifeApp.Droid.Resource.Attribute.rippleColor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.scrimAnimationDuration = global::PetLifeApp.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.scrimBackground = global::PetLifeApp.Droid.Resource.Attribute.scrimBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.scrimVisibleHeightTrigger = global::PetLifeApp.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.scrollViewStyle = global::PetLifeApp.Droid.Resource.Attribute.scrollViewStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.searchHintIcon = global::PetLifeApp.Droid.Resource.Attribute.searchHintIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.searchIcon = global::PetLifeApp.Droid.Resource.Attribute.searchIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.searchViewStyle = global::PetLifeApp.Droid.Resource.Attribute.searchViewStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.seekBarStyle = global::PetLifeApp.Droid.Resource.Attribute.seekBarStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.selectableItemBackground = global::PetLifeApp.Droid.Resource.Attribute.selectableItemBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.selectableItemBackgroundBorderless = global::PetLifeApp.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.showAsAction = global::PetLifeApp.Droid.Resource.Attribute.showAsAction;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.showDividers = global::PetLifeApp.Droid.Resource.Attribute.showDividers;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.showMotionSpec = global::PetLifeApp.Droid.Resource.Attribute.showMotionSpec;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.showText = global::PetLifeApp.Droid.Resource.Attribute.showText;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.showTitle = global::PetLifeApp.Droid.Resource.Attribute.showTitle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.singleChoiceItemLayout = global::PetLifeApp.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.singleLine = global::PetLifeApp.Droid.Resource.Attribute.singleLine;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.singleSelection = global::PetLifeApp.Droid.Resource.Attribute.singleSelection;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.snackbarButtonStyle = global::PetLifeApp.Droid.Resource.Attribute.snackbarButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.snackbarStyle = global::PetLifeApp.Droid.Resource.Attribute.snackbarStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.spanCount = global::PetLifeApp.Droid.Resource.Attribute.spanCount;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.spinBars = global::PetLifeApp.Droid.Resource.Attribute.spinBars;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.spinnerDropDownItemStyle = global::PetLifeApp.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.spinnerStyle = global::PetLifeApp.Droid.Resource.Attribute.spinnerStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.splitTrack = global::PetLifeApp.Droid.Resource.Attribute.splitTrack;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.srcCompat = global::PetLifeApp.Droid.Resource.Attribute.srcCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.stackFromEnd = global::PetLifeApp.Droid.Resource.Attribute.stackFromEnd;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.state_above_anchor = global::PetLifeApp.Droid.Resource.Attribute.state_above_anchor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.state_collapsed = global::PetLifeApp.Droid.Resource.Attribute.state_collapsed;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.state_collapsible = global::PetLifeApp.Droid.Resource.Attribute.state_collapsible;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.state_liftable = global::PetLifeApp.Droid.Resource.Attribute.state_liftable;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.state_lifted = global::PetLifeApp.Droid.Resource.Attribute.state_lifted;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.statusBarBackground = global::PetLifeApp.Droid.Resource.Attribute.statusBarBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.statusBarScrim = global::PetLifeApp.Droid.Resource.Attribute.statusBarScrim;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.strokeColor = global::PetLifeApp.Droid.Resource.Attribute.strokeColor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.strokeWidth = global::PetLifeApp.Droid.Resource.Attribute.strokeWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.subMenuArrow = global::PetLifeApp.Droid.Resource.Attribute.subMenuArrow;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.submitBackground = global::PetLifeApp.Droid.Resource.Attribute.submitBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.subtitle = global::PetLifeApp.Droid.Resource.Attribute.subtitle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.subtitleTextAppearance = global::PetLifeApp.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.subtitleTextColor = global::PetLifeApp.Droid.Resource.Attribute.subtitleTextColor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.subtitleTextStyle = global::PetLifeApp.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.suggestionRowLayout = global::PetLifeApp.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.switchMinWidth = global::PetLifeApp.Droid.Resource.Attribute.switchMinWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.switchPadding = global::PetLifeApp.Droid.Resource.Attribute.switchPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.switchStyle = global::PetLifeApp.Droid.Resource.Attribute.switchStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.switchTextAppearance = global::PetLifeApp.Droid.Resource.Attribute.switchTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabBackground = global::PetLifeApp.Droid.Resource.Attribute.tabBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabContentStart = global::PetLifeApp.Droid.Resource.Attribute.tabContentStart;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabGravity = global::PetLifeApp.Droid.Resource.Attribute.tabGravity;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabIconTint = global::PetLifeApp.Droid.Resource.Attribute.tabIconTint;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabIconTintMode = global::PetLifeApp.Droid.Resource.Attribute.tabIconTintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabIndicator = global::PetLifeApp.Droid.Resource.Attribute.tabIndicator;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabIndicatorAnimationDuration = global::PetLifeApp.Droid.Resource.Attribute.tabIndicatorAnimationDuration;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabIndicatorColor = global::PetLifeApp.Droid.Resource.Attribute.tabIndicatorColor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabIndicatorFullWidth = global::PetLifeApp.Droid.Resource.Attribute.tabIndicatorFullWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabIndicatorGravity = global::PetLifeApp.Droid.Resource.Attribute.tabIndicatorGravity;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabIndicatorHeight = global::PetLifeApp.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabInlineLabel = global::PetLifeApp.Droid.Resource.Attribute.tabInlineLabel;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabMaxWidth = global::PetLifeApp.Droid.Resource.Attribute.tabMaxWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabMinWidth = global::PetLifeApp.Droid.Resource.Attribute.tabMinWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabMode = global::PetLifeApp.Droid.Resource.Attribute.tabMode;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabPadding = global::PetLifeApp.Droid.Resource.Attribute.tabPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabPaddingBottom = global::PetLifeApp.Droid.Resource.Attribute.tabPaddingBottom;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabPaddingEnd = global::PetLifeApp.Droid.Resource.Attribute.tabPaddingEnd;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabPaddingStart = global::PetLifeApp.Droid.Resource.Attribute.tabPaddingStart;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabPaddingTop = global::PetLifeApp.Droid.Resource.Attribute.tabPaddingTop;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabRippleColor = global::PetLifeApp.Droid.Resource.Attribute.tabRippleColor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabSelectedTextColor = global::PetLifeApp.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabStyle = global::PetLifeApp.Droid.Resource.Attribute.tabStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabTextAppearance = global::PetLifeApp.Droid.Resource.Attribute.tabTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabTextColor = global::PetLifeApp.Droid.Resource.Attribute.tabTextColor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabUnboundedRipple = global::PetLifeApp.Droid.Resource.Attribute.tabUnboundedRipple;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAllCaps = global::PetLifeApp.Droid.Resource.Attribute.textAllCaps;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceBody1 = global::PetLifeApp.Droid.Resource.Attribute.textAppearanceBody1;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceBody2 = global::PetLifeApp.Droid.Resource.Attribute.textAppearanceBody2;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceButton = global::PetLifeApp.Droid.Resource.Attribute.textAppearanceButton;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceCaption = global::PetLifeApp.Droid.Resource.Attribute.textAppearanceCaption;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceHeadline1 = global::PetLifeApp.Droid.Resource.Attribute.textAppearanceHeadline1;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceHeadline2 = global::PetLifeApp.Droid.Resource.Attribute.textAppearanceHeadline2;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceHeadline3 = global::PetLifeApp.Droid.Resource.Attribute.textAppearanceHeadline3;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceHeadline4 = global::PetLifeApp.Droid.Resource.Attribute.textAppearanceHeadline4;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceHeadline5 = global::PetLifeApp.Droid.Resource.Attribute.textAppearanceHeadline5;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceHeadline6 = global::PetLifeApp.Droid.Resource.Attribute.textAppearanceHeadline6;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceLargePopupMenu = global::PetLifeApp.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceListItem = global::PetLifeApp.Droid.Resource.Attribute.textAppearanceListItem;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceListItemSecondary = global::PetLifeApp.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceListItemSmall = global::PetLifeApp.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceOverline = global::PetLifeApp.Droid.Resource.Attribute.textAppearanceOverline;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearancePopupMenuHeader = global::PetLifeApp.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceSearchResultSubtitle = global::PetLifeApp.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceSearchResultTitle = global::PetLifeApp.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceSmallPopupMenu = global::PetLifeApp.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceSubtitle1 = global::PetLifeApp.Droid.Resource.Attribute.textAppearanceSubtitle1;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceSubtitle2 = global::PetLifeApp.Droid.Resource.Attribute.textAppearanceSubtitle2;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textColorAlertDialogListItem = global::PetLifeApp.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textColorSearchUrl = global::PetLifeApp.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textEndPadding = global::PetLifeApp.Droid.Resource.Attribute.textEndPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textInputStyle = global::PetLifeApp.Droid.Resource.Attribute.textInputStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textLocale = global::PetLifeApp.Droid.Resource.Attribute.textLocale;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textStartPadding = global::PetLifeApp.Droid.Resource.Attribute.textStartPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.theme = global::PetLifeApp.Droid.Resource.Attribute.theme;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.thickness = global::PetLifeApp.Droid.Resource.Attribute.thickness;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.thumbTextPadding = global::PetLifeApp.Droid.Resource.Attribute.thumbTextPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.thumbTint = global::PetLifeApp.Droid.Resource.Attribute.thumbTint;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.thumbTintMode = global::PetLifeApp.Droid.Resource.Attribute.thumbTintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tickMark = global::PetLifeApp.Droid.Resource.Attribute.tickMark;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tickMarkTint = global::PetLifeApp.Droid.Resource.Attribute.tickMarkTint;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tickMarkTintMode = global::PetLifeApp.Droid.Resource.Attribute.tickMarkTintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tint = global::PetLifeApp.Droid.Resource.Attribute.tint;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tintMode = global::PetLifeApp.Droid.Resource.Attribute.tintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.title = global::PetLifeApp.Droid.Resource.Attribute.title;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.titleEnabled = global::PetLifeApp.Droid.Resource.Attribute.titleEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.titleMargin = global::PetLifeApp.Droid.Resource.Attribute.titleMargin;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.titleMarginBottom = global::PetLifeApp.Droid.Resource.Attribute.titleMarginBottom;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.titleMarginEnd = global::PetLifeApp.Droid.Resource.Attribute.titleMarginEnd;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.titleMargins = global::PetLifeApp.Droid.Resource.Attribute.titleMargins;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.titleMarginStart = global::PetLifeApp.Droid.Resource.Attribute.titleMarginStart;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.titleMarginTop = global::PetLifeApp.Droid.Resource.Attribute.titleMarginTop;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.titleTextAppearance = global::PetLifeApp.Droid.Resource.Attribute.titleTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.titleTextColor = global::PetLifeApp.Droid.Resource.Attribute.titleTextColor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.titleTextStyle = global::PetLifeApp.Droid.Resource.Attribute.titleTextStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.toolbarId = global::PetLifeApp.Droid.Resource.Attribute.toolbarId;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.toolbarNavigationButtonStyle = global::PetLifeApp.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.toolbarStyle = global::PetLifeApp.Droid.Resource.Attribute.toolbarStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tooltipForegroundColor = global::PetLifeApp.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tooltipFrameBackground = global::PetLifeApp.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tooltipText = global::PetLifeApp.Droid.Resource.Attribute.tooltipText;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.track = global::PetLifeApp.Droid.Resource.Attribute.track;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.trackTint = global::PetLifeApp.Droid.Resource.Attribute.trackTint;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.trackTintMode = global::PetLifeApp.Droid.Resource.Attribute.trackTintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.ttcIndex = global::PetLifeApp.Droid.Resource.Attribute.ttcIndex;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.useCompatPadding = global::PetLifeApp.Droid.Resource.Attribute.useCompatPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.viewInflaterClass = global::PetLifeApp.Droid.Resource.Attribute.viewInflaterClass;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.voiceIcon = global::PetLifeApp.Droid.Resource.Attribute.voiceIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.windowActionBar = global::PetLifeApp.Droid.Resource.Attribute.windowActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.windowActionBarOverlay = global::PetLifeApp.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.windowActionModeOverlay = global::PetLifeApp.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.windowFixedHeightMajor = global::PetLifeApp.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.windowFixedHeightMinor = global::PetLifeApp.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.windowFixedWidthMajor = global::PetLifeApp.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.windowFixedWidthMinor = global::PetLifeApp.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.windowMinWidthMajor = global::PetLifeApp.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.windowMinWidthMinor = global::PetLifeApp.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.windowNoTitle = global::PetLifeApp.Droid.Resource.Attribute.windowNoTitle;
+			global::Xamarin.Forms.PancakeView.Resource.Boolean.abc_action_bar_embed_tabs = global::PetLifeApp.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Xamarin.Forms.PancakeView.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::PetLifeApp.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Xamarin.Forms.PancakeView.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::PetLifeApp.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_background_cache_hint_selector_material_dark = global::PetLifeApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_background_cache_hint_selector_material_light = global::PetLifeApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_btn_colored_borderless_text_material = global::PetLifeApp.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_btn_colored_text_material = global::PetLifeApp.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_color_highlight_material = global::PetLifeApp.Droid.Resource.Color.abc_color_highlight_material;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_decor_view_status_guard = global::PetLifeApp.Droid.Resource.Color.abc_decor_view_status_guard;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_decor_view_status_guard_light = global::PetLifeApp.Droid.Resource.Color.abc_decor_view_status_guard_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_hint_foreground_material_dark = global::PetLifeApp.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_hint_foreground_material_light = global::PetLifeApp.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_primary_text_disable_only_material_dark = global::PetLifeApp.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_primary_text_disable_only_material_light = global::PetLifeApp.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_primary_text_material_dark = global::PetLifeApp.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_primary_text_material_light = global::PetLifeApp.Droid.Resource.Color.abc_primary_text_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_search_url_text = global::PetLifeApp.Droid.Resource.Color.abc_search_url_text;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_search_url_text_normal = global::PetLifeApp.Droid.Resource.Color.abc_search_url_text_normal;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_search_url_text_pressed = global::PetLifeApp.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_search_url_text_selected = global::PetLifeApp.Droid.Resource.Color.abc_search_url_text_selected;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_secondary_text_material_dark = global::PetLifeApp.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_secondary_text_material_light = global::PetLifeApp.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_tint_btn_checkable = global::PetLifeApp.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_tint_default = global::PetLifeApp.Droid.Resource.Color.abc_tint_default;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_tint_edittext = global::PetLifeApp.Droid.Resource.Color.abc_tint_edittext;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_tint_seek_thumb = global::PetLifeApp.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_tint_spinner = global::PetLifeApp.Droid.Resource.Color.abc_tint_spinner;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_tint_switch_track = global::PetLifeApp.Droid.Resource.Color.abc_tint_switch_track;
+			global::Xamarin.Forms.PancakeView.Resource.Color.accent_material_dark = global::PetLifeApp.Droid.Resource.Color.accent_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.accent_material_light = global::PetLifeApp.Droid.Resource.Color.accent_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.androidx_core_ripple_material_light = global::PetLifeApp.Droid.Resource.Color.androidx_core_ripple_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.androidx_core_secondary_text_default_material_light = global::PetLifeApp.Droid.Resource.Color.androidx_core_secondary_text_default_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.background_floating_material_dark = global::PetLifeApp.Droid.Resource.Color.background_floating_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.background_floating_material_light = global::PetLifeApp.Droid.Resource.Color.background_floating_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.background_material_dark = global::PetLifeApp.Droid.Resource.Color.background_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.background_material_light = global::PetLifeApp.Droid.Resource.Color.background_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.bright_foreground_disabled_material_dark = global::PetLifeApp.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.bright_foreground_disabled_material_light = global::PetLifeApp.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.bright_foreground_inverse_material_dark = global::PetLifeApp.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.bright_foreground_inverse_material_light = global::PetLifeApp.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.bright_foreground_material_dark = global::PetLifeApp.Droid.Resource.Color.bright_foreground_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.bright_foreground_material_light = global::PetLifeApp.Droid.Resource.Color.bright_foreground_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.browser_actions_bg_grey = global::PetLifeApp.Droid.Resource.Color.browser_actions_bg_grey;
+			global::Xamarin.Forms.PancakeView.Resource.Color.browser_actions_divider_color = global::PetLifeApp.Droid.Resource.Color.browser_actions_divider_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.browser_actions_text_color = global::PetLifeApp.Droid.Resource.Color.browser_actions_text_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.browser_actions_title_color = global::PetLifeApp.Droid.Resource.Color.browser_actions_title_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.button_material_dark = global::PetLifeApp.Droid.Resource.Color.button_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.button_material_light = global::PetLifeApp.Droid.Resource.Color.button_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.cardview_dark_background = global::PetLifeApp.Droid.Resource.Color.cardview_dark_background;
+			global::Xamarin.Forms.PancakeView.Resource.Color.cardview_light_background = global::PetLifeApp.Droid.Resource.Color.cardview_light_background;
+			global::Xamarin.Forms.PancakeView.Resource.Color.cardview_shadow_end_color = global::PetLifeApp.Droid.Resource.Color.cardview_shadow_end_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.cardview_shadow_start_color = global::PetLifeApp.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.design_bottom_navigation_shadow_color = global::PetLifeApp.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.design_default_color_primary = global::PetLifeApp.Droid.Resource.Color.design_default_color_primary;
+			global::Xamarin.Forms.PancakeView.Resource.Color.design_default_color_primary_dark = global::PetLifeApp.Droid.Resource.Color.design_default_color_primary_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.design_error = global::PetLifeApp.Droid.Resource.Color.design_error;
+			global::Xamarin.Forms.PancakeView.Resource.Color.design_fab_shadow_end_color = global::PetLifeApp.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.design_fab_shadow_mid_color = global::PetLifeApp.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.design_fab_shadow_start_color = global::PetLifeApp.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.design_fab_stroke_end_inner_color = global::PetLifeApp.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.design_fab_stroke_end_outer_color = global::PetLifeApp.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.design_fab_stroke_top_inner_color = global::PetLifeApp.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.design_fab_stroke_top_outer_color = global::PetLifeApp.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.design_snackbar_background_color = global::PetLifeApp.Droid.Resource.Color.design_snackbar_background_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.dim_foreground_disabled_material_dark = global::PetLifeApp.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.dim_foreground_disabled_material_light = global::PetLifeApp.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.dim_foreground_material_dark = global::PetLifeApp.Droid.Resource.Color.dim_foreground_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.dim_foreground_material_light = global::PetLifeApp.Droid.Resource.Color.dim_foreground_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.error_color_material_dark = global::PetLifeApp.Droid.Resource.Color.error_color_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.error_color_material_light = global::PetLifeApp.Droid.Resource.Color.error_color_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.foreground_material_dark = global::PetLifeApp.Droid.Resource.Color.foreground_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.foreground_material_light = global::PetLifeApp.Droid.Resource.Color.foreground_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.highlighted_text_material_dark = global::PetLifeApp.Droid.Resource.Color.highlighted_text_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.highlighted_text_material_light = global::PetLifeApp.Droid.Resource.Color.highlighted_text_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.material_blue_grey_800 = global::PetLifeApp.Droid.Resource.Color.material_blue_grey_800;
+			global::Xamarin.Forms.PancakeView.Resource.Color.material_blue_grey_900 = global::PetLifeApp.Droid.Resource.Color.material_blue_grey_900;
+			global::Xamarin.Forms.PancakeView.Resource.Color.material_blue_grey_950 = global::PetLifeApp.Droid.Resource.Color.material_blue_grey_950;
+			global::Xamarin.Forms.PancakeView.Resource.Color.material_deep_teal_200 = global::PetLifeApp.Droid.Resource.Color.material_deep_teal_200;
+			global::Xamarin.Forms.PancakeView.Resource.Color.material_deep_teal_500 = global::PetLifeApp.Droid.Resource.Color.material_deep_teal_500;
+			global::Xamarin.Forms.PancakeView.Resource.Color.material_grey_100 = global::PetLifeApp.Droid.Resource.Color.material_grey_100;
+			global::Xamarin.Forms.PancakeView.Resource.Color.material_grey_300 = global::PetLifeApp.Droid.Resource.Color.material_grey_300;
+			global::Xamarin.Forms.PancakeView.Resource.Color.material_grey_50 = global::PetLifeApp.Droid.Resource.Color.material_grey_50;
+			global::Xamarin.Forms.PancakeView.Resource.Color.material_grey_600 = global::PetLifeApp.Droid.Resource.Color.material_grey_600;
+			global::Xamarin.Forms.PancakeView.Resource.Color.material_grey_800 = global::PetLifeApp.Droid.Resource.Color.material_grey_800;
+			global::Xamarin.Forms.PancakeView.Resource.Color.material_grey_850 = global::PetLifeApp.Droid.Resource.Color.material_grey_850;
+			global::Xamarin.Forms.PancakeView.Resource.Color.material_grey_900 = global::PetLifeApp.Droid.Resource.Color.material_grey_900;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_btn_bg_color_selector = global::PetLifeApp.Droid.Resource.Color.mtrl_btn_bg_color_selector;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_btn_ripple_color = global::PetLifeApp.Droid.Resource.Color.mtrl_btn_ripple_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_btn_stroke_color_selector = global::PetLifeApp.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_btn_text_btn_ripple_color = global::PetLifeApp.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_btn_text_color_disabled = global::PetLifeApp.Droid.Resource.Color.mtrl_btn_text_color_disabled;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_btn_text_color_selector = global::PetLifeApp.Droid.Resource.Color.mtrl_btn_text_color_selector;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_btn_transparent_bg_color = global::PetLifeApp.Droid.Resource.Color.mtrl_btn_transparent_bg_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_chip_background_color = global::PetLifeApp.Droid.Resource.Color.mtrl_chip_background_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_chip_close_icon_tint = global::PetLifeApp.Droid.Resource.Color.mtrl_chip_close_icon_tint;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_chip_text_color = global::PetLifeApp.Droid.Resource.Color.mtrl_chip_text_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_fab_ripple_color = global::PetLifeApp.Droid.Resource.Color.mtrl_fab_ripple_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_scrim_color = global::PetLifeApp.Droid.Resource.Color.mtrl_scrim_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_tabs_colored_ripple_color = global::PetLifeApp.Droid.Resource.Color.mtrl_tabs_colored_ripple_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_tabs_icon_color_selector = global::PetLifeApp.Droid.Resource.Color.mtrl_tabs_icon_color_selector;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_tabs_icon_color_selector_colored = global::PetLifeApp.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_tabs_legacy_text_color_selector = global::PetLifeApp.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_tabs_ripple_color = global::PetLifeApp.Droid.Resource.Color.mtrl_tabs_ripple_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_textinput_default_box_stroke_color = global::PetLifeApp.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_textinput_disabled_color = global::PetLifeApp.Droid.Resource.Color.mtrl_textinput_disabled_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::PetLifeApp.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::PetLifeApp.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_text_btn_text_color_selector = global::PetLifeApp.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
+			global::Xamarin.Forms.PancakeView.Resource.Color.notification_action_color_filter = global::PetLifeApp.Droid.Resource.Color.notification_action_color_filter;
+			global::Xamarin.Forms.PancakeView.Resource.Color.notification_icon_bg_color = global::PetLifeApp.Droid.Resource.Color.notification_icon_bg_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.notification_material_background_media_default_color = global::PetLifeApp.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.primary_dark_material_dark = global::PetLifeApp.Droid.Resource.Color.primary_dark_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.primary_dark_material_light = global::PetLifeApp.Droid.Resource.Color.primary_dark_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.primary_material_dark = global::PetLifeApp.Droid.Resource.Color.primary_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.primary_material_light = global::PetLifeApp.Droid.Resource.Color.primary_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.primary_text_default_material_dark = global::PetLifeApp.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.primary_text_default_material_light = global::PetLifeApp.Droid.Resource.Color.primary_text_default_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.primary_text_disabled_material_dark = global::PetLifeApp.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.primary_text_disabled_material_light = global::PetLifeApp.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.ripple_material_dark = global::PetLifeApp.Droid.Resource.Color.ripple_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.ripple_material_light = global::PetLifeApp.Droid.Resource.Color.ripple_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.secondary_text_default_material_dark = global::PetLifeApp.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.secondary_text_default_material_light = global::PetLifeApp.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.secondary_text_disabled_material_dark = global::PetLifeApp.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.secondary_text_disabled_material_light = global::PetLifeApp.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.switch_thumb_disabled_material_dark = global::PetLifeApp.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.switch_thumb_disabled_material_light = global::PetLifeApp.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.switch_thumb_material_dark = global::PetLifeApp.Droid.Resource.Color.switch_thumb_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.switch_thumb_material_light = global::PetLifeApp.Droid.Resource.Color.switch_thumb_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.switch_thumb_normal_material_dark = global::PetLifeApp.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.switch_thumb_normal_material_light = global::PetLifeApp.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.tooltip_background_dark = global::PetLifeApp.Droid.Resource.Color.tooltip_background_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.tooltip_background_light = global::PetLifeApp.Droid.Resource.Color.tooltip_background_light;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_bar_content_inset_material = global::PetLifeApp.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::PetLifeApp.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_bar_default_height_material = global::PetLifeApp.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_bar_default_padding_end_material = global::PetLifeApp.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_bar_default_padding_start_material = global::PetLifeApp.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_bar_elevation_material = global::PetLifeApp.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::PetLifeApp.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::PetLifeApp.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::PetLifeApp.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_bar_stacked_max_height = global::PetLifeApp.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::PetLifeApp.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::PetLifeApp.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::PetLifeApp.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_button_min_height_material = global::PetLifeApp.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_button_min_width_material = global::PetLifeApp.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_button_min_width_overflow_material = global::PetLifeApp.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_alert_dialog_button_bar_height = global::PetLifeApp.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_alert_dialog_button_dimen = global::PetLifeApp.Droid.Resource.Dimension.abc_alert_dialog_button_dimen;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_button_inset_horizontal_material = global::PetLifeApp.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_button_inset_vertical_material = global::PetLifeApp.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_button_padding_horizontal_material = global::PetLifeApp.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_button_padding_vertical_material = global::PetLifeApp.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::PetLifeApp.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_config_prefDialogWidth = global::PetLifeApp.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_control_corner_material = global::PetLifeApp.Droid.Resource.Dimension.abc_control_corner_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_control_inset_material = global::PetLifeApp.Droid.Resource.Dimension.abc_control_inset_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_control_padding_material = global::PetLifeApp.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_dialog_corner_radius_material = global::PetLifeApp.Droid.Resource.Dimension.abc_dialog_corner_radius_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_dialog_fixed_height_major = global::PetLifeApp.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_dialog_fixed_height_minor = global::PetLifeApp.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_dialog_fixed_width_major = global::PetLifeApp.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_dialog_fixed_width_minor = global::PetLifeApp.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::PetLifeApp.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::PetLifeApp.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_dialog_min_width_major = global::PetLifeApp.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_dialog_min_width_minor = global::PetLifeApp.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_dialog_padding_material = global::PetLifeApp.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_dialog_padding_top_material = global::PetLifeApp.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_dialog_title_divider_material = global::PetLifeApp.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_disabled_alpha_material_dark = global::PetLifeApp.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_disabled_alpha_material_light = global::PetLifeApp.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_dropdownitem_icon_width = global::PetLifeApp.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_dropdownitem_text_padding_left = global::PetLifeApp.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_dropdownitem_text_padding_right = global::PetLifeApp.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_edit_text_inset_bottom_material = global::PetLifeApp.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::PetLifeApp.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_edit_text_inset_top_material = global::PetLifeApp.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_floating_window_z = global::PetLifeApp.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_list_item_height_large_material = global::PetLifeApp.Droid.Resource.Dimension.abc_list_item_height_large_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_list_item_height_material = global::PetLifeApp.Droid.Resource.Dimension.abc_list_item_height_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_list_item_height_small_material = global::PetLifeApp.Droid.Resource.Dimension.abc_list_item_height_small_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_list_item_padding_horizontal_material = global::PetLifeApp.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_panel_menu_list_width = global::PetLifeApp.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_progress_bar_height_material = global::PetLifeApp.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_search_view_preferred_height = global::PetLifeApp.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_search_view_preferred_width = global::PetLifeApp.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_seekbar_track_background_height_material = global::PetLifeApp.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_seekbar_track_progress_height_material = global::PetLifeApp.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_select_dialog_padding_start_material = global::PetLifeApp.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_switch_padding = global::PetLifeApp.Droid.Resource.Dimension.abc_switch_padding;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_body_1_material = global::PetLifeApp.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_body_2_material = global::PetLifeApp.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_button_material = global::PetLifeApp.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_caption_material = global::PetLifeApp.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_display_1_material = global::PetLifeApp.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_display_2_material = global::PetLifeApp.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_display_3_material = global::PetLifeApp.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_display_4_material = global::PetLifeApp.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_headline_material = global::PetLifeApp.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_large_material = global::PetLifeApp.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_medium_material = global::PetLifeApp.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_menu_header_material = global::PetLifeApp.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_menu_material = global::PetLifeApp.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_small_material = global::PetLifeApp.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_subhead_material = global::PetLifeApp.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::PetLifeApp.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_title_material = global::PetLifeApp.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_title_material_toolbar = global::PetLifeApp.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.browser_actions_context_menu_max_width = global::PetLifeApp.Droid.Resource.Dimension.browser_actions_context_menu_max_width;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.browser_actions_context_menu_min_padding = global::PetLifeApp.Droid.Resource.Dimension.browser_actions_context_menu_min_padding;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.cardview_compat_inset_shadow = global::PetLifeApp.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.cardview_default_elevation = global::PetLifeApp.Droid.Resource.Dimension.cardview_default_elevation;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.cardview_default_radius = global::PetLifeApp.Droid.Resource.Dimension.cardview_default_radius;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.compat_button_inset_horizontal_material = global::PetLifeApp.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.compat_button_inset_vertical_material = global::PetLifeApp.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.compat_button_padding_horizontal_material = global::PetLifeApp.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.compat_button_padding_vertical_material = global::PetLifeApp.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.compat_control_corner_material = global::PetLifeApp.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.compat_notification_large_icon_max_height = global::PetLifeApp.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.compat_notification_large_icon_max_width = global::PetLifeApp.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_appbar_elevation = global::PetLifeApp.Droid.Resource.Dimension.design_appbar_elevation;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::PetLifeApp.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::PetLifeApp.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_bottom_navigation_active_text_size = global::PetLifeApp.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_bottom_navigation_elevation = global::PetLifeApp.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_bottom_navigation_height = global::PetLifeApp.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_bottom_navigation_icon_size = global::PetLifeApp.Droid.Resource.Dimension.design_bottom_navigation_icon_size;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_bottom_navigation_item_max_width = global::PetLifeApp.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_bottom_navigation_item_min_width = global::PetLifeApp.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_bottom_navigation_margin = global::PetLifeApp.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_bottom_navigation_shadow_height = global::PetLifeApp.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_bottom_navigation_text_size = global::PetLifeApp.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_bottom_sheet_modal_elevation = global::PetLifeApp.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_bottom_sheet_peek_height_min = global::PetLifeApp.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_fab_border_width = global::PetLifeApp.Droid.Resource.Dimension.design_fab_border_width;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_fab_elevation = global::PetLifeApp.Droid.Resource.Dimension.design_fab_elevation;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_fab_image_size = global::PetLifeApp.Droid.Resource.Dimension.design_fab_image_size;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_fab_size_mini = global::PetLifeApp.Droid.Resource.Dimension.design_fab_size_mini;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_fab_size_normal = global::PetLifeApp.Droid.Resource.Dimension.design_fab_size_normal;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_fab_translation_z_hovered_focused = global::PetLifeApp.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_fab_translation_z_pressed = global::PetLifeApp.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_navigation_elevation = global::PetLifeApp.Droid.Resource.Dimension.design_navigation_elevation;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_navigation_icon_padding = global::PetLifeApp.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_navigation_icon_size = global::PetLifeApp.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_navigation_item_horizontal_padding = global::PetLifeApp.Droid.Resource.Dimension.design_navigation_item_horizontal_padding;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_navigation_item_icon_padding = global::PetLifeApp.Droid.Resource.Dimension.design_navigation_item_icon_padding;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_navigation_max_width = global::PetLifeApp.Droid.Resource.Dimension.design_navigation_max_width;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_navigation_padding_bottom = global::PetLifeApp.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_navigation_separator_vertical_padding = global::PetLifeApp.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_snackbar_action_inline_max_width = global::PetLifeApp.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_snackbar_background_corner_radius = global::PetLifeApp.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_snackbar_elevation = global::PetLifeApp.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::PetLifeApp.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_snackbar_max_width = global::PetLifeApp.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_snackbar_min_width = global::PetLifeApp.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_snackbar_padding_horizontal = global::PetLifeApp.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_snackbar_padding_vertical = global::PetLifeApp.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::PetLifeApp.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_snackbar_text_size = global::PetLifeApp.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_tab_max_width = global::PetLifeApp.Droid.Resource.Dimension.design_tab_max_width;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_tab_scrollable_min_width = global::PetLifeApp.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_tab_text_size = global::PetLifeApp.Droid.Resource.Dimension.design_tab_text_size;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_tab_text_size_2line = global::PetLifeApp.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_textinput_caption_translate_y = global::PetLifeApp.Droid.Resource.Dimension.design_textinput_caption_translate_y;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.disabled_alpha_material_dark = global::PetLifeApp.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.disabled_alpha_material_light = global::PetLifeApp.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.fastscroll_default_thickness = global::PetLifeApp.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.fastscroll_margin = global::PetLifeApp.Droid.Resource.Dimension.fastscroll_margin;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.fastscroll_minimum_range = global::PetLifeApp.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.highlight_alpha_material_colored = global::PetLifeApp.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.highlight_alpha_material_dark = global::PetLifeApp.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.highlight_alpha_material_light = global::PetLifeApp.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.hint_alpha_material_dark = global::PetLifeApp.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.hint_alpha_material_light = global::PetLifeApp.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.hint_pressed_alpha_material_dark = global::PetLifeApp.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.hint_pressed_alpha_material_light = global::PetLifeApp.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::PetLifeApp.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::PetLifeApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::PetLifeApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::PetLifeApp.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::PetLifeApp.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::PetLifeApp.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::PetLifeApp.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_bottomappbar_height = global::PetLifeApp.Droid.Resource.Dimension.mtrl_bottomappbar_height;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_corner_radius = global::PetLifeApp.Droid.Resource.Dimension.mtrl_btn_corner_radius;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_dialog_btn_min_width = global::PetLifeApp.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_disabled_elevation = global::PetLifeApp.Droid.Resource.Dimension.mtrl_btn_disabled_elevation;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_disabled_z = global::PetLifeApp.Droid.Resource.Dimension.mtrl_btn_disabled_z;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_elevation = global::PetLifeApp.Droid.Resource.Dimension.mtrl_btn_elevation;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_focused_z = global::PetLifeApp.Droid.Resource.Dimension.mtrl_btn_focused_z;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_hovered_z = global::PetLifeApp.Droid.Resource.Dimension.mtrl_btn_hovered_z;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_icon_btn_padding_left = global::PetLifeApp.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_icon_padding = global::PetLifeApp.Droid.Resource.Dimension.mtrl_btn_icon_padding;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_inset = global::PetLifeApp.Droid.Resource.Dimension.mtrl_btn_inset;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_letter_spacing = global::PetLifeApp.Droid.Resource.Dimension.mtrl_btn_letter_spacing;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_padding_bottom = global::PetLifeApp.Droid.Resource.Dimension.mtrl_btn_padding_bottom;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_padding_left = global::PetLifeApp.Droid.Resource.Dimension.mtrl_btn_padding_left;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_padding_right = global::PetLifeApp.Droid.Resource.Dimension.mtrl_btn_padding_right;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_padding_top = global::PetLifeApp.Droid.Resource.Dimension.mtrl_btn_padding_top;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_pressed_z = global::PetLifeApp.Droid.Resource.Dimension.mtrl_btn_pressed_z;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_stroke_size = global::PetLifeApp.Droid.Resource.Dimension.mtrl_btn_stroke_size;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_text_btn_icon_padding = global::PetLifeApp.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_text_btn_padding_left = global::PetLifeApp.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::PetLifeApp.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_text_size = global::PetLifeApp.Droid.Resource.Dimension.mtrl_btn_text_size;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_z = global::PetLifeApp.Droid.Resource.Dimension.mtrl_btn_z;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_card_elevation = global::PetLifeApp.Droid.Resource.Dimension.mtrl_card_elevation;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_card_spacing = global::PetLifeApp.Droid.Resource.Dimension.mtrl_card_spacing;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_chip_pressed_translation_z = global::PetLifeApp.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_chip_text_size = global::PetLifeApp.Droid.Resource.Dimension.mtrl_chip_text_size;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_fab_elevation = global::PetLifeApp.Droid.Resource.Dimension.mtrl_fab_elevation;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::PetLifeApp.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_fab_translation_z_pressed = global::PetLifeApp.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_navigation_elevation = global::PetLifeApp.Droid.Resource.Dimension.mtrl_navigation_elevation;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::PetLifeApp.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_navigation_item_icon_padding = global::PetLifeApp.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::PetLifeApp.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_snackbar_margin = global::PetLifeApp.Droid.Resource.Dimension.mtrl_snackbar_margin;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::PetLifeApp.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::PetLifeApp.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::PetLifeApp.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::PetLifeApp.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::PetLifeApp.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::PetLifeApp.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_toolbar_default_height = global::PetLifeApp.Droid.Resource.Dimension.mtrl_toolbar_default_height;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.notification_action_icon_size = global::PetLifeApp.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.notification_action_text_size = global::PetLifeApp.Droid.Resource.Dimension.notification_action_text_size;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.notification_big_circle_margin = global::PetLifeApp.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.notification_content_margin_start = global::PetLifeApp.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.notification_large_icon_height = global::PetLifeApp.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.notification_large_icon_width = global::PetLifeApp.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.notification_main_column_padding_top = global::PetLifeApp.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.notification_media_narrow_margin = global::PetLifeApp.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.notification_right_icon_size = global::PetLifeApp.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.notification_right_side_padding_top = global::PetLifeApp.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.notification_small_icon_background_padding = global::PetLifeApp.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.notification_small_icon_size_as_large = global::PetLifeApp.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.notification_subtext_size = global::PetLifeApp.Droid.Resource.Dimension.notification_subtext_size;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.notification_top_pad = global::PetLifeApp.Droid.Resource.Dimension.notification_top_pad;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.notification_top_pad_large_text = global::PetLifeApp.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.tooltip_corner_radius = global::PetLifeApp.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.tooltip_horizontal_padding = global::PetLifeApp.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.tooltip_margin = global::PetLifeApp.Droid.Resource.Dimension.tooltip_margin;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::PetLifeApp.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.tooltip_precise_anchor_threshold = global::PetLifeApp.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.tooltip_vertical_padding = global::PetLifeApp.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.tooltip_y_offset_non_touch = global::PetLifeApp.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.tooltip_y_offset_touch = global::PetLifeApp.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::PetLifeApp.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_action_bar_item_background_material = global::PetLifeApp.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_btn_borderless_material = global::PetLifeApp.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_btn_check_material = global::PetLifeApp.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_btn_check_material_anim = global::PetLifeApp.Droid.Resource.Drawable.abc_btn_check_material_anim;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::PetLifeApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::PetLifeApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_btn_colored_material = global::PetLifeApp.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_btn_default_mtrl_shape = global::PetLifeApp.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_btn_radio_material = global::PetLifeApp.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_btn_radio_material_anim = global::PetLifeApp.Droid.Resource.Drawable.abc_btn_radio_material_anim;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::PetLifeApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::PetLifeApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::PetLifeApp.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::PetLifeApp.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_cab_background_internal_bg = global::PetLifeApp.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_cab_background_top_material = global::PetLifeApp.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::PetLifeApp.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_control_background_material = global::PetLifeApp.Droid.Resource.Drawable.abc_control_background_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_dialog_material_background = global::PetLifeApp.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_edit_text_material = global::PetLifeApp.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_ab_back_material = global::PetLifeApp.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::PetLifeApp.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_clear_material = global::PetLifeApp.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::PetLifeApp.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_go_search_api_material = global::PetLifeApp.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::PetLifeApp.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::PetLifeApp.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_menu_overflow_material = global::PetLifeApp.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::PetLifeApp.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::PetLifeApp.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::PetLifeApp.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_search_api_material = global::PetLifeApp.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_voice_search_api_material = global::PetLifeApp.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_item_background_holo_dark = global::PetLifeApp.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_item_background_holo_light = global::PetLifeApp.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_list_divider_material = global::PetLifeApp.Droid.Resource.Drawable.abc_list_divider_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_list_divider_mtrl_alpha = global::PetLifeApp.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_list_focused_holo = global::PetLifeApp.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_list_longpressed_holo = global::PetLifeApp.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_list_pressed_holo_dark = global::PetLifeApp.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_list_pressed_holo_light = global::PetLifeApp.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::PetLifeApp.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::PetLifeApp.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::PetLifeApp.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_list_selector_disabled_holo_light = global::PetLifeApp.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_list_selector_holo_dark = global::PetLifeApp.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_list_selector_holo_light = global::PetLifeApp.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::PetLifeApp.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_popup_background_mtrl_mult = global::PetLifeApp.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ratingbar_indicator_material = global::PetLifeApp.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ratingbar_material = global::PetLifeApp.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ratingbar_small_material = global::PetLifeApp.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::PetLifeApp.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::PetLifeApp.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::PetLifeApp.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::PetLifeApp.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::PetLifeApp.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_seekbar_thumb_material = global::PetLifeApp.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_seekbar_tick_mark_material = global::PetLifeApp.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_seekbar_track_material = global::PetLifeApp.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::PetLifeApp.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_spinner_textfield_background_material = global::PetLifeApp.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_switch_thumb_material = global::PetLifeApp.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_switch_track_mtrl_alpha = global::PetLifeApp.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_tab_indicator_material = global::PetLifeApp.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::PetLifeApp.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::PetLifeApp.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::PetLifeApp.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::PetLifeApp.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::PetLifeApp.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_textfield_search_material = global::PetLifeApp.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_text_cursor_material = global::PetLifeApp.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_vector_test = global::PetLifeApp.Droid.Resource.Drawable.abc_vector_test;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.avd_hide_password = global::PetLifeApp.Droid.Resource.Drawable.avd_hide_password;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.avd_show_password = global::PetLifeApp.Droid.Resource.Drawable.avd_show_password;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.btn_checkbox_checked_mtrl = global::PetLifeApp.Droid.Resource.Drawable.btn_checkbox_checked_mtrl;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation = global::PetLifeApp.Droid.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.btn_checkbox_unchecked_mtrl = global::PetLifeApp.Droid.Resource.Drawable.btn_checkbox_unchecked_mtrl;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation = global::PetLifeApp.Droid.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.btn_radio_off_mtrl = global::PetLifeApp.Droid.Resource.Drawable.btn_radio_off_mtrl;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.btn_radio_off_to_on_mtrl_animation = global::PetLifeApp.Droid.Resource.Drawable.btn_radio_off_to_on_mtrl_animation;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.btn_radio_on_mtrl = global::PetLifeApp.Droid.Resource.Drawable.btn_radio_on_mtrl;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.btn_radio_on_to_off_mtrl_animation = global::PetLifeApp.Droid.Resource.Drawable.btn_radio_on_to_off_mtrl_animation;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.design_fab_background = global::PetLifeApp.Droid.Resource.Drawable.design_fab_background;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.design_ic_visibility = global::PetLifeApp.Droid.Resource.Drawable.design_ic_visibility;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.design_ic_visibility_off = global::PetLifeApp.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.design_password_eye = global::PetLifeApp.Droid.Resource.Drawable.design_password_eye;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.design_snackbar_background = global::PetLifeApp.Droid.Resource.Drawable.design_snackbar_background;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.ic_mtrl_chip_checked_black = global::PetLifeApp.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.ic_mtrl_chip_checked_circle = global::PetLifeApp.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.ic_mtrl_chip_close_circle = global::PetLifeApp.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.mtrl_tabs_default_indicator = global::PetLifeApp.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.navigation_empty_icon = global::PetLifeApp.Droid.Resource.Drawable.navigation_empty_icon;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.notification_action_background = global::PetLifeApp.Droid.Resource.Drawable.notification_action_background;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.notification_bg = global::PetLifeApp.Droid.Resource.Drawable.notification_bg;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.notification_bg_low = global::PetLifeApp.Droid.Resource.Drawable.notification_bg_low;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.notification_bg_low_normal = global::PetLifeApp.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.notification_bg_low_pressed = global::PetLifeApp.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.notification_bg_normal = global::PetLifeApp.Droid.Resource.Drawable.notification_bg_normal;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.notification_bg_normal_pressed = global::PetLifeApp.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.notification_icon_background = global::PetLifeApp.Droid.Resource.Drawable.notification_icon_background;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.notification_template_icon_bg = global::PetLifeApp.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.notification_template_icon_low_bg = global::PetLifeApp.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.notification_tile_bg = global::PetLifeApp.Droid.Resource.Drawable.notification_tile_bg;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.notify_panel_notification_icon_bg = global::PetLifeApp.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.tooltip_frame_dark = global::PetLifeApp.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.tooltip_frame_light = global::PetLifeApp.Droid.Resource.Drawable.tooltip_frame_light;
+			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_action_clickable_span = global::PetLifeApp.Droid.Resource.Id.accessibility_action_clickable_span;
+			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_0 = global::PetLifeApp.Droid.Resource.Id.accessibility_custom_action_0;
+			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_1 = global::PetLifeApp.Droid.Resource.Id.accessibility_custom_action_1;
+			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_10 = global::PetLifeApp.Droid.Resource.Id.accessibility_custom_action_10;
+			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_11 = global::PetLifeApp.Droid.Resource.Id.accessibility_custom_action_11;
+			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_12 = global::PetLifeApp.Droid.Resource.Id.accessibility_custom_action_12;
+			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_13 = global::PetLifeApp.Droid.Resource.Id.accessibility_custom_action_13;
+			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_14 = global::PetLifeApp.Droid.Resource.Id.accessibility_custom_action_14;
+			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_15 = global::PetLifeApp.Droid.Resource.Id.accessibility_custom_action_15;
+			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_16 = global::PetLifeApp.Droid.Resource.Id.accessibility_custom_action_16;
+			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_17 = global::PetLifeApp.Droid.Resource.Id.accessibility_custom_action_17;
+			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_18 = global::PetLifeApp.Droid.Resource.Id.accessibility_custom_action_18;
+			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_19 = global::PetLifeApp.Droid.Resource.Id.accessibility_custom_action_19;
+			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_2 = global::PetLifeApp.Droid.Resource.Id.accessibility_custom_action_2;
+			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_20 = global::PetLifeApp.Droid.Resource.Id.accessibility_custom_action_20;
+			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_21 = global::PetLifeApp.Droid.Resource.Id.accessibility_custom_action_21;
+			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_22 = global::PetLifeApp.Droid.Resource.Id.accessibility_custom_action_22;
+			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_23 = global::PetLifeApp.Droid.Resource.Id.accessibility_custom_action_23;
+			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_24 = global::PetLifeApp.Droid.Resource.Id.accessibility_custom_action_24;
+			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_25 = global::PetLifeApp.Droid.Resource.Id.accessibility_custom_action_25;
+			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_26 = global::PetLifeApp.Droid.Resource.Id.accessibility_custom_action_26;
+			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_27 = global::PetLifeApp.Droid.Resource.Id.accessibility_custom_action_27;
+			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_28 = global::PetLifeApp.Droid.Resource.Id.accessibility_custom_action_28;
+			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_29 = global::PetLifeApp.Droid.Resource.Id.accessibility_custom_action_29;
+			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_3 = global::PetLifeApp.Droid.Resource.Id.accessibility_custom_action_3;
+			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_30 = global::PetLifeApp.Droid.Resource.Id.accessibility_custom_action_30;
+			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_31 = global::PetLifeApp.Droid.Resource.Id.accessibility_custom_action_31;
+			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_4 = global::PetLifeApp.Droid.Resource.Id.accessibility_custom_action_4;
+			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_5 = global::PetLifeApp.Droid.Resource.Id.accessibility_custom_action_5;
+			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_6 = global::PetLifeApp.Droid.Resource.Id.accessibility_custom_action_6;
+			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_7 = global::PetLifeApp.Droid.Resource.Id.accessibility_custom_action_7;
+			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_8 = global::PetLifeApp.Droid.Resource.Id.accessibility_custom_action_8;
+			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_9 = global::PetLifeApp.Droid.Resource.Id.accessibility_custom_action_9;
+			global::Xamarin.Forms.PancakeView.Resource.Id.action0 = global::PetLifeApp.Droid.Resource.Id.action0;
+			global::Xamarin.Forms.PancakeView.Resource.Id.actions = global::PetLifeApp.Droid.Resource.Id.actions;
+			global::Xamarin.Forms.PancakeView.Resource.Id.action_bar = global::PetLifeApp.Droid.Resource.Id.action_bar;
+			global::Xamarin.Forms.PancakeView.Resource.Id.action_bar_activity_content = global::PetLifeApp.Droid.Resource.Id.action_bar_activity_content;
+			global::Xamarin.Forms.PancakeView.Resource.Id.action_bar_container = global::PetLifeApp.Droid.Resource.Id.action_bar_container;
+			global::Xamarin.Forms.PancakeView.Resource.Id.action_bar_root = global::PetLifeApp.Droid.Resource.Id.action_bar_root;
+			global::Xamarin.Forms.PancakeView.Resource.Id.action_bar_spinner = global::PetLifeApp.Droid.Resource.Id.action_bar_spinner;
+			global::Xamarin.Forms.PancakeView.Resource.Id.action_bar_subtitle = global::PetLifeApp.Droid.Resource.Id.action_bar_subtitle;
+			global::Xamarin.Forms.PancakeView.Resource.Id.action_bar_title = global::PetLifeApp.Droid.Resource.Id.action_bar_title;
+			global::Xamarin.Forms.PancakeView.Resource.Id.action_container = global::PetLifeApp.Droid.Resource.Id.action_container;
+			global::Xamarin.Forms.PancakeView.Resource.Id.action_context_bar = global::PetLifeApp.Droid.Resource.Id.action_context_bar;
+			global::Xamarin.Forms.PancakeView.Resource.Id.action_divider = global::PetLifeApp.Droid.Resource.Id.action_divider;
+			global::Xamarin.Forms.PancakeView.Resource.Id.action_image = global::PetLifeApp.Droid.Resource.Id.action_image;
+			global::Xamarin.Forms.PancakeView.Resource.Id.action_menu_divider = global::PetLifeApp.Droid.Resource.Id.action_menu_divider;
+			global::Xamarin.Forms.PancakeView.Resource.Id.action_menu_presenter = global::PetLifeApp.Droid.Resource.Id.action_menu_presenter;
+			global::Xamarin.Forms.PancakeView.Resource.Id.action_mode_bar = global::PetLifeApp.Droid.Resource.Id.action_mode_bar;
+			global::Xamarin.Forms.PancakeView.Resource.Id.action_mode_bar_stub = global::PetLifeApp.Droid.Resource.Id.action_mode_bar_stub;
+			global::Xamarin.Forms.PancakeView.Resource.Id.action_mode_close_button = global::PetLifeApp.Droid.Resource.Id.action_mode_close_button;
+			global::Xamarin.Forms.PancakeView.Resource.Id.action_text = global::PetLifeApp.Droid.Resource.Id.action_text;
+			global::Xamarin.Forms.PancakeView.Resource.Id.activity_chooser_view_content = global::PetLifeApp.Droid.Resource.Id.activity_chooser_view_content;
+			global::Xamarin.Forms.PancakeView.Resource.Id.add = global::PetLifeApp.Droid.Resource.Id.add;
+			global::Xamarin.Forms.PancakeView.Resource.Id.alertTitle = global::PetLifeApp.Droid.Resource.Id.alertTitle;
+			global::Xamarin.Forms.PancakeView.Resource.Id.all = global::PetLifeApp.Droid.Resource.Id.all;
+			global::Xamarin.Forms.PancakeView.Resource.Id.ALT = global::PetLifeApp.Droid.Resource.Id.ALT;
+			global::Xamarin.Forms.PancakeView.Resource.Id.always = global::PetLifeApp.Droid.Resource.Id.always;
+			global::Xamarin.Forms.PancakeView.Resource.Id.async = global::PetLifeApp.Droid.Resource.Id.async;
+			global::Xamarin.Forms.PancakeView.Resource.Id.auto = global::PetLifeApp.Droid.Resource.Id.auto;
+			global::Xamarin.Forms.PancakeView.Resource.Id.beginning = global::PetLifeApp.Droid.Resource.Id.beginning;
+			global::Xamarin.Forms.PancakeView.Resource.Id.blocking = global::PetLifeApp.Droid.Resource.Id.blocking;
+			global::Xamarin.Forms.PancakeView.Resource.Id.bottom = global::PetLifeApp.Droid.Resource.Id.bottom;
+			global::Xamarin.Forms.PancakeView.Resource.Id.bottomtab_navarea = global::PetLifeApp.Droid.Resource.Id.bottomtab_navarea;
+			global::Xamarin.Forms.PancakeView.Resource.Id.bottomtab_tabbar = global::PetLifeApp.Droid.Resource.Id.bottomtab_tabbar;
+			global::Xamarin.Forms.PancakeView.Resource.Id.browser_actions_header_text = global::PetLifeApp.Droid.Resource.Id.browser_actions_header_text;
+			global::Xamarin.Forms.PancakeView.Resource.Id.browser_actions_menu_items = global::PetLifeApp.Droid.Resource.Id.browser_actions_menu_items;
+			global::Xamarin.Forms.PancakeView.Resource.Id.browser_actions_menu_item_icon = global::PetLifeApp.Droid.Resource.Id.browser_actions_menu_item_icon;
+			global::Xamarin.Forms.PancakeView.Resource.Id.browser_actions_menu_item_text = global::PetLifeApp.Droid.Resource.Id.browser_actions_menu_item_text;
+			global::Xamarin.Forms.PancakeView.Resource.Id.browser_actions_menu_view = global::PetLifeApp.Droid.Resource.Id.browser_actions_menu_view;
+			global::Xamarin.Forms.PancakeView.Resource.Id.buttonPanel = global::PetLifeApp.Droid.Resource.Id.buttonPanel;
+			global::Xamarin.Forms.PancakeView.Resource.Id.cancel_action = global::PetLifeApp.Droid.Resource.Id.cancel_action;
+			global::Xamarin.Forms.PancakeView.Resource.Id.center = global::PetLifeApp.Droid.Resource.Id.center;
+			global::Xamarin.Forms.PancakeView.Resource.Id.center_horizontal = global::PetLifeApp.Droid.Resource.Id.center_horizontal;
+			global::Xamarin.Forms.PancakeView.Resource.Id.center_vertical = global::PetLifeApp.Droid.Resource.Id.center_vertical;
+			global::Xamarin.Forms.PancakeView.Resource.Id.checkbox = global::PetLifeApp.Droid.Resource.Id.checkbox;
+			global::Xamarin.Forms.PancakeView.Resource.Id.@checked = global::PetLifeApp.Droid.Resource.Id.@checked;
+			global::Xamarin.Forms.PancakeView.Resource.Id.chronometer = global::PetLifeApp.Droid.Resource.Id.chronometer;
+			global::Xamarin.Forms.PancakeView.Resource.Id.clip_horizontal = global::PetLifeApp.Droid.Resource.Id.clip_horizontal;
+			global::Xamarin.Forms.PancakeView.Resource.Id.clip_vertical = global::PetLifeApp.Droid.Resource.Id.clip_vertical;
+			global::Xamarin.Forms.PancakeView.Resource.Id.collapseActionView = global::PetLifeApp.Droid.Resource.Id.collapseActionView;
+			global::Xamarin.Forms.PancakeView.Resource.Id.container = global::PetLifeApp.Droid.Resource.Id.container;
+			global::Xamarin.Forms.PancakeView.Resource.Id.content = global::PetLifeApp.Droid.Resource.Id.content;
+			global::Xamarin.Forms.PancakeView.Resource.Id.contentPanel = global::PetLifeApp.Droid.Resource.Id.contentPanel;
+			global::Xamarin.Forms.PancakeView.Resource.Id.coordinator = global::PetLifeApp.Droid.Resource.Id.coordinator;
+			global::Xamarin.Forms.PancakeView.Resource.Id.CTRL = global::PetLifeApp.Droid.Resource.Id.CTRL;
+			global::Xamarin.Forms.PancakeView.Resource.Id.custom = global::PetLifeApp.Droid.Resource.Id.custom;
+			global::Xamarin.Forms.PancakeView.Resource.Id.customPanel = global::PetLifeApp.Droid.Resource.Id.customPanel;
+			global::Xamarin.Forms.PancakeView.Resource.Id.decor_content_parent = global::PetLifeApp.Droid.Resource.Id.decor_content_parent;
+			global::Xamarin.Forms.PancakeView.Resource.Id.default_activity_button = global::PetLifeApp.Droid.Resource.Id.default_activity_button;
+			global::Xamarin.Forms.PancakeView.Resource.Id.design_bottom_sheet = global::PetLifeApp.Droid.Resource.Id.design_bottom_sheet;
+			global::Xamarin.Forms.PancakeView.Resource.Id.design_menu_item_action_area = global::PetLifeApp.Droid.Resource.Id.design_menu_item_action_area;
+			global::Xamarin.Forms.PancakeView.Resource.Id.design_menu_item_action_area_stub = global::PetLifeApp.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::Xamarin.Forms.PancakeView.Resource.Id.design_menu_item_text = global::PetLifeApp.Droid.Resource.Id.design_menu_item_text;
+			global::Xamarin.Forms.PancakeView.Resource.Id.design_navigation_view = global::PetLifeApp.Droid.Resource.Id.design_navigation_view;
+			global::Xamarin.Forms.PancakeView.Resource.Id.dialog_button = global::PetLifeApp.Droid.Resource.Id.dialog_button;
+			global::Xamarin.Forms.PancakeView.Resource.Id.disableHome = global::PetLifeApp.Droid.Resource.Id.disableHome;
+			global::Xamarin.Forms.PancakeView.Resource.Id.edit_query = global::PetLifeApp.Droid.Resource.Id.edit_query;
+			global::Xamarin.Forms.PancakeView.Resource.Id.end = global::PetLifeApp.Droid.Resource.Id.end;
+			global::Xamarin.Forms.PancakeView.Resource.Id.end_padder = global::PetLifeApp.Droid.Resource.Id.end_padder;
+			global::Xamarin.Forms.PancakeView.Resource.Id.enterAlways = global::PetLifeApp.Droid.Resource.Id.enterAlways;
+			global::Xamarin.Forms.PancakeView.Resource.Id.enterAlwaysCollapsed = global::PetLifeApp.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::Xamarin.Forms.PancakeView.Resource.Id.exitUntilCollapsed = global::PetLifeApp.Droid.Resource.Id.exitUntilCollapsed;
+			global::Xamarin.Forms.PancakeView.Resource.Id.expanded_menu = global::PetLifeApp.Droid.Resource.Id.expanded_menu;
+			global::Xamarin.Forms.PancakeView.Resource.Id.expand_activities_button = global::PetLifeApp.Droid.Resource.Id.expand_activities_button;
+			global::Xamarin.Forms.PancakeView.Resource.Id.fill = global::PetLifeApp.Droid.Resource.Id.fill;
+			global::Xamarin.Forms.PancakeView.Resource.Id.filled = global::PetLifeApp.Droid.Resource.Id.filled;
+			global::Xamarin.Forms.PancakeView.Resource.Id.fill_horizontal = global::PetLifeApp.Droid.Resource.Id.fill_horizontal;
+			global::Xamarin.Forms.PancakeView.Resource.Id.fill_vertical = global::PetLifeApp.Droid.Resource.Id.fill_vertical;
+			global::Xamarin.Forms.PancakeView.Resource.Id.@fixed = global::PetLifeApp.Droid.Resource.Id.@fixed;
+			global::Xamarin.Forms.PancakeView.Resource.Id.flyoutcontent_appbar = global::PetLifeApp.Droid.Resource.Id.flyoutcontent_appbar;
+			global::Xamarin.Forms.PancakeView.Resource.Id.forever = global::PetLifeApp.Droid.Resource.Id.forever;
+			global::Xamarin.Forms.PancakeView.Resource.Id.fragment_container_view_tag = global::PetLifeApp.Droid.Resource.Id.fragment_container_view_tag;
+			global::Xamarin.Forms.PancakeView.Resource.Id.FUNCTION = global::PetLifeApp.Droid.Resource.Id.FUNCTION;
+			global::Xamarin.Forms.PancakeView.Resource.Id.ghost_view = global::PetLifeApp.Droid.Resource.Id.ghost_view;
+			global::Xamarin.Forms.PancakeView.Resource.Id.ghost_view_holder = global::PetLifeApp.Droid.Resource.Id.ghost_view_holder;
+			global::Xamarin.Forms.PancakeView.Resource.Id.group_divider = global::PetLifeApp.Droid.Resource.Id.group_divider;
+			global::Xamarin.Forms.PancakeView.Resource.Id.home = global::PetLifeApp.Droid.Resource.Id.home;
+			global::Xamarin.Forms.PancakeView.Resource.Id.homeAsUp = global::PetLifeApp.Droid.Resource.Id.homeAsUp;
+			global::Xamarin.Forms.PancakeView.Resource.Id.icon = global::PetLifeApp.Droid.Resource.Id.icon;
+			global::Xamarin.Forms.PancakeView.Resource.Id.icon_group = global::PetLifeApp.Droid.Resource.Id.icon_group;
+			global::Xamarin.Forms.PancakeView.Resource.Id.ifRoom = global::PetLifeApp.Droid.Resource.Id.ifRoom;
+			global::Xamarin.Forms.PancakeView.Resource.Id.image = global::PetLifeApp.Droid.Resource.Id.image;
+			global::Xamarin.Forms.PancakeView.Resource.Id.info = global::PetLifeApp.Droid.Resource.Id.info;
+			global::Xamarin.Forms.PancakeView.Resource.Id.italic = global::PetLifeApp.Droid.Resource.Id.italic;
+			global::Xamarin.Forms.PancakeView.Resource.Id.item_touch_helper_previous_elevation = global::PetLifeApp.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Xamarin.Forms.PancakeView.Resource.Id.labeled = global::PetLifeApp.Droid.Resource.Id.labeled;
+			global::Xamarin.Forms.PancakeView.Resource.Id.left = global::PetLifeApp.Droid.Resource.Id.left;
+			global::Xamarin.Forms.PancakeView.Resource.Id.line1 = global::PetLifeApp.Droid.Resource.Id.line1;
+			global::Xamarin.Forms.PancakeView.Resource.Id.line3 = global::PetLifeApp.Droid.Resource.Id.line3;
+			global::Xamarin.Forms.PancakeView.Resource.Id.listMode = global::PetLifeApp.Droid.Resource.Id.listMode;
+			global::Xamarin.Forms.PancakeView.Resource.Id.list_item = global::PetLifeApp.Droid.Resource.Id.list_item;
+			global::Xamarin.Forms.PancakeView.Resource.Id.main_appbar = global::PetLifeApp.Droid.Resource.Id.main_appbar;
+			global::Xamarin.Forms.PancakeView.Resource.Id.main_tablayout = global::PetLifeApp.Droid.Resource.Id.main_tablayout;
+			global::Xamarin.Forms.PancakeView.Resource.Id.main_toolbar = global::PetLifeApp.Droid.Resource.Id.main_toolbar;
+			global::Xamarin.Forms.PancakeView.Resource.Id.main_viewpager = global::PetLifeApp.Droid.Resource.Id.main_viewpager;
+			global::Xamarin.Forms.PancakeView.Resource.Id.masked = global::PetLifeApp.Droid.Resource.Id.masked;
+			global::Xamarin.Forms.PancakeView.Resource.Id.media_actions = global::PetLifeApp.Droid.Resource.Id.media_actions;
+			global::Xamarin.Forms.PancakeView.Resource.Id.message = global::PetLifeApp.Droid.Resource.Id.message;
+			global::Xamarin.Forms.PancakeView.Resource.Id.META = global::PetLifeApp.Droid.Resource.Id.META;
+			global::Xamarin.Forms.PancakeView.Resource.Id.middle = global::PetLifeApp.Droid.Resource.Id.middle;
+			global::Xamarin.Forms.PancakeView.Resource.Id.mini = global::PetLifeApp.Droid.Resource.Id.mini;
+			global::Xamarin.Forms.PancakeView.Resource.Id.mtrl_child_content_container = global::PetLifeApp.Droid.Resource.Id.mtrl_child_content_container;
+			global::Xamarin.Forms.PancakeView.Resource.Id.mtrl_internal_children_alpha_tag = global::PetLifeApp.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
+			global::Xamarin.Forms.PancakeView.Resource.Id.multiply = global::PetLifeApp.Droid.Resource.Id.multiply;
+			global::Xamarin.Forms.PancakeView.Resource.Id.navigation_header_container = global::PetLifeApp.Droid.Resource.Id.navigation_header_container;
+			global::Xamarin.Forms.PancakeView.Resource.Id.never = global::PetLifeApp.Droid.Resource.Id.never;
+			global::Xamarin.Forms.PancakeView.Resource.Id.none = global::PetLifeApp.Droid.Resource.Id.none;
+			global::Xamarin.Forms.PancakeView.Resource.Id.normal = global::PetLifeApp.Droid.Resource.Id.normal;
+			global::Xamarin.Forms.PancakeView.Resource.Id.notification_background = global::PetLifeApp.Droid.Resource.Id.notification_background;
+			global::Xamarin.Forms.PancakeView.Resource.Id.notification_main_column = global::PetLifeApp.Droid.Resource.Id.notification_main_column;
+			global::Xamarin.Forms.PancakeView.Resource.Id.notification_main_column_container = global::PetLifeApp.Droid.Resource.Id.notification_main_column_container;
+			global::Xamarin.Forms.PancakeView.Resource.Id.off = global::PetLifeApp.Droid.Resource.Id.off;
+			global::Xamarin.Forms.PancakeView.Resource.Id.on = global::PetLifeApp.Droid.Resource.Id.on;
+			global::Xamarin.Forms.PancakeView.Resource.Id.outline = global::PetLifeApp.Droid.Resource.Id.outline;
+			global::Xamarin.Forms.PancakeView.Resource.Id.parallax = global::PetLifeApp.Droid.Resource.Id.parallax;
+			global::Xamarin.Forms.PancakeView.Resource.Id.parentPanel = global::PetLifeApp.Droid.Resource.Id.parentPanel;
+			global::Xamarin.Forms.PancakeView.Resource.Id.parent_matrix = global::PetLifeApp.Droid.Resource.Id.parent_matrix;
+			global::Xamarin.Forms.PancakeView.Resource.Id.pin = global::PetLifeApp.Droid.Resource.Id.pin;
+			global::Xamarin.Forms.PancakeView.Resource.Id.progress_circular = global::PetLifeApp.Droid.Resource.Id.progress_circular;
+			global::Xamarin.Forms.PancakeView.Resource.Id.progress_horizontal = global::PetLifeApp.Droid.Resource.Id.progress_horizontal;
+			global::Xamarin.Forms.PancakeView.Resource.Id.radio = global::PetLifeApp.Droid.Resource.Id.radio;
+			global::Xamarin.Forms.PancakeView.Resource.Id.right = global::PetLifeApp.Droid.Resource.Id.right;
+			global::Xamarin.Forms.PancakeView.Resource.Id.right_icon = global::PetLifeApp.Droid.Resource.Id.right_icon;
+			global::Xamarin.Forms.PancakeView.Resource.Id.right_side = global::PetLifeApp.Droid.Resource.Id.right_side;
+			global::Xamarin.Forms.PancakeView.Resource.Id.save_non_transition_alpha = global::PetLifeApp.Droid.Resource.Id.save_non_transition_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Id.save_overlay_view = global::PetLifeApp.Droid.Resource.Id.save_overlay_view;
+			global::Xamarin.Forms.PancakeView.Resource.Id.screen = global::PetLifeApp.Droid.Resource.Id.screen;
+			global::Xamarin.Forms.PancakeView.Resource.Id.scroll = global::PetLifeApp.Droid.Resource.Id.scroll;
+			global::Xamarin.Forms.PancakeView.Resource.Id.scrollable = global::PetLifeApp.Droid.Resource.Id.scrollable;
+			global::Xamarin.Forms.PancakeView.Resource.Id.scrollIndicatorDown = global::PetLifeApp.Droid.Resource.Id.scrollIndicatorDown;
+			global::Xamarin.Forms.PancakeView.Resource.Id.scrollIndicatorUp = global::PetLifeApp.Droid.Resource.Id.scrollIndicatorUp;
+			global::Xamarin.Forms.PancakeView.Resource.Id.scrollView = global::PetLifeApp.Droid.Resource.Id.scrollView;
+			global::Xamarin.Forms.PancakeView.Resource.Id.search_badge = global::PetLifeApp.Droid.Resource.Id.search_badge;
+			global::Xamarin.Forms.PancakeView.Resource.Id.search_bar = global::PetLifeApp.Droid.Resource.Id.search_bar;
+			global::Xamarin.Forms.PancakeView.Resource.Id.search_button = global::PetLifeApp.Droid.Resource.Id.search_button;
+			global::Xamarin.Forms.PancakeView.Resource.Id.search_close_btn = global::PetLifeApp.Droid.Resource.Id.search_close_btn;
+			global::Xamarin.Forms.PancakeView.Resource.Id.search_edit_frame = global::PetLifeApp.Droid.Resource.Id.search_edit_frame;
+			global::Xamarin.Forms.PancakeView.Resource.Id.search_go_btn = global::PetLifeApp.Droid.Resource.Id.search_go_btn;
+			global::Xamarin.Forms.PancakeView.Resource.Id.search_mag_icon = global::PetLifeApp.Droid.Resource.Id.search_mag_icon;
+			global::Xamarin.Forms.PancakeView.Resource.Id.search_plate = global::PetLifeApp.Droid.Resource.Id.search_plate;
+			global::Xamarin.Forms.PancakeView.Resource.Id.search_src_text = global::PetLifeApp.Droid.Resource.Id.search_src_text;
+			global::Xamarin.Forms.PancakeView.Resource.Id.search_voice_btn = global::PetLifeApp.Droid.Resource.Id.search_voice_btn;
+			global::Xamarin.Forms.PancakeView.Resource.Id.selected = global::PetLifeApp.Droid.Resource.Id.selected;
+			global::Xamarin.Forms.PancakeView.Resource.Id.select_dialog_listview = global::PetLifeApp.Droid.Resource.Id.select_dialog_listview;
+			global::Xamarin.Forms.PancakeView.Resource.Id.shellcontent_appbar = global::PetLifeApp.Droid.Resource.Id.shellcontent_appbar;
+			global::Xamarin.Forms.PancakeView.Resource.Id.shellcontent_toolbar = global::PetLifeApp.Droid.Resource.Id.shellcontent_toolbar;
+			global::Xamarin.Forms.PancakeView.Resource.Id.SHIFT = global::PetLifeApp.Droid.Resource.Id.SHIFT;
+			global::Xamarin.Forms.PancakeView.Resource.Id.shortcut = global::PetLifeApp.Droid.Resource.Id.shortcut;
+			global::Xamarin.Forms.PancakeView.Resource.Id.showCustom = global::PetLifeApp.Droid.Resource.Id.showCustom;
+			global::Xamarin.Forms.PancakeView.Resource.Id.showHome = global::PetLifeApp.Droid.Resource.Id.showHome;
+			global::Xamarin.Forms.PancakeView.Resource.Id.showTitle = global::PetLifeApp.Droid.Resource.Id.showTitle;
+			global::Xamarin.Forms.PancakeView.Resource.Id.sliding_tabs = global::PetLifeApp.Droid.Resource.Id.sliding_tabs;
+			global::Xamarin.Forms.PancakeView.Resource.Id.snackbar_action = global::PetLifeApp.Droid.Resource.Id.snackbar_action;
+			global::Xamarin.Forms.PancakeView.Resource.Id.snackbar_text = global::PetLifeApp.Droid.Resource.Id.snackbar_text;
+			global::Xamarin.Forms.PancakeView.Resource.Id.snap = global::PetLifeApp.Droid.Resource.Id.snap;
+			global::Xamarin.Forms.PancakeView.Resource.Id.snapMargins = global::PetLifeApp.Droid.Resource.Id.snapMargins;
+			global::Xamarin.Forms.PancakeView.Resource.Id.spacer = global::PetLifeApp.Droid.Resource.Id.spacer;
+			global::Xamarin.Forms.PancakeView.Resource.Id.split_action_bar = global::PetLifeApp.Droid.Resource.Id.split_action_bar;
+			global::Xamarin.Forms.PancakeView.Resource.Id.src_atop = global::PetLifeApp.Droid.Resource.Id.src_atop;
+			global::Xamarin.Forms.PancakeView.Resource.Id.src_in = global::PetLifeApp.Droid.Resource.Id.src_in;
+			global::Xamarin.Forms.PancakeView.Resource.Id.src_over = global::PetLifeApp.Droid.Resource.Id.src_over;
+			global::Xamarin.Forms.PancakeView.Resource.Id.start = global::PetLifeApp.Droid.Resource.Id.start;
+			global::Xamarin.Forms.PancakeView.Resource.Id.status_bar_latest_event_content = global::PetLifeApp.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Xamarin.Forms.PancakeView.Resource.Id.stretch = global::PetLifeApp.Droid.Resource.Id.stretch;
+			global::Xamarin.Forms.PancakeView.Resource.Id.submenuarrow = global::PetLifeApp.Droid.Resource.Id.submenuarrow;
+			global::Xamarin.Forms.PancakeView.Resource.Id.submit_area = global::PetLifeApp.Droid.Resource.Id.submit_area;
+			global::Xamarin.Forms.PancakeView.Resource.Id.SYM = global::PetLifeApp.Droid.Resource.Id.SYM;
+			global::Xamarin.Forms.PancakeView.Resource.Id.tabMode = global::PetLifeApp.Droid.Resource.Id.tabMode;
+			global::Xamarin.Forms.PancakeView.Resource.Id.tag_accessibility_actions = global::PetLifeApp.Droid.Resource.Id.tag_accessibility_actions;
+			global::Xamarin.Forms.PancakeView.Resource.Id.tag_accessibility_clickable_spans = global::PetLifeApp.Droid.Resource.Id.tag_accessibility_clickable_spans;
+			global::Xamarin.Forms.PancakeView.Resource.Id.tag_accessibility_heading = global::PetLifeApp.Droid.Resource.Id.tag_accessibility_heading;
+			global::Xamarin.Forms.PancakeView.Resource.Id.tag_accessibility_pane_title = global::PetLifeApp.Droid.Resource.Id.tag_accessibility_pane_title;
+			global::Xamarin.Forms.PancakeView.Resource.Id.tag_screen_reader_focusable = global::PetLifeApp.Droid.Resource.Id.tag_screen_reader_focusable;
+			global::Xamarin.Forms.PancakeView.Resource.Id.tag_transition_group = global::PetLifeApp.Droid.Resource.Id.tag_transition_group;
+			global::Xamarin.Forms.PancakeView.Resource.Id.tag_unhandled_key_event_manager = global::PetLifeApp.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::Xamarin.Forms.PancakeView.Resource.Id.tag_unhandled_key_listeners = global::PetLifeApp.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::Xamarin.Forms.PancakeView.Resource.Id.text = global::PetLifeApp.Droid.Resource.Id.text;
+			global::Xamarin.Forms.PancakeView.Resource.Id.text2 = global::PetLifeApp.Droid.Resource.Id.text2;
+			global::Xamarin.Forms.PancakeView.Resource.Id.textinput_counter = global::PetLifeApp.Droid.Resource.Id.textinput_counter;
+			global::Xamarin.Forms.PancakeView.Resource.Id.textinput_error = global::PetLifeApp.Droid.Resource.Id.textinput_error;
+			global::Xamarin.Forms.PancakeView.Resource.Id.textinput_helper_text = global::PetLifeApp.Droid.Resource.Id.textinput_helper_text;
+			global::Xamarin.Forms.PancakeView.Resource.Id.textSpacerNoButtons = global::PetLifeApp.Droid.Resource.Id.textSpacerNoButtons;
+			global::Xamarin.Forms.PancakeView.Resource.Id.textSpacerNoTitle = global::PetLifeApp.Droid.Resource.Id.textSpacerNoTitle;
+			global::Xamarin.Forms.PancakeView.Resource.Id.textStart = global::PetLifeApp.Droid.Resource.Id.textStart;
+			global::Xamarin.Forms.PancakeView.Resource.Id.time = global::PetLifeApp.Droid.Resource.Id.time;
+			global::Xamarin.Forms.PancakeView.Resource.Id.title = global::PetLifeApp.Droid.Resource.Id.title;
+			global::Xamarin.Forms.PancakeView.Resource.Id.titleDividerNoCustom = global::PetLifeApp.Droid.Resource.Id.titleDividerNoCustom;
+			global::Xamarin.Forms.PancakeView.Resource.Id.title_template = global::PetLifeApp.Droid.Resource.Id.title_template;
+			global::Xamarin.Forms.PancakeView.Resource.Id.toolbar = global::PetLifeApp.Droid.Resource.Id.toolbar;
+			global::Xamarin.Forms.PancakeView.Resource.Id.top = global::PetLifeApp.Droid.Resource.Id.top;
+			global::Xamarin.Forms.PancakeView.Resource.Id.topPanel = global::PetLifeApp.Droid.Resource.Id.topPanel;
+			global::Xamarin.Forms.PancakeView.Resource.Id.touch_outside = global::PetLifeApp.Droid.Resource.Id.touch_outside;
+			global::Xamarin.Forms.PancakeView.Resource.Id.transition_current_scene = global::PetLifeApp.Droid.Resource.Id.transition_current_scene;
+			global::Xamarin.Forms.PancakeView.Resource.Id.transition_layout_save = global::PetLifeApp.Droid.Resource.Id.transition_layout_save;
+			global::Xamarin.Forms.PancakeView.Resource.Id.transition_position = global::PetLifeApp.Droid.Resource.Id.transition_position;
+			global::Xamarin.Forms.PancakeView.Resource.Id.transition_scene_layoutid_cache = global::PetLifeApp.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::Xamarin.Forms.PancakeView.Resource.Id.transition_transform = global::PetLifeApp.Droid.Resource.Id.transition_transform;
+			global::Xamarin.Forms.PancakeView.Resource.Id.@unchecked = global::PetLifeApp.Droid.Resource.Id.@unchecked;
+			global::Xamarin.Forms.PancakeView.Resource.Id.uniform = global::PetLifeApp.Droid.Resource.Id.uniform;
+			global::Xamarin.Forms.PancakeView.Resource.Id.unlabeled = global::PetLifeApp.Droid.Resource.Id.unlabeled;
+			global::Xamarin.Forms.PancakeView.Resource.Id.up = global::PetLifeApp.Droid.Resource.Id.up;
+			global::Xamarin.Forms.PancakeView.Resource.Id.useLogo = global::PetLifeApp.Droid.Resource.Id.useLogo;
+			global::Xamarin.Forms.PancakeView.Resource.Id.view_offset_helper = global::PetLifeApp.Droid.Resource.Id.view_offset_helper;
+			global::Xamarin.Forms.PancakeView.Resource.Id.view_tree_saved_state_registry_owner = global::PetLifeApp.Droid.Resource.Id.view_tree_saved_state_registry_owner;
+			global::Xamarin.Forms.PancakeView.Resource.Id.visible = global::PetLifeApp.Droid.Resource.Id.visible;
+			global::Xamarin.Forms.PancakeView.Resource.Id.visible_removing_fragment_view_tag = global::PetLifeApp.Droid.Resource.Id.visible_removing_fragment_view_tag;
+			global::Xamarin.Forms.PancakeView.Resource.Id.withText = global::PetLifeApp.Droid.Resource.Id.withText;
+			global::Xamarin.Forms.PancakeView.Resource.Id.wrap_content = global::PetLifeApp.Droid.Resource.Id.wrap_content;
+			global::Xamarin.Forms.PancakeView.Resource.Integer.abc_config_activityDefaultDur = global::PetLifeApp.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::Xamarin.Forms.PancakeView.Resource.Integer.abc_config_activityShortDur = global::PetLifeApp.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::Xamarin.Forms.PancakeView.Resource.Integer.app_bar_elevation_anim_duration = global::PetLifeApp.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::Xamarin.Forms.PancakeView.Resource.Integer.bottom_sheet_slide_duration = global::PetLifeApp.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::Xamarin.Forms.PancakeView.Resource.Integer.cancel_button_image_alpha = global::PetLifeApp.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Integer.config_tooltipAnimTime = global::PetLifeApp.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::Xamarin.Forms.PancakeView.Resource.Integer.design_snackbar_text_max_lines = global::PetLifeApp.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::Xamarin.Forms.PancakeView.Resource.Integer.design_tab_indicator_anim_duration_ms = global::PetLifeApp.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
+			global::Xamarin.Forms.PancakeView.Resource.Integer.hide_password_duration = global::PetLifeApp.Droid.Resource.Integer.hide_password_duration;
+			global::Xamarin.Forms.PancakeView.Resource.Integer.mtrl_btn_anim_delay_ms = global::PetLifeApp.Droid.Resource.Integer.mtrl_btn_anim_delay_ms;
+			global::Xamarin.Forms.PancakeView.Resource.Integer.mtrl_btn_anim_duration_ms = global::PetLifeApp.Droid.Resource.Integer.mtrl_btn_anim_duration_ms;
+			global::Xamarin.Forms.PancakeView.Resource.Integer.mtrl_chip_anim_duration = global::PetLifeApp.Droid.Resource.Integer.mtrl_chip_anim_duration;
+			global::Xamarin.Forms.PancakeView.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::PetLifeApp.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
+			global::Xamarin.Forms.PancakeView.Resource.Integer.show_password_duration = global::PetLifeApp.Droid.Resource.Integer.show_password_duration;
+			global::Xamarin.Forms.PancakeView.Resource.Integer.status_bar_notification_info_maxnum = global::PetLifeApp.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Xamarin.Forms.PancakeView.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0 = global::PetLifeApp.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0;
+			global::Xamarin.Forms.PancakeView.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1 = global::PetLifeApp.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1;
+			global::Xamarin.Forms.PancakeView.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0 = global::PetLifeApp.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0;
+			global::Xamarin.Forms.PancakeView.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1 = global::PetLifeApp.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1;
+			global::Xamarin.Forms.PancakeView.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0 = global::PetLifeApp.Droid.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0;
+			global::Xamarin.Forms.PancakeView.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0 = global::PetLifeApp.Droid.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0;
+			global::Xamarin.Forms.PancakeView.Resource.Interpolator.fast_out_slow_in = global::PetLifeApp.Droid.Resource.Interpolator.fast_out_slow_in;
+			global::Xamarin.Forms.PancakeView.Resource.Interpolator.mtrl_fast_out_linear_in = global::PetLifeApp.Droid.Resource.Interpolator.mtrl_fast_out_linear_in;
+			global::Xamarin.Forms.PancakeView.Resource.Interpolator.mtrl_fast_out_slow_in = global::PetLifeApp.Droid.Resource.Interpolator.mtrl_fast_out_slow_in;
+			global::Xamarin.Forms.PancakeView.Resource.Interpolator.mtrl_linear = global::PetLifeApp.Droid.Resource.Interpolator.mtrl_linear;
+			global::Xamarin.Forms.PancakeView.Resource.Interpolator.mtrl_linear_out_slow_in = global::PetLifeApp.Droid.Resource.Interpolator.mtrl_linear_out_slow_in;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_action_bar_title_item = global::PetLifeApp.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_action_bar_up_container = global::PetLifeApp.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_action_menu_item_layout = global::PetLifeApp.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_action_menu_layout = global::PetLifeApp.Droid.Resource.Layout.abc_action_menu_layout;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_action_mode_bar = global::PetLifeApp.Droid.Resource.Layout.abc_action_mode_bar;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_action_mode_close_item_material = global::PetLifeApp.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_activity_chooser_view = global::PetLifeApp.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_activity_chooser_view_list_item = global::PetLifeApp.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_alert_dialog_button_bar_material = global::PetLifeApp.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_alert_dialog_material = global::PetLifeApp.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_alert_dialog_title_material = global::PetLifeApp.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_cascading_menu_item_layout = global::PetLifeApp.Droid.Resource.Layout.abc_cascading_menu_item_layout;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_dialog_title_material = global::PetLifeApp.Droid.Resource.Layout.abc_dialog_title_material;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_expanded_menu_layout = global::PetLifeApp.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_list_menu_item_checkbox = global::PetLifeApp.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_list_menu_item_icon = global::PetLifeApp.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_list_menu_item_layout = global::PetLifeApp.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_list_menu_item_radio = global::PetLifeApp.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_popup_menu_header_item_layout = global::PetLifeApp.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_popup_menu_item_layout = global::PetLifeApp.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_screen_content_include = global::PetLifeApp.Droid.Resource.Layout.abc_screen_content_include;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_screen_simple = global::PetLifeApp.Droid.Resource.Layout.abc_screen_simple;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_screen_simple_overlay_action_mode = global::PetLifeApp.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_screen_toolbar = global::PetLifeApp.Droid.Resource.Layout.abc_screen_toolbar;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_search_dropdown_item_icons_2line = global::PetLifeApp.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_search_view = global::PetLifeApp.Droid.Resource.Layout.abc_search_view;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_select_dialog_material = global::PetLifeApp.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_tooltip = global::PetLifeApp.Droid.Resource.Layout.abc_tooltip;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.BottomTabLayout = global::PetLifeApp.Droid.Resource.Layout.BottomTabLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.browser_actions_context_menu_page = global::PetLifeApp.Droid.Resource.Layout.browser_actions_context_menu_page;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.browser_actions_context_menu_row = global::PetLifeApp.Droid.Resource.Layout.browser_actions_context_menu_row;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.custom_dialog = global::PetLifeApp.Droid.Resource.Layout.custom_dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.design_bottom_navigation_item = global::PetLifeApp.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.design_bottom_sheet_dialog = global::PetLifeApp.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.design_layout_snackbar = global::PetLifeApp.Droid.Resource.Layout.design_layout_snackbar;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.design_layout_snackbar_include = global::PetLifeApp.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.design_layout_tab_icon = global::PetLifeApp.Droid.Resource.Layout.design_layout_tab_icon;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.design_layout_tab_text = global::PetLifeApp.Droid.Resource.Layout.design_layout_tab_text;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.design_menu_item_action_area = global::PetLifeApp.Droid.Resource.Layout.design_menu_item_action_area;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.design_navigation_item = global::PetLifeApp.Droid.Resource.Layout.design_navigation_item;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.design_navigation_item_header = global::PetLifeApp.Droid.Resource.Layout.design_navigation_item_header;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.design_navigation_item_separator = global::PetLifeApp.Droid.Resource.Layout.design_navigation_item_separator;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.design_navigation_item_subheader = global::PetLifeApp.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.design_navigation_menu = global::PetLifeApp.Droid.Resource.Layout.design_navigation_menu;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.design_navigation_menu_item = global::PetLifeApp.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.FallbackTabbarDoNotUse = global::PetLifeApp.Droid.Resource.Layout.FallbackTabbarDoNotUse;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.FallbackToolbarDoNotUse = global::PetLifeApp.Droid.Resource.Layout.FallbackToolbarDoNotUse;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.FlyoutContent = global::PetLifeApp.Droid.Resource.Layout.FlyoutContent;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.mtrl_layout_snackbar = global::PetLifeApp.Droid.Resource.Layout.mtrl_layout_snackbar;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.mtrl_layout_snackbar_include = global::PetLifeApp.Droid.Resource.Layout.mtrl_layout_snackbar_include;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.notification_action = global::PetLifeApp.Droid.Resource.Layout.notification_action;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.notification_action_tombstone = global::PetLifeApp.Droid.Resource.Layout.notification_action_tombstone;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.notification_media_action = global::PetLifeApp.Droid.Resource.Layout.notification_media_action;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.notification_media_cancel_action = global::PetLifeApp.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.notification_template_big_media = global::PetLifeApp.Droid.Resource.Layout.notification_template_big_media;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.notification_template_big_media_custom = global::PetLifeApp.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.notification_template_big_media_narrow = global::PetLifeApp.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.notification_template_big_media_narrow_custom = global::PetLifeApp.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.notification_template_custom_big = global::PetLifeApp.Droid.Resource.Layout.notification_template_custom_big;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.notification_template_icon_group = global::PetLifeApp.Droid.Resource.Layout.notification_template_icon_group;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.notification_template_lines_media = global::PetLifeApp.Droid.Resource.Layout.notification_template_lines_media;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.notification_template_media = global::PetLifeApp.Droid.Resource.Layout.notification_template_media;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.notification_template_media_custom = global::PetLifeApp.Droid.Resource.Layout.notification_template_media_custom;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.notification_template_part_chronometer = global::PetLifeApp.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.notification_template_part_time = global::PetLifeApp.Droid.Resource.Layout.notification_template_part_time;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.RootLayout = global::PetLifeApp.Droid.Resource.Layout.RootLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.select_dialog_item_material = global::PetLifeApp.Droid.Resource.Layout.select_dialog_item_material;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.select_dialog_multichoice_material = global::PetLifeApp.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.select_dialog_singlechoice_material = global::PetLifeApp.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.ShellContent = global::PetLifeApp.Droid.Resource.Layout.ShellContent;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.support_simple_spinner_dropdown_item = global::PetLifeApp.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.Tabbar = global::PetLifeApp.Droid.Resource.Layout.Tabbar;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.Toolbar = global::PetLifeApp.Droid.Resource.Layout.Toolbar;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_action_bar_home_description = global::PetLifeApp.Droid.Resource.String.abc_action_bar_home_description;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_action_bar_up_description = global::PetLifeApp.Droid.Resource.String.abc_action_bar_up_description;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_action_menu_overflow_description = global::PetLifeApp.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_action_mode_done = global::PetLifeApp.Droid.Resource.String.abc_action_mode_done;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_activitychooserview_choose_application = global::PetLifeApp.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_activity_chooser_view_see_all = global::PetLifeApp.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_capital_off = global::PetLifeApp.Droid.Resource.String.abc_capital_off;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_capital_on = global::PetLifeApp.Droid.Resource.String.abc_capital_on;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_menu_alt_shortcut_label = global::PetLifeApp.Droid.Resource.String.abc_menu_alt_shortcut_label;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_menu_ctrl_shortcut_label = global::PetLifeApp.Droid.Resource.String.abc_menu_ctrl_shortcut_label;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_menu_delete_shortcut_label = global::PetLifeApp.Droid.Resource.String.abc_menu_delete_shortcut_label;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_menu_enter_shortcut_label = global::PetLifeApp.Droid.Resource.String.abc_menu_enter_shortcut_label;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_menu_function_shortcut_label = global::PetLifeApp.Droid.Resource.String.abc_menu_function_shortcut_label;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_menu_meta_shortcut_label = global::PetLifeApp.Droid.Resource.String.abc_menu_meta_shortcut_label;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_menu_shift_shortcut_label = global::PetLifeApp.Droid.Resource.String.abc_menu_shift_shortcut_label;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_menu_space_shortcut_label = global::PetLifeApp.Droid.Resource.String.abc_menu_space_shortcut_label;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_menu_sym_shortcut_label = global::PetLifeApp.Droid.Resource.String.abc_menu_sym_shortcut_label;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_prepend_shortcut_label = global::PetLifeApp.Droid.Resource.String.abc_prepend_shortcut_label;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_searchview_description_clear = global::PetLifeApp.Droid.Resource.String.abc_searchview_description_clear;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_searchview_description_query = global::PetLifeApp.Droid.Resource.String.abc_searchview_description_query;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_searchview_description_search = global::PetLifeApp.Droid.Resource.String.abc_searchview_description_search;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_searchview_description_submit = global::PetLifeApp.Droid.Resource.String.abc_searchview_description_submit;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_searchview_description_voice = global::PetLifeApp.Droid.Resource.String.abc_searchview_description_voice;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_search_hint = global::PetLifeApp.Droid.Resource.String.abc_search_hint;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_shareactionprovider_share_with = global::PetLifeApp.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_shareactionprovider_share_with_application = global::PetLifeApp.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_toolbar_collapse_description = global::PetLifeApp.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Xamarin.Forms.PancakeView.Resource.String.appbar_scrolling_view_behavior = global::PetLifeApp.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::Xamarin.Forms.PancakeView.Resource.String.bottom_sheet_behavior = global::PetLifeApp.Droid.Resource.String.bottom_sheet_behavior;
+			global::Xamarin.Forms.PancakeView.Resource.String.character_counter_content_description = global::PetLifeApp.Droid.Resource.String.character_counter_content_description;
+			global::Xamarin.Forms.PancakeView.Resource.String.character_counter_pattern = global::PetLifeApp.Droid.Resource.String.character_counter_pattern;
+			global::Xamarin.Forms.PancakeView.Resource.String.fab_transformation_scrim_behavior = global::PetLifeApp.Droid.Resource.String.fab_transformation_scrim_behavior;
+			global::Xamarin.Forms.PancakeView.Resource.String.fab_transformation_sheet_behavior = global::PetLifeApp.Droid.Resource.String.fab_transformation_sheet_behavior;
+			global::Xamarin.Forms.PancakeView.Resource.String.hide_bottom_view_on_scroll_behavior = global::PetLifeApp.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
+			global::Xamarin.Forms.PancakeView.Resource.String.mtrl_chip_close_icon_content_description = global::PetLifeApp.Droid.Resource.String.mtrl_chip_close_icon_content_description;
+			global::Xamarin.Forms.PancakeView.Resource.String.overflow_tab_title = global::PetLifeApp.Droid.Resource.String.overflow_tab_title;
+			global::Xamarin.Forms.PancakeView.Resource.String.password_toggle_content_description = global::PetLifeApp.Droid.Resource.String.password_toggle_content_description;
+			global::Xamarin.Forms.PancakeView.Resource.String.path_password_eye = global::PetLifeApp.Droid.Resource.String.path_password_eye;
+			global::Xamarin.Forms.PancakeView.Resource.String.path_password_eye_mask_strike_through = global::PetLifeApp.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::Xamarin.Forms.PancakeView.Resource.String.path_password_eye_mask_visible = global::PetLifeApp.Droid.Resource.String.path_password_eye_mask_visible;
+			global::Xamarin.Forms.PancakeView.Resource.String.path_password_strike_through = global::PetLifeApp.Droid.Resource.String.path_password_strike_through;
+			global::Xamarin.Forms.PancakeView.Resource.String.search_menu_title = global::PetLifeApp.Droid.Resource.String.search_menu_title;
+			global::Xamarin.Forms.PancakeView.Resource.String.status_bar_notification_info_overflow = global::PetLifeApp.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Xamarin.Forms.PancakeView.Resource.Style.AlertDialog_AppCompat = global::PetLifeApp.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Style.AlertDialog_AppCompat_Light = global::PetLifeApp.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Animation_AppCompat_Dialog = global::PetLifeApp.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Animation_AppCompat_DropDownUp = global::PetLifeApp.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Animation_AppCompat_Tooltip = global::PetLifeApp.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Animation_Design_BottomSheetDialog = global::PetLifeApp.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.AppCompatDialogStyle = global::PetLifeApp.Droid.Resource.Style.AppCompatDialogStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_AlertDialog_AppCompat = global::PetLifeApp.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_AlertDialog_AppCompat_Light = global::PetLifeApp.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Animation_AppCompat_Dialog = global::PetLifeApp.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::PetLifeApp.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Animation_AppCompat_Tooltip = global::PetLifeApp.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_CardView = global::PetLifeApp.Droid.Resource.Style.Base_CardView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::PetLifeApp.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_DialogWindowTitle_AppCompat = global::PetLifeApp.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat = global::PetLifeApp.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::PetLifeApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::PetLifeApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Button = global::PetLifeApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::PetLifeApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::PetLifeApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::PetLifeApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::PetLifeApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::PetLifeApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::PetLifeApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::PetLifeApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Large = global::PetLifeApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::PetLifeApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::PetLifeApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::PetLifeApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::PetLifeApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::PetLifeApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::PetLifeApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::PetLifeApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::PetLifeApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::PetLifeApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Small = global::PetLifeApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::PetLifeApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::PetLifeApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::PetLifeApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Title = global::PetLifeApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::PetLifeApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::PetLifeApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::PetLifeApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::PetLifeApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::PetLifeApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::PetLifeApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::PetLifeApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::PetLifeApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::PetLifeApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::PetLifeApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::PetLifeApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::PetLifeApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::PetLifeApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::PetLifeApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::PetLifeApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::PetLifeApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::PetLifeApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::PetLifeApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::PetLifeApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::PetLifeApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::PetLifeApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::PetLifeApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_ThemeOverlay_AppCompat = global::PetLifeApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::PetLifeApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::PetLifeApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::PetLifeApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::PetLifeApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::PetLifeApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::PetLifeApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::PetLifeApp.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::PetLifeApp.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_AppCompat = global::PetLifeApp.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::PetLifeApp.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_AppCompat_Dialog = global::PetLifeApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::PetLifeApp.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::PetLifeApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::PetLifeApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::PetLifeApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_AppCompat_Light = global::PetLifeApp.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::PetLifeApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::PetLifeApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::PetLifeApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::PetLifeApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::PetLifeApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::PetLifeApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents = global::PetLifeApp.Droid.Resource.Style.Base_Theme_MaterialComponents;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::PetLifeApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::PetLifeApp.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::PetLifeApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::PetLifeApp.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::PetLifeApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::PetLifeApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::PetLifeApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_Light = global::PetLifeApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge = global::PetLifeApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar = global::PetLifeApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::PetLifeApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::PetLifeApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::PetLifeApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::PetLifeApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::PetLifeApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::PetLifeApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::PetLifeApp.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::PetLifeApp.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V14_Theme_MaterialComponents = global::PetLifeApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::PetLifeApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::PetLifeApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::PetLifeApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::PetLifeApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::PetLifeApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::PetLifeApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::PetLifeApp.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V21_Theme_AppCompat = global::PetLifeApp.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::PetLifeApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V21_Theme_AppCompat_Light = global::PetLifeApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::PetLifeApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V22_Theme_AppCompat = global::PetLifeApp.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V22_Theme_AppCompat_Light = global::PetLifeApp.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V23_Theme_AppCompat = global::PetLifeApp.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V23_Theme_AppCompat_Light = global::PetLifeApp.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V26_Theme_AppCompat = global::PetLifeApp.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V26_Theme_AppCompat_Light = global::PetLifeApp.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::PetLifeApp.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V28_Theme_AppCompat = global::PetLifeApp.Droid.Resource.Style.Base_V28_Theme_AppCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V28_Theme_AppCompat_Light = global::PetLifeApp.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::PetLifeApp.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V7_Theme_AppCompat = global::PetLifeApp.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::PetLifeApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V7_Theme_AppCompat_Light = global::PetLifeApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::PetLifeApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::PetLifeApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::PetLifeApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::PetLifeApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ActionBar = global::PetLifeApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::PetLifeApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::PetLifeApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::PetLifeApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::PetLifeApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ActionButton = global::PetLifeApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::PetLifeApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::PetLifeApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ActionMode = global::PetLifeApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::PetLifeApp.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::PetLifeApp.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Button = global::PetLifeApp.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::PetLifeApp.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::PetLifeApp.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::PetLifeApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::PetLifeApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::PetLifeApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::PetLifeApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Button_Small = global::PetLifeApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::PetLifeApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::PetLifeApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::PetLifeApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::PetLifeApp.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::PetLifeApp.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::PetLifeApp.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_EditText = global::PetLifeApp.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ImageButton = global::PetLifeApp.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::PetLifeApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::PetLifeApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::PetLifeApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::PetLifeApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::PetLifeApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::PetLifeApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::PetLifeApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::PetLifeApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::PetLifeApp.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::PetLifeApp.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ListView = global::PetLifeApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::PetLifeApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::PetLifeApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::PetLifeApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::PetLifeApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::PetLifeApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::PetLifeApp.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::PetLifeApp.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_RatingBar = global::PetLifeApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::PetLifeApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::PetLifeApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_SearchView = global::PetLifeApp.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::PetLifeApp.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_SeekBar = global::PetLifeApp.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::PetLifeApp.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Spinner = global::PetLifeApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::PetLifeApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_TextView = global::PetLifeApp.Droid.Resource.Style.Base_Widget_AppCompat_TextView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::PetLifeApp.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Toolbar = global::PetLifeApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::PetLifeApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_Design_TabLayout = global::PetLifeApp.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_MaterialComponents_Chip = global::PetLifeApp.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::PetLifeApp.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::PetLifeApp.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Style.CardView = global::PetLifeApp.Droid.Resource.Style.CardView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.CardView_Dark = global::PetLifeApp.Droid.Resource.Style.CardView_Dark;
+			global::Xamarin.Forms.PancakeView.Resource.Style.CardView_Light = global::PetLifeApp.Droid.Resource.Style.CardView_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.collectionViewTheme = global::PetLifeApp.Droid.Resource.Style.collectionViewTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Style.MainTheme = global::PetLifeApp.Droid.Resource.Style.MainTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Style.MainTheme_Base = global::PetLifeApp.Droid.Resource.Style.MainTheme_Base;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Platform_AppCompat = global::PetLifeApp.Droid.Resource.Style.Platform_AppCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Platform_AppCompat_Light = global::PetLifeApp.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Platform_MaterialComponents = global::PetLifeApp.Droid.Resource.Style.Platform_MaterialComponents;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Platform_MaterialComponents_Dialog = global::PetLifeApp.Droid.Resource.Style.Platform_MaterialComponents_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Platform_MaterialComponents_Light = global::PetLifeApp.Droid.Resource.Style.Platform_MaterialComponents_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Platform_MaterialComponents_Light_Dialog = global::PetLifeApp.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Platform_ThemeOverlay_AppCompat = global::PetLifeApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::PetLifeApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::PetLifeApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Platform_V21_AppCompat = global::PetLifeApp.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Platform_V21_AppCompat_Light = global::PetLifeApp.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Platform_V25_AppCompat = global::PetLifeApp.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Platform_V25_AppCompat_Light = global::PetLifeApp.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Platform_Widget_AppCompat_Spinner = global::PetLifeApp.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Xamarin.Forms.PancakeView.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::PetLifeApp.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::PetLifeApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Xamarin.Forms.PancakeView.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::PetLifeApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Xamarin.Forms.PancakeView.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::PetLifeApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Xamarin.Forms.PancakeView.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::PetLifeApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Xamarin.Forms.PancakeView.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::PetLifeApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
+			global::Xamarin.Forms.PancakeView.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::PetLifeApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
+			global::Xamarin.Forms.PancakeView.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::PetLifeApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Xamarin.Forms.PancakeView.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::PetLifeApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
+			global::Xamarin.Forms.PancakeView.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::PetLifeApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::PetLifeApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Xamarin.Forms.PancakeView.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::PetLifeApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Xamarin.Forms.PancakeView.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::PetLifeApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Xamarin.Forms.PancakeView.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::PetLifeApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Xamarin.Forms.PancakeView.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::PetLifeApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Xamarin.Forms.PancakeView.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::PetLifeApp.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::Xamarin.Forms.PancakeView.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::PetLifeApp.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Xamarin.Forms.PancakeView.Resource.Style.scrollViewScrollBars = global::PetLifeApp.Droid.Resource.Style.scrollViewScrollBars;
+			global::Xamarin.Forms.PancakeView.Resource.Style.scrollViewTheme = global::PetLifeApp.Droid.Resource.Style.scrollViewTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat = global::PetLifeApp.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Body1 = global::PetLifeApp.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Body2 = global::PetLifeApp.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Button = global::PetLifeApp.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Caption = global::PetLifeApp.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Display1 = global::PetLifeApp.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Display2 = global::PetLifeApp.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Display3 = global::PetLifeApp.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Display4 = global::PetLifeApp.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Headline = global::PetLifeApp.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Inverse = global::PetLifeApp.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Large = global::PetLifeApp.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::PetLifeApp.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::PetLifeApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::PetLifeApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::PetLifeApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::PetLifeApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Medium = global::PetLifeApp.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::PetLifeApp.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Menu = global::PetLifeApp.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::PetLifeApp.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::PetLifeApp.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Small = global::PetLifeApp.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::PetLifeApp.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Subhead = global::PetLifeApp.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::PetLifeApp.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Title = global::PetLifeApp.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::PetLifeApp.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Tooltip = global::PetLifeApp.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::PetLifeApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::PetLifeApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::PetLifeApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::PetLifeApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::PetLifeApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::PetLifeApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::PetLifeApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::PetLifeApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::PetLifeApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::PetLifeApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::PetLifeApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::PetLifeApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::PetLifeApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::PetLifeApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::PetLifeApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::PetLifeApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::PetLifeApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::PetLifeApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::PetLifeApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Compat_Notification = global::PetLifeApp.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Compat_Notification_Info = global::PetLifeApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::PetLifeApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::PetLifeApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::PetLifeApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Compat_Notification_Media = global::PetLifeApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Compat_Notification_Time = global::PetLifeApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::PetLifeApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Compat_Notification_Title = global::PetLifeApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::PetLifeApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::PetLifeApp.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Design_Counter = global::PetLifeApp.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Design_Counter_Overflow = global::PetLifeApp.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Design_Error = global::PetLifeApp.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Design_HelperText = global::PetLifeApp.Droid.Resource.Style.TextAppearance_Design_HelperText;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Design_Hint = global::PetLifeApp.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Design_Snackbar_Message = global::PetLifeApp.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Design_Tab = global::PetLifeApp.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::PetLifeApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::PetLifeApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_MaterialComponents_Button = global::PetLifeApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Button;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_MaterialComponents_Caption = global::PetLifeApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_MaterialComponents_Chip = global::PetLifeApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_MaterialComponents_Headline1 = global::PetLifeApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_MaterialComponents_Headline2 = global::PetLifeApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_MaterialComponents_Headline3 = global::PetLifeApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_MaterialComponents_Headline4 = global::PetLifeApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_MaterialComponents_Headline5 = global::PetLifeApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_MaterialComponents_Headline6 = global::PetLifeApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_MaterialComponents_Overline = global::PetLifeApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::PetLifeApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::PetLifeApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::PetLifeApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::PetLifeApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::PetLifeApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_AppCompat = global::PetLifeApp.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::PetLifeApp.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_AppCompat_Dark = global::PetLifeApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::PetLifeApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_AppCompat_DayNight = global::PetLifeApp.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight;
+			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar = global::PetLifeApp.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::PetLifeApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::PetLifeApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_AppCompat_Light = global::PetLifeApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_MaterialComponents = global::PetLifeApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents;
+			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::PetLifeApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::PetLifeApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
+			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::PetLifeApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::PetLifeApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::PetLifeApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::PetLifeApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::PetLifeApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
+			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::PetLifeApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
+			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::PetLifeApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::PetLifeApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::PetLifeApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat = global::PetLifeApp.Droid.Resource.Style.Theme_AppCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_CompactMenu = global::PetLifeApp.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_DayNight = global::PetLifeApp.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::PetLifeApp.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::PetLifeApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::PetLifeApp.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::PetLifeApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::PetLifeApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::PetLifeApp.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_Dialog = global::PetLifeApp.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::PetLifeApp.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_Dialog_Alert = global::PetLifeApp.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::PetLifeApp.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_Empty = global::PetLifeApp.Droid.Resource.Style.Theme_AppCompat_Empty;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_Light = global::PetLifeApp.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::PetLifeApp.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_Light_Dialog = global::PetLifeApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::PetLifeApp.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::PetLifeApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::PetLifeApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::PetLifeApp.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_NoActionBar = global::PetLifeApp.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_Design = global::PetLifeApp.Droid.Resource.Style.Theme_Design;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_Design_BottomSheetDialog = global::PetLifeApp.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_Design_Light = global::PetLifeApp.Droid.Resource.Style.Theme_Design_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::PetLifeApp.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_Design_Light_NoActionBar = global::PetLifeApp.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_Design_NoActionBar = global::PetLifeApp.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents = global::PetLifeApp.Droid.Resource.Style.Theme_MaterialComponents;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::PetLifeApp.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_Bridge = global::PetLifeApp.Droid.Resource.Style.Theme_MaterialComponents_Bridge;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_CompactMenu = global::PetLifeApp.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_Dialog = global::PetLifeApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::PetLifeApp.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::PetLifeApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::PetLifeApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_Light = global::PetLifeApp.Droid.Resource.Style.Theme_MaterialComponents_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::PetLifeApp.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::PetLifeApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::PetLifeApp.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::PetLifeApp.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::PetLifeApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::PetLifeApp.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::PetLifeApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::PetLifeApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::PetLifeApp.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::PetLifeApp.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_NoActionBar = global::PetLifeApp.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::PetLifeApp.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ActionBar = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ActionButton = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ActionMode = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ActivityChooserView = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Button = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ButtonBar = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Button_Borderless = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Button_Colored = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Button_Small = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_EditText = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ImageButton = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ActionBar = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ActionButton = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_SearchView = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ListMenuView = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ListPopupWindow = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ListView = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ListView_DropDown = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ListView_Menu = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_PopupMenu = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_PopupWindow = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ProgressBar = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_RatingBar = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_RatingBar_Small = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_SearchView = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_SeekBar = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Spinner = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_TextView = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_TextView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Toolbar = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::PetLifeApp.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_Compat_NotificationActionContainer = global::PetLifeApp.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_Compat_NotificationActionText = global::PetLifeApp.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_Design_AppBarLayout = global::PetLifeApp.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_Design_BottomNavigationView = global::PetLifeApp.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_Design_BottomSheet_Modal = global::PetLifeApp.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_Design_CollapsingToolbar = global::PetLifeApp.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_Design_FloatingActionButton = global::PetLifeApp.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_Design_NavigationView = global::PetLifeApp.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::PetLifeApp.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_Design_Snackbar = global::PetLifeApp.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_Design_TabLayout = global::PetLifeApp.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_Design_TextInputLayout = global::PetLifeApp.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::PetLifeApp.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::PetLifeApp.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::PetLifeApp.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::PetLifeApp.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::PetLifeApp.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Button = global::PetLifeApp.Droid.Resource.Style.Widget_MaterialComponents_Button;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Button_Icon = global::PetLifeApp.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton = global::PetLifeApp.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::PetLifeApp.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::PetLifeApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::PetLifeApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::PetLifeApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::PetLifeApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::PetLifeApp.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::PetLifeApp.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_CardView = global::PetLifeApp.Droid.Resource.Style.Widget_MaterialComponents_CardView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_ChipGroup = global::PetLifeApp.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Chip_Action = global::PetLifeApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::PetLifeApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::PetLifeApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::PetLifeApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::PetLifeApp.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_NavigationView = global::PetLifeApp.Droid.Resource.Style.Widget_MaterialComponents_NavigationView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Snackbar = global::PetLifeApp.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::PetLifeApp.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_TabLayout = global::PetLifeApp.Droid.Resource.Style.Widget_MaterialComponents_TabLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::PetLifeApp.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::PetLifeApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::PetLifeApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::PetLifeApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::PetLifeApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::PetLifeApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::PetLifeApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::PetLifeApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::PetLifeApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Toolbar = global::PetLifeApp.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_Support_CoordinatorLayout = global::PetLifeApp.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar = global::PetLifeApp.Droid.Resource.Styleable.ActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBarLayout = global::PetLifeApp.Droid.Resource.Styleable.ActionBarLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::PetLifeApp.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_background = global::PetLifeApp.Droid.Resource.Styleable.ActionBar_background;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_backgroundSplit = global::PetLifeApp.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_backgroundStacked = global::PetLifeApp.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_contentInsetEnd = global::PetLifeApp.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::PetLifeApp.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_contentInsetLeft = global::PetLifeApp.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_contentInsetRight = global::PetLifeApp.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_contentInsetStart = global::PetLifeApp.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::PetLifeApp.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_customNavigationLayout = global::PetLifeApp.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_displayOptions = global::PetLifeApp.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_divider = global::PetLifeApp.Droid.Resource.Styleable.ActionBar_divider;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_elevation = global::PetLifeApp.Droid.Resource.Styleable.ActionBar_elevation;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_height = global::PetLifeApp.Droid.Resource.Styleable.ActionBar_height;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_hideOnContentScroll = global::PetLifeApp.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_homeAsUpIndicator = global::PetLifeApp.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_homeLayout = global::PetLifeApp.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_icon = global::PetLifeApp.Droid.Resource.Styleable.ActionBar_icon;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::PetLifeApp.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_itemPadding = global::PetLifeApp.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_logo = global::PetLifeApp.Droid.Resource.Styleable.ActionBar_logo;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_navigationMode = global::PetLifeApp.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_popupTheme = global::PetLifeApp.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_progressBarPadding = global::PetLifeApp.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_progressBarStyle = global::PetLifeApp.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_subtitle = global::PetLifeApp.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_subtitleTextStyle = global::PetLifeApp.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_title = global::PetLifeApp.Droid.Resource.Styleable.ActionBar_title;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_titleTextStyle = global::PetLifeApp.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionMenuItemView = global::PetLifeApp.Droid.Resource.Styleable.ActionMenuItemView;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionMenuItemView_android_minWidth = global::PetLifeApp.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionMenuView = global::PetLifeApp.Droid.Resource.Styleable.ActionMenuView;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionMode = global::PetLifeApp.Droid.Resource.Styleable.ActionMode;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionMode_background = global::PetLifeApp.Droid.Resource.Styleable.ActionMode_background;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionMode_backgroundSplit = global::PetLifeApp.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionMode_closeItemLayout = global::PetLifeApp.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionMode_height = global::PetLifeApp.Droid.Resource.Styleable.ActionMode_height;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionMode_subtitleTextStyle = global::PetLifeApp.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionMode_titleTextStyle = global::PetLifeApp.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActivityChooserView = global::PetLifeApp.Droid.Resource.Styleable.ActivityChooserView;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::PetLifeApp.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActivityChooserView_initialActivityCount = global::PetLifeApp.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AlertDialog = global::PetLifeApp.Droid.Resource.Styleable.AlertDialog;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AlertDialog_android_layout = global::PetLifeApp.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AlertDialog_buttonIconDimen = global::PetLifeApp.Droid.Resource.Styleable.AlertDialog_buttonIconDimen;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::PetLifeApp.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AlertDialog_listItemLayout = global::PetLifeApp.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AlertDialog_listLayout = global::PetLifeApp.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::PetLifeApp.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AlertDialog_showTitle = global::PetLifeApp.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::PetLifeApp.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AnimatedStateListDrawableCompat = global::PetLifeApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::PetLifeApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::PetLifeApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::PetLifeApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::PetLifeApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::PetLifeApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::PetLifeApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AnimatedStateListDrawableItem = global::PetLifeApp.Droid.Resource.Styleable.AnimatedStateListDrawableItem;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::PetLifeApp.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::PetLifeApp.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AnimatedStateListDrawableTransition = global::PetLifeApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::PetLifeApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::PetLifeApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::PetLifeApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::PetLifeApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppBarLayout = global::PetLifeApp.Droid.Resource.Styleable.AppBarLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppBarLayoutStates = global::PetLifeApp.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::PetLifeApp.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::PetLifeApp.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppBarLayoutStates_state_liftable = global::PetLifeApp.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppBarLayoutStates_state_lifted = global::PetLifeApp.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppBarLayout_android_background = global::PetLifeApp.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::PetLifeApp.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::PetLifeApp.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppBarLayout_elevation = global::PetLifeApp.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppBarLayout_expanded = global::PetLifeApp.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppBarLayout_Layout = global::PetLifeApp.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::PetLifeApp.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::PetLifeApp.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppBarLayout_liftOnScroll = global::PetLifeApp.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatImageView = global::PetLifeApp.Droid.Resource.Styleable.AppCompatImageView;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatImageView_android_src = global::PetLifeApp.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatImageView_srcCompat = global::PetLifeApp.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatImageView_tint = global::PetLifeApp.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatImageView_tintMode = global::PetLifeApp.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatSeekBar = global::PetLifeApp.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatSeekBar_android_thumb = global::PetLifeApp.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatSeekBar_tickMark = global::PetLifeApp.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::PetLifeApp.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::PetLifeApp.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextHelper = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTextView;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_android_textAppearance = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_drawableBottomCompat = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTextView_drawableBottomCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_drawableEndCompat = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTextView_drawableEndCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_drawableLeftCompat = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTextView_drawableLeftCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_drawableRightCompat = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTextView_drawableRightCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_drawableStartCompat = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTextView_drawableStartCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_drawableTint = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTextView_drawableTint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_drawableTintMode = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTextView_drawableTintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_drawableTopCompat = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTextView_drawableTopCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_fontFamily = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_fontVariationSettings = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTextView_fontVariationSettings;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_lineHeight = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTextView_lineHeight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_textAllCaps = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_textLocale = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTextView_textLocale;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionBarDivider = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionBarSize = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionBarStyle = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionBarTheme = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionModeBackground = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionModeStyle = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_buttonStyle = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_checkboxStyle = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_colorAccent = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_colorControlActivated = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_colorControlNormal = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_colorError = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_colorPrimary = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_controlBackground = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_dialogTheme = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_dividerVertical = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_editTextBackground = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_editTextColor = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_editTextStyle = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_panelBackground = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_searchViewStyle = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_seekBarStyle = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_spinnerStyle = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_switchStyle = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_toolbarStyle = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_windowActionBar = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_windowNoTitle = global::PetLifeApp.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomAppBar = global::PetLifeApp.Droid.Resource.Styleable.BottomAppBar;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomAppBar_backgroundTint = global::PetLifeApp.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::PetLifeApp.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomAppBar_fabCradleMargin = global::PetLifeApp.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::PetLifeApp.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::PetLifeApp.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomAppBar_hideOnScroll = global::PetLifeApp.Droid.Resource.Styleable.BottomAppBar_hideOnScroll;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomNavigationView = global::PetLifeApp.Droid.Resource.Styleable.BottomNavigationView;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::PetLifeApp.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomSheetBehavior_Layout = global::PetLifeApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::PetLifeApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::PetLifeApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::PetLifeApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::PetLifeApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ButtonBarLayout = global::PetLifeApp.Droid.Resource.Styleable.ButtonBarLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ButtonBarLayout_allowStacking = global::PetLifeApp.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CardView = global::PetLifeApp.Droid.Resource.Styleable.CardView;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CardView_android_minHeight = global::PetLifeApp.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CardView_android_minWidth = global::PetLifeApp.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CardView_cardBackgroundColor = global::PetLifeApp.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CardView_cardCornerRadius = global::PetLifeApp.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CardView_cardElevation = global::PetLifeApp.Droid.Resource.Styleable.CardView_cardElevation;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CardView_cardMaxElevation = global::PetLifeApp.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CardView_cardPreventCornerOverlap = global::PetLifeApp.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CardView_cardUseCompatPadding = global::PetLifeApp.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CardView_contentPadding = global::PetLifeApp.Droid.Resource.Styleable.CardView_contentPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CardView_contentPaddingBottom = global::PetLifeApp.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CardView_contentPaddingLeft = global::PetLifeApp.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CardView_contentPaddingRight = global::PetLifeApp.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CardView_contentPaddingTop = global::PetLifeApp.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip = global::PetLifeApp.Droid.Resource.Styleable.Chip;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ChipGroup = global::PetLifeApp.Droid.Resource.Styleable.ChipGroup;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ChipGroup_checkedChip = global::PetLifeApp.Droid.Resource.Styleable.ChipGroup_checkedChip;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ChipGroup_chipSpacing = global::PetLifeApp.Droid.Resource.Styleable.ChipGroup_chipSpacing;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::PetLifeApp.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ChipGroup_chipSpacingVertical = global::PetLifeApp.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ChipGroup_singleLine = global::PetLifeApp.Droid.Resource.Styleable.ChipGroup_singleLine;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ChipGroup_singleSelection = global::PetLifeApp.Droid.Resource.Styleable.ChipGroup_singleSelection;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_android_checkable = global::PetLifeApp.Droid.Resource.Styleable.Chip_android_checkable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_android_ellipsize = global::PetLifeApp.Droid.Resource.Styleable.Chip_android_ellipsize;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_android_maxWidth = global::PetLifeApp.Droid.Resource.Styleable.Chip_android_maxWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_android_text = global::PetLifeApp.Droid.Resource.Styleable.Chip_android_text;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_android_textAppearance = global::PetLifeApp.Droid.Resource.Styleable.Chip_android_textAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_checkedIcon = global::PetLifeApp.Droid.Resource.Styleable.Chip_checkedIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_checkedIconEnabled = global::PetLifeApp.Droid.Resource.Styleable.Chip_checkedIconEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_checkedIconVisible = global::PetLifeApp.Droid.Resource.Styleable.Chip_checkedIconVisible;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_chipBackgroundColor = global::PetLifeApp.Droid.Resource.Styleable.Chip_chipBackgroundColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_chipCornerRadius = global::PetLifeApp.Droid.Resource.Styleable.Chip_chipCornerRadius;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_chipEndPadding = global::PetLifeApp.Droid.Resource.Styleable.Chip_chipEndPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_chipIcon = global::PetLifeApp.Droid.Resource.Styleable.Chip_chipIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_chipIconEnabled = global::PetLifeApp.Droid.Resource.Styleable.Chip_chipIconEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_chipIconSize = global::PetLifeApp.Droid.Resource.Styleable.Chip_chipIconSize;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_chipIconTint = global::PetLifeApp.Droid.Resource.Styleable.Chip_chipIconTint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_chipIconVisible = global::PetLifeApp.Droid.Resource.Styleable.Chip_chipIconVisible;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_chipMinHeight = global::PetLifeApp.Droid.Resource.Styleable.Chip_chipMinHeight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_chipStartPadding = global::PetLifeApp.Droid.Resource.Styleable.Chip_chipStartPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_chipStrokeColor = global::PetLifeApp.Droid.Resource.Styleable.Chip_chipStrokeColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_chipStrokeWidth = global::PetLifeApp.Droid.Resource.Styleable.Chip_chipStrokeWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_closeIcon = global::PetLifeApp.Droid.Resource.Styleable.Chip_closeIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_closeIconEnabled = global::PetLifeApp.Droid.Resource.Styleable.Chip_closeIconEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_closeIconEndPadding = global::PetLifeApp.Droid.Resource.Styleable.Chip_closeIconEndPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_closeIconSize = global::PetLifeApp.Droid.Resource.Styleable.Chip_closeIconSize;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_closeIconStartPadding = global::PetLifeApp.Droid.Resource.Styleable.Chip_closeIconStartPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_closeIconTint = global::PetLifeApp.Droid.Resource.Styleable.Chip_closeIconTint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_closeIconVisible = global::PetLifeApp.Droid.Resource.Styleable.Chip_closeIconVisible;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_hideMotionSpec = global::PetLifeApp.Droid.Resource.Styleable.Chip_hideMotionSpec;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_iconEndPadding = global::PetLifeApp.Droid.Resource.Styleable.Chip_iconEndPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_iconStartPadding = global::PetLifeApp.Droid.Resource.Styleable.Chip_iconStartPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_rippleColor = global::PetLifeApp.Droid.Resource.Styleable.Chip_rippleColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_showMotionSpec = global::PetLifeApp.Droid.Resource.Styleable.Chip_showMotionSpec;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_textEndPadding = global::PetLifeApp.Droid.Resource.Styleable.Chip_textEndPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_textStartPadding = global::PetLifeApp.Droid.Resource.Styleable.Chip_textStartPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout = global::PetLifeApp.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::PetLifeApp.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::PetLifeApp.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::PetLifeApp.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::PetLifeApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::PetLifeApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::PetLifeApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::PetLifeApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::PetLifeApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::PetLifeApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::PetLifeApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_Layout = global::PetLifeApp.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::PetLifeApp.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::PetLifeApp.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::PetLifeApp.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::PetLifeApp.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::PetLifeApp.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_title = global::PetLifeApp.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::PetLifeApp.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::PetLifeApp.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ColorStateListItem = global::PetLifeApp.Droid.Resource.Styleable.ColorStateListItem;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ColorStateListItem_alpha = global::PetLifeApp.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ColorStateListItem_android_alpha = global::PetLifeApp.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ColorStateListItem_android_color = global::PetLifeApp.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CompoundButton = global::PetLifeApp.Droid.Resource.Styleable.CompoundButton;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CompoundButton_android_button = global::PetLifeApp.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CompoundButton_buttonCompat = global::PetLifeApp.Droid.Resource.Styleable.CompoundButton_buttonCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CompoundButton_buttonTint = global::PetLifeApp.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CompoundButton_buttonTintMode = global::PetLifeApp.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CoordinatorLayout = global::PetLifeApp.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CoordinatorLayout_keylines = global::PetLifeApp.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CoordinatorLayout_Layout = global::PetLifeApp.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::PetLifeApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::PetLifeApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::PetLifeApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::PetLifeApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::PetLifeApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::PetLifeApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::PetLifeApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::PetLifeApp.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.DrawerArrowToggle = global::PetLifeApp.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::PetLifeApp.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::PetLifeApp.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.DrawerArrowToggle_barLength = global::PetLifeApp.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.DrawerArrowToggle_color = global::PetLifeApp.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.DrawerArrowToggle_drawableSize = global::PetLifeApp.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::PetLifeApp.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.DrawerArrowToggle_spinBars = global::PetLifeApp.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.DrawerArrowToggle_thickness = global::PetLifeApp.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton = global::PetLifeApp.Droid.Resource.Styleable.FloatingActionButton;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton_backgroundTint = global::PetLifeApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::PetLifeApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::PetLifeApp.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::PetLifeApp.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton_borderWidth = global::PetLifeApp.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton_elevation = global::PetLifeApp.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton_fabCustomSize = global::PetLifeApp.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton_fabSize = global::PetLifeApp.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::PetLifeApp.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ = global::PetLifeApp.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton_maxImageSize = global::PetLifeApp.Droid.Resource.Styleable.FloatingActionButton_maxImageSize;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::PetLifeApp.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton_rippleColor = global::PetLifeApp.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton_showMotionSpec = global::PetLifeApp.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton_useCompatPadding = global::PetLifeApp.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FlowLayout = global::PetLifeApp.Droid.Resource.Styleable.FlowLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FlowLayout_itemSpacing = global::PetLifeApp.Droid.Resource.Styleable.FlowLayout_itemSpacing;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FlowLayout_lineSpacing = global::PetLifeApp.Droid.Resource.Styleable.FlowLayout_lineSpacing;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamily = global::PetLifeApp.Droid.Resource.Styleable.FontFamily;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamilyFont = global::PetLifeApp.Droid.Resource.Styleable.FontFamilyFont;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamilyFont_android_font = global::PetLifeApp.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamilyFont_android_fontStyle = global::PetLifeApp.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::PetLifeApp.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamilyFont_android_fontWeight = global::PetLifeApp.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::PetLifeApp.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamilyFont_font = global::PetLifeApp.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamilyFont_fontStyle = global::PetLifeApp.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::PetLifeApp.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamilyFont_fontWeight = global::PetLifeApp.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamilyFont_ttcIndex = global::PetLifeApp.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamily_fontProviderAuthority = global::PetLifeApp.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamily_fontProviderCerts = global::PetLifeApp.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::PetLifeApp.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::PetLifeApp.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamily_fontProviderPackage = global::PetLifeApp.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamily_fontProviderQuery = global::PetLifeApp.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ForegroundLinearLayout = global::PetLifeApp.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::PetLifeApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::PetLifeApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::PetLifeApp.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Fragment = global::PetLifeApp.Droid.Resource.Styleable.Fragment;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FragmentContainerView = global::PetLifeApp.Droid.Resource.Styleable.FragmentContainerView;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FragmentContainerView_android_name = global::PetLifeApp.Droid.Resource.Styleable.FragmentContainerView_android_name;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FragmentContainerView_android_tag = global::PetLifeApp.Droid.Resource.Styleable.FragmentContainerView_android_tag;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Fragment_android_id = global::PetLifeApp.Droid.Resource.Styleable.Fragment_android_id;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Fragment_android_name = global::PetLifeApp.Droid.Resource.Styleable.Fragment_android_name;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Fragment_android_tag = global::PetLifeApp.Droid.Resource.Styleable.Fragment_android_tag;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColor = global::PetLifeApp.Droid.Resource.Styleable.GradientColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColorItem = global::PetLifeApp.Droid.Resource.Styleable.GradientColorItem;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColorItem_android_color = global::PetLifeApp.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColorItem_android_offset = global::PetLifeApp.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColor_android_centerColor = global::PetLifeApp.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColor_android_centerX = global::PetLifeApp.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColor_android_centerY = global::PetLifeApp.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColor_android_endColor = global::PetLifeApp.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColor_android_endX = global::PetLifeApp.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColor_android_endY = global::PetLifeApp.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColor_android_gradientRadius = global::PetLifeApp.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColor_android_startColor = global::PetLifeApp.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColor_android_startX = global::PetLifeApp.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColor_android_startY = global::PetLifeApp.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColor_android_tileMode = global::PetLifeApp.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColor_android_type = global::PetLifeApp.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ItemsViewRendererTheme = global::PetLifeApp.Droid.Resource.Styleable.ItemsViewRendererTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle = global::PetLifeApp.Droid.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.LinearLayoutCompat = global::PetLifeApp.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::PetLifeApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::PetLifeApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.LinearLayoutCompat_android_gravity = global::PetLifeApp.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.LinearLayoutCompat_android_orientation = global::PetLifeApp.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::PetLifeApp.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.LinearLayoutCompat_divider = global::PetLifeApp.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::PetLifeApp.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.LinearLayoutCompat_Layout = global::PetLifeApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::PetLifeApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::PetLifeApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::PetLifeApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::PetLifeApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::PetLifeApp.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.LinearLayoutCompat_showDividers = global::PetLifeApp.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ListPopupWindow = global::PetLifeApp.Droid.Resource.Styleable.ListPopupWindow;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::PetLifeApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::PetLifeApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton = global::PetLifeApp.Droid.Resource.Styleable.MaterialButton;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_android_insetBottom = global::PetLifeApp.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_android_insetLeft = global::PetLifeApp.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_android_insetRight = global::PetLifeApp.Droid.Resource.Styleable.MaterialButton_android_insetRight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_android_insetTop = global::PetLifeApp.Droid.Resource.Styleable.MaterialButton_android_insetTop;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_backgroundTint = global::PetLifeApp.Droid.Resource.Styleable.MaterialButton_backgroundTint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_backgroundTintMode = global::PetLifeApp.Droid.Resource.Styleable.MaterialButton_backgroundTintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_cornerRadius = global::PetLifeApp.Droid.Resource.Styleable.MaterialButton_cornerRadius;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_icon = global::PetLifeApp.Droid.Resource.Styleable.MaterialButton_icon;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_iconGravity = global::PetLifeApp.Droid.Resource.Styleable.MaterialButton_iconGravity;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_iconPadding = global::PetLifeApp.Droid.Resource.Styleable.MaterialButton_iconPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_iconSize = global::PetLifeApp.Droid.Resource.Styleable.MaterialButton_iconSize;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_iconTint = global::PetLifeApp.Droid.Resource.Styleable.MaterialButton_iconTint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_iconTintMode = global::PetLifeApp.Droid.Resource.Styleable.MaterialButton_iconTintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_rippleColor = global::PetLifeApp.Droid.Resource.Styleable.MaterialButton_rippleColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_strokeColor = global::PetLifeApp.Droid.Resource.Styleable.MaterialButton_strokeColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_strokeWidth = global::PetLifeApp.Droid.Resource.Styleable.MaterialButton_strokeWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialCardView = global::PetLifeApp.Droid.Resource.Styleable.MaterialCardView;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialCardView_strokeColor = global::PetLifeApp.Droid.Resource.Styleable.MaterialCardView_strokeColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialCardView_strokeWidth = global::PetLifeApp.Droid.Resource.Styleable.MaterialCardView_strokeWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuGroup = global::PetLifeApp.Droid.Resource.Styleable.MenuGroup;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuGroup_android_checkableBehavior = global::PetLifeApp.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuGroup_android_enabled = global::PetLifeApp.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuGroup_android_id = global::PetLifeApp.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuGroup_android_menuCategory = global::PetLifeApp.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuGroup_android_orderInCategory = global::PetLifeApp.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuGroup_android_visible = global::PetLifeApp.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem = global::PetLifeApp.Droid.Resource.Styleable.MenuItem;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_actionLayout = global::PetLifeApp.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_actionProviderClass = global::PetLifeApp.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_actionViewClass = global::PetLifeApp.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_alphabeticModifiers = global::PetLifeApp.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::PetLifeApp.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_android_checkable = global::PetLifeApp.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_android_checked = global::PetLifeApp.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_android_enabled = global::PetLifeApp.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_android_icon = global::PetLifeApp.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_android_id = global::PetLifeApp.Droid.Resource.Styleable.MenuItem_android_id;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_android_menuCategory = global::PetLifeApp.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_android_numericShortcut = global::PetLifeApp.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_android_onClick = global::PetLifeApp.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_android_orderInCategory = global::PetLifeApp.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_android_title = global::PetLifeApp.Droid.Resource.Styleable.MenuItem_android_title;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_android_titleCondensed = global::PetLifeApp.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_android_visible = global::PetLifeApp.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_contentDescription = global::PetLifeApp.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_iconTint = global::PetLifeApp.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_iconTintMode = global::PetLifeApp.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_numericModifiers = global::PetLifeApp.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_showAsAction = global::PetLifeApp.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_tooltipText = global::PetLifeApp.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuView = global::PetLifeApp.Droid.Resource.Styleable.MenuView;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuView_android_headerBackground = global::PetLifeApp.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuView_android_horizontalDivider = global::PetLifeApp.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuView_android_itemBackground = global::PetLifeApp.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::PetLifeApp.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuView_android_itemTextAppearance = global::PetLifeApp.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuView_android_verticalDivider = global::PetLifeApp.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuView_android_windowAnimationStyle = global::PetLifeApp.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuView_preserveIconSpacing = global::PetLifeApp.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuView_subMenuArrow = global::PetLifeApp.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.NavigationView = global::PetLifeApp.Droid.Resource.Styleable.NavigationView;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.NavigationView_android_background = global::PetLifeApp.Droid.Resource.Styleable.NavigationView_android_background;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::PetLifeApp.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.NavigationView_android_maxWidth = global::PetLifeApp.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.NavigationView_elevation = global::PetLifeApp.Droid.Resource.Styleable.NavigationView_elevation;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.NavigationView_headerLayout = global::PetLifeApp.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.NavigationView_itemBackground = global::PetLifeApp.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.NavigationView_itemHorizontalPadding = global::PetLifeApp.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.NavigationView_itemIconPadding = global::PetLifeApp.Droid.Resource.Styleable.NavigationView_itemIconPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.NavigationView_itemIconTint = global::PetLifeApp.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.NavigationView_itemTextAppearance = global::PetLifeApp.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.NavigationView_itemTextColor = global::PetLifeApp.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.NavigationView_menu = global::PetLifeApp.Droid.Resource.Styleable.NavigationView_menu;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.PopupWindow = global::PetLifeApp.Droid.Resource.Styleable.PopupWindow;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.PopupWindowBackgroundState = global::PetLifeApp.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::PetLifeApp.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::PetLifeApp.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.PopupWindow_android_popupBackground = global::PetLifeApp.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.PopupWindow_overlapAnchor = global::PetLifeApp.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.RecycleListView = global::PetLifeApp.Droid.Resource.Styleable.RecycleListView;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::PetLifeApp.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::PetLifeApp.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.RecyclerView = global::PetLifeApp.Droid.Resource.Styleable.RecyclerView;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.RecyclerView_android_clipToPadding = global::PetLifeApp.Droid.Resource.Styleable.RecyclerView_android_clipToPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.RecyclerView_android_descendantFocusability = global::PetLifeApp.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.RecyclerView_android_orientation = global::PetLifeApp.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.RecyclerView_fastScrollEnabled = global::PetLifeApp.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::PetLifeApp.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::PetLifeApp.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::PetLifeApp.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::PetLifeApp.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.RecyclerView_layoutManager = global::PetLifeApp.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.RecyclerView_reverseLayout = global::PetLifeApp.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.RecyclerView_spanCount = global::PetLifeApp.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.RecyclerView_stackFromEnd = global::PetLifeApp.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ScrimInsetsFrameLayout = global::PetLifeApp.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::PetLifeApp.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ScrollingViewBehavior_Layout = global::PetLifeApp.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::PetLifeApp.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ScrollViewRendererTheme = global::PetLifeApp.Droid.Resource.Styleable.ScrollViewRendererTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ScrollViewRendererTheme_scrollViewStyle = global::PetLifeApp.Droid.Resource.Styleable.ScrollViewRendererTheme_scrollViewStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView = global::PetLifeApp.Droid.Resource.Styleable.SearchView;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_android_focusable = global::PetLifeApp.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_android_imeOptions = global::PetLifeApp.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_android_inputType = global::PetLifeApp.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_android_maxWidth = global::PetLifeApp.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_closeIcon = global::PetLifeApp.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_commitIcon = global::PetLifeApp.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_defaultQueryHint = global::PetLifeApp.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_goIcon = global::PetLifeApp.Droid.Resource.Styleable.SearchView_goIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_iconifiedByDefault = global::PetLifeApp.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_layout = global::PetLifeApp.Droid.Resource.Styleable.SearchView_layout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_queryBackground = global::PetLifeApp.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_queryHint = global::PetLifeApp.Droid.Resource.Styleable.SearchView_queryHint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_searchHintIcon = global::PetLifeApp.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_searchIcon = global::PetLifeApp.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_submitBackground = global::PetLifeApp.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_suggestionRowLayout = global::PetLifeApp.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_voiceIcon = global::PetLifeApp.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Snackbar = global::PetLifeApp.Droid.Resource.Styleable.Snackbar;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SnackbarLayout = global::PetLifeApp.Droid.Resource.Styleable.SnackbarLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SnackbarLayout_android_maxWidth = global::PetLifeApp.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SnackbarLayout_elevation = global::PetLifeApp.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::PetLifeApp.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Snackbar_snackbarButtonStyle = global::PetLifeApp.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Snackbar_snackbarStyle = global::PetLifeApp.Droid.Resource.Styleable.Snackbar_snackbarStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Spinner = global::PetLifeApp.Droid.Resource.Styleable.Spinner;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Spinner_android_dropDownWidth = global::PetLifeApp.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Spinner_android_entries = global::PetLifeApp.Droid.Resource.Styleable.Spinner_android_entries;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Spinner_android_popupBackground = global::PetLifeApp.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Spinner_android_prompt = global::PetLifeApp.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Spinner_popupTheme = global::PetLifeApp.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.StateListDrawable = global::PetLifeApp.Droid.Resource.Styleable.StateListDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.StateListDrawableItem = global::PetLifeApp.Droid.Resource.Styleable.StateListDrawableItem;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.StateListDrawableItem_android_drawable = global::PetLifeApp.Droid.Resource.Styleable.StateListDrawableItem_android_drawable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.StateListDrawable_android_constantSize = global::PetLifeApp.Droid.Resource.Styleable.StateListDrawable_android_constantSize;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.StateListDrawable_android_dither = global::PetLifeApp.Droid.Resource.Styleable.StateListDrawable_android_dither;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::PetLifeApp.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::PetLifeApp.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.StateListDrawable_android_variablePadding = global::PetLifeApp.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.StateListDrawable_android_visible = global::PetLifeApp.Droid.Resource.Styleable.StateListDrawable_android_visible;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SwitchCompat = global::PetLifeApp.Droid.Resource.Styleable.SwitchCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SwitchCompat_android_textOff = global::PetLifeApp.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SwitchCompat_android_textOn = global::PetLifeApp.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SwitchCompat_android_thumb = global::PetLifeApp.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SwitchCompat_showText = global::PetLifeApp.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SwitchCompat_splitTrack = global::PetLifeApp.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SwitchCompat_switchMinWidth = global::PetLifeApp.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SwitchCompat_switchPadding = global::PetLifeApp.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SwitchCompat_switchTextAppearance = global::PetLifeApp.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SwitchCompat_thumbTextPadding = global::PetLifeApp.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SwitchCompat_thumbTint = global::PetLifeApp.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SwitchCompat_thumbTintMode = global::PetLifeApp.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SwitchCompat_track = global::PetLifeApp.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SwitchCompat_trackTint = global::PetLifeApp.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SwitchCompat_trackTintMode = global::PetLifeApp.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabItem = global::PetLifeApp.Droid.Resource.Styleable.TabItem;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabItem_android_icon = global::PetLifeApp.Droid.Resource.Styleable.TabItem_android_icon;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabItem_android_layout = global::PetLifeApp.Droid.Resource.Styleable.TabItem_android_layout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabItem_android_text = global::PetLifeApp.Droid.Resource.Styleable.TabItem_android_text;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout = global::PetLifeApp.Droid.Resource.Styleable.TabLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabBackground = global::PetLifeApp.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabContentStart = global::PetLifeApp.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabGravity = global::PetLifeApp.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabIconTint = global::PetLifeApp.Droid.Resource.Styleable.TabLayout_tabIconTint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabIconTintMode = global::PetLifeApp.Droid.Resource.Styleable.TabLayout_tabIconTintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabIndicator = global::PetLifeApp.Droid.Resource.Styleable.TabLayout_tabIndicator;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration = global::PetLifeApp.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabIndicatorColor = global::PetLifeApp.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabIndicatorFullWidth = global::PetLifeApp.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabIndicatorGravity = global::PetLifeApp.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabIndicatorHeight = global::PetLifeApp.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabInlineLabel = global::PetLifeApp.Droid.Resource.Styleable.TabLayout_tabInlineLabel;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabMaxWidth = global::PetLifeApp.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabMinWidth = global::PetLifeApp.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabMode = global::PetLifeApp.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabPadding = global::PetLifeApp.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabPaddingBottom = global::PetLifeApp.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabPaddingEnd = global::PetLifeApp.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabPaddingStart = global::PetLifeApp.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabPaddingTop = global::PetLifeApp.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabRippleColor = global::PetLifeApp.Droid.Resource.Styleable.TabLayout_tabRippleColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabSelectedTextColor = global::PetLifeApp.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabTextAppearance = global::PetLifeApp.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabTextColor = global::PetLifeApp.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabUnboundedRipple = global::PetLifeApp.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextAppearance = global::PetLifeApp.Droid.Resource.Styleable.TextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextAppearance_android_fontFamily = global::PetLifeApp.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextAppearance_android_shadowColor = global::PetLifeApp.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextAppearance_android_shadowDx = global::PetLifeApp.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextAppearance_android_shadowDy = global::PetLifeApp.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextAppearance_android_shadowRadius = global::PetLifeApp.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextAppearance_android_textColor = global::PetLifeApp.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextAppearance_android_textColorHint = global::PetLifeApp.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextAppearance_android_textColorLink = global::PetLifeApp.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextAppearance_android_textFontWeight = global::PetLifeApp.Droid.Resource.Styleable.TextAppearance_android_textFontWeight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextAppearance_android_textSize = global::PetLifeApp.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextAppearance_android_textStyle = global::PetLifeApp.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextAppearance_android_typeface = global::PetLifeApp.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextAppearance_fontFamily = global::PetLifeApp.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextAppearance_fontVariationSettings = global::PetLifeApp.Droid.Resource.Styleable.TextAppearance_fontVariationSettings;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextAppearance_textAllCaps = global::PetLifeApp.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextAppearance_textLocale = global::PetLifeApp.Droid.Resource.Styleable.TextAppearance_textLocale;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout = global::PetLifeApp.Droid.Resource.Styleable.TextInputLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_android_hint = global::PetLifeApp.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_android_textColorHint = global::PetLifeApp.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::PetLifeApp.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_boxBackgroundMode = global::PetLifeApp.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop = global::PetLifeApp.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd = global::PetLifeApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart = global::PetLifeApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::PetLifeApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::PetLifeApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_boxStrokeColor = global::PetLifeApp.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::PetLifeApp.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_counterEnabled = global::PetLifeApp.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_counterMaxLength = global::PetLifeApp.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::PetLifeApp.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_counterTextAppearance = global::PetLifeApp.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_errorEnabled = global::PetLifeApp.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_errorTextAppearance = global::PetLifeApp.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_helperText = global::PetLifeApp.Droid.Resource.Styleable.TextInputLayout_helperText;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_helperTextEnabled = global::PetLifeApp.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::PetLifeApp.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::PetLifeApp.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_hintEnabled = global::PetLifeApp.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_hintTextAppearance = global::PetLifeApp.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::PetLifeApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::PetLifeApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::PetLifeApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_passwordToggleTint = global::PetLifeApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::PetLifeApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ThemeEnforcement = global::PetLifeApp.Droid.Resource.Styleable.ThemeEnforcement;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::PetLifeApp.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::PetLifeApp.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ThemeEnforcement_enforceTextAppearance = global::PetLifeApp.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar = global::PetLifeApp.Droid.Resource.Styleable.Toolbar;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_android_gravity = global::PetLifeApp.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_android_minHeight = global::PetLifeApp.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_buttonGravity = global::PetLifeApp.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_collapseContentDescription = global::PetLifeApp.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_collapseIcon = global::PetLifeApp.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_contentInsetEnd = global::PetLifeApp.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::PetLifeApp.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_contentInsetLeft = global::PetLifeApp.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_contentInsetRight = global::PetLifeApp.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_contentInsetStart = global::PetLifeApp.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::PetLifeApp.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_logo = global::PetLifeApp.Droid.Resource.Styleable.Toolbar_logo;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_logoDescription = global::PetLifeApp.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_maxButtonHeight = global::PetLifeApp.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_menu = global::PetLifeApp.Droid.Resource.Styleable.Toolbar_menu;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_navigationContentDescription = global::PetLifeApp.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_navigationIcon = global::PetLifeApp.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_popupTheme = global::PetLifeApp.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_subtitle = global::PetLifeApp.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_subtitleTextAppearance = global::PetLifeApp.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_subtitleTextColor = global::PetLifeApp.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_title = global::PetLifeApp.Droid.Resource.Styleable.Toolbar_title;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_titleMargin = global::PetLifeApp.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_titleMarginBottom = global::PetLifeApp.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_titleMarginEnd = global::PetLifeApp.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_titleMargins = global::PetLifeApp.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_titleMarginStart = global::PetLifeApp.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_titleMarginTop = global::PetLifeApp.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_titleTextAppearance = global::PetLifeApp.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_titleTextColor = global::PetLifeApp.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.View = global::PetLifeApp.Droid.Resource.Styleable.View;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ViewBackgroundHelper = global::PetLifeApp.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ViewBackgroundHelper_android_background = global::PetLifeApp.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::PetLifeApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::PetLifeApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ViewStubCompat = global::PetLifeApp.Droid.Resource.Styleable.ViewStubCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ViewStubCompat_android_id = global::PetLifeApp.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ViewStubCompat_android_inflatedId = global::PetLifeApp.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ViewStubCompat_android_layout = global::PetLifeApp.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.View_android_focusable = global::PetLifeApp.Droid.Resource.Styleable.View_android_focusable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.View_android_theme = global::PetLifeApp.Droid.Resource.Styleable.View_android_theme;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.View_paddingEnd = global::PetLifeApp.Droid.Resource.Styleable.View_paddingEnd;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.View_paddingStart = global::PetLifeApp.Droid.Resource.Styleable.View_paddingStart;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.View_theme = global::PetLifeApp.Droid.Resource.Styleable.View_theme;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_fade_in = global::PetLifeApp.Droid.Resource.Animation.abc_fade_in;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_fade_out = global::PetLifeApp.Droid.Resource.Animation.abc_fade_out;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::PetLifeApp.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
@@ -10795,101 +13429,101 @@ namespace PetLifeApp.Droid
 		public partial class Animation
 		{
 			
-			// aapt resource value: 0x7F010004
-			public const int abc_fade_in = 2130771972;
-			
-			// aapt resource value: 0x7F010005
-			public const int abc_fade_out = 2130771973;
-			
-			// aapt resource value: 0x7F010006
-			public const int abc_grow_fade_in_from_bottom = 2130771974;
-			
-			// aapt resource value: 0x7F010007
-			public const int abc_popup_enter = 2130771975;
-			
-			// aapt resource value: 0x7F010008
-			public const int abc_popup_exit = 2130771976;
-			
-			// aapt resource value: 0x7F010009
-			public const int abc_shrink_fade_out_from_bottom = 2130771977;
-			
-			// aapt resource value: 0x7F01000A
-			public const int abc_slide_in_bottom = 2130771978;
-			
-			// aapt resource value: 0x7F01000B
-			public const int abc_slide_in_top = 2130771979;
-			
-			// aapt resource value: 0x7F01000C
-			public const int abc_slide_out_bottom = 2130771980;
-			
-			// aapt resource value: 0x7F01000D
-			public const int abc_slide_out_top = 2130771981;
-			
-			// aapt resource value: 0x7F01000E
-			public const int abc_tooltip_enter = 2130771982;
-			
-			// aapt resource value: 0x7F01000F
-			public const int abc_tooltip_exit = 2130771983;
-			
-			// aapt resource value: 0x7F010010
-			public const int btn_checkbox_to_checked_box_inner_merged_animation = 2130771984;
-			
-			// aapt resource value: 0x7F010011
-			public const int btn_checkbox_to_checked_box_outer_merged_animation = 2130771985;
-			
-			// aapt resource value: 0x7F010012
-			public const int btn_checkbox_to_checked_icon_null_animation = 2130771986;
-			
-			// aapt resource value: 0x7F010013
-			public const int btn_checkbox_to_unchecked_box_inner_merged_animation = 2130771987;
-			
-			// aapt resource value: 0x7F010014
-			public const int btn_checkbox_to_unchecked_check_path_merged_animation = 2130771988;
-			
-			// aapt resource value: 0x7F010015
-			public const int btn_checkbox_to_unchecked_icon_null_animation = 2130771989;
-			
-			// aapt resource value: 0x7F010016
-			public const int btn_radio_to_off_mtrl_dot_group_animation = 2130771990;
-			
-			// aapt resource value: 0x7F010017
-			public const int btn_radio_to_off_mtrl_ring_outer_animation = 2130771991;
-			
-			// aapt resource value: 0x7F010018
-			public const int btn_radio_to_off_mtrl_ring_outer_path_animation = 2130771992;
-			
-			// aapt resource value: 0x7F010019
-			public const int btn_radio_to_on_mtrl_dot_group_animation = 2130771993;
-			
-			// aapt resource value: 0x7F01001A
-			public const int btn_radio_to_on_mtrl_ring_outer_animation = 2130771994;
-			
-			// aapt resource value: 0x7F01001B
-			public const int btn_radio_to_on_mtrl_ring_outer_path_animation = 2130771995;
-			
-			// aapt resource value: 0x7F01001C
-			public const int design_bottom_sheet_slide_in = 2130771996;
-			
-			// aapt resource value: 0x7F01001D
-			public const int design_bottom_sheet_slide_out = 2130771997;
-			
-			// aapt resource value: 0x7F01001E
-			public const int design_snackbar_in = 2130771998;
-			
-			// aapt resource value: 0x7F01001F
-			public const int design_snackbar_out = 2130771999;
-			
 			// aapt resource value: 0x7F010000
-			public const int EnterFromLeft = 2130771968;
+			public const int abc_fade_in = 2130771968;
 			
 			// aapt resource value: 0x7F010001
-			public const int EnterFromRight = 2130771969;
+			public const int abc_fade_out = 2130771969;
 			
 			// aapt resource value: 0x7F010002
-			public const int ExitToLeft = 2130771970;
+			public const int abc_grow_fade_in_from_bottom = 2130771970;
 			
 			// aapt resource value: 0x7F010003
-			public const int ExitToRight = 2130771971;
+			public const int abc_popup_enter = 2130771971;
+			
+			// aapt resource value: 0x7F010004
+			public const int abc_popup_exit = 2130771972;
+			
+			// aapt resource value: 0x7F010005
+			public const int abc_shrink_fade_out_from_bottom = 2130771973;
+			
+			// aapt resource value: 0x7F010006
+			public const int abc_slide_in_bottom = 2130771974;
+			
+			// aapt resource value: 0x7F010007
+			public const int abc_slide_in_top = 2130771975;
+			
+			// aapt resource value: 0x7F010008
+			public const int abc_slide_out_bottom = 2130771976;
+			
+			// aapt resource value: 0x7F010009
+			public const int abc_slide_out_top = 2130771977;
+			
+			// aapt resource value: 0x7F01000A
+			public const int abc_tooltip_enter = 2130771978;
+			
+			// aapt resource value: 0x7F01000B
+			public const int abc_tooltip_exit = 2130771979;
+			
+			// aapt resource value: 0x7F01000C
+			public const int btn_checkbox_to_checked_box_inner_merged_animation = 2130771980;
+			
+			// aapt resource value: 0x7F01000D
+			public const int btn_checkbox_to_checked_box_outer_merged_animation = 2130771981;
+			
+			// aapt resource value: 0x7F01000E
+			public const int btn_checkbox_to_checked_icon_null_animation = 2130771982;
+			
+			// aapt resource value: 0x7F01000F
+			public const int btn_checkbox_to_unchecked_box_inner_merged_animation = 2130771983;
+			
+			// aapt resource value: 0x7F010010
+			public const int btn_checkbox_to_unchecked_check_path_merged_animation = 2130771984;
+			
+			// aapt resource value: 0x7F010011
+			public const int btn_checkbox_to_unchecked_icon_null_animation = 2130771985;
+			
+			// aapt resource value: 0x7F010012
+			public const int btn_radio_to_off_mtrl_dot_group_animation = 2130771986;
+			
+			// aapt resource value: 0x7F010013
+			public const int btn_radio_to_off_mtrl_ring_outer_animation = 2130771987;
+			
+			// aapt resource value: 0x7F010014
+			public const int btn_radio_to_off_mtrl_ring_outer_path_animation = 2130771988;
+			
+			// aapt resource value: 0x7F010015
+			public const int btn_radio_to_on_mtrl_dot_group_animation = 2130771989;
+			
+			// aapt resource value: 0x7F010016
+			public const int btn_radio_to_on_mtrl_ring_outer_animation = 2130771990;
+			
+			// aapt resource value: 0x7F010017
+			public const int btn_radio_to_on_mtrl_ring_outer_path_animation = 2130771991;
+			
+			// aapt resource value: 0x7F010018
+			public const int design_bottom_sheet_slide_in = 2130771992;
+			
+			// aapt resource value: 0x7F010019
+			public const int design_bottom_sheet_slide_out = 2130771993;
+			
+			// aapt resource value: 0x7F01001A
+			public const int design_snackbar_in = 2130771994;
+			
+			// aapt resource value: 0x7F01001B
+			public const int design_snackbar_out = 2130771995;
+			
+			// aapt resource value: 0x7F01001C
+			public const int EnterFromLeft = 2130771996;
+			
+			// aapt resource value: 0x7F01001D
+			public const int EnterFromRight = 2130771997;
+			
+			// aapt resource value: 0x7F01001E
+			public const int ExitToLeft = 2130771998;
+			
+			// aapt resource value: 0x7F01001F
+			public const int ExitToRight = 2130771999;
 			
 			// aapt resource value: 0x7F010020
 			public const int fragment_fast_out_extra_slow_in = 2130772000;
@@ -16249,419 +18883,422 @@ namespace PetLifeApp.Droid
 		public partial class Drawable
 		{
 			
-			// aapt resource value: 0x7F070000
-			public const int abc_ab_share_pack_mtrl_alpha = 2131165184;
-			
-			// aapt resource value: 0x7F070001
-			public const int abc_action_bar_item_background_material = 2131165185;
-			
-			// aapt resource value: 0x7F070002
-			public const int abc_btn_borderless_material = 2131165186;
-			
-			// aapt resource value: 0x7F070003
-			public const int abc_btn_check_material = 2131165187;
-			
-			// aapt resource value: 0x7F070004
-			public const int abc_btn_check_material_anim = 2131165188;
-			
-			// aapt resource value: 0x7F070005
-			public const int abc_btn_check_to_on_mtrl_000 = 2131165189;
-			
 			// aapt resource value: 0x7F070006
-			public const int abc_btn_check_to_on_mtrl_015 = 2131165190;
+			public const int abc_ab_share_pack_mtrl_alpha = 2131165190;
 			
 			// aapt resource value: 0x7F070007
-			public const int abc_btn_colored_material = 2131165191;
+			public const int abc_action_bar_item_background_material = 2131165191;
 			
 			// aapt resource value: 0x7F070008
-			public const int abc_btn_default_mtrl_shape = 2131165192;
+			public const int abc_btn_borderless_material = 2131165192;
 			
 			// aapt resource value: 0x7F070009
-			public const int abc_btn_radio_material = 2131165193;
+			public const int abc_btn_check_material = 2131165193;
 			
 			// aapt resource value: 0x7F07000A
-			public const int abc_btn_radio_material_anim = 2131165194;
+			public const int abc_btn_check_material_anim = 2131165194;
 			
 			// aapt resource value: 0x7F07000B
-			public const int abc_btn_radio_to_on_mtrl_000 = 2131165195;
+			public const int abc_btn_check_to_on_mtrl_000 = 2131165195;
 			
 			// aapt resource value: 0x7F07000C
-			public const int abc_btn_radio_to_on_mtrl_015 = 2131165196;
+			public const int abc_btn_check_to_on_mtrl_015 = 2131165196;
 			
 			// aapt resource value: 0x7F07000D
-			public const int abc_btn_switch_to_on_mtrl_00001 = 2131165197;
+			public const int abc_btn_colored_material = 2131165197;
 			
 			// aapt resource value: 0x7F07000E
-			public const int abc_btn_switch_to_on_mtrl_00012 = 2131165198;
+			public const int abc_btn_default_mtrl_shape = 2131165198;
 			
 			// aapt resource value: 0x7F07000F
-			public const int abc_cab_background_internal_bg = 2131165199;
+			public const int abc_btn_radio_material = 2131165199;
 			
 			// aapt resource value: 0x7F070010
-			public const int abc_cab_background_top_material = 2131165200;
+			public const int abc_btn_radio_material_anim = 2131165200;
 			
 			// aapt resource value: 0x7F070011
-			public const int abc_cab_background_top_mtrl_alpha = 2131165201;
+			public const int abc_btn_radio_to_on_mtrl_000 = 2131165201;
 			
 			// aapt resource value: 0x7F070012
-			public const int abc_control_background_material = 2131165202;
+			public const int abc_btn_radio_to_on_mtrl_015 = 2131165202;
 			
 			// aapt resource value: 0x7F070013
-			public const int abc_dialog_material_background = 2131165203;
+			public const int abc_btn_switch_to_on_mtrl_00001 = 2131165203;
 			
 			// aapt resource value: 0x7F070014
-			public const int abc_edit_text_material = 2131165204;
+			public const int abc_btn_switch_to_on_mtrl_00012 = 2131165204;
 			
 			// aapt resource value: 0x7F070015
-			public const int abc_ic_ab_back_material = 2131165205;
+			public const int abc_cab_background_internal_bg = 2131165205;
 			
 			// aapt resource value: 0x7F070016
-			public const int abc_ic_arrow_drop_right_black_24dp = 2131165206;
+			public const int abc_cab_background_top_material = 2131165206;
 			
 			// aapt resource value: 0x7F070017
-			public const int abc_ic_clear_material = 2131165207;
+			public const int abc_cab_background_top_mtrl_alpha = 2131165207;
 			
 			// aapt resource value: 0x7F070018
-			public const int abc_ic_commit_search_api_mtrl_alpha = 2131165208;
+			public const int abc_control_background_material = 2131165208;
 			
 			// aapt resource value: 0x7F070019
-			public const int abc_ic_go_search_api_material = 2131165209;
+			public const int abc_dialog_material_background = 2131165209;
 			
 			// aapt resource value: 0x7F07001A
-			public const int abc_ic_menu_copy_mtrl_am_alpha = 2131165210;
+			public const int abc_edit_text_material = 2131165210;
 			
 			// aapt resource value: 0x7F07001B
-			public const int abc_ic_menu_cut_mtrl_alpha = 2131165211;
+			public const int abc_ic_ab_back_material = 2131165211;
 			
 			// aapt resource value: 0x7F07001C
-			public const int abc_ic_menu_overflow_material = 2131165212;
+			public const int abc_ic_arrow_drop_right_black_24dp = 2131165212;
 			
 			// aapt resource value: 0x7F07001D
-			public const int abc_ic_menu_paste_mtrl_am_alpha = 2131165213;
+			public const int abc_ic_clear_material = 2131165213;
 			
 			// aapt resource value: 0x7F07001E
-			public const int abc_ic_menu_selectall_mtrl_alpha = 2131165214;
+			public const int abc_ic_commit_search_api_mtrl_alpha = 2131165214;
 			
 			// aapt resource value: 0x7F07001F
-			public const int abc_ic_menu_share_mtrl_alpha = 2131165215;
+			public const int abc_ic_go_search_api_material = 2131165215;
 			
 			// aapt resource value: 0x7F070020
-			public const int abc_ic_search_api_material = 2131165216;
+			public const int abc_ic_menu_copy_mtrl_am_alpha = 2131165216;
 			
 			// aapt resource value: 0x7F070021
-			public const int abc_ic_voice_search_api_material = 2131165217;
+			public const int abc_ic_menu_cut_mtrl_alpha = 2131165217;
 			
 			// aapt resource value: 0x7F070022
-			public const int abc_item_background_holo_dark = 2131165218;
+			public const int abc_ic_menu_overflow_material = 2131165218;
 			
 			// aapt resource value: 0x7F070023
-			public const int abc_item_background_holo_light = 2131165219;
+			public const int abc_ic_menu_paste_mtrl_am_alpha = 2131165219;
 			
 			// aapt resource value: 0x7F070024
-			public const int abc_list_divider_material = 2131165220;
+			public const int abc_ic_menu_selectall_mtrl_alpha = 2131165220;
 			
 			// aapt resource value: 0x7F070025
-			public const int abc_list_divider_mtrl_alpha = 2131165221;
+			public const int abc_ic_menu_share_mtrl_alpha = 2131165221;
 			
 			// aapt resource value: 0x7F070026
-			public const int abc_list_focused_holo = 2131165222;
+			public const int abc_ic_search_api_material = 2131165222;
 			
 			// aapt resource value: 0x7F070027
-			public const int abc_list_longpressed_holo = 2131165223;
+			public const int abc_ic_voice_search_api_material = 2131165223;
 			
 			// aapt resource value: 0x7F070028
-			public const int abc_list_pressed_holo_dark = 2131165224;
+			public const int abc_item_background_holo_dark = 2131165224;
 			
 			// aapt resource value: 0x7F070029
-			public const int abc_list_pressed_holo_light = 2131165225;
+			public const int abc_item_background_holo_light = 2131165225;
 			
 			// aapt resource value: 0x7F07002A
-			public const int abc_list_selector_background_transition_holo_dark = 2131165226;
+			public const int abc_list_divider_material = 2131165226;
 			
 			// aapt resource value: 0x7F07002B
-			public const int abc_list_selector_background_transition_holo_light = 2131165227;
+			public const int abc_list_divider_mtrl_alpha = 2131165227;
 			
 			// aapt resource value: 0x7F07002C
-			public const int abc_list_selector_disabled_holo_dark = 2131165228;
+			public const int abc_list_focused_holo = 2131165228;
 			
 			// aapt resource value: 0x7F07002D
-			public const int abc_list_selector_disabled_holo_light = 2131165229;
+			public const int abc_list_longpressed_holo = 2131165229;
 			
 			// aapt resource value: 0x7F07002E
-			public const int abc_list_selector_holo_dark = 2131165230;
+			public const int abc_list_pressed_holo_dark = 2131165230;
 			
 			// aapt resource value: 0x7F07002F
-			public const int abc_list_selector_holo_light = 2131165231;
+			public const int abc_list_pressed_holo_light = 2131165231;
 			
 			// aapt resource value: 0x7F070030
-			public const int abc_menu_hardkey_panel_mtrl_mult = 2131165232;
+			public const int abc_list_selector_background_transition_holo_dark = 2131165232;
 			
 			// aapt resource value: 0x7F070031
-			public const int abc_popup_background_mtrl_mult = 2131165233;
+			public const int abc_list_selector_background_transition_holo_light = 2131165233;
 			
 			// aapt resource value: 0x7F070032
-			public const int abc_ratingbar_indicator_material = 2131165234;
+			public const int abc_list_selector_disabled_holo_dark = 2131165234;
 			
 			// aapt resource value: 0x7F070033
-			public const int abc_ratingbar_material = 2131165235;
+			public const int abc_list_selector_disabled_holo_light = 2131165235;
 			
 			// aapt resource value: 0x7F070034
-			public const int abc_ratingbar_small_material = 2131165236;
+			public const int abc_list_selector_holo_dark = 2131165236;
 			
 			// aapt resource value: 0x7F070035
-			public const int abc_scrubber_control_off_mtrl_alpha = 2131165237;
+			public const int abc_list_selector_holo_light = 2131165237;
 			
 			// aapt resource value: 0x7F070036
-			public const int abc_scrubber_control_to_pressed_mtrl_000 = 2131165238;
+			public const int abc_menu_hardkey_panel_mtrl_mult = 2131165238;
 			
 			// aapt resource value: 0x7F070037
-			public const int abc_scrubber_control_to_pressed_mtrl_005 = 2131165239;
+			public const int abc_popup_background_mtrl_mult = 2131165239;
 			
 			// aapt resource value: 0x7F070038
-			public const int abc_scrubber_primary_mtrl_alpha = 2131165240;
+			public const int abc_ratingbar_indicator_material = 2131165240;
 			
 			// aapt resource value: 0x7F070039
-			public const int abc_scrubber_track_mtrl_alpha = 2131165241;
+			public const int abc_ratingbar_material = 2131165241;
 			
 			// aapt resource value: 0x7F07003A
-			public const int abc_seekbar_thumb_material = 2131165242;
+			public const int abc_ratingbar_small_material = 2131165242;
 			
 			// aapt resource value: 0x7F07003B
-			public const int abc_seekbar_tick_mark_material = 2131165243;
+			public const int abc_scrubber_control_off_mtrl_alpha = 2131165243;
 			
 			// aapt resource value: 0x7F07003C
-			public const int abc_seekbar_track_material = 2131165244;
+			public const int abc_scrubber_control_to_pressed_mtrl_000 = 2131165244;
 			
 			// aapt resource value: 0x7F07003D
-			public const int abc_spinner_mtrl_am_alpha = 2131165245;
+			public const int abc_scrubber_control_to_pressed_mtrl_005 = 2131165245;
 			
 			// aapt resource value: 0x7F07003E
-			public const int abc_spinner_textfield_background_material = 2131165246;
+			public const int abc_scrubber_primary_mtrl_alpha = 2131165246;
 			
 			// aapt resource value: 0x7F07003F
-			public const int abc_star_black_48dp = 2131165247;
+			public const int abc_scrubber_track_mtrl_alpha = 2131165247;
 			
 			// aapt resource value: 0x7F070040
-			public const int abc_star_half_black_48dp = 2131165248;
+			public const int abc_seekbar_thumb_material = 2131165248;
 			
 			// aapt resource value: 0x7F070041
-			public const int abc_switch_thumb_material = 2131165249;
+			public const int abc_seekbar_tick_mark_material = 2131165249;
 			
 			// aapt resource value: 0x7F070042
-			public const int abc_switch_track_mtrl_alpha = 2131165250;
+			public const int abc_seekbar_track_material = 2131165250;
 			
 			// aapt resource value: 0x7F070043
-			public const int abc_tab_indicator_material = 2131165251;
+			public const int abc_spinner_mtrl_am_alpha = 2131165251;
 			
 			// aapt resource value: 0x7F070044
-			public const int abc_tab_indicator_mtrl_alpha = 2131165252;
-			
-			// aapt resource value: 0x7F070049
-			public const int abc_textfield_activated_mtrl_alpha = 2131165257;
-			
-			// aapt resource value: 0x7F07004A
-			public const int abc_textfield_default_mtrl_alpha = 2131165258;
-			
-			// aapt resource value: 0x7F07004B
-			public const int abc_textfield_search_activated_mtrl_alpha = 2131165259;
-			
-			// aapt resource value: 0x7F07004C
-			public const int abc_textfield_search_default_mtrl_alpha = 2131165260;
-			
-			// aapt resource value: 0x7F07004D
-			public const int abc_textfield_search_material = 2131165261;
+			public const int abc_spinner_textfield_background_material = 2131165252;
 			
 			// aapt resource value: 0x7F070045
-			public const int abc_text_cursor_material = 2131165253;
+			public const int abc_star_black_48dp = 2131165253;
 			
 			// aapt resource value: 0x7F070046
-			public const int abc_text_select_handle_left_mtrl = 2131165254;
+			public const int abc_star_half_black_48dp = 2131165254;
 			
 			// aapt resource value: 0x7F070047
-			public const int abc_text_select_handle_middle_mtrl = 2131165255;
+			public const int abc_switch_thumb_material = 2131165255;
 			
 			// aapt resource value: 0x7F070048
-			public const int abc_text_select_handle_right_mtrl = 2131165256;
+			public const int abc_switch_track_mtrl_alpha = 2131165256;
 			
-			// aapt resource value: 0x7F07004E
-			public const int abc_vector_test = 2131165262;
+			// aapt resource value: 0x7F070049
+			public const int abc_tab_indicator_material = 2131165257;
+			
+			// aapt resource value: 0x7F07004A
+			public const int abc_tab_indicator_mtrl_alpha = 2131165258;
 			
 			// aapt resource value: 0x7F07004F
-			public const int avd_hide_password = 2131165263;
+			public const int abc_textfield_activated_mtrl_alpha = 2131165263;
 			
 			// aapt resource value: 0x7F070050
-			public const int avd_show_password = 2131165264;
+			public const int abc_textfield_default_mtrl_alpha = 2131165264;
 			
 			// aapt resource value: 0x7F070051
-			public const int btn_checkbox_checked_mtrl = 2131165265;
+			public const int abc_textfield_search_activated_mtrl_alpha = 2131165265;
 			
 			// aapt resource value: 0x7F070052
-			public const int btn_checkbox_checked_to_unchecked_mtrl_animation = 2131165266;
+			public const int abc_textfield_search_default_mtrl_alpha = 2131165266;
 			
 			// aapt resource value: 0x7F070053
-			public const int btn_checkbox_unchecked_mtrl = 2131165267;
+			public const int abc_textfield_search_material = 2131165267;
+			
+			// aapt resource value: 0x7F07004B
+			public const int abc_text_cursor_material = 2131165259;
+			
+			// aapt resource value: 0x7F07004C
+			public const int abc_text_select_handle_left_mtrl = 2131165260;
+			
+			// aapt resource value: 0x7F07004D
+			public const int abc_text_select_handle_middle_mtrl = 2131165261;
+			
+			// aapt resource value: 0x7F07004E
+			public const int abc_text_select_handle_right_mtrl = 2131165262;
 			
 			// aapt resource value: 0x7F070054
-			public const int btn_checkbox_unchecked_to_checked_mtrl_animation = 2131165268;
+			public const int abc_vector_test = 2131165268;
 			
 			// aapt resource value: 0x7F070055
-			public const int btn_radio_off_mtrl = 2131165269;
+			public const int avd_hide_password = 2131165269;
 			
 			// aapt resource value: 0x7F070056
-			public const int btn_radio_off_to_on_mtrl_animation = 2131165270;
+			public const int avd_show_password = 2131165270;
 			
 			// aapt resource value: 0x7F070057
-			public const int btn_radio_on_mtrl = 2131165271;
+			public const int btn_checkbox_checked_mtrl = 2131165271;
 			
 			// aapt resource value: 0x7F070058
-			public const int btn_radio_on_to_off_mtrl_animation = 2131165272;
+			public const int btn_checkbox_checked_to_unchecked_mtrl_animation = 2131165272;
 			
 			// aapt resource value: 0x7F070059
-			public const int design_fab_background = 2131165273;
+			public const int btn_checkbox_unchecked_mtrl = 2131165273;
 			
 			// aapt resource value: 0x7F07005A
-			public const int design_ic_visibility = 2131165274;
+			public const int btn_checkbox_unchecked_to_checked_mtrl_animation = 2131165274;
 			
 			// aapt resource value: 0x7F07005B
-			public const int design_ic_visibility_off = 2131165275;
+			public const int btn_radio_off_mtrl = 2131165275;
 			
 			// aapt resource value: 0x7F07005C
-			public const int design_password_eye = 2131165276;
+			public const int btn_radio_off_to_on_mtrl_animation = 2131165276;
 			
 			// aapt resource value: 0x7F07005D
-			public const int design_snackbar_background = 2131165277;
+			public const int btn_radio_on_mtrl = 2131165277;
 			
 			// aapt resource value: 0x7F07005E
-			public const int ic_arrow_down_24dp = 2131165278;
+			public const int btn_radio_on_to_off_mtrl_animation = 2131165278;
 			
 			// aapt resource value: 0x7F07005F
-			public const int ic_clock_black_24dp = 2131165279;
+			public const int design_fab_background = 2131165279;
 			
 			// aapt resource value: 0x7F070060
-			public const int ic_keyboard_black_24dp = 2131165280;
+			public const int design_ic_visibility = 2131165280;
 			
 			// aapt resource value: 0x7F070061
-			public const int ic_mtrl_checked_circle = 2131165281;
+			public const int design_ic_visibility_off = 2131165281;
 			
 			// aapt resource value: 0x7F070062
-			public const int ic_mtrl_chip_checked_black = 2131165282;
+			public const int design_password_eye = 2131165282;
 			
 			// aapt resource value: 0x7F070063
-			public const int ic_mtrl_chip_checked_circle = 2131165283;
+			public const int design_snackbar_background = 2131165283;
 			
 			// aapt resource value: 0x7F070064
-			public const int ic_mtrl_chip_close_circle = 2131165284;
+			public const int ic_arrow_down_24dp = 2131165284;
 			
 			// aapt resource value: 0x7F070065
-			public const int material_cursor_drawable = 2131165285;
+			public const int ic_clock_black_24dp = 2131165285;
 			
 			// aapt resource value: 0x7F070066
-			public const int material_ic_calendar_black_24dp = 2131165286;
+			public const int ic_keyboard_black_24dp = 2131165286;
 			
 			// aapt resource value: 0x7F070067
-			public const int material_ic_clear_black_24dp = 2131165287;
+			public const int ic_mtrl_checked_circle = 2131165287;
 			
 			// aapt resource value: 0x7F070068
-			public const int material_ic_edit_black_24dp = 2131165288;
+			public const int ic_mtrl_chip_checked_black = 2131165288;
 			
 			// aapt resource value: 0x7F070069
-			public const int material_ic_keyboard_arrow_left_black_24dp = 2131165289;
+			public const int ic_mtrl_chip_checked_circle = 2131165289;
 			
 			// aapt resource value: 0x7F07006A
-			public const int material_ic_keyboard_arrow_next_black_24dp = 2131165290;
+			public const int ic_mtrl_chip_close_circle = 2131165290;
 			
 			// aapt resource value: 0x7F07006B
-			public const int material_ic_keyboard_arrow_previous_black_24dp = 2131165291;
+			public const int material_cursor_drawable = 2131165291;
 			
 			// aapt resource value: 0x7F07006C
-			public const int material_ic_keyboard_arrow_right_black_24dp = 2131165292;
+			public const int material_ic_calendar_black_24dp = 2131165292;
 			
 			// aapt resource value: 0x7F07006D
-			public const int material_ic_menu_arrow_down_black_24dp = 2131165293;
+			public const int material_ic_clear_black_24dp = 2131165293;
 			
 			// aapt resource value: 0x7F07006E
-			public const int material_ic_menu_arrow_up_black_24dp = 2131165294;
+			public const int material_ic_edit_black_24dp = 2131165294;
 			
 			// aapt resource value: 0x7F07006F
-			public const int mtrl_dialog_background = 2131165295;
+			public const int material_ic_keyboard_arrow_left_black_24dp = 2131165295;
 			
 			// aapt resource value: 0x7F070070
-			public const int mtrl_dropdown_arrow = 2131165296;
+			public const int material_ic_keyboard_arrow_next_black_24dp = 2131165296;
 			
 			// aapt resource value: 0x7F070071
-			public const int mtrl_ic_arrow_drop_down = 2131165297;
+			public const int material_ic_keyboard_arrow_previous_black_24dp = 2131165297;
 			
 			// aapt resource value: 0x7F070072
-			public const int mtrl_ic_arrow_drop_up = 2131165298;
+			public const int material_ic_keyboard_arrow_right_black_24dp = 2131165298;
 			
 			// aapt resource value: 0x7F070073
-			public const int mtrl_ic_cancel = 2131165299;
+			public const int material_ic_menu_arrow_down_black_24dp = 2131165299;
 			
 			// aapt resource value: 0x7F070074
-			public const int mtrl_ic_error = 2131165300;
+			public const int material_ic_menu_arrow_up_black_24dp = 2131165300;
 			
 			// aapt resource value: 0x7F070075
-			public const int mtrl_navigation_bar_item_background = 2131165301;
+			public const int mtrl_dialog_background = 2131165301;
 			
 			// aapt resource value: 0x7F070076
-			public const int mtrl_popupmenu_background = 2131165302;
+			public const int mtrl_dropdown_arrow = 2131165302;
 			
 			// aapt resource value: 0x7F070077
-			public const int mtrl_popupmenu_background_dark = 2131165303;
+			public const int mtrl_ic_arrow_drop_down = 2131165303;
 			
 			// aapt resource value: 0x7F070078
-			public const int mtrl_tabs_default_indicator = 2131165304;
+			public const int mtrl_ic_arrow_drop_up = 2131165304;
 			
 			// aapt resource value: 0x7F070079
-			public const int navigation_empty_icon = 2131165305;
+			public const int mtrl_ic_cancel = 2131165305;
 			
 			// aapt resource value: 0x7F07007A
-			public const int notification_action_background = 2131165306;
+			public const int mtrl_ic_error = 2131165306;
 			
 			// aapt resource value: 0x7F07007B
-			public const int notification_bg = 2131165307;
+			public const int mtrl_navigation_bar_item_background = 2131165307;
 			
 			// aapt resource value: 0x7F07007C
-			public const int notification_bg_low = 2131165308;
+			public const int mtrl_popupmenu_background = 2131165308;
 			
 			// aapt resource value: 0x7F07007D
-			public const int notification_bg_low_normal = 2131165309;
+			public const int mtrl_popupmenu_background_dark = 2131165309;
 			
 			// aapt resource value: 0x7F07007E
-			public const int notification_bg_low_pressed = 2131165310;
+			public const int mtrl_tabs_default_indicator = 2131165310;
 			
 			// aapt resource value: 0x7F07007F
-			public const int notification_bg_normal = 2131165311;
+			public const int navigation_empty_icon = 2131165311;
 			
 			// aapt resource value: 0x7F070080
-			public const int notification_bg_normal_pressed = 2131165312;
+			public const int notification_action_background = 2131165312;
 			
 			// aapt resource value: 0x7F070081
-			public const int notification_icon_background = 2131165313;
+			public const int notification_bg = 2131165313;
 			
 			// aapt resource value: 0x7F070082
-			public const int notification_template_icon_bg = 2131165314;
+			public const int notification_bg_low = 2131165314;
 			
 			// aapt resource value: 0x7F070083
-			public const int notification_template_icon_low_bg = 2131165315;
+			public const int notification_bg_low_normal = 2131165315;
 			
 			// aapt resource value: 0x7F070084
-			public const int notification_tile_bg = 2131165316;
+			public const int notification_bg_low_pressed = 2131165316;
 			
 			// aapt resource value: 0x7F070085
-			public const int notify_panel_notification_icon_bg = 2131165317;
+			public const int notification_bg_normal = 2131165317;
 			
 			// aapt resource value: 0x7F070086
-			public const int preference_list_divider_material = 2131165318;
+			public const int notification_bg_normal_pressed = 2131165318;
 			
 			// aapt resource value: 0x7F070087
-			public const int test_custom_background = 2131165319;
+			public const int notification_icon_background = 2131165319;
 			
 			// aapt resource value: 0x7F070088
-			public const int tooltip_frame_dark = 2131165320;
+			public const int notification_template_icon_bg = 2131165320;
 			
 			// aapt resource value: 0x7F070089
-			public const int tooltip_frame_light = 2131165321;
+			public const int notification_template_icon_low_bg = 2131165321;
+			
+			// aapt resource value: 0x7F07008A
+			public const int notification_tile_bg = 2131165322;
+			
+			// aapt resource value: 0x7F07008B
+			public const int notify_panel_notification_icon_bg = 2131165323;
+			
+			// aapt resource value: 0x7F07008C
+			public const int petLifeLogo = 2131165324;
+			
+			// aapt resource value: 0x7F07008D
+			public const int preference_list_divider_material = 2131165325;
+			
+			// aapt resource value: 0x7F07008E
+			public const int test_custom_background = 2131165326;
+			
+			// aapt resource value: 0x7F07008F
+			public const int tooltip_frame_dark = 2131165327;
+			
+			// aapt resource value: 0x7F070090
+			public const int tooltip_frame_light = 2131165328;
 			
 			static Drawable()
 			{
@@ -16676,1568 +19313,1490 @@ namespace PetLifeApp.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7F080012
-			public const int accelerate = 2131230738;
-			
-			// aapt resource value: 0x7F080013
-			public const int accessibility_action_clickable_span = 2131230739;
-			
-			// aapt resource value: 0x7F080014
-			public const int accessibility_custom_action_0 = 2131230740;
-			
-			// aapt resource value: 0x7F080015
-			public const int accessibility_custom_action_1 = 2131230741;
-			
-			// aapt resource value: 0x7F080016
-			public const int accessibility_custom_action_10 = 2131230742;
-			
-			// aapt resource value: 0x7F080017
-			public const int accessibility_custom_action_11 = 2131230743;
-			
-			// aapt resource value: 0x7F080018
-			public const int accessibility_custom_action_12 = 2131230744;
-			
-			// aapt resource value: 0x7F080019
-			public const int accessibility_custom_action_13 = 2131230745;
-			
-			// aapt resource value: 0x7F08001A
-			public const int accessibility_custom_action_14 = 2131230746;
-			
-			// aapt resource value: 0x7F08001B
-			public const int accessibility_custom_action_15 = 2131230747;
-			
-			// aapt resource value: 0x7F08001C
-			public const int accessibility_custom_action_16 = 2131230748;
-			
-			// aapt resource value: 0x7F08001D
-			public const int accessibility_custom_action_17 = 2131230749;
-			
-			// aapt resource value: 0x7F08001E
-			public const int accessibility_custom_action_18 = 2131230750;
-			
-			// aapt resource value: 0x7F08001F
-			public const int accessibility_custom_action_19 = 2131230751;
-			
-			// aapt resource value: 0x7F080020
-			public const int accessibility_custom_action_2 = 2131230752;
-			
-			// aapt resource value: 0x7F080021
-			public const int accessibility_custom_action_20 = 2131230753;
-			
-			// aapt resource value: 0x7F080022
-			public const int accessibility_custom_action_21 = 2131230754;
-			
-			// aapt resource value: 0x7F080023
-			public const int accessibility_custom_action_22 = 2131230755;
-			
-			// aapt resource value: 0x7F080024
-			public const int accessibility_custom_action_23 = 2131230756;
-			
-			// aapt resource value: 0x7F080025
-			public const int accessibility_custom_action_24 = 2131230757;
-			
-			// aapt resource value: 0x7F080026
-			public const int accessibility_custom_action_25 = 2131230758;
-			
-			// aapt resource value: 0x7F080027
-			public const int accessibility_custom_action_26 = 2131230759;
-			
-			// aapt resource value: 0x7F080028
-			public const int accessibility_custom_action_27 = 2131230760;
-			
-			// aapt resource value: 0x7F080029
-			public const int accessibility_custom_action_28 = 2131230761;
-			
-			// aapt resource value: 0x7F08002A
-			public const int accessibility_custom_action_29 = 2131230762;
-			
-			// aapt resource value: 0x7F08002B
-			public const int accessibility_custom_action_3 = 2131230763;
-			
-			// aapt resource value: 0x7F08002C
-			public const int accessibility_custom_action_30 = 2131230764;
-			
-			// aapt resource value: 0x7F08002D
-			public const int accessibility_custom_action_31 = 2131230765;
-			
-			// aapt resource value: 0x7F08002E
-			public const int accessibility_custom_action_4 = 2131230766;
-			
-			// aapt resource value: 0x7F08002F
-			public const int accessibility_custom_action_5 = 2131230767;
-			
-			// aapt resource value: 0x7F080030
-			public const int accessibility_custom_action_6 = 2131230768;
-			
-			// aapt resource value: 0x7F080031
-			public const int accessibility_custom_action_7 = 2131230769;
-			
-			// aapt resource value: 0x7F080032
-			public const int accessibility_custom_action_8 = 2131230770;
-			
-			// aapt resource value: 0x7F080033
-			public const int accessibility_custom_action_9 = 2131230771;
-			
-			// aapt resource value: 0x7F080034
-			public const int action0 = 2131230772;
-			
-			// aapt resource value: 0x7F080035
-			public const int actionDown = 2131230773;
-			
-			// aapt resource value: 0x7F080036
-			public const int actionDownUp = 2131230774;
-			
-			// aapt resource value: 0x7F080049
-			public const int actions = 2131230793;
-			
-			// aapt resource value: 0x7F080037
-			public const int actionUp = 2131230775;
-			
-			// aapt resource value: 0x7F080038
-			public const int action_bar = 2131230776;
-			
-			// aapt resource value: 0x7F080039
-			public const int action_bar_activity_content = 2131230777;
-			
-			// aapt resource value: 0x7F08003A
-			public const int action_bar_container = 2131230778;
-			
-			// aapt resource value: 0x7F08003B
-			public const int action_bar_root = 2131230779;
-			
-			// aapt resource value: 0x7F08003C
-			public const int action_bar_spinner = 2131230780;
-			
-			// aapt resource value: 0x7F08003D
-			public const int action_bar_subtitle = 2131230781;
-			
-			// aapt resource value: 0x7F08003E
-			public const int action_bar_title = 2131230782;
-			
-			// aapt resource value: 0x7F08003F
-			public const int action_container = 2131230783;
-			
-			// aapt resource value: 0x7F080040
-			public const int action_context_bar = 2131230784;
-			
-			// aapt resource value: 0x7F080041
-			public const int action_divider = 2131230785;
-			
-			// aapt resource value: 0x7F080042
-			public const int action_image = 2131230786;
-			
-			// aapt resource value: 0x7F080043
-			public const int action_menu_divider = 2131230787;
-			
-			// aapt resource value: 0x7F080044
-			public const int action_menu_presenter = 2131230788;
-			
-			// aapt resource value: 0x7F080045
-			public const int action_mode_bar = 2131230789;
-			
-			// aapt resource value: 0x7F080046
-			public const int action_mode_bar_stub = 2131230790;
-			
-			// aapt resource value: 0x7F080047
-			public const int action_mode_close_button = 2131230791;
-			
-			// aapt resource value: 0x7F080048
-			public const int action_text = 2131230792;
-			
-			// aapt resource value: 0x7F08004A
-			public const int activity_chooser_view_content = 2131230794;
-			
-			// aapt resource value: 0x7F08004B
-			public const int add = 2131230795;
-			
-			// aapt resource value: 0x7F080000
-			public const int ADDED_ITEMS = 2131230720;
-			
-			// aapt resource value: 0x7F08004C
-			public const int added_items = 2131230796;
-			
-			// aapt resource value: 0x7F08004D
-			public const int alertTitle = 2131230797;
-			
-			// aapt resource value: 0x7F08004E
-			public const int aligned = 2131230798;
-			
-			// aapt resource value: 0x7F08004F
-			public const int all = 2131230799;
-			
-			// aapt resource value: 0x7F080050
-			public const int allStates = 2131230800;
-			
-			// aapt resource value: 0x7F080001
-			public const int ALT = 2131230721;
-			
-			// aapt resource value: 0x7F080051
-			public const int always = 2131230801;
-			
-			// aapt resource value: 0x7F080052
-			public const int animateToEnd = 2131230802;
-			
-			// aapt resource value: 0x7F080053
-			public const int animateToStart = 2131230803;
-			
-			// aapt resource value: 0x7F080055
-			public const int anticipate = 2131230805;
-			
-			// aapt resource value: 0x7F080054
-			public const int antiClockwise = 2131230804;
-			
-			// aapt resource value: 0x7F080002
-			public const int APPLICATION_NAME = 2131230722;
-			
-			// aapt resource value: 0x7F080056
-			public const int application_name = 2131230806;
-			
-			// aapt resource value: 0x7F080057
-			public const int arc = 2131230807;
-			
-			// aapt resource value: 0x7F080058
-			public const int asConfigured = 2131230808;
-			
-			// aapt resource value: 0x7F080059
-			public const int async = 2131230809;
-			
-			// aapt resource value: 0x7F08005A
-			public const int auto = 2131230810;
-			
-			// aapt resource value: 0x7F08005B
-			public const int autoComplete = 2131230811;
-			
-			// aapt resource value: 0x7F08005C
-			public const int autoCompleteToEnd = 2131230812;
-			
-			// aapt resource value: 0x7F08005D
-			public const int autoCompleteToStart = 2131230813;
-			
-			// aapt resource value: 0x7F08005E
-			public const int background = 2131230814;
-			
-			// aapt resource value: 0x7F08005F
-			public const int barrier = 2131230815;
-			
-			// aapt resource value: 0x7F080060
-			public const int baseline = 2131230816;
-			
-			// aapt resource value: 0x7F080062
-			public const int beginning = 2131230818;
-			
-			// aapt resource value: 0x7F080061
-			public const int beginOnFirstDraw = 2131230817;
-			
-			// aapt resource value: 0x7F080063
-			public const int bestChoice = 2131230819;
-			
-			// aapt resource value: 0x7F080064
-			public const int blocking = 2131230820;
-			
-			// aapt resource value: 0x7F080065
-			public const int bottom = 2131230821;
-			
-			// aapt resource value: 0x7F080066
-			public const int bottomtab_navarea = 2131230822;
-			
-			// aapt resource value: 0x7F080067
-			public const int bottomtab_tabbar = 2131230823;
-			
-			// aapt resource value: 0x7F080003
-			public const int BOTTOM_END = 2131230723;
-			
-			// aapt resource value: 0x7F080004
-			public const int BOTTOM_START = 2131230724;
-			
-			// aapt resource value: 0x7F080068
-			public const int bounce = 2131230824;
-			
-			// aapt resource value: 0x7F080069
-			public const int bounceBoth = 2131230825;
-			
-			// aapt resource value: 0x7F08006A
-			public const int bounceEnd = 2131230826;
-			
-			// aapt resource value: 0x7F08006B
-			public const int bounceStart = 2131230827;
-			
-			// aapt resource value: 0x7F08006C
-			public const int browser_actions_header_text = 2131230828;
-			
-			// aapt resource value: 0x7F08006F
-			public const int browser_actions_menu_items = 2131230831;
-			
-			// aapt resource value: 0x7F08006D
-			public const int browser_actions_menu_item_icon = 2131230829;
-			
-			// aapt resource value: 0x7F08006E
-			public const int browser_actions_menu_item_text = 2131230830;
-			
-			// aapt resource value: 0x7F080070
-			public const int browser_actions_menu_view = 2131230832;
-			
-			// aapt resource value: 0x7F080071
-			public const int button1 = 2131230833;
-			
-			// aapt resource value: 0x7F080072
-			public const int button2 = 2131230834;
-			
-			// aapt resource value: 0x7F080073
-			public const int button3 = 2131230835;
-			
-			// aapt resource value: 0x7F080074
-			public const int buttonPanel = 2131230836;
-			
-			// aapt resource value: 0x7F080075
-			public const int cache_measures = 2131230837;
-			
-			// aapt resource value: 0x7F080076
-			public const int cancel_action = 2131230838;
-			
-			// aapt resource value: 0x7F080077
-			public const int cancel_button = 2131230839;
-			
-			// aapt resource value: 0x7F080078
-			public const int carryVelocity = 2131230840;
-			
-			// aapt resource value: 0x7F080079
-			public const int center = 2131230841;
-			
-			// aapt resource value: 0x7F08007A
-			public const int center_horizontal = 2131230842;
-			
-			// aapt resource value: 0x7F08007B
-			public const int center_vertical = 2131230843;
-			
-			// aapt resource value: 0x7F08007C
-			public const int chain = 2131230844;
-			
-			// aapt resource value: 0x7F08007D
-			public const int chains = 2131230845;
-			
-			// aapt resource value: 0x7F08007E
-			public const int checkbox = 2131230846;
-			
-			// aapt resource value: 0x7F08007F
-			public const int @checked = 2131230847;
-			
-			// aapt resource value: 0x7F080080
-			public const int chip = 2131230848;
-			
-			// aapt resource value: 0x7F080081
-			public const int chip1 = 2131230849;
-			
-			// aapt resource value: 0x7F080082
-			public const int chip2 = 2131230850;
-			
-			// aapt resource value: 0x7F080083
-			public const int chip3 = 2131230851;
-			
-			// aapt resource value: 0x7F080084
-			public const int chip_group = 2131230852;
-			
-			// aapt resource value: 0x7F080085
-			public const int chronometer = 2131230853;
-			
-			// aapt resource value: 0x7F080086
-			public const int circle_center = 2131230854;
-			
-			// aapt resource value: 0x7F080087
-			public const int clear_text = 2131230855;
-			
-			// aapt resource value: 0x7F080088
-			public const int clip_horizontal = 2131230856;
-			
-			// aapt resource value: 0x7F080089
-			public const int clip_vertical = 2131230857;
-			
-			// aapt resource value: 0x7F08008A
-			public const int clockwise = 2131230858;
-			
-			// aapt resource value: 0x7F08008B
-			public const int closest = 2131230859;
-			
-			// aapt resource value: 0x7F08008C
-			public const int collapseActionView = 2131230860;
-			
-			// aapt resource value: 0x7F08008D
-			public const int confirm_button = 2131230861;
-			
-			// aapt resource value: 0x7F08008E
-			public const int constraint = 2131230862;
-			
-			// aapt resource value: 0x7F08008F
-			public const int container = 2131230863;
-			
-			// aapt resource value: 0x7F080090
-			public const int content = 2131230864;
-			
-			// aapt resource value: 0x7F080091
-			public const int contentPanel = 2131230865;
-			
-			// aapt resource value: 0x7F080092
-			public const int contiguous = 2131230866;
-			
-			// aapt resource value: 0x7F080093
-			public const int continuousVelocity = 2131230867;
-			
-			// aapt resource value: 0x7F080094
-			public const int coordinator = 2131230868;
-			
-			// aapt resource value: 0x7F080095
-			public const int cos = 2131230869;
-			
-			// aapt resource value: 0x7F080096
-			public const int count = 2131230870;
-			
-			// aapt resource value: 0x7F080097
-			public const int counterclockwise = 2131230871;
-			
-			// aapt resource value: 0x7F080005
-			public const int CTRL = 2131230725;
-			
-			// aapt resource value: 0x7F080098
-			public const int currentState = 2131230872;
-			
-			// aapt resource value: 0x7F080006
-			public const int CURRENT_ITEMS = 2131230726;
-			
-			// aapt resource value: 0x7F080099
-			public const int current_items = 2131230873;
-			
-			// aapt resource value: 0x7F08009A
-			public const int custom = 2131230874;
-			
-			// aapt resource value: 0x7F08009B
-			public const int customPanel = 2131230875;
-			
-			// aapt resource value: 0x7F08009C
-			public const int cut = 2131230876;
-			
-			// aapt resource value: 0x7F08009D
-			public const int date_picker_actions = 2131230877;
-			
-			// aapt resource value: 0x7F08009E
-			public const int decelerate = 2131230878;
-			
-			// aapt resource value: 0x7F08009F
-			public const int decelerateAndComplete = 2131230879;
-			
-			// aapt resource value: 0x7F0800A0
-			public const int decor_content_parent = 2131230880;
-			
-			// aapt resource value: 0x7F0800A1
-			public const int default_activity_button = 2131230881;
-			
-			// aapt resource value: 0x7F0800A2
-			public const int deltaRelative = 2131230882;
-			
-			// aapt resource value: 0x7F0800A3
-			public const int dependency_ordering = 2131230883;
-			
-			// aapt resource value: 0x7F0800A4
-			public const int design_bottom_sheet = 2131230884;
-			
-			// aapt resource value: 0x7F0800A5
-			public const int design_menu_item_action_area = 2131230885;
-			
-			// aapt resource value: 0x7F0800A6
-			public const int design_menu_item_action_area_stub = 2131230886;
-			
-			// aapt resource value: 0x7F0800A7
-			public const int design_menu_item_text = 2131230887;
-			
-			// aapt resource value: 0x7F0800A8
-			public const int design_navigation_view = 2131230888;
-			
-			// aapt resource value: 0x7F0800A9
-			public const int dialog_button = 2131230889;
-			
-			// aapt resource value: 0x7F0800AA
-			public const int dimensions = 2131230890;
-			
-			// aapt resource value: 0x7F0800AB
-			public const int direct = 2131230891;
-			
-			// aapt resource value: 0x7F0800AC
-			public const int disableHome = 2131230892;
-			
-			// aapt resource value: 0x7F0800AD
-			public const int disableIntraAutoTransition = 2131230893;
-			
-			// aapt resource value: 0x7F0800AE
-			public const int disablePostScroll = 2131230894;
-			
-			// aapt resource value: 0x7F0800AF
-			public const int disableScroll = 2131230895;
-			
-			// aapt resource value: 0x7F0800B0
-			public const int disjoint = 2131230896;
-			
-			// aapt resource value: 0x7F0800B1
-			public const int dragAnticlockwise = 2131230897;
-			
-			// aapt resource value: 0x7F0800B2
-			public const int dragClockwise = 2131230898;
-			
-			// aapt resource value: 0x7F0800B3
-			public const int dragDown = 2131230899;
-			
-			// aapt resource value: 0x7F0800B4
-			public const int dragEnd = 2131230900;
-			
-			// aapt resource value: 0x7F0800B5
-			public const int dragLeft = 2131230901;
-			
-			// aapt resource value: 0x7F0800B6
-			public const int dragRight = 2131230902;
-			
-			// aapt resource value: 0x7F0800B7
-			public const int dragStart = 2131230903;
-			
-			// aapt resource value: 0x7F0800B8
-			public const int dragUp = 2131230904;
-			
-			// aapt resource value: 0x7F0800B9
-			public const int dropdown_menu = 2131230905;
-			
-			// aapt resource value: 0x7F0800BA
-			public const int easeIn = 2131230906;
-			
-			// aapt resource value: 0x7F0800BB
-			public const int easeInOut = 2131230907;
-			
-			// aapt resource value: 0x7F0800BC
-			public const int easeOut = 2131230908;
-			
-			// aapt resource value: 0x7F0800BD
-			public const int east = 2131230909;
-			
-			// aapt resource value: 0x7F0800BE
-			public const int edit = 2131230910;
-			
-			// aapt resource value: 0x7F0800BF
-			public const int edit_query = 2131230911;
-			
-			// aapt resource value: 0x7F0800C0
-			public const int elastic = 2131230912;
-			
-			// aapt resource value: 0x7F0800C1
-			public const int empty = 2131230913;
-			
-			// aapt resource value: 0x7F0800C2
-			public const int end = 2131230914;
-			
-			// aapt resource value: 0x7F0800C3
-			public const int endToStart = 2131230915;
-			
-			// aapt resource value: 0x7F0800C4
-			public const int end_padder = 2131230916;
-			
-			// aapt resource value: 0x7F0800C5
-			public const int enterAlways = 2131230917;
-			
-			// aapt resource value: 0x7F0800C6
-			public const int enterAlwaysCollapsed = 2131230918;
-			
-			// aapt resource value: 0x7F0800C7
-			public const int exitUntilCollapsed = 2131230919;
-			
-			// aapt resource value: 0x7F0800C9
-			public const int expanded_menu = 2131230921;
-			
-			// aapt resource value: 0x7F0800C8
-			public const int expand_activities_button = 2131230920;
-			
-			// aapt resource value: 0x7F0800CA
-			public const int fade = 2131230922;
-			
-			// aapt resource value: 0x7F0800CB
-			public const int fill = 2131230923;
-			
-			// aapt resource value: 0x7F0800CE
-			public const int filled = 2131230926;
-			
-			// aapt resource value: 0x7F0800CC
-			public const int fill_horizontal = 2131230924;
-			
-			// aapt resource value: 0x7F0800CD
-			public const int fill_vertical = 2131230925;
-			
-			// aapt resource value: 0x7F0800CF
-			public const int fitToContents = 2131230927;
-			
-			// aapt resource value: 0x7F0800D0
-			public const int @fixed = 2131230928;
-			
-			// aapt resource value: 0x7F0800D1
-			public const int flip = 2131230929;
-			
-			// aapt resource value: 0x7F0800D2
-			public const int floating = 2131230930;
-			
-			// aapt resource value: 0x7F0800D3
-			public const int flyoutcontent_appbar = 2131230931;
-			
-			// aapt resource value: 0x7F0800D4
-			public const int forever = 2131230932;
-			
-			// aapt resource value: 0x7F0800D5
-			public const int fragment_container_view_tag = 2131230933;
-			
-			// aapt resource value: 0x7F0800D6
-			public const int frost = 2131230934;
-			
-			// aapt resource value: 0x7F080007
-			public const int FUNCTION = 2131230727;
-			
-			// aapt resource value: 0x7F0800D7
-			public const int ghost_view = 2131230935;
-			
-			// aapt resource value: 0x7F0800D8
-			public const int ghost_view_holder = 2131230936;
-			
-			// aapt resource value: 0x7F0800D9
-			public const int gone = 2131230937;
-			
-			// aapt resource value: 0x7F0800DA
-			public const int graph = 2131230938;
-			
-			// aapt resource value: 0x7F0800DB
-			public const int graph_wrap = 2131230939;
-			
-			// aapt resource value: 0x7F0800DD
-			public const int grouping = 2131230941;
-			
-			// aapt resource value: 0x7F0800DE
-			public const int groups = 2131230942;
-			
-			// aapt resource value: 0x7F0800DC
-			public const int group_divider = 2131230940;
-			
-			// aapt resource value: 0x7F0800DF
-			public const int guideline = 2131230943;
-			
-			// aapt resource value: 0x7F0800E0
-			public const int header_title = 2131230944;
-			
-			// aapt resource value: 0x7F0800E1
-			public const int hideable = 2131230945;
-			
-			// aapt resource value: 0x7F0800E2
-			public const int home = 2131230946;
-			
-			// aapt resource value: 0x7F0800E3
-			public const int homeAsUp = 2131230947;
-			
-			// aapt resource value: 0x7F0800E4
-			public const int honorRequest = 2131230948;
-			
-			// aapt resource value: 0x7F0800E5
-			public const int horizontal_only = 2131230949;
-			
-			// aapt resource value: 0x7F0800E6
-			public const int icon = 2131230950;
-			
-			// aapt resource value: 0x7F0800E7
-			public const int icon1 = 2131230951;
-			
-			// aapt resource value: 0x7F0800E8
-			public const int icon_frame = 2131230952;
-			
-			// aapt resource value: 0x7F0800E9
-			public const int icon_group = 2131230953;
-			
-			// aapt resource value: 0x7F0800EA
-			public const int ifRoom = 2131230954;
-			
-			// aapt resource value: 0x7F0800EB
-			public const int ignore = 2131230955;
-			
-			// aapt resource value: 0x7F0800EC
-			public const int ignoreRequest = 2131230956;
-			
-			// aapt resource value: 0x7F0800ED
-			public const int image = 2131230957;
-			
-			// aapt resource value: 0x7F0800EE
-			public const int immediateStop = 2131230958;
-			
-			// aapt resource value: 0x7F0800EF
-			public const int included = 2131230959;
-			
-			// aapt resource value: 0x7F0800F0
-			public const int info = 2131230960;
-			
-			// aapt resource value: 0x7F0800F1
-			public const int invisible = 2131230961;
-			
-			// aapt resource value: 0x7F0800F2
-			public const int inward = 2131230962;
-			
-			// aapt resource value: 0x7F0800F3
-			public const int italic = 2131230963;
-			
-			// aapt resource value: 0x7F0800F4
-			public const int item_touch_helper_previous_elevation = 2131230964;
-			
-			// aapt resource value: 0x7F0800F5
-			public const int jumpToEnd = 2131230965;
-			
-			// aapt resource value: 0x7F0800F6
-			public const int jumpToStart = 2131230966;
-			
-			// aapt resource value: 0x7F0800F7
-			public const int labeled = 2131230967;
-			
-			// aapt resource value: 0x7F0800F8
-			public const int layout = 2131230968;
-			
-			// aapt resource value: 0x7F0800F9
-			public const int left = 2131230969;
-			
-			// aapt resource value: 0x7F0800FA
-			public const int leftToRight = 2131230970;
-			
-			// aapt resource value: 0x7F0800FB
-			public const int legacy = 2131230971;
-			
-			// aapt resource value: 0x7F0800FC
-			public const int line1 = 2131230972;
-			
-			// aapt resource value: 0x7F0800FD
-			public const int line3 = 2131230973;
-			
-			// aapt resource value: 0x7F0800FE
-			public const int linear = 2131230974;
-			
-			// aapt resource value: 0x7F0800FF
-			public const int listMode = 2131230975;
-			
-			// aapt resource value: 0x7F080100
-			public const int list_container = 2131230976;
-			
-			// aapt resource value: 0x7F080101
-			public const int list_item = 2131230977;
-			
-			// aapt resource value: 0x7F080102
-			public const int main_appbar = 2131230978;
-			
-			// aapt resource value: 0x7F080103
-			public const int main_tablayout = 2131230979;
-			
-			// aapt resource value: 0x7F080104
-			public const int main_toolbar = 2131230980;
-			
-			// aapt resource value: 0x7F080105
-			public const int main_viewpager = 2131230981;
-			
-			// aapt resource value: 0x7F080106
-			public const int mask = 2131230982;
-			
-			// aapt resource value: 0x7F080107
-			public const int masked = 2131230983;
-			
-			// aapt resource value: 0x7F080108
-			public const int match_constraint = 2131230984;
-			
-			// aapt resource value: 0x7F080109
-			public const int match_parent = 2131230985;
-			
-			// aapt resource value: 0x7F08010A
-			public const int material_clock_display = 2131230986;
-			
-			// aapt resource value: 0x7F08010B
-			public const int material_clock_face = 2131230987;
-			
-			// aapt resource value: 0x7F08010C
-			public const int material_clock_hand = 2131230988;
-			
-			// aapt resource value: 0x7F08010D
-			public const int material_clock_period_am_button = 2131230989;
-			
-			// aapt resource value: 0x7F08010E
-			public const int material_clock_period_pm_button = 2131230990;
-			
-			// aapt resource value: 0x7F08010F
-			public const int material_clock_period_toggle = 2131230991;
-			
-			// aapt resource value: 0x7F080110
-			public const int material_hour_text_input = 2131230992;
-			
-			// aapt resource value: 0x7F080111
-			public const int material_hour_tv = 2131230993;
-			
-			// aapt resource value: 0x7F080112
-			public const int material_label = 2131230994;
-			
-			// aapt resource value: 0x7F080113
-			public const int material_minute_text_input = 2131230995;
-			
-			// aapt resource value: 0x7F080114
-			public const int material_minute_tv = 2131230996;
-			
-			// aapt resource value: 0x7F080115
-			public const int material_textinput_timepicker = 2131230997;
-			
-			// aapt resource value: 0x7F080116
-			public const int material_timepicker_cancel_button = 2131230998;
-			
-			// aapt resource value: 0x7F080117
-			public const int material_timepicker_container = 2131230999;
-			
-			// aapt resource value: 0x7F080118
-			public const int material_timepicker_edit_text = 2131231000;
-			
-			// aapt resource value: 0x7F080119
-			public const int material_timepicker_mode_button = 2131231001;
-			
-			// aapt resource value: 0x7F08011A
-			public const int material_timepicker_ok_button = 2131231002;
-			
-			// aapt resource value: 0x7F08011B
-			public const int material_timepicker_view = 2131231003;
-			
-			// aapt resource value: 0x7F08011C
-			public const int material_value_index = 2131231004;
-			
-			// aapt resource value: 0x7F08011D
-			public const int maximum_number = 2131231005;
-			
-			// aapt resource value: 0x7F08011E
-			public const int media_actions = 2131231006;
-			
-			// aapt resource value: 0x7F08011F
-			public const int media_controller_compat_view_tag = 2131231007;
-			
-			// aapt resource value: 0x7F080120
-			public const int message = 2131231008;
-			
-			// aapt resource value: 0x7F080008
-			public const int META = 2131230728;
-			
-			// aapt resource value: 0x7F080121
-			public const int middle = 2131231009;
-			
-			// aapt resource value: 0x7F080122
-			public const int mini = 2131231010;
-			
-			// aapt resource value: 0x7F080123
-			public const int month_grid = 2131231011;
-			
-			// aapt resource value: 0x7F080124
-			public const int month_navigation_bar = 2131231012;
-			
-			// aapt resource value: 0x7F080125
-			public const int month_navigation_fragment_toggle = 2131231013;
-			
-			// aapt resource value: 0x7F080126
-			public const int month_navigation_next = 2131231014;
-			
-			// aapt resource value: 0x7F080127
-			public const int month_navigation_previous = 2131231015;
-			
-			// aapt resource value: 0x7F080128
-			public const int month_title = 2131231016;
-			
-			// aapt resource value: 0x7F080129
-			public const int motion_base = 2131231017;
-			
-			// aapt resource value: 0x7F08012A
-			public const int mtrl_anchor_parent = 2131231018;
-			
-			// aapt resource value: 0x7F08012C
-			public const int mtrl_calendar_days_of_week = 2131231020;
-			
-			// aapt resource value: 0x7F08012B
-			public const int mtrl_calendar_day_selector_frame = 2131231019;
-			
-			// aapt resource value: 0x7F08012D
-			public const int mtrl_calendar_frame = 2131231021;
-			
-			// aapt resource value: 0x7F08012E
-			public const int mtrl_calendar_main_pane = 2131231022;
-			
-			// aapt resource value: 0x7F08012F
-			public const int mtrl_calendar_months = 2131231023;
-			
-			// aapt resource value: 0x7F080130
-			public const int mtrl_calendar_selection_frame = 2131231024;
-			
-			// aapt resource value: 0x7F080131
-			public const int mtrl_calendar_text_input_frame = 2131231025;
-			
-			// aapt resource value: 0x7F080132
-			public const int mtrl_calendar_year_selector_frame = 2131231026;
-			
-			// aapt resource value: 0x7F080133
-			public const int mtrl_card_checked_layer_id = 2131231027;
-			
-			// aapt resource value: 0x7F080134
-			public const int mtrl_child_content_container = 2131231028;
-			
-			// aapt resource value: 0x7F080135
-			public const int mtrl_internal_children_alpha_tag = 2131231029;
-			
-			// aapt resource value: 0x7F080136
-			public const int mtrl_motion_snapshot_view = 2131231030;
-			
-			// aapt resource value: 0x7F080137
-			public const int mtrl_picker_fullscreen = 2131231031;
-			
-			// aapt resource value: 0x7F080138
-			public const int mtrl_picker_header = 2131231032;
-			
-			// aapt resource value: 0x7F080139
-			public const int mtrl_picker_header_selection_text = 2131231033;
-			
-			// aapt resource value: 0x7F08013A
-			public const int mtrl_picker_header_title_and_selection = 2131231034;
-			
-			// aapt resource value: 0x7F08013B
-			public const int mtrl_picker_header_toggle = 2131231035;
-			
-			// aapt resource value: 0x7F08013C
-			public const int mtrl_picker_text_input_date = 2131231036;
-			
-			// aapt resource value: 0x7F08013D
-			public const int mtrl_picker_text_input_range_end = 2131231037;
-			
-			// aapt resource value: 0x7F08013E
-			public const int mtrl_picker_text_input_range_start = 2131231038;
-			
-			// aapt resource value: 0x7F08013F
-			public const int mtrl_picker_title_text = 2131231039;
-			
-			// aapt resource value: 0x7F080140
-			public const int mtrl_view_tag_bottom_padding = 2131231040;
-			
-			// aapt resource value: 0x7F080141
-			public const int multiply = 2131231041;
-			
-			// aapt resource value: 0x7F080143
-			public const int navigation_bar_item_icon_view = 2131231043;
-			
-			// aapt resource value: 0x7F080144
-			public const int navigation_bar_item_labels_group = 2131231044;
-			
-			// aapt resource value: 0x7F080145
-			public const int navigation_bar_item_large_label_view = 2131231045;
-			
-			// aapt resource value: 0x7F080146
-			public const int navigation_bar_item_small_label_view = 2131231046;
-			
-			// aapt resource value: 0x7F080147
-			public const int navigation_header_container = 2131231047;
-			
-			// aapt resource value: 0x7F080142
-			public const int nav_controller_view_tag = 2131231042;
-			
-			// aapt resource value: 0x7F080148
-			public const int never = 2131231048;
-			
-			// aapt resource value: 0x7F080149
-			public const int neverCompleteToEnd = 2131231049;
-			
-			// aapt resource value: 0x7F08014A
-			public const int neverCompleteToStart = 2131231050;
-			
-			// aapt resource value: 0x7F08014D
-			public const int none = 2131231053;
-			
-			// aapt resource value: 0x7F08014E
-			public const int normal = 2131231054;
-			
-			// aapt resource value: 0x7F08014F
-			public const int north = 2131231055;
-			
-			// aapt resource value: 0x7F08014B
-			public const int noScroll = 2131231051;
-			
-			// aapt resource value: 0x7F08014C
-			public const int noState = 2131231052;
-			
-			// aapt resource value: 0x7F080150
-			public const int notification_background = 2131231056;
-			
-			// aapt resource value: 0x7F080151
-			public const int notification_main_column = 2131231057;
-			
-			// aapt resource value: 0x7F080152
-			public const int notification_main_column_container = 2131231058;
-			
-			// aapt resource value: 0x7F080009
-			public const int NO_DEBUG = 2131230729;
-			
-			// aapt resource value: 0x7F080153
-			public const int number = 2131231059;
-			
-			// aapt resource value: 0x7F080154
-			public const int off = 2131231060;
-			
-			// aapt resource value: 0x7F080155
-			public const int on = 2131231061;
-			
-			// aapt resource value: 0x7F080156
-			public const int outline = 2131231062;
-			
-			// aapt resource value: 0x7F080157
-			public const int outward = 2131231063;
-			
-			// aapt resource value: 0x7F080158
-			public const int overshoot = 2131231064;
-			
-			// aapt resource value: 0x7F080159
-			public const int packed = 2131231065;
-			
-			// aapt resource value: 0x7F08015A
-			public const int parallax = 2131231066;
-			
-			// aapt resource value: 0x7F08015B
-			public const int parent = 2131231067;
-			
-			// aapt resource value: 0x7F08015C
-			public const int parentPanel = 2131231068;
-			
-			// aapt resource value: 0x7F08015D
-			public const int parentRelative = 2131231069;
-			
-			// aapt resource value: 0x7F08015E
-			public const int parent_matrix = 2131231070;
-			
-			// aapt resource value: 0x7F08015F
-			public const int password_toggle = 2131231071;
-			
-			// aapt resource value: 0x7F080160
-			public const int path = 2131231072;
-			
-			// aapt resource value: 0x7F080161
-			public const int pathRelative = 2131231073;
-			
-			// aapt resource value: 0x7F080162
-			public const int peekHeight = 2131231074;
-			
-			// aapt resource value: 0x7F080163
-			public const int percent = 2131231075;
-			
-			// aapt resource value: 0x7F080164
-			public const int pin = 2131231076;
-			
-			// aapt resource value: 0x7F080165
-			public const int position = 2131231077;
-			
-			// aapt resource value: 0x7F080166
-			public const int postLayout = 2131231078;
-			
-			// aapt resource value: 0x7F080167
-			public const int progress = 2131231079;
-			
-			// aapt resource value: 0x7F080168
-			public const int progress_circular = 2131231080;
-			
-			// aapt resource value: 0x7F080169
-			public const int progress_horizontal = 2131231081;
-			
-			// aapt resource value: 0x7F08016A
-			public const int radio = 2131231082;
-			
-			// aapt resource value: 0x7F08016B
-			public const int ratio = 2131231083;
-			
-			// aapt resource value: 0x7F08016C
-			public const int rectangles = 2131231084;
-			
-			// aapt resource value: 0x7F08016D
-			public const int recycler_view = 2131231085;
-			
-			// aapt resource value: 0x7F08016E
-			public const int reverseSawtooth = 2131231086;
-			
-			// aapt resource value: 0x7F08016F
-			public const int right = 2131231087;
-			
-			// aapt resource value: 0x7F080170
-			public const int rightToLeft = 2131231088;
-			
-			// aapt resource value: 0x7F080171
-			public const int right_icon = 2131231089;
-			
-			// aapt resource value: 0x7F080172
-			public const int right_side = 2131231090;
-			
-			// aapt resource value: 0x7F080173
-			public const int rounded = 2131231091;
-			
-			// aapt resource value: 0x7F080174
-			public const int row_index_key = 2131231092;
-			
-			// aapt resource value: 0x7F080175
-			public const int save_non_transition_alpha = 2131231093;
-			
-			// aapt resource value: 0x7F080176
-			public const int save_overlay_view = 2131231094;
-			
-			// aapt resource value: 0x7F080177
-			public const int sawtooth = 2131231095;
-			
-			// aapt resource value: 0x7F080178
-			public const int scale = 2131231096;
-			
-			// aapt resource value: 0x7F080179
-			public const int screen = 2131231097;
-			
-			// aapt resource value: 0x7F08017A
-			public const int scroll = 2131231098;
-			
-			// aapt resource value: 0x7F08017E
-			public const int scrollable = 2131231102;
-			
-			// aapt resource value: 0x7F08017B
-			public const int scrollIndicatorDown = 2131231099;
-			
-			// aapt resource value: 0x7F08017C
-			public const int scrollIndicatorUp = 2131231100;
-			
-			// aapt resource value: 0x7F08017D
-			public const int scrollView = 2131231101;
-			
-			// aapt resource value: 0x7F08017F
-			public const int search_badge = 2131231103;
-			
-			// aapt resource value: 0x7F080180
-			public const int search_bar = 2131231104;
-			
-			// aapt resource value: 0x7F080181
-			public const int search_button = 2131231105;
-			
-			// aapt resource value: 0x7F080182
-			public const int search_close_btn = 2131231106;
-			
-			// aapt resource value: 0x7F080183
-			public const int search_edit_frame = 2131231107;
-			
-			// aapt resource value: 0x7F080184
-			public const int search_go_btn = 2131231108;
-			
-			// aapt resource value: 0x7F080185
-			public const int search_mag_icon = 2131231109;
-			
-			// aapt resource value: 0x7F080186
-			public const int search_plate = 2131231110;
-			
-			// aapt resource value: 0x7F080187
-			public const int search_src_text = 2131231111;
-			
-			// aapt resource value: 0x7F080188
-			public const int search_voice_btn = 2131231112;
-			
-			// aapt resource value: 0x7F080189
-			public const int secondaryProgress = 2131231113;
-			
-			// aapt resource value: 0x7F08018A
-			public const int seekbar = 2131231114;
-			
-			// aapt resource value: 0x7F08018B
-			public const int seekbar_value = 2131231115;
-			
-			// aapt resource value: 0x7F08018D
-			public const int selected = 2131231117;
-			
-			// aapt resource value: 0x7F08018E
-			public const int selection_type = 2131231118;
-			
-			// aapt resource value: 0x7F08018C
-			public const int select_dialog_listview = 2131231116;
-			
-			// aapt resource value: 0x7F08018F
-			public const int sharedValueSet = 2131231119;
-			
-			// aapt resource value: 0x7F080190
-			public const int sharedValueUnset = 2131231120;
-			
-			// aapt resource value: 0x7F080191
-			public const int shellcontent_appbar = 2131231121;
-			
-			// aapt resource value: 0x7F080192
-			public const int shellcontent_toolbar = 2131231122;
-			
-			// aapt resource value: 0x7F08000A
-			public const int SHIFT = 2131230730;
-			
-			// aapt resource value: 0x7F080193
-			public const int shortcut = 2131231123;
-			
-			// aapt resource value: 0x7F080194
-			public const int showCustom = 2131231124;
-			
-			// aapt resource value: 0x7F080195
-			public const int showHome = 2131231125;
-			
-			// aapt resource value: 0x7F080196
-			public const int showTitle = 2131231126;
-			
-			// aapt resource value: 0x7F08000B
-			public const int SHOW_ALL = 2131230731;
-			
-			// aapt resource value: 0x7F08000C
-			public const int SHOW_PATH = 2131230732;
-			
-			// aapt resource value: 0x7F08000D
-			public const int SHOW_PROGRESS = 2131230733;
-			
-			// aapt resource value: 0x7F080197
-			public const int sin = 2131231127;
-			
-			// aapt resource value: 0x7F080198
-			public const int skipCollapsed = 2131231128;
-			
-			// aapt resource value: 0x7F080199
-			public const int skipped = 2131231129;
-			
-			// aapt resource value: 0x7F08019A
-			public const int slide = 2131231130;
-			
-			// aapt resource value: 0x7F08019B
-			public const int sliding_tabs = 2131231131;
-			
-			// aapt resource value: 0x7F08019C
-			public const int snackbar_action = 2131231132;
-			
-			// aapt resource value: 0x7F08019D
-			public const int snackbar_text = 2131231133;
-			
-			// aapt resource value: 0x7F08019E
-			public const int snap = 2131231134;
-			
-			// aapt resource value: 0x7F08019F
-			public const int snapMargins = 2131231135;
-			
-			// aapt resource value: 0x7F0801A0
-			public const int south = 2131231136;
-			
-			// aapt resource value: 0x7F0801A1
-			public const int spacer = 2131231137;
-			
-			// aapt resource value: 0x7F0801A2
-			public const int special_effects_controller_view_tag = 2131231138;
-			
-			// aapt resource value: 0x7F0801A3
-			public const int spinner = 2131231139;
-			
-			// aapt resource value: 0x7F0801A4
-			public const int spline = 2131231140;
-			
-			// aapt resource value: 0x7F0801A5
-			public const int split_action_bar = 2131231141;
-			
-			// aapt resource value: 0x7F0801A6
-			public const int spread = 2131231142;
-			
-			// aapt resource value: 0x7F0801A7
-			public const int spread_inside = 2131231143;
-			
-			// aapt resource value: 0x7F0801A8
-			public const int spring = 2131231144;
-			
-			// aapt resource value: 0x7F0801A9
-			public const int square = 2131231145;
-			
-			// aapt resource value: 0x7F0801AA
-			public const int src_atop = 2131231146;
-			
-			// aapt resource value: 0x7F0801AB
-			public const int src_in = 2131231147;
-			
-			// aapt resource value: 0x7F0801AC
-			public const int src_over = 2131231148;
-			
-			// aapt resource value: 0x7F0801AD
-			public const int standard = 2131231149;
-			
-			// aapt resource value: 0x7F0801AE
-			public const int start = 2131231150;
-			
-			// aapt resource value: 0x7F0801AF
-			public const int startHorizontal = 2131231151;
-			
-			// aapt resource value: 0x7F0801B0
-			public const int startToEnd = 2131231152;
-			
-			// aapt resource value: 0x7F0801B1
-			public const int startVertical = 2131231153;
-			
-			// aapt resource value: 0x7F0801B2
-			public const int staticLayout = 2131231154;
-			
-			// aapt resource value: 0x7F0801B3
-			public const int staticPostLayout = 2131231155;
-			
-			// aapt resource value: 0x7F0801B4
-			public const int status_bar_latest_event_content = 2131231156;
-			
-			// aapt resource value: 0x7F0801B5
-			public const int stop = 2131231157;
-			
-			// aapt resource value: 0x7F0801B6
-			public const int stretch = 2131231158;
-			
-			// aapt resource value: 0x7F0801B7
-			public const int submenuarrow = 2131231159;
-			
-			// aapt resource value: 0x7F0801B8
-			public const int submit_area = 2131231160;
-			
-			// aapt resource value: 0x7F0801B9
-			public const int suffix = 2131231161;
-			
 			// aapt resource value: 0x7F08000E
-			public const int SUMMARY = 2131230734;
-			
-			// aapt resource value: 0x7F0801BA
-			public const int summary = 2131231162;
-			
-			// aapt resource value: 0x7F0801BB
-			public const int supportScrollUp = 2131231163;
-			
-			// aapt resource value: 0x7F0801BC
-			public const int switchWidget = 2131231164;
-			
-			// aapt resource value: 0x7F0801BD
-			public const int switch_widget = 2131231165;
+			public const int accelerate = 2131230734;
 			
 			// aapt resource value: 0x7F08000F
-			public const int SYM = 2131230735;
-			
-			// aapt resource value: 0x7F0801BE
-			public const int tabMode = 2131231166;
-			
-			// aapt resource value: 0x7F0801BF
-			public const int tag_accessibility_actions = 2131231167;
-			
-			// aapt resource value: 0x7F0801C0
-			public const int tag_accessibility_clickable_spans = 2131231168;
-			
-			// aapt resource value: 0x7F0801C1
-			public const int tag_accessibility_heading = 2131231169;
-			
-			// aapt resource value: 0x7F0801C2
-			public const int tag_accessibility_pane_title = 2131231170;
-			
-			// aapt resource value: 0x7F0801C3
-			public const int tag_on_apply_window_listener = 2131231171;
-			
-			// aapt resource value: 0x7F0801C4
-			public const int tag_on_receive_content_listener = 2131231172;
-			
-			// aapt resource value: 0x7F0801C5
-			public const int tag_on_receive_content_mime_types = 2131231173;
-			
-			// aapt resource value: 0x7F0801C6
-			public const int tag_screen_reader_focusable = 2131231174;
-			
-			// aapt resource value: 0x7F0801C7
-			public const int tag_state_description = 2131231175;
-			
-			// aapt resource value: 0x7F0801C8
-			public const int tag_transition_group = 2131231176;
-			
-			// aapt resource value: 0x7F0801C9
-			public const int tag_unhandled_key_event_manager = 2131231177;
-			
-			// aapt resource value: 0x7F0801CA
-			public const int tag_unhandled_key_listeners = 2131231178;
-			
-			// aapt resource value: 0x7F0801CB
-			public const int tag_window_insets_animation_callback = 2131231179;
-			
-			// aapt resource value: 0x7F0801CC
-			public const int test_checkbox_android_button_tint = 2131231180;
-			
-			// aapt resource value: 0x7F0801CD
-			public const int test_checkbox_app_button_tint = 2131231181;
-			
-			// aapt resource value: 0x7F0801CE
-			public const int test_radiobutton_android_button_tint = 2131231182;
-			
-			// aapt resource value: 0x7F0801CF
-			public const int test_radiobutton_app_button_tint = 2131231183;
-			
-			// aapt resource value: 0x7F0801D0
-			public const int text = 2131231184;
-			
-			// aapt resource value: 0x7F0801D1
-			public const int text1 = 2131231185;
-			
-			// aapt resource value: 0x7F0801D2
-			public const int text2 = 2131231186;
-			
-			// aapt resource value: 0x7F0801D3
-			public const int textEnd = 2131231187;
-			
-			// aapt resource value: 0x7F0801DB
-			public const int textinput_counter = 2131231195;
-			
-			// aapt resource value: 0x7F0801DC
-			public const int textinput_error = 2131231196;
-			
-			// aapt resource value: 0x7F0801DD
-			public const int textinput_helper_text = 2131231197;
-			
-			// aapt resource value: 0x7F0801DE
-			public const int textinput_placeholder = 2131231198;
-			
-			// aapt resource value: 0x7F0801DF
-			public const int textinput_prefix_text = 2131231199;
-			
-			// aapt resource value: 0x7F0801E0
-			public const int textinput_suffix_text = 2131231200;
-			
-			// aapt resource value: 0x7F0801D4
-			public const int textSpacerNoButtons = 2131231188;
-			
-			// aapt resource value: 0x7F0801D5
-			public const int textSpacerNoTitle = 2131231189;
-			
-			// aapt resource value: 0x7F0801D6
-			public const int textStart = 2131231190;
-			
-			// aapt resource value: 0x7F0801D7
-			public const int textTop = 2131231191;
-			
-			// aapt resource value: 0x7F0801D8
-			public const int text_input_end_icon = 2131231192;
-			
-			// aapt resource value: 0x7F0801D9
-			public const int text_input_error_icon = 2131231193;
-			
-			// aapt resource value: 0x7F0801DA
-			public const int text_input_start_icon = 2131231194;
-			
-			// aapt resource value: 0x7F0801E1
-			public const int time = 2131231201;
-			
-			// aapt resource value: 0x7F0801E2
-			public const int title = 2131231202;
-			
-			// aapt resource value: 0x7F0801E3
-			public const int titleDividerNoCustom = 2131231203;
-			
-			// aapt resource value: 0x7F0801E4
-			public const int title_template = 2131231204;
-			
-			// aapt resource value: 0x7F0801E5
-			public const int toggle = 2131231205;
-			
-			// aapt resource value: 0x7F0801E6
-			public const int toolbar = 2131231206;
-			
-			// aapt resource value: 0x7F0801E7
-			public const int top = 2131231207;
-			
-			// aapt resource value: 0x7F0801E8
-			public const int topPanel = 2131231208;
+			public const int accessibility_action_clickable_span = 2131230735;
 			
 			// aapt resource value: 0x7F080010
-			public const int TOP_END = 2131230736;
+			public const int accessibility_custom_action_0 = 2131230736;
 			
 			// aapt resource value: 0x7F080011
-			public const int TOP_START = 2131230737;
+			public const int accessibility_custom_action_1 = 2131230737;
+			
+			// aapt resource value: 0x7F080012
+			public const int accessibility_custom_action_10 = 2131230738;
+			
+			// aapt resource value: 0x7F080013
+			public const int accessibility_custom_action_11 = 2131230739;
+			
+			// aapt resource value: 0x7F080014
+			public const int accessibility_custom_action_12 = 2131230740;
+			
+			// aapt resource value: 0x7F080015
+			public const int accessibility_custom_action_13 = 2131230741;
+			
+			// aapt resource value: 0x7F080016
+			public const int accessibility_custom_action_14 = 2131230742;
+			
+			// aapt resource value: 0x7F080017
+			public const int accessibility_custom_action_15 = 2131230743;
+			
+			// aapt resource value: 0x7F080018
+			public const int accessibility_custom_action_16 = 2131230744;
+			
+			// aapt resource value: 0x7F080019
+			public const int accessibility_custom_action_17 = 2131230745;
+			
+			// aapt resource value: 0x7F08001A
+			public const int accessibility_custom_action_18 = 2131230746;
+			
+			// aapt resource value: 0x7F08001B
+			public const int accessibility_custom_action_19 = 2131230747;
+			
+			// aapt resource value: 0x7F08001C
+			public const int accessibility_custom_action_2 = 2131230748;
+			
+			// aapt resource value: 0x7F08001D
+			public const int accessibility_custom_action_20 = 2131230749;
+			
+			// aapt resource value: 0x7F08001E
+			public const int accessibility_custom_action_21 = 2131230750;
+			
+			// aapt resource value: 0x7F08001F
+			public const int accessibility_custom_action_22 = 2131230751;
+			
+			// aapt resource value: 0x7F080020
+			public const int accessibility_custom_action_23 = 2131230752;
+			
+			// aapt resource value: 0x7F080021
+			public const int accessibility_custom_action_24 = 2131230753;
+			
+			// aapt resource value: 0x7F080022
+			public const int accessibility_custom_action_25 = 2131230754;
+			
+			// aapt resource value: 0x7F080023
+			public const int accessibility_custom_action_26 = 2131230755;
+			
+			// aapt resource value: 0x7F080024
+			public const int accessibility_custom_action_27 = 2131230756;
+			
+			// aapt resource value: 0x7F080025
+			public const int accessibility_custom_action_28 = 2131230757;
+			
+			// aapt resource value: 0x7F080026
+			public const int accessibility_custom_action_29 = 2131230758;
+			
+			// aapt resource value: 0x7F080027
+			public const int accessibility_custom_action_3 = 2131230759;
+			
+			// aapt resource value: 0x7F080028
+			public const int accessibility_custom_action_30 = 2131230760;
+			
+			// aapt resource value: 0x7F080029
+			public const int accessibility_custom_action_31 = 2131230761;
+			
+			// aapt resource value: 0x7F08002A
+			public const int accessibility_custom_action_4 = 2131230762;
+			
+			// aapt resource value: 0x7F08002B
+			public const int accessibility_custom_action_5 = 2131230763;
+			
+			// aapt resource value: 0x7F08002C
+			public const int accessibility_custom_action_6 = 2131230764;
+			
+			// aapt resource value: 0x7F08002D
+			public const int accessibility_custom_action_7 = 2131230765;
+			
+			// aapt resource value: 0x7F08002E
+			public const int accessibility_custom_action_8 = 2131230766;
+			
+			// aapt resource value: 0x7F08002F
+			public const int accessibility_custom_action_9 = 2131230767;
+			
+			// aapt resource value: 0x7F080030
+			public const int action0 = 2131230768;
+			
+			// aapt resource value: 0x7F080031
+			public const int actionDown = 2131230769;
+			
+			// aapt resource value: 0x7F080032
+			public const int actionDownUp = 2131230770;
+			
+			// aapt resource value: 0x7F080045
+			public const int actions = 2131230789;
+			
+			// aapt resource value: 0x7F080033
+			public const int actionUp = 2131230771;
+			
+			// aapt resource value: 0x7F080034
+			public const int action_bar = 2131230772;
+			
+			// aapt resource value: 0x7F080035
+			public const int action_bar_activity_content = 2131230773;
+			
+			// aapt resource value: 0x7F080036
+			public const int action_bar_container = 2131230774;
+			
+			// aapt resource value: 0x7F080037
+			public const int action_bar_root = 2131230775;
+			
+			// aapt resource value: 0x7F080038
+			public const int action_bar_spinner = 2131230776;
+			
+			// aapt resource value: 0x7F080039
+			public const int action_bar_subtitle = 2131230777;
+			
+			// aapt resource value: 0x7F08003A
+			public const int action_bar_title = 2131230778;
+			
+			// aapt resource value: 0x7F08003B
+			public const int action_container = 2131230779;
+			
+			// aapt resource value: 0x7F08003C
+			public const int action_context_bar = 2131230780;
+			
+			// aapt resource value: 0x7F08003D
+			public const int action_divider = 2131230781;
+			
+			// aapt resource value: 0x7F08003E
+			public const int action_image = 2131230782;
+			
+			// aapt resource value: 0x7F08003F
+			public const int action_menu_divider = 2131230783;
+			
+			// aapt resource value: 0x7F080040
+			public const int action_menu_presenter = 2131230784;
+			
+			// aapt resource value: 0x7F080041
+			public const int action_mode_bar = 2131230785;
+			
+			// aapt resource value: 0x7F080042
+			public const int action_mode_bar_stub = 2131230786;
+			
+			// aapt resource value: 0x7F080043
+			public const int action_mode_close_button = 2131230787;
+			
+			// aapt resource value: 0x7F080044
+			public const int action_text = 2131230788;
+			
+			// aapt resource value: 0x7F080046
+			public const int activity_chooser_view_content = 2131230790;
+			
+			// aapt resource value: 0x7F080047
+			public const int add = 2131230791;
+			
+			// aapt resource value: 0x7F080048
+			public const int alertTitle = 2131230792;
+			
+			// aapt resource value: 0x7F080049
+			public const int aligned = 2131230793;
+			
+			// aapt resource value: 0x7F08004A
+			public const int all = 2131230794;
+			
+			// aapt resource value: 0x7F08004B
+			public const int allStates = 2131230795;
+			
+			// aapt resource value: 0x7F080000
+			public const int ALT = 2131230720;
+			
+			// aapt resource value: 0x7F08004C
+			public const int always = 2131230796;
+			
+			// aapt resource value: 0x7F08004D
+			public const int animateToEnd = 2131230797;
+			
+			// aapt resource value: 0x7F08004E
+			public const int animateToStart = 2131230798;
+			
+			// aapt resource value: 0x7F080050
+			public const int anticipate = 2131230800;
+			
+			// aapt resource value: 0x7F08004F
+			public const int antiClockwise = 2131230799;
+			
+			// aapt resource value: 0x7F080051
+			public const int arc = 2131230801;
+			
+			// aapt resource value: 0x7F080052
+			public const int asConfigured = 2131230802;
+			
+			// aapt resource value: 0x7F080053
+			public const int async = 2131230803;
+			
+			// aapt resource value: 0x7F080054
+			public const int auto = 2131230804;
+			
+			// aapt resource value: 0x7F080055
+			public const int autoComplete = 2131230805;
+			
+			// aapt resource value: 0x7F080056
+			public const int autoCompleteToEnd = 2131230806;
+			
+			// aapt resource value: 0x7F080057
+			public const int autoCompleteToStart = 2131230807;
+			
+			// aapt resource value: 0x7F080058
+			public const int barrier = 2131230808;
+			
+			// aapt resource value: 0x7F080059
+			public const int baseline = 2131230809;
+			
+			// aapt resource value: 0x7F08005B
+			public const int beginning = 2131230811;
+			
+			// aapt resource value: 0x7F08005A
+			public const int beginOnFirstDraw = 2131230810;
+			
+			// aapt resource value: 0x7F08005C
+			public const int bestChoice = 2131230812;
+			
+			// aapt resource value: 0x7F08005D
+			public const int blocking = 2131230813;
+			
+			// aapt resource value: 0x7F08005E
+			public const int bottom = 2131230814;
+			
+			// aapt resource value: 0x7F08005F
+			public const int bottomtab_navarea = 2131230815;
+			
+			// aapt resource value: 0x7F080060
+			public const int bottomtab_tabbar = 2131230816;
+			
+			// aapt resource value: 0x7F080001
+			public const int BOTTOM_END = 2131230721;
+			
+			// aapt resource value: 0x7F080002
+			public const int BOTTOM_START = 2131230722;
+			
+			// aapt resource value: 0x7F080061
+			public const int bounce = 2131230817;
+			
+			// aapt resource value: 0x7F080062
+			public const int bounceBoth = 2131230818;
+			
+			// aapt resource value: 0x7F080063
+			public const int bounceEnd = 2131230819;
+			
+			// aapt resource value: 0x7F080064
+			public const int bounceStart = 2131230820;
+			
+			// aapt resource value: 0x7F080065
+			public const int browser_actions_header_text = 2131230821;
+			
+			// aapt resource value: 0x7F080068
+			public const int browser_actions_menu_items = 2131230824;
+			
+			// aapt resource value: 0x7F080066
+			public const int browser_actions_menu_item_icon = 2131230822;
+			
+			// aapt resource value: 0x7F080067
+			public const int browser_actions_menu_item_text = 2131230823;
+			
+			// aapt resource value: 0x7F080069
+			public const int browser_actions_menu_view = 2131230825;
+			
+			// aapt resource value: 0x7F08006A
+			public const int buttonPanel = 2131230826;
+			
+			// aapt resource value: 0x7F08006B
+			public const int cache_measures = 2131230827;
+			
+			// aapt resource value: 0x7F08006C
+			public const int cancel_action = 2131230828;
+			
+			// aapt resource value: 0x7F08006D
+			public const int cancel_button = 2131230829;
+			
+			// aapt resource value: 0x7F08006E
+			public const int carryVelocity = 2131230830;
+			
+			// aapt resource value: 0x7F08006F
+			public const int center = 2131230831;
+			
+			// aapt resource value: 0x7F080070
+			public const int center_horizontal = 2131230832;
+			
+			// aapt resource value: 0x7F080071
+			public const int center_vertical = 2131230833;
+			
+			// aapt resource value: 0x7F080072
+			public const int chain = 2131230834;
+			
+			// aapt resource value: 0x7F080073
+			public const int chains = 2131230835;
+			
+			// aapt resource value: 0x7F080074
+			public const int checkbox = 2131230836;
+			
+			// aapt resource value: 0x7F080075
+			public const int @checked = 2131230837;
+			
+			// aapt resource value: 0x7F080076
+			public const int chip = 2131230838;
+			
+			// aapt resource value: 0x7F080077
+			public const int chip1 = 2131230839;
+			
+			// aapt resource value: 0x7F080078
+			public const int chip2 = 2131230840;
+			
+			// aapt resource value: 0x7F080079
+			public const int chip3 = 2131230841;
+			
+			// aapt resource value: 0x7F08007A
+			public const int chip_group = 2131230842;
+			
+			// aapt resource value: 0x7F08007B
+			public const int chronometer = 2131230843;
+			
+			// aapt resource value: 0x7F08007C
+			public const int circle_center = 2131230844;
+			
+			// aapt resource value: 0x7F08007D
+			public const int clear_text = 2131230845;
+			
+			// aapt resource value: 0x7F08007E
+			public const int clip_horizontal = 2131230846;
+			
+			// aapt resource value: 0x7F08007F
+			public const int clip_vertical = 2131230847;
+			
+			// aapt resource value: 0x7F080080
+			public const int clockwise = 2131230848;
+			
+			// aapt resource value: 0x7F080081
+			public const int closest = 2131230849;
+			
+			// aapt resource value: 0x7F080082
+			public const int collapseActionView = 2131230850;
+			
+			// aapt resource value: 0x7F080083
+			public const int confirm_button = 2131230851;
+			
+			// aapt resource value: 0x7F080084
+			public const int constraint = 2131230852;
+			
+			// aapt resource value: 0x7F080085
+			public const int container = 2131230853;
+			
+			// aapt resource value: 0x7F080086
+			public const int content = 2131230854;
+			
+			// aapt resource value: 0x7F080087
+			public const int contentPanel = 2131230855;
+			
+			// aapt resource value: 0x7F080088
+			public const int contiguous = 2131230856;
+			
+			// aapt resource value: 0x7F080089
+			public const int continuousVelocity = 2131230857;
+			
+			// aapt resource value: 0x7F08008A
+			public const int coordinator = 2131230858;
+			
+			// aapt resource value: 0x7F08008B
+			public const int cos = 2131230859;
+			
+			// aapt resource value: 0x7F08008C
+			public const int counterclockwise = 2131230860;
+			
+			// aapt resource value: 0x7F080003
+			public const int CTRL = 2131230723;
+			
+			// aapt resource value: 0x7F08008D
+			public const int currentState = 2131230861;
+			
+			// aapt resource value: 0x7F08008E
+			public const int custom = 2131230862;
+			
+			// aapt resource value: 0x7F08008F
+			public const int customPanel = 2131230863;
+			
+			// aapt resource value: 0x7F080090
+			public const int cut = 2131230864;
+			
+			// aapt resource value: 0x7F080091
+			public const int date_picker_actions = 2131230865;
+			
+			// aapt resource value: 0x7F080092
+			public const int decelerate = 2131230866;
+			
+			// aapt resource value: 0x7F080093
+			public const int decelerateAndComplete = 2131230867;
+			
+			// aapt resource value: 0x7F080094
+			public const int decor_content_parent = 2131230868;
+			
+			// aapt resource value: 0x7F080095
+			public const int default_activity_button = 2131230869;
+			
+			// aapt resource value: 0x7F080096
+			public const int deltaRelative = 2131230870;
+			
+			// aapt resource value: 0x7F080097
+			public const int dependency_ordering = 2131230871;
+			
+			// aapt resource value: 0x7F080098
+			public const int design_bottom_sheet = 2131230872;
+			
+			// aapt resource value: 0x7F080099
+			public const int design_menu_item_action_area = 2131230873;
+			
+			// aapt resource value: 0x7F08009A
+			public const int design_menu_item_action_area_stub = 2131230874;
+			
+			// aapt resource value: 0x7F08009B
+			public const int design_menu_item_text = 2131230875;
+			
+			// aapt resource value: 0x7F08009C
+			public const int design_navigation_view = 2131230876;
+			
+			// aapt resource value: 0x7F08009D
+			public const int dialog_button = 2131230877;
+			
+			// aapt resource value: 0x7F08009E
+			public const int dimensions = 2131230878;
+			
+			// aapt resource value: 0x7F08009F
+			public const int direct = 2131230879;
+			
+			// aapt resource value: 0x7F0800A0
+			public const int disableHome = 2131230880;
+			
+			// aapt resource value: 0x7F0800A1
+			public const int disableIntraAutoTransition = 2131230881;
+			
+			// aapt resource value: 0x7F0800A2
+			public const int disablePostScroll = 2131230882;
+			
+			// aapt resource value: 0x7F0800A3
+			public const int disableScroll = 2131230883;
+			
+			// aapt resource value: 0x7F0800A4
+			public const int disjoint = 2131230884;
+			
+			// aapt resource value: 0x7F0800A5
+			public const int dragAnticlockwise = 2131230885;
+			
+			// aapt resource value: 0x7F0800A6
+			public const int dragClockwise = 2131230886;
+			
+			// aapt resource value: 0x7F0800A7
+			public const int dragDown = 2131230887;
+			
+			// aapt resource value: 0x7F0800A8
+			public const int dragEnd = 2131230888;
+			
+			// aapt resource value: 0x7F0800A9
+			public const int dragLeft = 2131230889;
+			
+			// aapt resource value: 0x7F0800AA
+			public const int dragRight = 2131230890;
+			
+			// aapt resource value: 0x7F0800AB
+			public const int dragStart = 2131230891;
+			
+			// aapt resource value: 0x7F0800AC
+			public const int dragUp = 2131230892;
+			
+			// aapt resource value: 0x7F0800AD
+			public const int dropdown_menu = 2131230893;
+			
+			// aapt resource value: 0x7F0800AE
+			public const int easeIn = 2131230894;
+			
+			// aapt resource value: 0x7F0800AF
+			public const int easeInOut = 2131230895;
+			
+			// aapt resource value: 0x7F0800B0
+			public const int easeOut = 2131230896;
+			
+			// aapt resource value: 0x7F0800B1
+			public const int east = 2131230897;
+			
+			// aapt resource value: 0x7F0800B2
+			public const int edit_query = 2131230898;
+			
+			// aapt resource value: 0x7F0800B3
+			public const int elastic = 2131230899;
+			
+			// aapt resource value: 0x7F0800B4
+			public const int end = 2131230900;
+			
+			// aapt resource value: 0x7F0800B5
+			public const int endToStart = 2131230901;
+			
+			// aapt resource value: 0x7F0800B6
+			public const int end_padder = 2131230902;
+			
+			// aapt resource value: 0x7F0800B7
+			public const int enterAlways = 2131230903;
+			
+			// aapt resource value: 0x7F0800B8
+			public const int enterAlwaysCollapsed = 2131230904;
+			
+			// aapt resource value: 0x7F0800B9
+			public const int exitUntilCollapsed = 2131230905;
+			
+			// aapt resource value: 0x7F0800BB
+			public const int expanded_menu = 2131230907;
+			
+			// aapt resource value: 0x7F0800BA
+			public const int expand_activities_button = 2131230906;
+			
+			// aapt resource value: 0x7F0800BC
+			public const int fade = 2131230908;
+			
+			// aapt resource value: 0x7F0800BD
+			public const int fill = 2131230909;
+			
+			// aapt resource value: 0x7F0800C0
+			public const int filled = 2131230912;
+			
+			// aapt resource value: 0x7F0800BE
+			public const int fill_horizontal = 2131230910;
+			
+			// aapt resource value: 0x7F0800BF
+			public const int fill_vertical = 2131230911;
+			
+			// aapt resource value: 0x7F0800C1
+			public const int fitToContents = 2131230913;
+			
+			// aapt resource value: 0x7F0800C2
+			public const int @fixed = 2131230914;
+			
+			// aapt resource value: 0x7F0800C3
+			public const int flip = 2131230915;
+			
+			// aapt resource value: 0x7F0800C4
+			public const int floating = 2131230916;
+			
+			// aapt resource value: 0x7F0800C5
+			public const int flyoutcontent_appbar = 2131230917;
+			
+			// aapt resource value: 0x7F0800C6
+			public const int forever = 2131230918;
+			
+			// aapt resource value: 0x7F0800C7
+			public const int fragment_container_view_tag = 2131230919;
+			
+			// aapt resource value: 0x7F0800C8
+			public const int frost = 2131230920;
+			
+			// aapt resource value: 0x7F080004
+			public const int FUNCTION = 2131230724;
+			
+			// aapt resource value: 0x7F0800C9
+			public const int ghost_view = 2131230921;
+			
+			// aapt resource value: 0x7F0800CA
+			public const int ghost_view_holder = 2131230922;
+			
+			// aapt resource value: 0x7F0800CB
+			public const int gone = 2131230923;
+			
+			// aapt resource value: 0x7F0800CC
+			public const int graph = 2131230924;
+			
+			// aapt resource value: 0x7F0800CD
+			public const int graph_wrap = 2131230925;
+			
+			// aapt resource value: 0x7F0800CF
+			public const int grouping = 2131230927;
+			
+			// aapt resource value: 0x7F0800D0
+			public const int groups = 2131230928;
+			
+			// aapt resource value: 0x7F0800CE
+			public const int group_divider = 2131230926;
+			
+			// aapt resource value: 0x7F0800D1
+			public const int guideline = 2131230929;
+			
+			// aapt resource value: 0x7F0800D2
+			public const int header_title = 2131230930;
+			
+			// aapt resource value: 0x7F0800D3
+			public const int hideable = 2131230931;
+			
+			// aapt resource value: 0x7F0800D4
+			public const int home = 2131230932;
+			
+			// aapt resource value: 0x7F0800D5
+			public const int homeAsUp = 2131230933;
+			
+			// aapt resource value: 0x7F0800D6
+			public const int honorRequest = 2131230934;
+			
+			// aapt resource value: 0x7F0800D7
+			public const int horizontal_only = 2131230935;
+			
+			// aapt resource value: 0x7F0800D8
+			public const int icon = 2131230936;
+			
+			// aapt resource value: 0x7F0800D9
+			public const int icon_frame = 2131230937;
+			
+			// aapt resource value: 0x7F0800DA
+			public const int icon_group = 2131230938;
+			
+			// aapt resource value: 0x7F0800DB
+			public const int ifRoom = 2131230939;
+			
+			// aapt resource value: 0x7F0800DC
+			public const int ignore = 2131230940;
+			
+			// aapt resource value: 0x7F0800DD
+			public const int ignoreRequest = 2131230941;
+			
+			// aapt resource value: 0x7F0800DE
+			public const int image = 2131230942;
+			
+			// aapt resource value: 0x7F0800DF
+			public const int immediateStop = 2131230943;
+			
+			// aapt resource value: 0x7F0800E0
+			public const int included = 2131230944;
+			
+			// aapt resource value: 0x7F0800E1
+			public const int info = 2131230945;
+			
+			// aapt resource value: 0x7F0800E2
+			public const int invisible = 2131230946;
+			
+			// aapt resource value: 0x7F0800E3
+			public const int inward = 2131230947;
+			
+			// aapt resource value: 0x7F0800E4
+			public const int italic = 2131230948;
+			
+			// aapt resource value: 0x7F0800E5
+			public const int item_touch_helper_previous_elevation = 2131230949;
+			
+			// aapt resource value: 0x7F0800E6
+			public const int jumpToEnd = 2131230950;
+			
+			// aapt resource value: 0x7F0800E7
+			public const int jumpToStart = 2131230951;
+			
+			// aapt resource value: 0x7F0800E8
+			public const int labeled = 2131230952;
+			
+			// aapt resource value: 0x7F0800E9
+			public const int layout = 2131230953;
+			
+			// aapt resource value: 0x7F0800EA
+			public const int left = 2131230954;
+			
+			// aapt resource value: 0x7F0800EB
+			public const int leftToRight = 2131230955;
+			
+			// aapt resource value: 0x7F0800EC
+			public const int legacy = 2131230956;
+			
+			// aapt resource value: 0x7F0800ED
+			public const int line1 = 2131230957;
+			
+			// aapt resource value: 0x7F0800EE
+			public const int line3 = 2131230958;
+			
+			// aapt resource value: 0x7F0800EF
+			public const int linear = 2131230959;
+			
+			// aapt resource value: 0x7F0800F0
+			public const int listMode = 2131230960;
+			
+			// aapt resource value: 0x7F0800F1
+			public const int list_item = 2131230961;
+			
+			// aapt resource value: 0x7F0800F2
+			public const int main_appbar = 2131230962;
+			
+			// aapt resource value: 0x7F0800F3
+			public const int main_tablayout = 2131230963;
+			
+			// aapt resource value: 0x7F0800F4
+			public const int main_toolbar = 2131230964;
+			
+			// aapt resource value: 0x7F0800F5
+			public const int main_viewpager = 2131230965;
+			
+			// aapt resource value: 0x7F0800F6
+			public const int masked = 2131230966;
+			
+			// aapt resource value: 0x7F0800F7
+			public const int match_constraint = 2131230967;
+			
+			// aapt resource value: 0x7F0800F8
+			public const int match_parent = 2131230968;
+			
+			// aapt resource value: 0x7F0800F9
+			public const int material_clock_display = 2131230969;
+			
+			// aapt resource value: 0x7F0800FA
+			public const int material_clock_face = 2131230970;
+			
+			// aapt resource value: 0x7F0800FB
+			public const int material_clock_hand = 2131230971;
+			
+			// aapt resource value: 0x7F0800FC
+			public const int material_clock_period_am_button = 2131230972;
+			
+			// aapt resource value: 0x7F0800FD
+			public const int material_clock_period_pm_button = 2131230973;
+			
+			// aapt resource value: 0x7F0800FE
+			public const int material_clock_period_toggle = 2131230974;
+			
+			// aapt resource value: 0x7F0800FF
+			public const int material_hour_text_input = 2131230975;
+			
+			// aapt resource value: 0x7F080100
+			public const int material_hour_tv = 2131230976;
+			
+			// aapt resource value: 0x7F080101
+			public const int material_label = 2131230977;
+			
+			// aapt resource value: 0x7F080102
+			public const int material_minute_text_input = 2131230978;
+			
+			// aapt resource value: 0x7F080103
+			public const int material_minute_tv = 2131230979;
+			
+			// aapt resource value: 0x7F080104
+			public const int material_textinput_timepicker = 2131230980;
+			
+			// aapt resource value: 0x7F080105
+			public const int material_timepicker_cancel_button = 2131230981;
+			
+			// aapt resource value: 0x7F080106
+			public const int material_timepicker_container = 2131230982;
+			
+			// aapt resource value: 0x7F080107
+			public const int material_timepicker_edit_text = 2131230983;
+			
+			// aapt resource value: 0x7F080108
+			public const int material_timepicker_mode_button = 2131230984;
+			
+			// aapt resource value: 0x7F080109
+			public const int material_timepicker_ok_button = 2131230985;
+			
+			// aapt resource value: 0x7F08010A
+			public const int material_timepicker_view = 2131230986;
+			
+			// aapt resource value: 0x7F08010B
+			public const int material_value_index = 2131230987;
+			
+			// aapt resource value: 0x7F08010C
+			public const int media_actions = 2131230988;
+			
+			// aapt resource value: 0x7F08010D
+			public const int media_controller_compat_view_tag = 2131230989;
+			
+			// aapt resource value: 0x7F08010E
+			public const int message = 2131230990;
+			
+			// aapt resource value: 0x7F080005
+			public const int META = 2131230725;
+			
+			// aapt resource value: 0x7F08010F
+			public const int middle = 2131230991;
+			
+			// aapt resource value: 0x7F080110
+			public const int mini = 2131230992;
+			
+			// aapt resource value: 0x7F080111
+			public const int month_grid = 2131230993;
+			
+			// aapt resource value: 0x7F080112
+			public const int month_navigation_bar = 2131230994;
+			
+			// aapt resource value: 0x7F080113
+			public const int month_navigation_fragment_toggle = 2131230995;
+			
+			// aapt resource value: 0x7F080114
+			public const int month_navigation_next = 2131230996;
+			
+			// aapt resource value: 0x7F080115
+			public const int month_navigation_previous = 2131230997;
+			
+			// aapt resource value: 0x7F080116
+			public const int month_title = 2131230998;
+			
+			// aapt resource value: 0x7F080117
+			public const int motion_base = 2131230999;
+			
+			// aapt resource value: 0x7F080118
+			public const int mtrl_anchor_parent = 2131231000;
+			
+			// aapt resource value: 0x7F08011A
+			public const int mtrl_calendar_days_of_week = 2131231002;
+			
+			// aapt resource value: 0x7F080119
+			public const int mtrl_calendar_day_selector_frame = 2131231001;
+			
+			// aapt resource value: 0x7F08011B
+			public const int mtrl_calendar_frame = 2131231003;
+			
+			// aapt resource value: 0x7F08011C
+			public const int mtrl_calendar_main_pane = 2131231004;
+			
+			// aapt resource value: 0x7F08011D
+			public const int mtrl_calendar_months = 2131231005;
+			
+			// aapt resource value: 0x7F08011E
+			public const int mtrl_calendar_selection_frame = 2131231006;
+			
+			// aapt resource value: 0x7F08011F
+			public const int mtrl_calendar_text_input_frame = 2131231007;
+			
+			// aapt resource value: 0x7F080120
+			public const int mtrl_calendar_year_selector_frame = 2131231008;
+			
+			// aapt resource value: 0x7F080121
+			public const int mtrl_card_checked_layer_id = 2131231009;
+			
+			// aapt resource value: 0x7F080122
+			public const int mtrl_child_content_container = 2131231010;
+			
+			// aapt resource value: 0x7F080123
+			public const int mtrl_internal_children_alpha_tag = 2131231011;
+			
+			// aapt resource value: 0x7F080124
+			public const int mtrl_motion_snapshot_view = 2131231012;
+			
+			// aapt resource value: 0x7F080125
+			public const int mtrl_picker_fullscreen = 2131231013;
+			
+			// aapt resource value: 0x7F080126
+			public const int mtrl_picker_header = 2131231014;
+			
+			// aapt resource value: 0x7F080127
+			public const int mtrl_picker_header_selection_text = 2131231015;
+			
+			// aapt resource value: 0x7F080128
+			public const int mtrl_picker_header_title_and_selection = 2131231016;
+			
+			// aapt resource value: 0x7F080129
+			public const int mtrl_picker_header_toggle = 2131231017;
+			
+			// aapt resource value: 0x7F08012A
+			public const int mtrl_picker_text_input_date = 2131231018;
+			
+			// aapt resource value: 0x7F08012B
+			public const int mtrl_picker_text_input_range_end = 2131231019;
+			
+			// aapt resource value: 0x7F08012C
+			public const int mtrl_picker_text_input_range_start = 2131231020;
+			
+			// aapt resource value: 0x7F08012D
+			public const int mtrl_picker_title_text = 2131231021;
+			
+			// aapt resource value: 0x7F08012E
+			public const int mtrl_view_tag_bottom_padding = 2131231022;
+			
+			// aapt resource value: 0x7F08012F
+			public const int multiply = 2131231023;
+			
+			// aapt resource value: 0x7F080131
+			public const int navigation_bar_item_icon_view = 2131231025;
+			
+			// aapt resource value: 0x7F080132
+			public const int navigation_bar_item_labels_group = 2131231026;
+			
+			// aapt resource value: 0x7F080133
+			public const int navigation_bar_item_large_label_view = 2131231027;
+			
+			// aapt resource value: 0x7F080134
+			public const int navigation_bar_item_small_label_view = 2131231028;
+			
+			// aapt resource value: 0x7F080135
+			public const int navigation_header_container = 2131231029;
+			
+			// aapt resource value: 0x7F080130
+			public const int nav_controller_view_tag = 2131231024;
+			
+			// aapt resource value: 0x7F080136
+			public const int never = 2131231030;
+			
+			// aapt resource value: 0x7F080137
+			public const int neverCompleteToEnd = 2131231031;
+			
+			// aapt resource value: 0x7F080138
+			public const int neverCompleteToStart = 2131231032;
+			
+			// aapt resource value: 0x7F08013B
+			public const int none = 2131231035;
+			
+			// aapt resource value: 0x7F08013C
+			public const int normal = 2131231036;
+			
+			// aapt resource value: 0x7F08013D
+			public const int north = 2131231037;
+			
+			// aapt resource value: 0x7F080139
+			public const int noScroll = 2131231033;
+			
+			// aapt resource value: 0x7F08013A
+			public const int noState = 2131231034;
+			
+			// aapt resource value: 0x7F08013E
+			public const int notification_background = 2131231038;
+			
+			// aapt resource value: 0x7F08013F
+			public const int notification_main_column = 2131231039;
+			
+			// aapt resource value: 0x7F080140
+			public const int notification_main_column_container = 2131231040;
+			
+			// aapt resource value: 0x7F080006
+			public const int NO_DEBUG = 2131230726;
+			
+			// aapt resource value: 0x7F080141
+			public const int off = 2131231041;
+			
+			// aapt resource value: 0x7F080142
+			public const int on = 2131231042;
+			
+			// aapt resource value: 0x7F080143
+			public const int outline = 2131231043;
+			
+			// aapt resource value: 0x7F080144
+			public const int outward = 2131231044;
+			
+			// aapt resource value: 0x7F080145
+			public const int overshoot = 2131231045;
+			
+			// aapt resource value: 0x7F080146
+			public const int packed = 2131231046;
+			
+			// aapt resource value: 0x7F080147
+			public const int parallax = 2131231047;
+			
+			// aapt resource value: 0x7F080148
+			public const int parent = 2131231048;
+			
+			// aapt resource value: 0x7F080149
+			public const int parentPanel = 2131231049;
+			
+			// aapt resource value: 0x7F08014A
+			public const int parentRelative = 2131231050;
+			
+			// aapt resource value: 0x7F08014B
+			public const int parent_matrix = 2131231051;
+			
+			// aapt resource value: 0x7F08014C
+			public const int password_toggle = 2131231052;
+			
+			// aapt resource value: 0x7F08014D
+			public const int path = 2131231053;
+			
+			// aapt resource value: 0x7F08014E
+			public const int pathRelative = 2131231054;
+			
+			// aapt resource value: 0x7F08014F
+			public const int peekHeight = 2131231055;
+			
+			// aapt resource value: 0x7F080150
+			public const int percent = 2131231056;
+			
+			// aapt resource value: 0x7F080151
+			public const int pin = 2131231057;
+			
+			// aapt resource value: 0x7F080152
+			public const int position = 2131231058;
+			
+			// aapt resource value: 0x7F080153
+			public const int postLayout = 2131231059;
+			
+			// aapt resource value: 0x7F080154
+			public const int progress_circular = 2131231060;
+			
+			// aapt resource value: 0x7F080155
+			public const int progress_horizontal = 2131231061;
+			
+			// aapt resource value: 0x7F080156
+			public const int radio = 2131231062;
+			
+			// aapt resource value: 0x7F080157
+			public const int ratio = 2131231063;
+			
+			// aapt resource value: 0x7F080158
+			public const int rectangles = 2131231064;
+			
+			// aapt resource value: 0x7F080159
+			public const int recycler_view = 2131231065;
+			
+			// aapt resource value: 0x7F08015A
+			public const int reverseSawtooth = 2131231066;
+			
+			// aapt resource value: 0x7F08015B
+			public const int right = 2131231067;
+			
+			// aapt resource value: 0x7F08015C
+			public const int rightToLeft = 2131231068;
+			
+			// aapt resource value: 0x7F08015D
+			public const int right_icon = 2131231069;
+			
+			// aapt resource value: 0x7F08015E
+			public const int right_side = 2131231070;
+			
+			// aapt resource value: 0x7F08015F
+			public const int rounded = 2131231071;
+			
+			// aapt resource value: 0x7F080160
+			public const int row_index_key = 2131231072;
+			
+			// aapt resource value: 0x7F080161
+			public const int save_non_transition_alpha = 2131231073;
+			
+			// aapt resource value: 0x7F080162
+			public const int save_overlay_view = 2131231074;
+			
+			// aapt resource value: 0x7F080163
+			public const int sawtooth = 2131231075;
+			
+			// aapt resource value: 0x7F080164
+			public const int scale = 2131231076;
+			
+			// aapt resource value: 0x7F080165
+			public const int screen = 2131231077;
+			
+			// aapt resource value: 0x7F080166
+			public const int scroll = 2131231078;
+			
+			// aapt resource value: 0x7F08016A
+			public const int scrollable = 2131231082;
+			
+			// aapt resource value: 0x7F080167
+			public const int scrollIndicatorDown = 2131231079;
+			
+			// aapt resource value: 0x7F080168
+			public const int scrollIndicatorUp = 2131231080;
+			
+			// aapt resource value: 0x7F080169
+			public const int scrollView = 2131231081;
+			
+			// aapt resource value: 0x7F08016B
+			public const int search_badge = 2131231083;
+			
+			// aapt resource value: 0x7F08016C
+			public const int search_bar = 2131231084;
+			
+			// aapt resource value: 0x7F08016D
+			public const int search_button = 2131231085;
+			
+			// aapt resource value: 0x7F08016E
+			public const int search_close_btn = 2131231086;
+			
+			// aapt resource value: 0x7F08016F
+			public const int search_edit_frame = 2131231087;
+			
+			// aapt resource value: 0x7F080170
+			public const int search_go_btn = 2131231088;
+			
+			// aapt resource value: 0x7F080171
+			public const int search_mag_icon = 2131231089;
+			
+			// aapt resource value: 0x7F080172
+			public const int search_plate = 2131231090;
+			
+			// aapt resource value: 0x7F080173
+			public const int search_src_text = 2131231091;
+			
+			// aapt resource value: 0x7F080174
+			public const int search_voice_btn = 2131231092;
+			
+			// aapt resource value: 0x7F080175
+			public const int seekbar = 2131231093;
+			
+			// aapt resource value: 0x7F080176
+			public const int seekbar_value = 2131231094;
+			
+			// aapt resource value: 0x7F080178
+			public const int selected = 2131231096;
+			
+			// aapt resource value: 0x7F080179
+			public const int selection_type = 2131231097;
+			
+			// aapt resource value: 0x7F080177
+			public const int select_dialog_listview = 2131231095;
+			
+			// aapt resource value: 0x7F08017A
+			public const int sharedValueSet = 2131231098;
+			
+			// aapt resource value: 0x7F08017B
+			public const int sharedValueUnset = 2131231099;
+			
+			// aapt resource value: 0x7F08017C
+			public const int shellcontent_appbar = 2131231100;
+			
+			// aapt resource value: 0x7F08017D
+			public const int shellcontent_toolbar = 2131231101;
+			
+			// aapt resource value: 0x7F080007
+			public const int SHIFT = 2131230727;
+			
+			// aapt resource value: 0x7F08017E
+			public const int shortcut = 2131231102;
+			
+			// aapt resource value: 0x7F08017F
+			public const int showCustom = 2131231103;
+			
+			// aapt resource value: 0x7F080180
+			public const int showHome = 2131231104;
+			
+			// aapt resource value: 0x7F080181
+			public const int showTitle = 2131231105;
+			
+			// aapt resource value: 0x7F080008
+			public const int SHOW_ALL = 2131230728;
+			
+			// aapt resource value: 0x7F080009
+			public const int SHOW_PATH = 2131230729;
+			
+			// aapt resource value: 0x7F08000A
+			public const int SHOW_PROGRESS = 2131230730;
+			
+			// aapt resource value: 0x7F080182
+			public const int sin = 2131231106;
+			
+			// aapt resource value: 0x7F080183
+			public const int skipCollapsed = 2131231107;
+			
+			// aapt resource value: 0x7F080184
+			public const int skipped = 2131231108;
+			
+			// aapt resource value: 0x7F080185
+			public const int slide = 2131231109;
+			
+			// aapt resource value: 0x7F080186
+			public const int sliding_tabs = 2131231110;
+			
+			// aapt resource value: 0x7F080187
+			public const int snackbar_action = 2131231111;
+			
+			// aapt resource value: 0x7F080188
+			public const int snackbar_text = 2131231112;
+			
+			// aapt resource value: 0x7F080189
+			public const int snap = 2131231113;
+			
+			// aapt resource value: 0x7F08018A
+			public const int snapMargins = 2131231114;
+			
+			// aapt resource value: 0x7F08018B
+			public const int south = 2131231115;
+			
+			// aapt resource value: 0x7F08018C
+			public const int spacer = 2131231116;
+			
+			// aapt resource value: 0x7F08018D
+			public const int special_effects_controller_view_tag = 2131231117;
+			
+			// aapt resource value: 0x7F08018E
+			public const int spinner = 2131231118;
+			
+			// aapt resource value: 0x7F08018F
+			public const int spline = 2131231119;
+			
+			// aapt resource value: 0x7F080190
+			public const int split_action_bar = 2131231120;
+			
+			// aapt resource value: 0x7F080191
+			public const int spread = 2131231121;
+			
+			// aapt resource value: 0x7F080192
+			public const int spread_inside = 2131231122;
+			
+			// aapt resource value: 0x7F080193
+			public const int spring = 2131231123;
+			
+			// aapt resource value: 0x7F080194
+			public const int square = 2131231124;
+			
+			// aapt resource value: 0x7F080195
+			public const int src_atop = 2131231125;
+			
+			// aapt resource value: 0x7F080196
+			public const int src_in = 2131231126;
+			
+			// aapt resource value: 0x7F080197
+			public const int src_over = 2131231127;
+			
+			// aapt resource value: 0x7F080198
+			public const int standard = 2131231128;
+			
+			// aapt resource value: 0x7F080199
+			public const int start = 2131231129;
+			
+			// aapt resource value: 0x7F08019A
+			public const int startHorizontal = 2131231130;
+			
+			// aapt resource value: 0x7F08019B
+			public const int startToEnd = 2131231131;
+			
+			// aapt resource value: 0x7F08019C
+			public const int startVertical = 2131231132;
+			
+			// aapt resource value: 0x7F08019D
+			public const int staticLayout = 2131231133;
+			
+			// aapt resource value: 0x7F08019E
+			public const int staticPostLayout = 2131231134;
+			
+			// aapt resource value: 0x7F08019F
+			public const int status_bar_latest_event_content = 2131231135;
+			
+			// aapt resource value: 0x7F0801A0
+			public const int stop = 2131231136;
+			
+			// aapt resource value: 0x7F0801A1
+			public const int stretch = 2131231137;
+			
+			// aapt resource value: 0x7F0801A2
+			public const int submenuarrow = 2131231138;
+			
+			// aapt resource value: 0x7F0801A3
+			public const int submit_area = 2131231139;
+			
+			// aapt resource value: 0x7F0801A4
+			public const int supportScrollUp = 2131231140;
+			
+			// aapt resource value: 0x7F0801A5
+			public const int switchWidget = 2131231141;
+			
+			// aapt resource value: 0x7F08000B
+			public const int SYM = 2131230731;
+			
+			// aapt resource value: 0x7F0801A6
+			public const int tabMode = 2131231142;
+			
+			// aapt resource value: 0x7F0801A7
+			public const int tag_accessibility_actions = 2131231143;
+			
+			// aapt resource value: 0x7F0801A8
+			public const int tag_accessibility_clickable_spans = 2131231144;
+			
+			// aapt resource value: 0x7F0801A9
+			public const int tag_accessibility_heading = 2131231145;
+			
+			// aapt resource value: 0x7F0801AA
+			public const int tag_accessibility_pane_title = 2131231146;
+			
+			// aapt resource value: 0x7F0801AB
+			public const int tag_on_apply_window_listener = 2131231147;
+			
+			// aapt resource value: 0x7F0801AC
+			public const int tag_on_receive_content_listener = 2131231148;
+			
+			// aapt resource value: 0x7F0801AD
+			public const int tag_on_receive_content_mime_types = 2131231149;
+			
+			// aapt resource value: 0x7F0801AE
+			public const int tag_screen_reader_focusable = 2131231150;
+			
+			// aapt resource value: 0x7F0801AF
+			public const int tag_state_description = 2131231151;
+			
+			// aapt resource value: 0x7F0801B0
+			public const int tag_transition_group = 2131231152;
+			
+			// aapt resource value: 0x7F0801B1
+			public const int tag_unhandled_key_event_manager = 2131231153;
+			
+			// aapt resource value: 0x7F0801B2
+			public const int tag_unhandled_key_listeners = 2131231154;
+			
+			// aapt resource value: 0x7F0801B3
+			public const int tag_window_insets_animation_callback = 2131231155;
+			
+			// aapt resource value: 0x7F0801B4
+			public const int test_checkbox_android_button_tint = 2131231156;
+			
+			// aapt resource value: 0x7F0801B5
+			public const int test_checkbox_app_button_tint = 2131231157;
+			
+			// aapt resource value: 0x7F0801B6
+			public const int test_radiobutton_android_button_tint = 2131231158;
+			
+			// aapt resource value: 0x7F0801B7
+			public const int test_radiobutton_app_button_tint = 2131231159;
+			
+			// aapt resource value: 0x7F0801B8
+			public const int text = 2131231160;
+			
+			// aapt resource value: 0x7F0801B9
+			public const int text2 = 2131231161;
+			
+			// aapt resource value: 0x7F0801BA
+			public const int textEnd = 2131231162;
+			
+			// aapt resource value: 0x7F0801C2
+			public const int textinput_counter = 2131231170;
+			
+			// aapt resource value: 0x7F0801C3
+			public const int textinput_error = 2131231171;
+			
+			// aapt resource value: 0x7F0801C4
+			public const int textinput_helper_text = 2131231172;
+			
+			// aapt resource value: 0x7F0801C5
+			public const int textinput_placeholder = 2131231173;
+			
+			// aapt resource value: 0x7F0801C6
+			public const int textinput_prefix_text = 2131231174;
+			
+			// aapt resource value: 0x7F0801C7
+			public const int textinput_suffix_text = 2131231175;
+			
+			// aapt resource value: 0x7F0801BB
+			public const int textSpacerNoButtons = 2131231163;
+			
+			// aapt resource value: 0x7F0801BC
+			public const int textSpacerNoTitle = 2131231164;
+			
+			// aapt resource value: 0x7F0801BD
+			public const int textStart = 2131231165;
+			
+			// aapt resource value: 0x7F0801BE
+			public const int textTop = 2131231166;
+			
+			// aapt resource value: 0x7F0801BF
+			public const int text_input_end_icon = 2131231167;
+			
+			// aapt resource value: 0x7F0801C0
+			public const int text_input_error_icon = 2131231168;
+			
+			// aapt resource value: 0x7F0801C1
+			public const int text_input_start_icon = 2131231169;
+			
+			// aapt resource value: 0x7F0801C8
+			public const int time = 2131231176;
+			
+			// aapt resource value: 0x7F0801C9
+			public const int title = 2131231177;
+			
+			// aapt resource value: 0x7F0801CA
+			public const int titleDividerNoCustom = 2131231178;
+			
+			// aapt resource value: 0x7F0801CB
+			public const int title_template = 2131231179;
+			
+			// aapt resource value: 0x7F0801CC
+			public const int toggle = 2131231180;
+			
+			// aapt resource value: 0x7F0801CD
+			public const int toolbar = 2131231181;
+			
+			// aapt resource value: 0x7F0801CE
+			public const int top = 2131231182;
+			
+			// aapt resource value: 0x7F0801CF
+			public const int topPanel = 2131231183;
+			
+			// aapt resource value: 0x7F08000C
+			public const int TOP_END = 2131230732;
+			
+			// aapt resource value: 0x7F08000D
+			public const int TOP_START = 2131230733;
+			
+			// aapt resource value: 0x7F0801D0
+			public const int touch_outside = 2131231184;
+			
+			// aapt resource value: 0x7F0801D1
+			public const int transitionToEnd = 2131231185;
+			
+			// aapt resource value: 0x7F0801D2
+			public const int transitionToStart = 2131231186;
+			
+			// aapt resource value: 0x7F0801D3
+			public const int transition_current_scene = 2131231187;
+			
+			// aapt resource value: 0x7F0801D4
+			public const int transition_layout_save = 2131231188;
+			
+			// aapt resource value: 0x7F0801D5
+			public const int transition_position = 2131231189;
+			
+			// aapt resource value: 0x7F0801D6
+			public const int transition_scene_layoutid_cache = 2131231190;
+			
+			// aapt resource value: 0x7F0801D7
+			public const int transition_transform = 2131231191;
+			
+			// aapt resource value: 0x7F0801D8
+			public const int triangle = 2131231192;
+			
+			// aapt resource value: 0x7F0801D9
+			public const int @unchecked = 2131231193;
+			
+			// aapt resource value: 0x7F0801DA
+			public const int uniform = 2131231194;
+			
+			// aapt resource value: 0x7F0801DB
+			public const int unlabeled = 2131231195;
+			
+			// aapt resource value: 0x7F0801DC
+			public const int up = 2131231196;
+			
+			// aapt resource value: 0x7F0801DD
+			public const int useLogo = 2131231197;
+			
+			// aapt resource value: 0x7F0801DE
+			public const int vertical_only = 2131231198;
+			
+			// aapt resource value: 0x7F0801DF
+			public const int view_offset_helper = 2131231199;
+			
+			// aapt resource value: 0x7F0801E0
+			public const int view_transition = 2131231200;
+			
+			// aapt resource value: 0x7F0801E1
+			public const int view_tree_lifecycle_owner = 2131231201;
+			
+			// aapt resource value: 0x7F0801E2
+			public const int view_tree_saved_state_registry_owner = 2131231202;
+			
+			// aapt resource value: 0x7F0801E3
+			public const int view_tree_view_model_store_owner = 2131231203;
+			
+			// aapt resource value: 0x7F0801E4
+			public const int visible = 2131231204;
+			
+			// aapt resource value: 0x7F0801E5
+			public const int visible_removing_fragment_view_tag = 2131231205;
+			
+			// aapt resource value: 0x7F0801E6
+			public const int west = 2131231206;
+			
+			// aapt resource value: 0x7F0801E8
+			public const int withinBounds = 2131231208;
+			
+			// aapt resource value: 0x7F0801E7
+			public const int withText = 2131231207;
 			
 			// aapt resource value: 0x7F0801E9
-			public const int touch_outside = 2131231209;
+			public const int wrap = 2131231209;
 			
 			// aapt resource value: 0x7F0801EA
-			public const int transitionToEnd = 2131231210;
+			public const int wrap_content = 2131231210;
 			
 			// aapt resource value: 0x7F0801EB
-			public const int transitionToStart = 2131231211;
+			public const int wrap_content_constrained = 2131231211;
 			
 			// aapt resource value: 0x7F0801EC
-			public const int transition_current_scene = 2131231212;
+			public const int x_left = 2131231212;
 			
 			// aapt resource value: 0x7F0801ED
-			public const int transition_layout_save = 2131231213;
+			public const int x_right = 2131231213;
 			
 			// aapt resource value: 0x7F0801EE
-			public const int transition_position = 2131231214;
-			
-			// aapt resource value: 0x7F0801EF
-			public const int transition_scene_layoutid_cache = 2131231215;
-			
-			// aapt resource value: 0x7F0801F0
-			public const int transition_transform = 2131231216;
-			
-			// aapt resource value: 0x7F0801F1
-			public const int triangle = 2131231217;
-			
-			// aapt resource value: 0x7F0801F2
-			public const int @unchecked = 2131231218;
-			
-			// aapt resource value: 0x7F0801F3
-			public const int uniform = 2131231219;
-			
-			// aapt resource value: 0x7F0801F4
-			public const int unlabeled = 2131231220;
-			
-			// aapt resource value: 0x7F0801F5
-			public const int up = 2131231221;
-			
-			// aapt resource value: 0x7F0801F6
-			public const int useLogo = 2131231222;
-			
-			// aapt resource value: 0x7F0801F7
-			public const int vertical_only = 2131231223;
-			
-			// aapt resource value: 0x7F0801F8
-			public const int view_offset_helper = 2131231224;
-			
-			// aapt resource value: 0x7F0801F9
-			public const int view_transition = 2131231225;
-			
-			// aapt resource value: 0x7F0801FA
-			public const int view_tree_lifecycle_owner = 2131231226;
-			
-			// aapt resource value: 0x7F0801FB
-			public const int view_tree_saved_state_registry_owner = 2131231227;
-			
-			// aapt resource value: 0x7F0801FC
-			public const int view_tree_view_model_store_owner = 2131231228;
-			
-			// aapt resource value: 0x7F0801FD
-			public const int visible = 2131231229;
-			
-			// aapt resource value: 0x7F0801FE
-			public const int visible_removing_fragment_view_tag = 2131231230;
-			
-			// aapt resource value: 0x7F0801FF
-			public const int west = 2131231231;
-			
-			// aapt resource value: 0x7F080200
-			public const int widget_frame = 2131231232;
-			
-			// aapt resource value: 0x7F080202
-			public const int withinBounds = 2131231234;
-			
-			// aapt resource value: 0x7F080201
-			public const int withText = 2131231233;
-			
-			// aapt resource value: 0x7F080203
-			public const int wrap = 2131231235;
-			
-			// aapt resource value: 0x7F080204
-			public const int wrap_content = 2131231236;
-			
-			// aapt resource value: 0x7F080205
-			public const int wrap_content_constrained = 2131231237;
-			
-			// aapt resource value: 0x7F080206
-			public const int x_left = 2131231238;
-			
-			// aapt resource value: 0x7F080207
-			public const int x_right = 2131231239;
-			
-			// aapt resource value: 0x7F080208
-			public const int zero_corner_chip = 2131231240;
+			public const int zero_corner_chip = 2131231214;
 			
 			static Id()
 			{
@@ -18398,452 +20957,452 @@ namespace PetLifeApp.Droid
 		public partial class Layout
 		{
 			
-			// aapt resource value: 0x7F0B0008
-			public const int abc_action_bar_title_item = 2131427336;
-			
-			// aapt resource value: 0x7F0B0009
-			public const int abc_action_bar_up_container = 2131427337;
-			
-			// aapt resource value: 0x7F0B000A
-			public const int abc_action_menu_item_layout = 2131427338;
-			
-			// aapt resource value: 0x7F0B000B
-			public const int abc_action_menu_layout = 2131427339;
-			
-			// aapt resource value: 0x7F0B000C
-			public const int abc_action_mode_bar = 2131427340;
-			
-			// aapt resource value: 0x7F0B000D
-			public const int abc_action_mode_close_item_material = 2131427341;
-			
-			// aapt resource value: 0x7F0B000E
-			public const int abc_activity_chooser_view = 2131427342;
-			
-			// aapt resource value: 0x7F0B000F
-			public const int abc_activity_chooser_view_list_item = 2131427343;
-			
-			// aapt resource value: 0x7F0B0010
-			public const int abc_alert_dialog_button_bar_material = 2131427344;
-			
-			// aapt resource value: 0x7F0B0011
-			public const int abc_alert_dialog_material = 2131427345;
-			
-			// aapt resource value: 0x7F0B0012
-			public const int abc_alert_dialog_title_material = 2131427346;
-			
-			// aapt resource value: 0x7F0B0013
-			public const int abc_cascading_menu_item_layout = 2131427347;
-			
-			// aapt resource value: 0x7F0B0014
-			public const int abc_dialog_title_material = 2131427348;
-			
-			// aapt resource value: 0x7F0B0015
-			public const int abc_expanded_menu_layout = 2131427349;
-			
-			// aapt resource value: 0x7F0B0016
-			public const int abc_list_menu_item_checkbox = 2131427350;
-			
-			// aapt resource value: 0x7F0B0017
-			public const int abc_list_menu_item_icon = 2131427351;
-			
-			// aapt resource value: 0x7F0B0018
-			public const int abc_list_menu_item_layout = 2131427352;
-			
-			// aapt resource value: 0x7F0B0019
-			public const int abc_list_menu_item_radio = 2131427353;
-			
-			// aapt resource value: 0x7F0B001A
-			public const int abc_popup_menu_header_item_layout = 2131427354;
-			
-			// aapt resource value: 0x7F0B001B
-			public const int abc_popup_menu_item_layout = 2131427355;
-			
-			// aapt resource value: 0x7F0B001C
-			public const int abc_screen_content_include = 2131427356;
-			
-			// aapt resource value: 0x7F0B001D
-			public const int abc_screen_simple = 2131427357;
-			
-			// aapt resource value: 0x7F0B001E
-			public const int abc_screen_simple_overlay_action_mode = 2131427358;
-			
-			// aapt resource value: 0x7F0B001F
-			public const int abc_screen_toolbar = 2131427359;
-			
-			// aapt resource value: 0x7F0B0020
-			public const int abc_search_dropdown_item_icons_2line = 2131427360;
-			
-			// aapt resource value: 0x7F0B0021
-			public const int abc_search_view = 2131427361;
-			
-			// aapt resource value: 0x7F0B0022
-			public const int abc_select_dialog_material = 2131427362;
-			
-			// aapt resource value: 0x7F0B0023
-			public const int abc_tooltip = 2131427363;
-			
 			// aapt resource value: 0x7F0B0000
-			public const int BottomTabLayout = 2131427328;
-			
-			// aapt resource value: 0x7F0B0024
-			public const int browser_actions_context_menu_page = 2131427364;
-			
-			// aapt resource value: 0x7F0B0025
-			public const int browser_actions_context_menu_row = 2131427365;
-			
-			// aapt resource value: 0x7F0B0026
-			public const int custom_dialog = 2131427366;
-			
-			// aapt resource value: 0x7F0B0027
-			public const int design_bottom_navigation_item = 2131427367;
-			
-			// aapt resource value: 0x7F0B0028
-			public const int design_bottom_sheet_dialog = 2131427368;
-			
-			// aapt resource value: 0x7F0B0029
-			public const int design_layout_snackbar = 2131427369;
-			
-			// aapt resource value: 0x7F0B002A
-			public const int design_layout_snackbar_include = 2131427370;
-			
-			// aapt resource value: 0x7F0B002B
-			public const int design_layout_tab_icon = 2131427371;
-			
-			// aapt resource value: 0x7F0B002C
-			public const int design_layout_tab_text = 2131427372;
-			
-			// aapt resource value: 0x7F0B002D
-			public const int design_menu_item_action_area = 2131427373;
-			
-			// aapt resource value: 0x7F0B002E
-			public const int design_navigation_item = 2131427374;
-			
-			// aapt resource value: 0x7F0B002F
-			public const int design_navigation_item_header = 2131427375;
-			
-			// aapt resource value: 0x7F0B0030
-			public const int design_navigation_item_separator = 2131427376;
-			
-			// aapt resource value: 0x7F0B0031
-			public const int design_navigation_item_subheader = 2131427377;
-			
-			// aapt resource value: 0x7F0B0032
-			public const int design_navigation_menu = 2131427378;
-			
-			// aapt resource value: 0x7F0B0033
-			public const int design_navigation_menu_item = 2131427379;
-			
-			// aapt resource value: 0x7F0B0034
-			public const int design_text_input_end_icon = 2131427380;
-			
-			// aapt resource value: 0x7F0B0035
-			public const int design_text_input_start_icon = 2131427381;
-			
-			// aapt resource value: 0x7F0B0036
-			public const int expand_button = 2131427382;
+			public const int abc_action_bar_title_item = 2131427328;
 			
 			// aapt resource value: 0x7F0B0001
-			public const int FallbackTabbarDoNotUse = 2131427329;
+			public const int abc_action_bar_up_container = 2131427329;
 			
 			// aapt resource value: 0x7F0B0002
-			public const int FallbackToolbarDoNotUse = 2131427330;
+			public const int abc_action_menu_item_layout = 2131427330;
 			
 			// aapt resource value: 0x7F0B0003
-			public const int FlyoutContent = 2131427331;
-			
-			// aapt resource value: 0x7F0B0037
-			public const int image_frame = 2131427383;
-			
-			// aapt resource value: 0x7F0B0038
-			public const int material_chip_input_combo = 2131427384;
-			
-			// aapt resource value: 0x7F0B003D
-			public const int material_clockface_textview = 2131427389;
-			
-			// aapt resource value: 0x7F0B003E
-			public const int material_clockface_view = 2131427390;
-			
-			// aapt resource value: 0x7F0B0039
-			public const int material_clock_display = 2131427385;
-			
-			// aapt resource value: 0x7F0B003A
-			public const int material_clock_display_divider = 2131427386;
-			
-			// aapt resource value: 0x7F0B003B
-			public const int material_clock_period_toggle = 2131427387;
-			
-			// aapt resource value: 0x7F0B003C
-			public const int material_clock_period_toggle_land = 2131427388;
-			
-			// aapt resource value: 0x7F0B003F
-			public const int material_radial_view_group = 2131427391;
-			
-			// aapt resource value: 0x7F0B0040
-			public const int material_textinput_timepicker = 2131427392;
-			
-			// aapt resource value: 0x7F0B0043
-			public const int material_timepicker = 2131427395;
-			
-			// aapt resource value: 0x7F0B0044
-			public const int material_timepicker_dialog = 2131427396;
-			
-			// aapt resource value: 0x7F0B0045
-			public const int material_timepicker_textinput_display = 2131427397;
-			
-			// aapt resource value: 0x7F0B0041
-			public const int material_time_chip = 2131427393;
-			
-			// aapt resource value: 0x7F0B0042
-			public const int material_time_input = 2131427394;
-			
-			// aapt resource value: 0x7F0B0046
-			public const int mtrl_alert_dialog = 2131427398;
-			
-			// aapt resource value: 0x7F0B0047
-			public const int mtrl_alert_dialog_actions = 2131427399;
-			
-			// aapt resource value: 0x7F0B0048
-			public const int mtrl_alert_dialog_title = 2131427400;
-			
-			// aapt resource value: 0x7F0B0049
-			public const int mtrl_alert_select_dialog_item = 2131427401;
-			
-			// aapt resource value: 0x7F0B004A
-			public const int mtrl_alert_select_dialog_multichoice = 2131427402;
-			
-			// aapt resource value: 0x7F0B004B
-			public const int mtrl_alert_select_dialog_singlechoice = 2131427403;
-			
-			// aapt resource value: 0x7F0B004C
-			public const int mtrl_calendar_day = 2131427404;
-			
-			// aapt resource value: 0x7F0B004E
-			public const int mtrl_calendar_days_of_week = 2131427406;
-			
-			// aapt resource value: 0x7F0B004D
-			public const int mtrl_calendar_day_of_week = 2131427405;
-			
-			// aapt resource value: 0x7F0B004F
-			public const int mtrl_calendar_horizontal = 2131427407;
-			
-			// aapt resource value: 0x7F0B0050
-			public const int mtrl_calendar_month = 2131427408;
-			
-			// aapt resource value: 0x7F0B0053
-			public const int mtrl_calendar_months = 2131427411;
-			
-			// aapt resource value: 0x7F0B0051
-			public const int mtrl_calendar_month_labeled = 2131427409;
-			
-			// aapt resource value: 0x7F0B0052
-			public const int mtrl_calendar_month_navigation = 2131427410;
-			
-			// aapt resource value: 0x7F0B0054
-			public const int mtrl_calendar_vertical = 2131427412;
-			
-			// aapt resource value: 0x7F0B0055
-			public const int mtrl_calendar_year = 2131427413;
-			
-			// aapt resource value: 0x7F0B0056
-			public const int mtrl_layout_snackbar = 2131427414;
-			
-			// aapt resource value: 0x7F0B0057
-			public const int mtrl_layout_snackbar_include = 2131427415;
-			
-			// aapt resource value: 0x7F0B0058
-			public const int mtrl_navigation_rail_item = 2131427416;
-			
-			// aapt resource value: 0x7F0B0059
-			public const int mtrl_picker_actions = 2131427417;
-			
-			// aapt resource value: 0x7F0B005A
-			public const int mtrl_picker_dialog = 2131427418;
-			
-			// aapt resource value: 0x7F0B005B
-			public const int mtrl_picker_fullscreen = 2131427419;
-			
-			// aapt resource value: 0x7F0B005C
-			public const int mtrl_picker_header_dialog = 2131427420;
-			
-			// aapt resource value: 0x7F0B005D
-			public const int mtrl_picker_header_fullscreen = 2131427421;
-			
-			// aapt resource value: 0x7F0B005E
-			public const int mtrl_picker_header_selection_text = 2131427422;
-			
-			// aapt resource value: 0x7F0B005F
-			public const int mtrl_picker_header_title_text = 2131427423;
-			
-			// aapt resource value: 0x7F0B0060
-			public const int mtrl_picker_header_toggle = 2131427424;
-			
-			// aapt resource value: 0x7F0B0061
-			public const int mtrl_picker_text_input_date = 2131427425;
-			
-			// aapt resource value: 0x7F0B0062
-			public const int mtrl_picker_text_input_date_range = 2131427426;
-			
-			// aapt resource value: 0x7F0B0063
-			public const int notification_action = 2131427427;
-			
-			// aapt resource value: 0x7F0B0064
-			public const int notification_action_tombstone = 2131427428;
-			
-			// aapt resource value: 0x7F0B0065
-			public const int notification_media_action = 2131427429;
-			
-			// aapt resource value: 0x7F0B0066
-			public const int notification_media_cancel_action = 2131427430;
-			
-			// aapt resource value: 0x7F0B0067
-			public const int notification_template_big_media = 2131427431;
-			
-			// aapt resource value: 0x7F0B0068
-			public const int notification_template_big_media_custom = 2131427432;
-			
-			// aapt resource value: 0x7F0B0069
-			public const int notification_template_big_media_narrow = 2131427433;
-			
-			// aapt resource value: 0x7F0B006A
-			public const int notification_template_big_media_narrow_custom = 2131427434;
-			
-			// aapt resource value: 0x7F0B006B
-			public const int notification_template_custom_big = 2131427435;
-			
-			// aapt resource value: 0x7F0B006C
-			public const int notification_template_icon_group = 2131427436;
-			
-			// aapt resource value: 0x7F0B006D
-			public const int notification_template_lines_media = 2131427437;
-			
-			// aapt resource value: 0x7F0B006E
-			public const int notification_template_media = 2131427438;
-			
-			// aapt resource value: 0x7F0B006F
-			public const int notification_template_media_custom = 2131427439;
-			
-			// aapt resource value: 0x7F0B0070
-			public const int notification_template_part_chronometer = 2131427440;
-			
-			// aapt resource value: 0x7F0B0071
-			public const int notification_template_part_time = 2131427441;
-			
-			// aapt resource value: 0x7F0B0072
-			public const int preference = 2131427442;
-			
-			// aapt resource value: 0x7F0B0073
-			public const int preference_category = 2131427443;
-			
-			// aapt resource value: 0x7F0B0074
-			public const int preference_category_material = 2131427444;
-			
-			// aapt resource value: 0x7F0B0075
-			public const int preference_dialog_edittext = 2131427445;
-			
-			// aapt resource value: 0x7F0B0076
-			public const int preference_dropdown = 2131427446;
-			
-			// aapt resource value: 0x7F0B0077
-			public const int preference_dropdown_material = 2131427447;
-			
-			// aapt resource value: 0x7F0B0078
-			public const int preference_information = 2131427448;
-			
-			// aapt resource value: 0x7F0B0079
-			public const int preference_information_material = 2131427449;
-			
-			// aapt resource value: 0x7F0B007A
-			public const int preference_list_fragment = 2131427450;
-			
-			// aapt resource value: 0x7F0B007B
-			public const int preference_material = 2131427451;
-			
-			// aapt resource value: 0x7F0B007C
-			public const int preference_recyclerview = 2131427452;
-			
-			// aapt resource value: 0x7F0B007D
-			public const int preference_widget_checkbox = 2131427453;
-			
-			// aapt resource value: 0x7F0B007E
-			public const int preference_widget_seekbar = 2131427454;
-			
-			// aapt resource value: 0x7F0B007F
-			public const int preference_widget_seekbar_material = 2131427455;
-			
-			// aapt resource value: 0x7F0B0080
-			public const int preference_widget_switch = 2131427456;
-			
-			// aapt resource value: 0x7F0B0081
-			public const int preference_widget_switch_compat = 2131427457;
+			public const int abc_action_menu_layout = 2131427331;
 			
 			// aapt resource value: 0x7F0B0004
-			public const int RootLayout = 2131427332;
-			
-			// aapt resource value: 0x7F0B0082
-			public const int select_dialog_item_material = 2131427458;
-			
-			// aapt resource value: 0x7F0B0083
-			public const int select_dialog_multichoice_material = 2131427459;
-			
-			// aapt resource value: 0x7F0B0084
-			public const int select_dialog_singlechoice_material = 2131427460;
+			public const int abc_action_mode_bar = 2131427332;
 			
 			// aapt resource value: 0x7F0B0005
-			public const int ShellContent = 2131427333;
-			
-			// aapt resource value: 0x7F0B0085
-			public const int support_simple_spinner_dropdown_item = 2131427461;
+			public const int abc_action_mode_close_item_material = 2131427333;
 			
 			// aapt resource value: 0x7F0B0006
-			public const int Tabbar = 2131427334;
-			
-			// aapt resource value: 0x7F0B0086
-			public const int test_action_chip = 2131427462;
-			
-			// aapt resource value: 0x7F0B0087
-			public const int test_chip_zero_corner_radius = 2131427463;
-			
-			// aapt resource value: 0x7F0B0088
-			public const int test_design_checkbox = 2131427464;
-			
-			// aapt resource value: 0x7F0B0089
-			public const int test_design_radiobutton = 2131427465;
-			
-			// aapt resource value: 0x7F0B008A
-			public const int test_navigation_bar_item_layout = 2131427466;
-			
-			// aapt resource value: 0x7F0B008B
-			public const int test_reflow_chipgroup = 2131427467;
-			
-			// aapt resource value: 0x7F0B008C
-			public const int test_toolbar = 2131427468;
-			
-			// aapt resource value: 0x7F0B008D
-			public const int test_toolbar_custom_background = 2131427469;
-			
-			// aapt resource value: 0x7F0B008E
-			public const int test_toolbar_elevation = 2131427470;
-			
-			// aapt resource value: 0x7F0B008F
-			public const int test_toolbar_surface = 2131427471;
-			
-			// aapt resource value: 0x7F0B0094
-			public const int text_view_without_line_height = 2131427476;
-			
-			// aapt resource value: 0x7F0B0090
-			public const int text_view_with_line_height_from_appearance = 2131427472;
-			
-			// aapt resource value: 0x7F0B0091
-			public const int text_view_with_line_height_from_layout = 2131427473;
-			
-			// aapt resource value: 0x7F0B0092
-			public const int text_view_with_line_height_from_style = 2131427474;
-			
-			// aapt resource value: 0x7F0B0093
-			public const int text_view_with_theme_line_height = 2131427475;
+			public const int abc_activity_chooser_view = 2131427334;
 			
 			// aapt resource value: 0x7F0B0007
-			public const int Toolbar = 2131427335;
+			public const int abc_activity_chooser_view_list_item = 2131427335;
+			
+			// aapt resource value: 0x7F0B0008
+			public const int abc_alert_dialog_button_bar_material = 2131427336;
+			
+			// aapt resource value: 0x7F0B0009
+			public const int abc_alert_dialog_material = 2131427337;
+			
+			// aapt resource value: 0x7F0B000A
+			public const int abc_alert_dialog_title_material = 2131427338;
+			
+			// aapt resource value: 0x7F0B000B
+			public const int abc_cascading_menu_item_layout = 2131427339;
+			
+			// aapt resource value: 0x7F0B000C
+			public const int abc_dialog_title_material = 2131427340;
+			
+			// aapt resource value: 0x7F0B000D
+			public const int abc_expanded_menu_layout = 2131427341;
+			
+			// aapt resource value: 0x7F0B000E
+			public const int abc_list_menu_item_checkbox = 2131427342;
+			
+			// aapt resource value: 0x7F0B000F
+			public const int abc_list_menu_item_icon = 2131427343;
+			
+			// aapt resource value: 0x7F0B0010
+			public const int abc_list_menu_item_layout = 2131427344;
+			
+			// aapt resource value: 0x7F0B0011
+			public const int abc_list_menu_item_radio = 2131427345;
+			
+			// aapt resource value: 0x7F0B0012
+			public const int abc_popup_menu_header_item_layout = 2131427346;
+			
+			// aapt resource value: 0x7F0B0013
+			public const int abc_popup_menu_item_layout = 2131427347;
+			
+			// aapt resource value: 0x7F0B0014
+			public const int abc_screen_content_include = 2131427348;
+			
+			// aapt resource value: 0x7F0B0015
+			public const int abc_screen_simple = 2131427349;
+			
+			// aapt resource value: 0x7F0B0016
+			public const int abc_screen_simple_overlay_action_mode = 2131427350;
+			
+			// aapt resource value: 0x7F0B0017
+			public const int abc_screen_toolbar = 2131427351;
+			
+			// aapt resource value: 0x7F0B0018
+			public const int abc_search_dropdown_item_icons_2line = 2131427352;
+			
+			// aapt resource value: 0x7F0B0019
+			public const int abc_search_view = 2131427353;
+			
+			// aapt resource value: 0x7F0B001A
+			public const int abc_select_dialog_material = 2131427354;
+			
+			// aapt resource value: 0x7F0B001B
+			public const int abc_tooltip = 2131427355;
+			
+			// aapt resource value: 0x7F0B001C
+			public const int BottomTabLayout = 2131427356;
+			
+			// aapt resource value: 0x7F0B001D
+			public const int browser_actions_context_menu_page = 2131427357;
+			
+			// aapt resource value: 0x7F0B001E
+			public const int browser_actions_context_menu_row = 2131427358;
+			
+			// aapt resource value: 0x7F0B001F
+			public const int custom_dialog = 2131427359;
+			
+			// aapt resource value: 0x7F0B0020
+			public const int design_bottom_navigation_item = 2131427360;
+			
+			// aapt resource value: 0x7F0B0021
+			public const int design_bottom_sheet_dialog = 2131427361;
+			
+			// aapt resource value: 0x7F0B0022
+			public const int design_layout_snackbar = 2131427362;
+			
+			// aapt resource value: 0x7F0B0023
+			public const int design_layout_snackbar_include = 2131427363;
+			
+			// aapt resource value: 0x7F0B0024
+			public const int design_layout_tab_icon = 2131427364;
+			
+			// aapt resource value: 0x7F0B0025
+			public const int design_layout_tab_text = 2131427365;
+			
+			// aapt resource value: 0x7F0B0026
+			public const int design_menu_item_action_area = 2131427366;
+			
+			// aapt resource value: 0x7F0B0027
+			public const int design_navigation_item = 2131427367;
+			
+			// aapt resource value: 0x7F0B0028
+			public const int design_navigation_item_header = 2131427368;
+			
+			// aapt resource value: 0x7F0B0029
+			public const int design_navigation_item_separator = 2131427369;
+			
+			// aapt resource value: 0x7F0B002A
+			public const int design_navigation_item_subheader = 2131427370;
+			
+			// aapt resource value: 0x7F0B002B
+			public const int design_navigation_menu = 2131427371;
+			
+			// aapt resource value: 0x7F0B002C
+			public const int design_navigation_menu_item = 2131427372;
+			
+			// aapt resource value: 0x7F0B002D
+			public const int design_text_input_end_icon = 2131427373;
+			
+			// aapt resource value: 0x7F0B002E
+			public const int design_text_input_start_icon = 2131427374;
+			
+			// aapt resource value: 0x7F0B002F
+			public const int expand_button = 2131427375;
+			
+			// aapt resource value: 0x7F0B0030
+			public const int FallbackTabbarDoNotUse = 2131427376;
+			
+			// aapt resource value: 0x7F0B0031
+			public const int FallbackToolbarDoNotUse = 2131427377;
+			
+			// aapt resource value: 0x7F0B0032
+			public const int FlyoutContent = 2131427378;
+			
+			// aapt resource value: 0x7F0B0033
+			public const int image_frame = 2131427379;
+			
+			// aapt resource value: 0x7F0B0034
+			public const int material_chip_input_combo = 2131427380;
+			
+			// aapt resource value: 0x7F0B0039
+			public const int material_clockface_textview = 2131427385;
+			
+			// aapt resource value: 0x7F0B003A
+			public const int material_clockface_view = 2131427386;
+			
+			// aapt resource value: 0x7F0B0035
+			public const int material_clock_display = 2131427381;
+			
+			// aapt resource value: 0x7F0B0036
+			public const int material_clock_display_divider = 2131427382;
+			
+			// aapt resource value: 0x7F0B0037
+			public const int material_clock_period_toggle = 2131427383;
+			
+			// aapt resource value: 0x7F0B0038
+			public const int material_clock_period_toggle_land = 2131427384;
+			
+			// aapt resource value: 0x7F0B003B
+			public const int material_radial_view_group = 2131427387;
+			
+			// aapt resource value: 0x7F0B003C
+			public const int material_textinput_timepicker = 2131427388;
+			
+			// aapt resource value: 0x7F0B003F
+			public const int material_timepicker = 2131427391;
+			
+			// aapt resource value: 0x7F0B0040
+			public const int material_timepicker_dialog = 2131427392;
+			
+			// aapt resource value: 0x7F0B0041
+			public const int material_timepicker_textinput_display = 2131427393;
+			
+			// aapt resource value: 0x7F0B003D
+			public const int material_time_chip = 2131427389;
+			
+			// aapt resource value: 0x7F0B003E
+			public const int material_time_input = 2131427390;
+			
+			// aapt resource value: 0x7F0B0042
+			public const int mtrl_alert_dialog = 2131427394;
+			
+			// aapt resource value: 0x7F0B0043
+			public const int mtrl_alert_dialog_actions = 2131427395;
+			
+			// aapt resource value: 0x7F0B0044
+			public const int mtrl_alert_dialog_title = 2131427396;
+			
+			// aapt resource value: 0x7F0B0045
+			public const int mtrl_alert_select_dialog_item = 2131427397;
+			
+			// aapt resource value: 0x7F0B0046
+			public const int mtrl_alert_select_dialog_multichoice = 2131427398;
+			
+			// aapt resource value: 0x7F0B0047
+			public const int mtrl_alert_select_dialog_singlechoice = 2131427399;
+			
+			// aapt resource value: 0x7F0B0048
+			public const int mtrl_calendar_day = 2131427400;
+			
+			// aapt resource value: 0x7F0B004A
+			public const int mtrl_calendar_days_of_week = 2131427402;
+			
+			// aapt resource value: 0x7F0B0049
+			public const int mtrl_calendar_day_of_week = 2131427401;
+			
+			// aapt resource value: 0x7F0B004B
+			public const int mtrl_calendar_horizontal = 2131427403;
+			
+			// aapt resource value: 0x7F0B004C
+			public const int mtrl_calendar_month = 2131427404;
+			
+			// aapt resource value: 0x7F0B004F
+			public const int mtrl_calendar_months = 2131427407;
+			
+			// aapt resource value: 0x7F0B004D
+			public const int mtrl_calendar_month_labeled = 2131427405;
+			
+			// aapt resource value: 0x7F0B004E
+			public const int mtrl_calendar_month_navigation = 2131427406;
+			
+			// aapt resource value: 0x7F0B0050
+			public const int mtrl_calendar_vertical = 2131427408;
+			
+			// aapt resource value: 0x7F0B0051
+			public const int mtrl_calendar_year = 2131427409;
+			
+			// aapt resource value: 0x7F0B0052
+			public const int mtrl_layout_snackbar = 2131427410;
+			
+			// aapt resource value: 0x7F0B0053
+			public const int mtrl_layout_snackbar_include = 2131427411;
+			
+			// aapt resource value: 0x7F0B0054
+			public const int mtrl_navigation_rail_item = 2131427412;
+			
+			// aapt resource value: 0x7F0B0055
+			public const int mtrl_picker_actions = 2131427413;
+			
+			// aapt resource value: 0x7F0B0056
+			public const int mtrl_picker_dialog = 2131427414;
+			
+			// aapt resource value: 0x7F0B0057
+			public const int mtrl_picker_fullscreen = 2131427415;
+			
+			// aapt resource value: 0x7F0B0058
+			public const int mtrl_picker_header_dialog = 2131427416;
+			
+			// aapt resource value: 0x7F0B0059
+			public const int mtrl_picker_header_fullscreen = 2131427417;
+			
+			// aapt resource value: 0x7F0B005A
+			public const int mtrl_picker_header_selection_text = 2131427418;
+			
+			// aapt resource value: 0x7F0B005B
+			public const int mtrl_picker_header_title_text = 2131427419;
+			
+			// aapt resource value: 0x7F0B005C
+			public const int mtrl_picker_header_toggle = 2131427420;
+			
+			// aapt resource value: 0x7F0B005D
+			public const int mtrl_picker_text_input_date = 2131427421;
+			
+			// aapt resource value: 0x7F0B005E
+			public const int mtrl_picker_text_input_date_range = 2131427422;
+			
+			// aapt resource value: 0x7F0B005F
+			public const int notification_action = 2131427423;
+			
+			// aapt resource value: 0x7F0B0060
+			public const int notification_action_tombstone = 2131427424;
+			
+			// aapt resource value: 0x7F0B0061
+			public const int notification_media_action = 2131427425;
+			
+			// aapt resource value: 0x7F0B0062
+			public const int notification_media_cancel_action = 2131427426;
+			
+			// aapt resource value: 0x7F0B0063
+			public const int notification_template_big_media = 2131427427;
+			
+			// aapt resource value: 0x7F0B0064
+			public const int notification_template_big_media_custom = 2131427428;
+			
+			// aapt resource value: 0x7F0B0065
+			public const int notification_template_big_media_narrow = 2131427429;
+			
+			// aapt resource value: 0x7F0B0066
+			public const int notification_template_big_media_narrow_custom = 2131427430;
+			
+			// aapt resource value: 0x7F0B0067
+			public const int notification_template_custom_big = 2131427431;
+			
+			// aapt resource value: 0x7F0B0068
+			public const int notification_template_icon_group = 2131427432;
+			
+			// aapt resource value: 0x7F0B0069
+			public const int notification_template_lines_media = 2131427433;
+			
+			// aapt resource value: 0x7F0B006A
+			public const int notification_template_media = 2131427434;
+			
+			// aapt resource value: 0x7F0B006B
+			public const int notification_template_media_custom = 2131427435;
+			
+			// aapt resource value: 0x7F0B006C
+			public const int notification_template_part_chronometer = 2131427436;
+			
+			// aapt resource value: 0x7F0B006D
+			public const int notification_template_part_time = 2131427437;
+			
+			// aapt resource value: 0x7F0B006E
+			public const int preference = 2131427438;
+			
+			// aapt resource value: 0x7F0B006F
+			public const int preference_category = 2131427439;
+			
+			// aapt resource value: 0x7F0B0070
+			public const int preference_category_material = 2131427440;
+			
+			// aapt resource value: 0x7F0B0071
+			public const int preference_dialog_edittext = 2131427441;
+			
+			// aapt resource value: 0x7F0B0072
+			public const int preference_dropdown = 2131427442;
+			
+			// aapt resource value: 0x7F0B0073
+			public const int preference_dropdown_material = 2131427443;
+			
+			// aapt resource value: 0x7F0B0074
+			public const int preference_information = 2131427444;
+			
+			// aapt resource value: 0x7F0B0075
+			public const int preference_information_material = 2131427445;
+			
+			// aapt resource value: 0x7F0B0076
+			public const int preference_list_fragment = 2131427446;
+			
+			// aapt resource value: 0x7F0B0077
+			public const int preference_material = 2131427447;
+			
+			// aapt resource value: 0x7F0B0078
+			public const int preference_recyclerview = 2131427448;
+			
+			// aapt resource value: 0x7F0B0079
+			public const int preference_widget_checkbox = 2131427449;
+			
+			// aapt resource value: 0x7F0B007A
+			public const int preference_widget_seekbar = 2131427450;
+			
+			// aapt resource value: 0x7F0B007B
+			public const int preference_widget_seekbar_material = 2131427451;
+			
+			// aapt resource value: 0x7F0B007C
+			public const int preference_widget_switch = 2131427452;
+			
+			// aapt resource value: 0x7F0B007D
+			public const int preference_widget_switch_compat = 2131427453;
+			
+			// aapt resource value: 0x7F0B007E
+			public const int RootLayout = 2131427454;
+			
+			// aapt resource value: 0x7F0B007F
+			public const int select_dialog_item_material = 2131427455;
+			
+			// aapt resource value: 0x7F0B0080
+			public const int select_dialog_multichoice_material = 2131427456;
+			
+			// aapt resource value: 0x7F0B0081
+			public const int select_dialog_singlechoice_material = 2131427457;
+			
+			// aapt resource value: 0x7F0B0082
+			public const int ShellContent = 2131427458;
+			
+			// aapt resource value: 0x7F0B0083
+			public const int support_simple_spinner_dropdown_item = 2131427459;
+			
+			// aapt resource value: 0x7F0B0084
+			public const int Tabbar = 2131427460;
+			
+			// aapt resource value: 0x7F0B0085
+			public const int test_action_chip = 2131427461;
+			
+			// aapt resource value: 0x7F0B0086
+			public const int test_chip_zero_corner_radius = 2131427462;
+			
+			// aapt resource value: 0x7F0B0087
+			public const int test_design_checkbox = 2131427463;
+			
+			// aapt resource value: 0x7F0B0088
+			public const int test_design_radiobutton = 2131427464;
+			
+			// aapt resource value: 0x7F0B0089
+			public const int test_navigation_bar_item_layout = 2131427465;
+			
+			// aapt resource value: 0x7F0B008A
+			public const int test_reflow_chipgroup = 2131427466;
+			
+			// aapt resource value: 0x7F0B008B
+			public const int test_toolbar = 2131427467;
+			
+			// aapt resource value: 0x7F0B008C
+			public const int test_toolbar_custom_background = 2131427468;
+			
+			// aapt resource value: 0x7F0B008D
+			public const int test_toolbar_elevation = 2131427469;
+			
+			// aapt resource value: 0x7F0B008E
+			public const int test_toolbar_surface = 2131427470;
+			
+			// aapt resource value: 0x7F0B0093
+			public const int text_view_without_line_height = 2131427475;
+			
+			// aapt resource value: 0x7F0B008F
+			public const int text_view_with_line_height_from_appearance = 2131427471;
+			
+			// aapt resource value: 0x7F0B0090
+			public const int text_view_with_line_height_from_layout = 2131427472;
+			
+			// aapt resource value: 0x7F0B0091
+			public const int text_view_with_line_height_from_style = 2131427473;
+			
+			// aapt resource value: 0x7F0B0092
+			public const int text_view_with_theme_line_height = 2131427474;
+			
+			// aapt resource value: 0x7F0B0094
+			public const int Toolbar = 2131427476;
 			
 			static Layout()
 			{
@@ -19308,11 +21867,11 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 0x7F0F000E
 			public const int Base_CardView = 2131689486;
 			
-			// aapt resource value: 0x7F0F000F
-			public const int Base_DialogWindowTitleBackground_AppCompat = 2131689487;
-			
 			// aapt resource value: 0x7F0F0010
-			public const int Base_DialogWindowTitle_AppCompat = 2131689488;
+			public const int Base_DialogWindowTitleBackground_AppCompat = 2131689488;
+			
+			// aapt resource value: 0x7F0F000F
+			public const int Base_DialogWindowTitle_AppCompat = 2131689487;
 			
 			// aapt resource value: 0x7F0F0011
 			public const int Base_MaterialAlertDialog_MaterialComponents_Title_Icon = 2131689489;
@@ -19479,209 +22038,209 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 0x7F0F0047
 			public const int Base_TextAppearance_Widget_AppCompat_Toolbar_Title = 2131689543;
 			
-			// aapt resource value: 0x7F0F0048
-			public const int Base_ThemeOverlay_AppCompat = 2131689544;
-			
-			// aapt resource value: 0x7F0F0049
-			public const int Base_ThemeOverlay_AppCompat_ActionBar = 2131689545;
-			
-			// aapt resource value: 0x7F0F004A
-			public const int Base_ThemeOverlay_AppCompat_Dark = 2131689546;
-			
-			// aapt resource value: 0x7F0F004B
-			public const int Base_ThemeOverlay_AppCompat_Dark_ActionBar = 2131689547;
-			
-			// aapt resource value: 0x7F0F004C
-			public const int Base_ThemeOverlay_AppCompat_Dialog = 2131689548;
-			
-			// aapt resource value: 0x7F0F004D
-			public const int Base_ThemeOverlay_AppCompat_Dialog_Alert = 2131689549;
-			
-			// aapt resource value: 0x7F0F004E
-			public const int Base_ThemeOverlay_AppCompat_Light = 2131689550;
-			
-			// aapt resource value: 0x7F0F004F
-			public const int Base_ThemeOverlay_MaterialComponents_Dialog = 2131689551;
-			
-			// aapt resource value: 0x7F0F0050
-			public const int Base_ThemeOverlay_MaterialComponents_Dialog_Alert = 2131689552;
-			
-			// aapt resource value: 0x7F0F0051
-			public const int Base_ThemeOverlay_MaterialComponents_Dialog_Alert_Framework = 2131689553;
-			
-			// aapt resource value: 0x7F0F0052
-			public const int Base_ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework = 2131689554;
-			
-			// aapt resource value: 0x7F0F0053
-			public const int Base_ThemeOverlay_MaterialComponents_MaterialAlertDialog = 2131689555;
-			
-			// aapt resource value: 0x7F0F0054
-			public const int Base_Theme_AppCompat = 2131689556;
-			
-			// aapt resource value: 0x7F0F0055
-			public const int Base_Theme_AppCompat_CompactMenu = 2131689557;
-			
-			// aapt resource value: 0x7F0F0056
-			public const int Base_Theme_AppCompat_Dialog = 2131689558;
-			
-			// aapt resource value: 0x7F0F0057
-			public const int Base_Theme_AppCompat_DialogWhenLarge = 2131689559;
-			
-			// aapt resource value: 0x7F0F0058
-			public const int Base_Theme_AppCompat_Dialog_Alert = 2131689560;
-			
-			// aapt resource value: 0x7F0F0059
-			public const int Base_Theme_AppCompat_Dialog_FixedSize = 2131689561;
-			
-			// aapt resource value: 0x7F0F005A
-			public const int Base_Theme_AppCompat_Dialog_MinWidth = 2131689562;
-			
-			// aapt resource value: 0x7F0F005B
-			public const int Base_Theme_AppCompat_Light = 2131689563;
-			
-			// aapt resource value: 0x7F0F005C
-			public const int Base_Theme_AppCompat_Light_DarkActionBar = 2131689564;
-			
-			// aapt resource value: 0x7F0F005D
-			public const int Base_Theme_AppCompat_Light_Dialog = 2131689565;
-			
-			// aapt resource value: 0x7F0F005E
-			public const int Base_Theme_AppCompat_Light_DialogWhenLarge = 2131689566;
-			
-			// aapt resource value: 0x7F0F005F
-			public const int Base_Theme_AppCompat_Light_Dialog_Alert = 2131689567;
-			
-			// aapt resource value: 0x7F0F0060
-			public const int Base_Theme_AppCompat_Light_Dialog_FixedSize = 2131689568;
-			
-			// aapt resource value: 0x7F0F0061
-			public const int Base_Theme_AppCompat_Light_Dialog_MinWidth = 2131689569;
-			
-			// aapt resource value: 0x7F0F0062
-			public const int Base_Theme_MaterialComponents = 2131689570;
-			
-			// aapt resource value: 0x7F0F0063
-			public const int Base_Theme_MaterialComponents_Bridge = 2131689571;
-			
-			// aapt resource value: 0x7F0F0064
-			public const int Base_Theme_MaterialComponents_CompactMenu = 2131689572;
-			
-			// aapt resource value: 0x7F0F0065
-			public const int Base_Theme_MaterialComponents_Dialog = 2131689573;
-			
-			// aapt resource value: 0x7F0F0066
-			public const int Base_Theme_MaterialComponents_DialogWhenLarge = 2131689574;
-			
-			// aapt resource value: 0x7F0F0067
-			public const int Base_Theme_MaterialComponents_Dialog_Alert = 2131689575;
-			
-			// aapt resource value: 0x7F0F0068
-			public const int Base_Theme_MaterialComponents_Dialog_Bridge = 2131689576;
-			
 			// aapt resource value: 0x7F0F0069
-			public const int Base_Theme_MaterialComponents_Dialog_FixedSize = 2131689577;
+			public const int Base_ThemeOverlay_AppCompat = 2131689577;
 			
 			// aapt resource value: 0x7F0F006A
-			public const int Base_Theme_MaterialComponents_Dialog_MinWidth = 2131689578;
+			public const int Base_ThemeOverlay_AppCompat_ActionBar = 2131689578;
 			
 			// aapt resource value: 0x7F0F006B
-			public const int Base_Theme_MaterialComponents_Light = 2131689579;
+			public const int Base_ThemeOverlay_AppCompat_Dark = 2131689579;
 			
 			// aapt resource value: 0x7F0F006C
-			public const int Base_Theme_MaterialComponents_Light_Bridge = 2131689580;
+			public const int Base_ThemeOverlay_AppCompat_Dark_ActionBar = 2131689580;
 			
 			// aapt resource value: 0x7F0F006D
-			public const int Base_Theme_MaterialComponents_Light_DarkActionBar = 2131689581;
+			public const int Base_ThemeOverlay_AppCompat_Dialog = 2131689581;
 			
 			// aapt resource value: 0x7F0F006E
-			public const int Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131689582;
+			public const int Base_ThemeOverlay_AppCompat_Dialog_Alert = 2131689582;
 			
 			// aapt resource value: 0x7F0F006F
-			public const int Base_Theme_MaterialComponents_Light_Dialog = 2131689583;
+			public const int Base_ThemeOverlay_AppCompat_Light = 2131689583;
 			
 			// aapt resource value: 0x7F0F0070
-			public const int Base_Theme_MaterialComponents_Light_DialogWhenLarge = 2131689584;
+			public const int Base_ThemeOverlay_MaterialComponents_Dialog = 2131689584;
 			
 			// aapt resource value: 0x7F0F0071
-			public const int Base_Theme_MaterialComponents_Light_Dialog_Alert = 2131689585;
+			public const int Base_ThemeOverlay_MaterialComponents_Dialog_Alert = 2131689585;
 			
 			// aapt resource value: 0x7F0F0072
-			public const int Base_Theme_MaterialComponents_Light_Dialog_Bridge = 2131689586;
+			public const int Base_ThemeOverlay_MaterialComponents_Dialog_Alert_Framework = 2131689586;
 			
 			// aapt resource value: 0x7F0F0073
-			public const int Base_Theme_MaterialComponents_Light_Dialog_FixedSize = 2131689587;
+			public const int Base_ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework = 2131689587;
 			
 			// aapt resource value: 0x7F0F0074
-			public const int Base_Theme_MaterialComponents_Light_Dialog_MinWidth = 2131689588;
+			public const int Base_ThemeOverlay_MaterialComponents_MaterialAlertDialog = 2131689588;
 			
-			// aapt resource value: 0x7F0F0075
-			public const int Base_V14_ThemeOverlay_MaterialComponents_BottomSheetDialog = 2131689589;
+			// aapt resource value: 0x7F0F0048
+			public const int Base_Theme_AppCompat = 2131689544;
 			
-			// aapt resource value: 0x7F0F0076
-			public const int Base_V14_ThemeOverlay_MaterialComponents_Dialog = 2131689590;
+			// aapt resource value: 0x7F0F0049
+			public const int Base_Theme_AppCompat_CompactMenu = 2131689545;
 			
-			// aapt resource value: 0x7F0F0077
-			public const int Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = 2131689591;
+			// aapt resource value: 0x7F0F004A
+			public const int Base_Theme_AppCompat_Dialog = 2131689546;
 			
-			// aapt resource value: 0x7F0F0078
-			public const int Base_V14_ThemeOverlay_MaterialComponents_MaterialAlertDialog = 2131689592;
+			// aapt resource value: 0x7F0F004E
+			public const int Base_Theme_AppCompat_DialogWhenLarge = 2131689550;
 			
-			// aapt resource value: 0x7F0F0079
-			public const int Base_V14_Theme_MaterialComponents = 2131689593;
+			// aapt resource value: 0x7F0F004B
+			public const int Base_Theme_AppCompat_Dialog_Alert = 2131689547;
 			
-			// aapt resource value: 0x7F0F007A
-			public const int Base_V14_Theme_MaterialComponents_Bridge = 2131689594;
+			// aapt resource value: 0x7F0F004C
+			public const int Base_Theme_AppCompat_Dialog_FixedSize = 2131689548;
 			
-			// aapt resource value: 0x7F0F007B
-			public const int Base_V14_Theme_MaterialComponents_Dialog = 2131689595;
+			// aapt resource value: 0x7F0F004D
+			public const int Base_Theme_AppCompat_Dialog_MinWidth = 2131689549;
 			
-			// aapt resource value: 0x7F0F007C
-			public const int Base_V14_Theme_MaterialComponents_Dialog_Bridge = 2131689596;
+			// aapt resource value: 0x7F0F004F
+			public const int Base_Theme_AppCompat_Light = 2131689551;
 			
-			// aapt resource value: 0x7F0F007D
-			public const int Base_V14_Theme_MaterialComponents_Light = 2131689597;
+			// aapt resource value: 0x7F0F0050
+			public const int Base_Theme_AppCompat_Light_DarkActionBar = 2131689552;
+			
+			// aapt resource value: 0x7F0F0051
+			public const int Base_Theme_AppCompat_Light_Dialog = 2131689553;
+			
+			// aapt resource value: 0x7F0F0055
+			public const int Base_Theme_AppCompat_Light_DialogWhenLarge = 2131689557;
+			
+			// aapt resource value: 0x7F0F0052
+			public const int Base_Theme_AppCompat_Light_Dialog_Alert = 2131689554;
+			
+			// aapt resource value: 0x7F0F0053
+			public const int Base_Theme_AppCompat_Light_Dialog_FixedSize = 2131689555;
+			
+			// aapt resource value: 0x7F0F0054
+			public const int Base_Theme_AppCompat_Light_Dialog_MinWidth = 2131689556;
+			
+			// aapt resource value: 0x7F0F0056
+			public const int Base_Theme_MaterialComponents = 2131689558;
+			
+			// aapt resource value: 0x7F0F0057
+			public const int Base_Theme_MaterialComponents_Bridge = 2131689559;
+			
+			// aapt resource value: 0x7F0F0058
+			public const int Base_Theme_MaterialComponents_CompactMenu = 2131689560;
+			
+			// aapt resource value: 0x7F0F0059
+			public const int Base_Theme_MaterialComponents_Dialog = 2131689561;
+			
+			// aapt resource value: 0x7F0F005E
+			public const int Base_Theme_MaterialComponents_DialogWhenLarge = 2131689566;
+			
+			// aapt resource value: 0x7F0F005A
+			public const int Base_Theme_MaterialComponents_Dialog_Alert = 2131689562;
+			
+			// aapt resource value: 0x7F0F005B
+			public const int Base_Theme_MaterialComponents_Dialog_Bridge = 2131689563;
+			
+			// aapt resource value: 0x7F0F005C
+			public const int Base_Theme_MaterialComponents_Dialog_FixedSize = 2131689564;
+			
+			// aapt resource value: 0x7F0F005D
+			public const int Base_Theme_MaterialComponents_Dialog_MinWidth = 2131689565;
+			
+			// aapt resource value: 0x7F0F005F
+			public const int Base_Theme_MaterialComponents_Light = 2131689567;
+			
+			// aapt resource value: 0x7F0F0060
+			public const int Base_Theme_MaterialComponents_Light_Bridge = 2131689568;
+			
+			// aapt resource value: 0x7F0F0061
+			public const int Base_Theme_MaterialComponents_Light_DarkActionBar = 2131689569;
+			
+			// aapt resource value: 0x7F0F0062
+			public const int Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131689570;
+			
+			// aapt resource value: 0x7F0F0063
+			public const int Base_Theme_MaterialComponents_Light_Dialog = 2131689571;
+			
+			// aapt resource value: 0x7F0F0068
+			public const int Base_Theme_MaterialComponents_Light_DialogWhenLarge = 2131689576;
+			
+			// aapt resource value: 0x7F0F0064
+			public const int Base_Theme_MaterialComponents_Light_Dialog_Alert = 2131689572;
+			
+			// aapt resource value: 0x7F0F0065
+			public const int Base_Theme_MaterialComponents_Light_Dialog_Bridge = 2131689573;
+			
+			// aapt resource value: 0x7F0F0066
+			public const int Base_Theme_MaterialComponents_Light_Dialog_FixedSize = 2131689574;
+			
+			// aapt resource value: 0x7F0F0067
+			public const int Base_Theme_MaterialComponents_Light_Dialog_MinWidth = 2131689575;
 			
 			// aapt resource value: 0x7F0F007E
-			public const int Base_V14_Theme_MaterialComponents_Light_Bridge = 2131689598;
+			public const int Base_V14_ThemeOverlay_MaterialComponents_BottomSheetDialog = 2131689598;
 			
 			// aapt resource value: 0x7F0F007F
-			public const int Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131689599;
+			public const int Base_V14_ThemeOverlay_MaterialComponents_Dialog = 2131689599;
 			
 			// aapt resource value: 0x7F0F0080
-			public const int Base_V14_Theme_MaterialComponents_Light_Dialog = 2131689600;
+			public const int Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = 2131689600;
 			
 			// aapt resource value: 0x7F0F0081
-			public const int Base_V14_Theme_MaterialComponents_Light_Dialog_Bridge = 2131689601;
+			public const int Base_V14_ThemeOverlay_MaterialComponents_MaterialAlertDialog = 2131689601;
 			
-			// aapt resource value: 0x7F0F0082
-			public const int Base_V21_ThemeOverlay_AppCompat_Dialog = 2131689602;
+			// aapt resource value: 0x7F0F0075
+			public const int Base_V14_Theme_MaterialComponents = 2131689589;
 			
-			// aapt resource value: 0x7F0F0083
-			public const int Base_V21_ThemeOverlay_MaterialComponents_BottomSheetDialog = 2131689603;
+			// aapt resource value: 0x7F0F0076
+			public const int Base_V14_Theme_MaterialComponents_Bridge = 2131689590;
 			
-			// aapt resource value: 0x7F0F0084
-			public const int Base_V21_Theme_AppCompat = 2131689604;
+			// aapt resource value: 0x7F0F0077
+			public const int Base_V14_Theme_MaterialComponents_Dialog = 2131689591;
 			
-			// aapt resource value: 0x7F0F0085
-			public const int Base_V21_Theme_AppCompat_Dialog = 2131689605;
+			// aapt resource value: 0x7F0F0078
+			public const int Base_V14_Theme_MaterialComponents_Dialog_Bridge = 2131689592;
 			
-			// aapt resource value: 0x7F0F0086
-			public const int Base_V21_Theme_AppCompat_Light = 2131689606;
+			// aapt resource value: 0x7F0F0079
+			public const int Base_V14_Theme_MaterialComponents_Light = 2131689593;
 			
-			// aapt resource value: 0x7F0F0087
-			public const int Base_V21_Theme_AppCompat_Light_Dialog = 2131689607;
+			// aapt resource value: 0x7F0F007A
+			public const int Base_V14_Theme_MaterialComponents_Light_Bridge = 2131689594;
 			
-			// aapt resource value: 0x7F0F0088
-			public const int Base_V21_Theme_MaterialComponents = 2131689608;
+			// aapt resource value: 0x7F0F007B
+			public const int Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131689595;
 			
-			// aapt resource value: 0x7F0F0089
-			public const int Base_V21_Theme_MaterialComponents_Dialog = 2131689609;
+			// aapt resource value: 0x7F0F007C
+			public const int Base_V14_Theme_MaterialComponents_Light_Dialog = 2131689596;
+			
+			// aapt resource value: 0x7F0F007D
+			public const int Base_V14_Theme_MaterialComponents_Light_Dialog_Bridge = 2131689597;
 			
 			// aapt resource value: 0x7F0F008A
-			public const int Base_V21_Theme_MaterialComponents_Light = 2131689610;
+			public const int Base_V21_ThemeOverlay_AppCompat_Dialog = 2131689610;
 			
 			// aapt resource value: 0x7F0F008B
-			public const int Base_V21_Theme_MaterialComponents_Light_Dialog = 2131689611;
+			public const int Base_V21_ThemeOverlay_MaterialComponents_BottomSheetDialog = 2131689611;
+			
+			// aapt resource value: 0x7F0F0082
+			public const int Base_V21_Theme_AppCompat = 2131689602;
+			
+			// aapt resource value: 0x7F0F0083
+			public const int Base_V21_Theme_AppCompat_Dialog = 2131689603;
+			
+			// aapt resource value: 0x7F0F0084
+			public const int Base_V21_Theme_AppCompat_Light = 2131689604;
+			
+			// aapt resource value: 0x7F0F0085
+			public const int Base_V21_Theme_AppCompat_Light_Dialog = 2131689605;
+			
+			// aapt resource value: 0x7F0F0086
+			public const int Base_V21_Theme_MaterialComponents = 2131689606;
+			
+			// aapt resource value: 0x7F0F0087
+			public const int Base_V21_Theme_MaterialComponents_Dialog = 2131689607;
+			
+			// aapt resource value: 0x7F0F0088
+			public const int Base_V21_Theme_MaterialComponents_Light = 2131689608;
+			
+			// aapt resource value: 0x7F0F0089
+			public const int Base_V21_Theme_MaterialComponents_Light_Dialog = 2131689609;
 			
 			// aapt resource value: 0x7F0F008C
 			public const int Base_V22_Theme_AppCompat = 2131689612;
@@ -19710,20 +22269,20 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 0x7F0F0094
 			public const int Base_V28_Theme_AppCompat_Light = 2131689620;
 			
+			// aapt resource value: 0x7F0F0099
+			public const int Base_V7_ThemeOverlay_AppCompat_Dialog = 2131689625;
+			
 			// aapt resource value: 0x7F0F0095
-			public const int Base_V7_ThemeOverlay_AppCompat_Dialog = 2131689621;
+			public const int Base_V7_Theme_AppCompat = 2131689621;
 			
 			// aapt resource value: 0x7F0F0096
-			public const int Base_V7_Theme_AppCompat = 2131689622;
+			public const int Base_V7_Theme_AppCompat_Dialog = 2131689622;
 			
 			// aapt resource value: 0x7F0F0097
-			public const int Base_V7_Theme_AppCompat_Dialog = 2131689623;
+			public const int Base_V7_Theme_AppCompat_Light = 2131689623;
 			
 			// aapt resource value: 0x7F0F0098
-			public const int Base_V7_Theme_AppCompat_Light = 2131689624;
-			
-			// aapt resource value: 0x7F0F0099
-			public const int Base_V7_Theme_AppCompat_Light_Dialog = 2131689625;
+			public const int Base_V7_Theme_AppCompat_Light_Dialog = 2131689624;
 			
 			// aapt resource value: 0x7F0F009A
 			public const int Base_V7_Widget_AppCompat_AutoCompleteTextView = 2131689626;
@@ -19770,26 +22329,26 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 0x7F0F00A8
 			public const int Base_Widget_AppCompat_Button = 2131689640;
 			
-			// aapt resource value: 0x7F0F00A9
-			public const int Base_Widget_AppCompat_ButtonBar = 2131689641;
-			
-			// aapt resource value: 0x7F0F00AA
-			public const int Base_Widget_AppCompat_ButtonBar_AlertDialog = 2131689642;
-			
-			// aapt resource value: 0x7F0F00AB
-			public const int Base_Widget_AppCompat_Button_Borderless = 2131689643;
-			
-			// aapt resource value: 0x7F0F00AC
-			public const int Base_Widget_AppCompat_Button_Borderless_Colored = 2131689644;
-			
-			// aapt resource value: 0x7F0F00AD
-			public const int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131689645;
-			
 			// aapt resource value: 0x7F0F00AE
-			public const int Base_Widget_AppCompat_Button_Colored = 2131689646;
+			public const int Base_Widget_AppCompat_ButtonBar = 2131689646;
 			
 			// aapt resource value: 0x7F0F00AF
-			public const int Base_Widget_AppCompat_Button_Small = 2131689647;
+			public const int Base_Widget_AppCompat_ButtonBar_AlertDialog = 2131689647;
+			
+			// aapt resource value: 0x7F0F00A9
+			public const int Base_Widget_AppCompat_Button_Borderless = 2131689641;
+			
+			// aapt resource value: 0x7F0F00AA
+			public const int Base_Widget_AppCompat_Button_Borderless_Colored = 2131689642;
+			
+			// aapt resource value: 0x7F0F00AB
+			public const int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131689643;
+			
+			// aapt resource value: 0x7F0F00AC
+			public const int Base_Widget_AppCompat_Button_Colored = 2131689644;
+			
+			// aapt resource value: 0x7F0F00AD
+			public const int Base_Widget_AppCompat_Button_Small = 2131689645;
 			
 			// aapt resource value: 0x7F0F00B0
 			public const int Base_Widget_AppCompat_CompoundButton_CheckBox = 2131689648;
@@ -20046,95 +22605,95 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 0x7F0F0103
 			public const int Preference = 2131689731;
 			
-			// aapt resource value: 0x7F0F0104
-			public const int PreferenceCategoryTitleTextStyle = 2131689732;
-			
-			// aapt resource value: 0x7F0F0105
-			public const int PreferenceFragment = 2131689733;
-			
-			// aapt resource value: 0x7F0F0106
-			public const int PreferenceFragmentList = 2131689734;
-			
-			// aapt resource value: 0x7F0F0107
-			public const int PreferenceFragmentList_Material = 2131689735;
-			
-			// aapt resource value: 0x7F0F0108
-			public const int PreferenceFragment_Material = 2131689736;
-			
-			// aapt resource value: 0x7F0F0109
-			public const int PreferenceSummaryTextStyle = 2131689737;
-			
-			// aapt resource value: 0x7F0F010A
-			public const int PreferenceThemeOverlay = 2131689738;
-			
-			// aapt resource value: 0x7F0F010B
-			public const int PreferenceThemeOverlay_v14 = 2131689739;
-			
-			// aapt resource value: 0x7F0F010C
-			public const int PreferenceThemeOverlay_v14_Material = 2131689740;
-			
-			// aapt resource value: 0x7F0F010D
-			public const int Preference_Category = 2131689741;
-			
-			// aapt resource value: 0x7F0F010E
-			public const int Preference_Category_Material = 2131689742;
-			
-			// aapt resource value: 0x7F0F010F
-			public const int Preference_CheckBoxPreference = 2131689743;
-			
-			// aapt resource value: 0x7F0F0110
-			public const int Preference_CheckBoxPreference_Material = 2131689744;
-			
-			// aapt resource value: 0x7F0F0111
-			public const int Preference_DialogPreference = 2131689745;
-			
-			// aapt resource value: 0x7F0F0112
-			public const int Preference_DialogPreference_EditTextPreference = 2131689746;
-			
-			// aapt resource value: 0x7F0F0113
-			public const int Preference_DialogPreference_EditTextPreference_Material = 2131689747;
-			
-			// aapt resource value: 0x7F0F0114
-			public const int Preference_DialogPreference_Material = 2131689748;
-			
-			// aapt resource value: 0x7F0F0115
-			public const int Preference_DropDown = 2131689749;
-			
-			// aapt resource value: 0x7F0F0116
-			public const int Preference_DropDown_Material = 2131689750;
-			
-			// aapt resource value: 0x7F0F0117
-			public const int Preference_Information = 2131689751;
-			
-			// aapt resource value: 0x7F0F0118
-			public const int Preference_Information_Material = 2131689752;
-			
 			// aapt resource value: 0x7F0F0119
-			public const int Preference_Material = 2131689753;
+			public const int PreferenceCategoryTitleTextStyle = 2131689753;
 			
 			// aapt resource value: 0x7F0F011A
-			public const int Preference_PreferenceScreen = 2131689754;
-			
-			// aapt resource value: 0x7F0F011B
-			public const int Preference_PreferenceScreen_Material = 2131689755;
+			public const int PreferenceFragment = 2131689754;
 			
 			// aapt resource value: 0x7F0F011C
-			public const int Preference_SeekBarPreference = 2131689756;
+			public const int PreferenceFragmentList = 2131689756;
 			
 			// aapt resource value: 0x7F0F011D
-			public const int Preference_SeekBarPreference_Material = 2131689757;
+			public const int PreferenceFragmentList_Material = 2131689757;
+			
+			// aapt resource value: 0x7F0F011B
+			public const int PreferenceFragment_Material = 2131689755;
 			
 			// aapt resource value: 0x7F0F011E
-			public const int Preference_SwitchPreference = 2131689758;
+			public const int PreferenceSummaryTextStyle = 2131689758;
 			
 			// aapt resource value: 0x7F0F011F
-			public const int Preference_SwitchPreferenceCompat = 2131689759;
+			public const int PreferenceThemeOverlay = 2131689759;
 			
 			// aapt resource value: 0x7F0F0120
-			public const int Preference_SwitchPreferenceCompat_Material = 2131689760;
+			public const int PreferenceThemeOverlay_v14 = 2131689760;
 			
 			// aapt resource value: 0x7F0F0121
-			public const int Preference_SwitchPreference_Material = 2131689761;
+			public const int PreferenceThemeOverlay_v14_Material = 2131689761;
+			
+			// aapt resource value: 0x7F0F0104
+			public const int Preference_Category = 2131689732;
+			
+			// aapt resource value: 0x7F0F0105
+			public const int Preference_Category_Material = 2131689733;
+			
+			// aapt resource value: 0x7F0F0106
+			public const int Preference_CheckBoxPreference = 2131689734;
+			
+			// aapt resource value: 0x7F0F0107
+			public const int Preference_CheckBoxPreference_Material = 2131689735;
+			
+			// aapt resource value: 0x7F0F0108
+			public const int Preference_DialogPreference = 2131689736;
+			
+			// aapt resource value: 0x7F0F0109
+			public const int Preference_DialogPreference_EditTextPreference = 2131689737;
+			
+			// aapt resource value: 0x7F0F010A
+			public const int Preference_DialogPreference_EditTextPreference_Material = 2131689738;
+			
+			// aapt resource value: 0x7F0F010B
+			public const int Preference_DialogPreference_Material = 2131689739;
+			
+			// aapt resource value: 0x7F0F010C
+			public const int Preference_DropDown = 2131689740;
+			
+			// aapt resource value: 0x7F0F010D
+			public const int Preference_DropDown_Material = 2131689741;
+			
+			// aapt resource value: 0x7F0F010E
+			public const int Preference_Information = 2131689742;
+			
+			// aapt resource value: 0x7F0F010F
+			public const int Preference_Information_Material = 2131689743;
+			
+			// aapt resource value: 0x7F0F0110
+			public const int Preference_Material = 2131689744;
+			
+			// aapt resource value: 0x7F0F0111
+			public const int Preference_PreferenceScreen = 2131689745;
+			
+			// aapt resource value: 0x7F0F0112
+			public const int Preference_PreferenceScreen_Material = 2131689746;
+			
+			// aapt resource value: 0x7F0F0113
+			public const int Preference_SeekBarPreference = 2131689747;
+			
+			// aapt resource value: 0x7F0F0114
+			public const int Preference_SeekBarPreference_Material = 2131689748;
+			
+			// aapt resource value: 0x7F0F0115
+			public const int Preference_SwitchPreference = 2131689749;
+			
+			// aapt resource value: 0x7F0F0117
+			public const int Preference_SwitchPreferenceCompat = 2131689751;
+			
+			// aapt resource value: 0x7F0F0118
+			public const int Preference_SwitchPreferenceCompat_Material = 2131689752;
+			
+			// aapt resource value: 0x7F0F0116
+			public const int Preference_SwitchPreference_Material = 2131689750;
 			
 			// aapt resource value: 0x7F0F0122
 			public const int RtlOverlay_DialogWindowTitle_AppCompat = 2131689762;
@@ -20163,23 +22722,23 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 0x7F0F012A
 			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = 2131689770;
 			
+			// aapt resource value: 0x7F0F0130
+			public const int RtlOverlay_Widget_AppCompat_SearchView_MagIcon = 2131689776;
+			
 			// aapt resource value: 0x7F0F012B
-			public const int RtlOverlay_Widget_AppCompat_SearchView_MagIcon = 2131689771;
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown = 2131689771;
 			
 			// aapt resource value: 0x7F0F012C
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown = 2131689772;
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = 2131689772;
 			
 			// aapt resource value: 0x7F0F012D
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = 2131689773;
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = 2131689773;
 			
 			// aapt resource value: 0x7F0F012E
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = 2131689774;
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Query = 2131689774;
 			
 			// aapt resource value: 0x7F0F012F
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Query = 2131689775;
-			
-			// aapt resource value: 0x7F0F0130
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Text = 2131689776;
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Text = 2131689775;
 			
 			// aapt resource value: 0x7F0F0131
 			public const int RtlUnderlay_Widget_AppCompat_ActionButton = 2131689777;
@@ -20193,101 +22752,101 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 0x7F0F02FA
 			public const int scrollViewTheme = 2131690234;
 			
-			// aapt resource value: 0x7F0F0133
-			public const int ShapeAppearanceOverlay = 2131689779;
-			
-			// aapt resource value: 0x7F0F0134
-			public const int ShapeAppearanceOverlay_BottomLeftDifferentCornerSize = 2131689780;
-			
-			// aapt resource value: 0x7F0F0135
-			public const int ShapeAppearanceOverlay_BottomRightCut = 2131689781;
-			
-			// aapt resource value: 0x7F0F0136
-			public const int ShapeAppearanceOverlay_Cut = 2131689782;
-			
-			// aapt resource value: 0x7F0F0137
-			public const int ShapeAppearanceOverlay_DifferentCornerSize = 2131689783;
-			
-			// aapt resource value: 0x7F0F0138
-			public const int ShapeAppearanceOverlay_MaterialComponents_BottomSheet = 2131689784;
-			
 			// aapt resource value: 0x7F0F0139
-			public const int ShapeAppearanceOverlay_MaterialComponents_Chip = 2131689785;
+			public const int ShapeAppearanceOverlay = 2131689785;
 			
 			// aapt resource value: 0x7F0F013A
-			public const int ShapeAppearanceOverlay_MaterialComponents_ExtendedFloatingActionButton = 2131689786;
+			public const int ShapeAppearanceOverlay_BottomLeftDifferentCornerSize = 2131689786;
 			
 			// aapt resource value: 0x7F0F013B
-			public const int ShapeAppearanceOverlay_MaterialComponents_FloatingActionButton = 2131689787;
+			public const int ShapeAppearanceOverlay_BottomRightCut = 2131689787;
 			
 			// aapt resource value: 0x7F0F013C
-			public const int ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day = 2131689788;
+			public const int ShapeAppearanceOverlay_Cut = 2131689788;
 			
 			// aapt resource value: 0x7F0F013D
-			public const int ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Window_Fullscreen = 2131689789;
+			public const int ShapeAppearanceOverlay_DifferentCornerSize = 2131689789;
 			
 			// aapt resource value: 0x7F0F013E
-			public const int ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Year = 2131689790;
+			public const int ShapeAppearanceOverlay_MaterialComponents_BottomSheet = 2131689790;
 			
 			// aapt resource value: 0x7F0F013F
-			public const int ShapeAppearanceOverlay_MaterialComponents_TextInputLayout_FilledBox = 2131689791;
+			public const int ShapeAppearanceOverlay_MaterialComponents_Chip = 2131689791;
 			
 			// aapt resource value: 0x7F0F0140
-			public const int ShapeAppearanceOverlay_TopLeftCut = 2131689792;
+			public const int ShapeAppearanceOverlay_MaterialComponents_ExtendedFloatingActionButton = 2131689792;
 			
 			// aapt resource value: 0x7F0F0141
-			public const int ShapeAppearanceOverlay_TopRightDifferentCornerSize = 2131689793;
+			public const int ShapeAppearanceOverlay_MaterialComponents_FloatingActionButton = 2131689793;
 			
 			// aapt resource value: 0x7F0F0142
-			public const int ShapeAppearance_MaterialComponents = 2131689794;
+			public const int ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day = 2131689794;
 			
 			// aapt resource value: 0x7F0F0143
-			public const int ShapeAppearance_MaterialComponents_LargeComponent = 2131689795;
+			public const int ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Window_Fullscreen = 2131689795;
 			
 			// aapt resource value: 0x7F0F0144
-			public const int ShapeAppearance_MaterialComponents_MediumComponent = 2131689796;
+			public const int ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Year = 2131689796;
 			
 			// aapt resource value: 0x7F0F0145
-			public const int ShapeAppearance_MaterialComponents_SmallComponent = 2131689797;
+			public const int ShapeAppearanceOverlay_MaterialComponents_TextInputLayout_FilledBox = 2131689797;
 			
 			// aapt resource value: 0x7F0F0146
-			public const int ShapeAppearance_MaterialComponents_Test = 2131689798;
+			public const int ShapeAppearanceOverlay_TopLeftCut = 2131689798;
 			
 			// aapt resource value: 0x7F0F0147
-			public const int ShapeAppearance_MaterialComponents_Tooltip = 2131689799;
+			public const int ShapeAppearanceOverlay_TopRightDifferentCornerSize = 2131689799;
 			
-			// aapt resource value: 0x7F0F0148
-			public const int TestStyleWithLineHeight = 2131689800;
+			// aapt resource value: 0x7F0F0133
+			public const int ShapeAppearance_MaterialComponents = 2131689779;
 			
-			// aapt resource value: 0x7F0F0149
-			public const int TestStyleWithLineHeightAppearance = 2131689801;
+			// aapt resource value: 0x7F0F0134
+			public const int ShapeAppearance_MaterialComponents_LargeComponent = 2131689780;
 			
-			// aapt resource value: 0x7F0F014B
-			public const int TestStyleWithoutLineHeight = 2131689803;
+			// aapt resource value: 0x7F0F0135
+			public const int ShapeAppearance_MaterialComponents_MediumComponent = 2131689781;
 			
-			// aapt resource value: 0x7F0F014A
-			public const int TestStyleWithThemeLineHeightAttribute = 2131689802;
+			// aapt resource value: 0x7F0F0136
+			public const int ShapeAppearance_MaterialComponents_SmallComponent = 2131689782;
 			
-			// aapt resource value: 0x7F0F014C
-			public const int TestThemeWithLineHeight = 2131689804;
+			// aapt resource value: 0x7F0F0137
+			public const int ShapeAppearance_MaterialComponents_Test = 2131689783;
+			
+			// aapt resource value: 0x7F0F0138
+			public const int ShapeAppearance_MaterialComponents_Tooltip = 2131689784;
 			
 			// aapt resource value: 0x7F0F014D
-			public const int TestThemeWithLineHeightDisabled = 2131689805;
+			public const int TestStyleWithLineHeight = 2131689805;
 			
 			// aapt resource value: 0x7F0F014E
-			public const int Test_ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day = 2131689806;
-			
-			// aapt resource value: 0x7F0F014F
-			public const int Test_Theme_MaterialComponents_MaterialCalendar = 2131689807;
+			public const int TestStyleWithLineHeightAppearance = 2131689806;
 			
 			// aapt resource value: 0x7F0F0150
-			public const int Test_Widget_MaterialComponents_MaterialCalendar = 2131689808;
+			public const int TestStyleWithoutLineHeight = 2131689808;
+			
+			// aapt resource value: 0x7F0F014F
+			public const int TestStyleWithThemeLineHeightAttribute = 2131689807;
 			
 			// aapt resource value: 0x7F0F0151
-			public const int Test_Widget_MaterialComponents_MaterialCalendar_Day = 2131689809;
+			public const int TestThemeWithLineHeight = 2131689809;
 			
 			// aapt resource value: 0x7F0F0152
-			public const int Test_Widget_MaterialComponents_MaterialCalendar_Day_Selected = 2131689810;
+			public const int TestThemeWithLineHeightDisabled = 2131689810;
+			
+			// aapt resource value: 0x7F0F0148
+			public const int Test_ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day = 2131689800;
+			
+			// aapt resource value: 0x7F0F0149
+			public const int Test_Theme_MaterialComponents_MaterialCalendar = 2131689801;
+			
+			// aapt resource value: 0x7F0F014A
+			public const int Test_Widget_MaterialComponents_MaterialCalendar = 2131689802;
+			
+			// aapt resource value: 0x7F0F014B
+			public const int Test_Widget_MaterialComponents_MaterialCalendar_Day = 2131689803;
+			
+			// aapt resource value: 0x7F0F014C
+			public const int Test_Widget_MaterialComponents_MaterialCalendar_Day_Selected = 2131689804;
 			
 			// aapt resource value: 0x7F0F0153
 			public const int TextAppearance_AppCompat = 2131689811;
@@ -20556,383 +23115,383 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 0x7F0F01AB
 			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131689899;
 			
-			// aapt resource value: 0x7F0F01AC
-			public const int ThemeOverlayColorAccentRed = 2131689900;
-			
-			// aapt resource value: 0x7F0F01AD
-			public const int ThemeOverlay_AppCompat = 2131689901;
-			
-			// aapt resource value: 0x7F0F01AE
-			public const int ThemeOverlay_AppCompat_ActionBar = 2131689902;
-			
-			// aapt resource value: 0x7F0F01AF
-			public const int ThemeOverlay_AppCompat_Dark = 2131689903;
-			
-			// aapt resource value: 0x7F0F01B0
-			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131689904;
-			
-			// aapt resource value: 0x7F0F01B1
-			public const int ThemeOverlay_AppCompat_DayNight = 2131689905;
-			
-			// aapt resource value: 0x7F0F01B2
-			public const int ThemeOverlay_AppCompat_DayNight_ActionBar = 2131689906;
-			
-			// aapt resource value: 0x7F0F01B3
-			public const int ThemeOverlay_AppCompat_Dialog = 2131689907;
-			
-			// aapt resource value: 0x7F0F01B4
-			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131689908;
-			
-			// aapt resource value: 0x7F0F01B5
-			public const int ThemeOverlay_AppCompat_Light = 2131689909;
-			
-			// aapt resource value: 0x7F0F01B6
-			public const int ThemeOverlay_Design_TextInputEditText = 2131689910;
-			
-			// aapt resource value: 0x7F0F01B7
-			public const int ThemeOverlay_MaterialComponents = 2131689911;
-			
-			// aapt resource value: 0x7F0F01B8
-			public const int ThemeOverlay_MaterialComponents_ActionBar = 2131689912;
-			
-			// aapt resource value: 0x7F0F01B9
-			public const int ThemeOverlay_MaterialComponents_ActionBar_Primary = 2131689913;
-			
-			// aapt resource value: 0x7F0F01BA
-			public const int ThemeOverlay_MaterialComponents_ActionBar_Surface = 2131689914;
-			
-			// aapt resource value: 0x7F0F01BB
-			public const int ThemeOverlay_MaterialComponents_AutoCompleteTextView = 2131689915;
-			
-			// aapt resource value: 0x7F0F01BC
-			public const int ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox = 2131689916;
-			
-			// aapt resource value: 0x7F0F01BD
-			public const int ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox_Dense = 2131689917;
-			
-			// aapt resource value: 0x7F0F01BE
-			public const int ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox = 2131689918;
-			
-			// aapt resource value: 0x7F0F01BF
-			public const int ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense = 2131689919;
-			
-			// aapt resource value: 0x7F0F01C0
-			public const int ThemeOverlay_MaterialComponents_BottomAppBar_Primary = 2131689920;
-			
-			// aapt resource value: 0x7F0F01C1
-			public const int ThemeOverlay_MaterialComponents_BottomAppBar_Surface = 2131689921;
-			
-			// aapt resource value: 0x7F0F01C2
-			public const int ThemeOverlay_MaterialComponents_BottomSheetDialog = 2131689922;
-			
-			// aapt resource value: 0x7F0F01C3
-			public const int ThemeOverlay_MaterialComponents_Dark = 2131689923;
-			
-			// aapt resource value: 0x7F0F01C4
-			public const int ThemeOverlay_MaterialComponents_Dark_ActionBar = 2131689924;
-			
-			// aapt resource value: 0x7F0F01C5
-			public const int ThemeOverlay_MaterialComponents_DayNight_BottomSheetDialog = 2131689925;
-			
-			// aapt resource value: 0x7F0F01C6
-			public const int ThemeOverlay_MaterialComponents_Dialog = 2131689926;
-			
-			// aapt resource value: 0x7F0F01C7
-			public const int ThemeOverlay_MaterialComponents_Dialog_Alert = 2131689927;
-			
-			// aapt resource value: 0x7F0F01C8
-			public const int ThemeOverlay_MaterialComponents_Dialog_Alert_Framework = 2131689928;
-			
-			// aapt resource value: 0x7F0F01C9
-			public const int ThemeOverlay_MaterialComponents_Light = 2131689929;
-			
-			// aapt resource value: 0x7F0F01CA
-			public const int ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework = 2131689930;
-			
-			// aapt resource value: 0x7F0F01CB
-			public const int ThemeOverlay_MaterialComponents_MaterialAlertDialog = 2131689931;
-			
-			// aapt resource value: 0x7F0F01CC
-			public const int ThemeOverlay_MaterialComponents_MaterialAlertDialog_Centered = 2131689932;
-			
-			// aapt resource value: 0x7F0F01CD
-			public const int ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date = 2131689933;
-			
-			// aapt resource value: 0x7F0F01CE
-			public const int ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Calendar = 2131689934;
-			
-			// aapt resource value: 0x7F0F01CF
-			public const int ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text = 2131689935;
-			
-			// aapt resource value: 0x7F0F01D0
-			public const int ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text_Day = 2131689936;
-			
-			// aapt resource value: 0x7F0F01D1
-			public const int ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Spinner = 2131689937;
-			
-			// aapt resource value: 0x7F0F01D2
-			public const int ThemeOverlay_MaterialComponents_MaterialCalendar = 2131689938;
-			
-			// aapt resource value: 0x7F0F01D3
-			public const int ThemeOverlay_MaterialComponents_MaterialCalendar_Fullscreen = 2131689939;
-			
-			// aapt resource value: 0x7F0F01D4
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText = 2131689940;
-			
-			// aapt resource value: 0x7F0F01D5
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = 2131689941;
-			
-			// aapt resource value: 0x7F0F01D6
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131689942;
-			
-			// aapt resource value: 0x7F0F01D7
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = 2131689943;
-			
-			// aapt resource value: 0x7F0F01D8
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131689944;
-			
-			// aapt resource value: 0x7F0F01D9
-			public const int ThemeOverlay_MaterialComponents_TimePicker = 2131689945;
-			
-			// aapt resource value: 0x7F0F01DA
-			public const int ThemeOverlay_MaterialComponents_TimePicker_Display = 2131689946;
-			
-			// aapt resource value: 0x7F0F01DB
-			public const int ThemeOverlay_MaterialComponents_Toolbar_Primary = 2131689947;
-			
-			// aapt resource value: 0x7F0F01DC
-			public const int ThemeOverlay_MaterialComponents_Toolbar_Surface = 2131689948;
-			
-			// aapt resource value: 0x7F0F01DD
-			public const int Theme_AppCompat = 2131689949;
-			
-			// aapt resource value: 0x7F0F01DE
-			public const int Theme_AppCompat_CompactMenu = 2131689950;
-			
-			// aapt resource value: 0x7F0F01DF
-			public const int Theme_AppCompat_DayNight = 2131689951;
-			
-			// aapt resource value: 0x7F0F01E0
-			public const int Theme_AppCompat_DayNight_DarkActionBar = 2131689952;
-			
-			// aapt resource value: 0x7F0F01E1
-			public const int Theme_AppCompat_DayNight_Dialog = 2131689953;
-			
-			// aapt resource value: 0x7F0F01E2
-			public const int Theme_AppCompat_DayNight_DialogWhenLarge = 2131689954;
-			
-			// aapt resource value: 0x7F0F01E3
-			public const int Theme_AppCompat_DayNight_Dialog_Alert = 2131689955;
-			
-			// aapt resource value: 0x7F0F01E4
-			public const int Theme_AppCompat_DayNight_Dialog_MinWidth = 2131689956;
-			
-			// aapt resource value: 0x7F0F01E5
-			public const int Theme_AppCompat_DayNight_NoActionBar = 2131689957;
-			
-			// aapt resource value: 0x7F0F01E6
-			public const int Theme_AppCompat_Dialog = 2131689958;
-			
-			// aapt resource value: 0x7F0F01E7
-			public const int Theme_AppCompat_DialogWhenLarge = 2131689959;
-			
-			// aapt resource value: 0x7F0F01E8
-			public const int Theme_AppCompat_Dialog_Alert = 2131689960;
-			
-			// aapt resource value: 0x7F0F01E9
-			public const int Theme_AppCompat_Dialog_MinWidth = 2131689961;
-			
-			// aapt resource value: 0x7F0F01EA
-			public const int Theme_AppCompat_Empty = 2131689962;
-			
-			// aapt resource value: 0x7F0F01EB
-			public const int Theme_AppCompat_Light = 2131689963;
-			
-			// aapt resource value: 0x7F0F01EC
-			public const int Theme_AppCompat_Light_DarkActionBar = 2131689964;
-			
-			// aapt resource value: 0x7F0F01ED
-			public const int Theme_AppCompat_Light_Dialog = 2131689965;
-			
-			// aapt resource value: 0x7F0F01EE
-			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131689966;
-			
-			// aapt resource value: 0x7F0F01EF
-			public const int Theme_AppCompat_Light_Dialog_Alert = 2131689967;
-			
-			// aapt resource value: 0x7F0F01F0
-			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131689968;
-			
-			// aapt resource value: 0x7F0F01F1
-			public const int Theme_AppCompat_Light_NoActionBar = 2131689969;
-			
-			// aapt resource value: 0x7F0F01F2
-			public const int Theme_AppCompat_NoActionBar = 2131689970;
-			
-			// aapt resource value: 0x7F0F01F3
-			public const int Theme_Design = 2131689971;
-			
-			// aapt resource value: 0x7F0F01F4
-			public const int Theme_Design_BottomSheetDialog = 2131689972;
-			
-			// aapt resource value: 0x7F0F01F5
-			public const int Theme_Design_Light = 2131689973;
-			
-			// aapt resource value: 0x7F0F01F6
-			public const int Theme_Design_Light_BottomSheetDialog = 2131689974;
-			
-			// aapt resource value: 0x7F0F01F7
-			public const int Theme_Design_Light_NoActionBar = 2131689975;
-			
-			// aapt resource value: 0x7F0F01F8
-			public const int Theme_Design_NoActionBar = 2131689976;
+			// aapt resource value: 0x7F0F0229
+			public const int ThemeOverlayColorAccentRed = 2131690025;
 			
 			// aapt resource value: 0x7F0F01F9
-			public const int Theme_MaterialComponents = 2131689977;
+			public const int ThemeOverlay_AppCompat = 2131689977;
 			
 			// aapt resource value: 0x7F0F01FA
-			public const int Theme_MaterialComponents_BottomSheetDialog = 2131689978;
+			public const int ThemeOverlay_AppCompat_ActionBar = 2131689978;
 			
 			// aapt resource value: 0x7F0F01FB
-			public const int Theme_MaterialComponents_Bridge = 2131689979;
+			public const int ThemeOverlay_AppCompat_Dark = 2131689979;
 			
 			// aapt resource value: 0x7F0F01FC
-			public const int Theme_MaterialComponents_CompactMenu = 2131689980;
+			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131689980;
 			
 			// aapt resource value: 0x7F0F01FD
-			public const int Theme_MaterialComponents_DayNight = 2131689981;
+			public const int ThemeOverlay_AppCompat_DayNight = 2131689981;
 			
 			// aapt resource value: 0x7F0F01FE
-			public const int Theme_MaterialComponents_DayNight_BottomSheetDialog = 2131689982;
+			public const int ThemeOverlay_AppCompat_DayNight_ActionBar = 2131689982;
 			
 			// aapt resource value: 0x7F0F01FF
-			public const int Theme_MaterialComponents_DayNight_Bridge = 2131689983;
+			public const int ThemeOverlay_AppCompat_Dialog = 2131689983;
 			
 			// aapt resource value: 0x7F0F0200
-			public const int Theme_MaterialComponents_DayNight_DarkActionBar = 2131689984;
+			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131689984;
 			
 			// aapt resource value: 0x7F0F0201
-			public const int Theme_MaterialComponents_DayNight_DarkActionBar_Bridge = 2131689985;
+			public const int ThemeOverlay_AppCompat_Light = 2131689985;
 			
 			// aapt resource value: 0x7F0F0202
-			public const int Theme_MaterialComponents_DayNight_Dialog = 2131689986;
+			public const int ThemeOverlay_Design_TextInputEditText = 2131689986;
 			
 			// aapt resource value: 0x7F0F0203
-			public const int Theme_MaterialComponents_DayNight_DialogWhenLarge = 2131689987;
+			public const int ThemeOverlay_MaterialComponents = 2131689987;
 			
 			// aapt resource value: 0x7F0F0204
-			public const int Theme_MaterialComponents_DayNight_Dialog_Alert = 2131689988;
+			public const int ThemeOverlay_MaterialComponents_ActionBar = 2131689988;
 			
 			// aapt resource value: 0x7F0F0205
-			public const int Theme_MaterialComponents_DayNight_Dialog_Alert_Bridge = 2131689989;
+			public const int ThemeOverlay_MaterialComponents_ActionBar_Primary = 2131689989;
 			
 			// aapt resource value: 0x7F0F0206
-			public const int Theme_MaterialComponents_DayNight_Dialog_Bridge = 2131689990;
+			public const int ThemeOverlay_MaterialComponents_ActionBar_Surface = 2131689990;
 			
 			// aapt resource value: 0x7F0F0207
-			public const int Theme_MaterialComponents_DayNight_Dialog_FixedSize = 2131689991;
+			public const int ThemeOverlay_MaterialComponents_AutoCompleteTextView = 2131689991;
 			
 			// aapt resource value: 0x7F0F0208
-			public const int Theme_MaterialComponents_DayNight_Dialog_FixedSize_Bridge = 2131689992;
+			public const int ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox = 2131689992;
 			
 			// aapt resource value: 0x7F0F0209
-			public const int Theme_MaterialComponents_DayNight_Dialog_MinWidth = 2131689993;
+			public const int ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox_Dense = 2131689993;
 			
 			// aapt resource value: 0x7F0F020A
-			public const int Theme_MaterialComponents_DayNight_Dialog_MinWidth_Bridge = 2131689994;
+			public const int ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox = 2131689994;
 			
 			// aapt resource value: 0x7F0F020B
-			public const int Theme_MaterialComponents_DayNight_NoActionBar = 2131689995;
+			public const int ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense = 2131689995;
 			
 			// aapt resource value: 0x7F0F020C
-			public const int Theme_MaterialComponents_DayNight_NoActionBar_Bridge = 2131689996;
+			public const int ThemeOverlay_MaterialComponents_BottomAppBar_Primary = 2131689996;
 			
 			// aapt resource value: 0x7F0F020D
-			public const int Theme_MaterialComponents_Dialog = 2131689997;
+			public const int ThemeOverlay_MaterialComponents_BottomAppBar_Surface = 2131689997;
 			
 			// aapt resource value: 0x7F0F020E
-			public const int Theme_MaterialComponents_DialogWhenLarge = 2131689998;
+			public const int ThemeOverlay_MaterialComponents_BottomSheetDialog = 2131689998;
 			
 			// aapt resource value: 0x7F0F020F
-			public const int Theme_MaterialComponents_Dialog_Alert = 2131689999;
+			public const int ThemeOverlay_MaterialComponents_Dark = 2131689999;
 			
 			// aapt resource value: 0x7F0F0210
-			public const int Theme_MaterialComponents_Dialog_Alert_Bridge = 2131690000;
+			public const int ThemeOverlay_MaterialComponents_Dark_ActionBar = 2131690000;
 			
 			// aapt resource value: 0x7F0F0211
-			public const int Theme_MaterialComponents_Dialog_Bridge = 2131690001;
+			public const int ThemeOverlay_MaterialComponents_DayNight_BottomSheetDialog = 2131690001;
 			
 			// aapt resource value: 0x7F0F0212
-			public const int Theme_MaterialComponents_Dialog_FixedSize = 2131690002;
+			public const int ThemeOverlay_MaterialComponents_Dialog = 2131690002;
 			
 			// aapt resource value: 0x7F0F0213
-			public const int Theme_MaterialComponents_Dialog_FixedSize_Bridge = 2131690003;
+			public const int ThemeOverlay_MaterialComponents_Dialog_Alert = 2131690003;
 			
 			// aapt resource value: 0x7F0F0214
-			public const int Theme_MaterialComponents_Dialog_MinWidth = 2131690004;
+			public const int ThemeOverlay_MaterialComponents_Dialog_Alert_Framework = 2131690004;
 			
 			// aapt resource value: 0x7F0F0215
-			public const int Theme_MaterialComponents_Dialog_MinWidth_Bridge = 2131690005;
+			public const int ThemeOverlay_MaterialComponents_Light = 2131690005;
 			
 			// aapt resource value: 0x7F0F0216
-			public const int Theme_MaterialComponents_Light = 2131690006;
+			public const int ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework = 2131690006;
 			
 			// aapt resource value: 0x7F0F0217
-			public const int Theme_MaterialComponents_Light_BarSize = 2131690007;
+			public const int ThemeOverlay_MaterialComponents_MaterialAlertDialog = 2131690007;
 			
 			// aapt resource value: 0x7F0F0218
-			public const int Theme_MaterialComponents_Light_BottomSheetDialog = 2131690008;
+			public const int ThemeOverlay_MaterialComponents_MaterialAlertDialog_Centered = 2131690008;
 			
 			// aapt resource value: 0x7F0F0219
-			public const int Theme_MaterialComponents_Light_Bridge = 2131690009;
+			public const int ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date = 2131690009;
 			
 			// aapt resource value: 0x7F0F021A
-			public const int Theme_MaterialComponents_Light_DarkActionBar = 2131690010;
+			public const int ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Calendar = 2131690010;
 			
 			// aapt resource value: 0x7F0F021B
-			public const int Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131690011;
+			public const int ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text = 2131690011;
 			
 			// aapt resource value: 0x7F0F021C
-			public const int Theme_MaterialComponents_Light_Dialog = 2131690012;
+			public const int ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text_Day = 2131690012;
 			
 			// aapt resource value: 0x7F0F021D
-			public const int Theme_MaterialComponents_Light_DialogWhenLarge = 2131690013;
+			public const int ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Spinner = 2131690013;
 			
 			// aapt resource value: 0x7F0F021E
-			public const int Theme_MaterialComponents_Light_Dialog_Alert = 2131690014;
+			public const int ThemeOverlay_MaterialComponents_MaterialCalendar = 2131690014;
 			
 			// aapt resource value: 0x7F0F021F
-			public const int Theme_MaterialComponents_Light_Dialog_Alert_Bridge = 2131690015;
+			public const int ThemeOverlay_MaterialComponents_MaterialCalendar_Fullscreen = 2131690015;
 			
 			// aapt resource value: 0x7F0F0220
-			public const int Theme_MaterialComponents_Light_Dialog_Bridge = 2131690016;
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText = 2131690016;
 			
 			// aapt resource value: 0x7F0F0221
-			public const int Theme_MaterialComponents_Light_Dialog_FixedSize = 2131690017;
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = 2131690017;
 			
 			// aapt resource value: 0x7F0F0222
-			public const int Theme_MaterialComponents_Light_Dialog_FixedSize_Bridge = 2131690018;
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131690018;
 			
 			// aapt resource value: 0x7F0F0223
-			public const int Theme_MaterialComponents_Light_Dialog_MinWidth = 2131690019;
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = 2131690019;
 			
 			// aapt resource value: 0x7F0F0224
-			public const int Theme_MaterialComponents_Light_Dialog_MinWidth_Bridge = 2131690020;
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131690020;
 			
 			// aapt resource value: 0x7F0F0225
-			public const int Theme_MaterialComponents_Light_LargeTouch = 2131690021;
+			public const int ThemeOverlay_MaterialComponents_TimePicker = 2131690021;
 			
 			// aapt resource value: 0x7F0F0226
-			public const int Theme_MaterialComponents_Light_NoActionBar = 2131690022;
+			public const int ThemeOverlay_MaterialComponents_TimePicker_Display = 2131690022;
 			
 			// aapt resource value: 0x7F0F0227
-			public const int Theme_MaterialComponents_Light_NoActionBar_Bridge = 2131690023;
+			public const int ThemeOverlay_MaterialComponents_Toolbar_Primary = 2131690023;
 			
 			// aapt resource value: 0x7F0F0228
-			public const int Theme_MaterialComponents_NoActionBar = 2131690024;
+			public const int ThemeOverlay_MaterialComponents_Toolbar_Surface = 2131690024;
 			
-			// aapt resource value: 0x7F0F0229
-			public const int Theme_MaterialComponents_NoActionBar_Bridge = 2131690025;
+			// aapt resource value: 0x7F0F01AC
+			public const int Theme_AppCompat = 2131689900;
+			
+			// aapt resource value: 0x7F0F01AD
+			public const int Theme_AppCompat_CompactMenu = 2131689901;
+			
+			// aapt resource value: 0x7F0F01AE
+			public const int Theme_AppCompat_DayNight = 2131689902;
+			
+			// aapt resource value: 0x7F0F01AF
+			public const int Theme_AppCompat_DayNight_DarkActionBar = 2131689903;
+			
+			// aapt resource value: 0x7F0F01B0
+			public const int Theme_AppCompat_DayNight_Dialog = 2131689904;
+			
+			// aapt resource value: 0x7F0F01B3
+			public const int Theme_AppCompat_DayNight_DialogWhenLarge = 2131689907;
+			
+			// aapt resource value: 0x7F0F01B1
+			public const int Theme_AppCompat_DayNight_Dialog_Alert = 2131689905;
+			
+			// aapt resource value: 0x7F0F01B2
+			public const int Theme_AppCompat_DayNight_Dialog_MinWidth = 2131689906;
+			
+			// aapt resource value: 0x7F0F01B4
+			public const int Theme_AppCompat_DayNight_NoActionBar = 2131689908;
+			
+			// aapt resource value: 0x7F0F01B5
+			public const int Theme_AppCompat_Dialog = 2131689909;
+			
+			// aapt resource value: 0x7F0F01B8
+			public const int Theme_AppCompat_DialogWhenLarge = 2131689912;
+			
+			// aapt resource value: 0x7F0F01B6
+			public const int Theme_AppCompat_Dialog_Alert = 2131689910;
+			
+			// aapt resource value: 0x7F0F01B7
+			public const int Theme_AppCompat_Dialog_MinWidth = 2131689911;
+			
+			// aapt resource value: 0x7F0F01B9
+			public const int Theme_AppCompat_Empty = 2131689913;
+			
+			// aapt resource value: 0x7F0F01BA
+			public const int Theme_AppCompat_Light = 2131689914;
+			
+			// aapt resource value: 0x7F0F01BB
+			public const int Theme_AppCompat_Light_DarkActionBar = 2131689915;
+			
+			// aapt resource value: 0x7F0F01BC
+			public const int Theme_AppCompat_Light_Dialog = 2131689916;
+			
+			// aapt resource value: 0x7F0F01BF
+			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131689919;
+			
+			// aapt resource value: 0x7F0F01BD
+			public const int Theme_AppCompat_Light_Dialog_Alert = 2131689917;
+			
+			// aapt resource value: 0x7F0F01BE
+			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131689918;
+			
+			// aapt resource value: 0x7F0F01C0
+			public const int Theme_AppCompat_Light_NoActionBar = 2131689920;
+			
+			// aapt resource value: 0x7F0F01C1
+			public const int Theme_AppCompat_NoActionBar = 2131689921;
+			
+			// aapt resource value: 0x7F0F01C2
+			public const int Theme_Design = 2131689922;
+			
+			// aapt resource value: 0x7F0F01C3
+			public const int Theme_Design_BottomSheetDialog = 2131689923;
+			
+			// aapt resource value: 0x7F0F01C4
+			public const int Theme_Design_Light = 2131689924;
+			
+			// aapt resource value: 0x7F0F01C5
+			public const int Theme_Design_Light_BottomSheetDialog = 2131689925;
+			
+			// aapt resource value: 0x7F0F01C6
+			public const int Theme_Design_Light_NoActionBar = 2131689926;
+			
+			// aapt resource value: 0x7F0F01C7
+			public const int Theme_Design_NoActionBar = 2131689927;
+			
+			// aapt resource value: 0x7F0F01C8
+			public const int Theme_MaterialComponents = 2131689928;
+			
+			// aapt resource value: 0x7F0F01C9
+			public const int Theme_MaterialComponents_BottomSheetDialog = 2131689929;
+			
+			// aapt resource value: 0x7F0F01CA
+			public const int Theme_MaterialComponents_Bridge = 2131689930;
+			
+			// aapt resource value: 0x7F0F01CB
+			public const int Theme_MaterialComponents_CompactMenu = 2131689931;
+			
+			// aapt resource value: 0x7F0F01CC
+			public const int Theme_MaterialComponents_DayNight = 2131689932;
+			
+			// aapt resource value: 0x7F0F01CD
+			public const int Theme_MaterialComponents_DayNight_BottomSheetDialog = 2131689933;
+			
+			// aapt resource value: 0x7F0F01CE
+			public const int Theme_MaterialComponents_DayNight_Bridge = 2131689934;
+			
+			// aapt resource value: 0x7F0F01CF
+			public const int Theme_MaterialComponents_DayNight_DarkActionBar = 2131689935;
+			
+			// aapt resource value: 0x7F0F01D0
+			public const int Theme_MaterialComponents_DayNight_DarkActionBar_Bridge = 2131689936;
+			
+			// aapt resource value: 0x7F0F01D1
+			public const int Theme_MaterialComponents_DayNight_Dialog = 2131689937;
+			
+			// aapt resource value: 0x7F0F01D9
+			public const int Theme_MaterialComponents_DayNight_DialogWhenLarge = 2131689945;
+			
+			// aapt resource value: 0x7F0F01D2
+			public const int Theme_MaterialComponents_DayNight_Dialog_Alert = 2131689938;
+			
+			// aapt resource value: 0x7F0F01D3
+			public const int Theme_MaterialComponents_DayNight_Dialog_Alert_Bridge = 2131689939;
+			
+			// aapt resource value: 0x7F0F01D4
+			public const int Theme_MaterialComponents_DayNight_Dialog_Bridge = 2131689940;
+			
+			// aapt resource value: 0x7F0F01D5
+			public const int Theme_MaterialComponents_DayNight_Dialog_FixedSize = 2131689941;
+			
+			// aapt resource value: 0x7F0F01D6
+			public const int Theme_MaterialComponents_DayNight_Dialog_FixedSize_Bridge = 2131689942;
+			
+			// aapt resource value: 0x7F0F01D7
+			public const int Theme_MaterialComponents_DayNight_Dialog_MinWidth = 2131689943;
+			
+			// aapt resource value: 0x7F0F01D8
+			public const int Theme_MaterialComponents_DayNight_Dialog_MinWidth_Bridge = 2131689944;
+			
+			// aapt resource value: 0x7F0F01DA
+			public const int Theme_MaterialComponents_DayNight_NoActionBar = 2131689946;
+			
+			// aapt resource value: 0x7F0F01DB
+			public const int Theme_MaterialComponents_DayNight_NoActionBar_Bridge = 2131689947;
+			
+			// aapt resource value: 0x7F0F01DC
+			public const int Theme_MaterialComponents_Dialog = 2131689948;
+			
+			// aapt resource value: 0x7F0F01E4
+			public const int Theme_MaterialComponents_DialogWhenLarge = 2131689956;
+			
+			// aapt resource value: 0x7F0F01DD
+			public const int Theme_MaterialComponents_Dialog_Alert = 2131689949;
+			
+			// aapt resource value: 0x7F0F01DE
+			public const int Theme_MaterialComponents_Dialog_Alert_Bridge = 2131689950;
+			
+			// aapt resource value: 0x7F0F01DF
+			public const int Theme_MaterialComponents_Dialog_Bridge = 2131689951;
+			
+			// aapt resource value: 0x7F0F01E0
+			public const int Theme_MaterialComponents_Dialog_FixedSize = 2131689952;
+			
+			// aapt resource value: 0x7F0F01E1
+			public const int Theme_MaterialComponents_Dialog_FixedSize_Bridge = 2131689953;
+			
+			// aapt resource value: 0x7F0F01E2
+			public const int Theme_MaterialComponents_Dialog_MinWidth = 2131689954;
+			
+			// aapt resource value: 0x7F0F01E3
+			public const int Theme_MaterialComponents_Dialog_MinWidth_Bridge = 2131689955;
+			
+			// aapt resource value: 0x7F0F01E5
+			public const int Theme_MaterialComponents_Light = 2131689957;
+			
+			// aapt resource value: 0x7F0F01E6
+			public const int Theme_MaterialComponents_Light_BarSize = 2131689958;
+			
+			// aapt resource value: 0x7F0F01E7
+			public const int Theme_MaterialComponents_Light_BottomSheetDialog = 2131689959;
+			
+			// aapt resource value: 0x7F0F01E8
+			public const int Theme_MaterialComponents_Light_Bridge = 2131689960;
+			
+			// aapt resource value: 0x7F0F01E9
+			public const int Theme_MaterialComponents_Light_DarkActionBar = 2131689961;
+			
+			// aapt resource value: 0x7F0F01EA
+			public const int Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131689962;
+			
+			// aapt resource value: 0x7F0F01EB
+			public const int Theme_MaterialComponents_Light_Dialog = 2131689963;
+			
+			// aapt resource value: 0x7F0F01F3
+			public const int Theme_MaterialComponents_Light_DialogWhenLarge = 2131689971;
+			
+			// aapt resource value: 0x7F0F01EC
+			public const int Theme_MaterialComponents_Light_Dialog_Alert = 2131689964;
+			
+			// aapt resource value: 0x7F0F01ED
+			public const int Theme_MaterialComponents_Light_Dialog_Alert_Bridge = 2131689965;
+			
+			// aapt resource value: 0x7F0F01EE
+			public const int Theme_MaterialComponents_Light_Dialog_Bridge = 2131689966;
+			
+			// aapt resource value: 0x7F0F01EF
+			public const int Theme_MaterialComponents_Light_Dialog_FixedSize = 2131689967;
+			
+			// aapt resource value: 0x7F0F01F0
+			public const int Theme_MaterialComponents_Light_Dialog_FixedSize_Bridge = 2131689968;
+			
+			// aapt resource value: 0x7F0F01F1
+			public const int Theme_MaterialComponents_Light_Dialog_MinWidth = 2131689969;
+			
+			// aapt resource value: 0x7F0F01F2
+			public const int Theme_MaterialComponents_Light_Dialog_MinWidth_Bridge = 2131689970;
+			
+			// aapt resource value: 0x7F0F01F4
+			public const int Theme_MaterialComponents_Light_LargeTouch = 2131689972;
+			
+			// aapt resource value: 0x7F0F01F5
+			public const int Theme_MaterialComponents_Light_NoActionBar = 2131689973;
+			
+			// aapt resource value: 0x7F0F01F6
+			public const int Theme_MaterialComponents_Light_NoActionBar_Bridge = 2131689974;
+			
+			// aapt resource value: 0x7F0F01F7
+			public const int Theme_MaterialComponents_NoActionBar = 2131689975;
+			
+			// aapt resource value: 0x7F0F01F8
+			public const int Theme_MaterialComponents_NoActionBar_Bridge = 2131689976;
 			
 			// aapt resource value: 0x7F0F022A
 			public const int Widget_AppCompat_ActionBar = 2131690026;
@@ -20970,26 +23529,26 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 0x7F0F0235
 			public const int Widget_AppCompat_Button = 2131690037;
 			
-			// aapt resource value: 0x7F0F0236
-			public const int Widget_AppCompat_ButtonBar = 2131690038;
-			
-			// aapt resource value: 0x7F0F0237
-			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131690039;
-			
-			// aapt resource value: 0x7F0F0238
-			public const int Widget_AppCompat_Button_Borderless = 2131690040;
-			
-			// aapt resource value: 0x7F0F0239
-			public const int Widget_AppCompat_Button_Borderless_Colored = 2131690041;
-			
-			// aapt resource value: 0x7F0F023A
-			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131690042;
-			
 			// aapt resource value: 0x7F0F023B
-			public const int Widget_AppCompat_Button_Colored = 2131690043;
+			public const int Widget_AppCompat_ButtonBar = 2131690043;
 			
 			// aapt resource value: 0x7F0F023C
-			public const int Widget_AppCompat_Button_Small = 2131690044;
+			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131690044;
+			
+			// aapt resource value: 0x7F0F0236
+			public const int Widget_AppCompat_Button_Borderless = 2131690038;
+			
+			// aapt resource value: 0x7F0F0237
+			public const int Widget_AppCompat_Button_Borderless_Colored = 2131690039;
+			
+			// aapt resource value: 0x7F0F0238
+			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131690040;
+			
+			// aapt resource value: 0x7F0F0239
+			public const int Widget_AppCompat_Button_Colored = 2131690041;
+			
+			// aapt resource value: 0x7F0F023A
+			public const int Widget_AppCompat_Button_Small = 2131690042;
 			
 			// aapt resource value: 0x7F0F023D
 			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131690045;
@@ -21294,20 +23853,20 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 0x7F0F02A1
 			public const int Widget_MaterialComponents_CheckedTextView = 2131690145;
 			
+			// aapt resource value: 0x7F0F02A6
+			public const int Widget_MaterialComponents_ChipGroup = 2131690150;
+			
 			// aapt resource value: 0x7F0F02A2
-			public const int Widget_MaterialComponents_ChipGroup = 2131690146;
+			public const int Widget_MaterialComponents_Chip_Action = 2131690146;
 			
 			// aapt resource value: 0x7F0F02A3
-			public const int Widget_MaterialComponents_Chip_Action = 2131690147;
+			public const int Widget_MaterialComponents_Chip_Choice = 2131690147;
 			
 			// aapt resource value: 0x7F0F02A4
-			public const int Widget_MaterialComponents_Chip_Choice = 2131690148;
+			public const int Widget_MaterialComponents_Chip_Entry = 2131690148;
 			
 			// aapt resource value: 0x7F0F02A5
-			public const int Widget_MaterialComponents_Chip_Entry = 2131690149;
-			
-			// aapt resource value: 0x7F0F02A6
-			public const int Widget_MaterialComponents_Chip_Filter = 2131690150;
+			public const int Widget_MaterialComponents_Chip_Filter = 2131690149;
 			
 			// aapt resource value: 0x7F0F02A7
 			public const int Widget_MaterialComponents_CircularProgressIndicator = 2131690151;
@@ -21357,17 +23916,17 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 0x7F0F02B6
 			public const int Widget_MaterialComponents_MaterialCalendar_Day = 2131690166;
 			
+			// aapt resource value: 0x7F0F02BA
+			public const int Widget_MaterialComponents_MaterialCalendar_DayTextView = 2131690170;
+			
 			// aapt resource value: 0x7F0F02B7
-			public const int Widget_MaterialComponents_MaterialCalendar_DayTextView = 2131690167;
+			public const int Widget_MaterialComponents_MaterialCalendar_Day_Invalid = 2131690167;
 			
 			// aapt resource value: 0x7F0F02B8
-			public const int Widget_MaterialComponents_MaterialCalendar_Day_Invalid = 2131690168;
+			public const int Widget_MaterialComponents_MaterialCalendar_Day_Selected = 2131690168;
 			
 			// aapt resource value: 0x7F0F02B9
-			public const int Widget_MaterialComponents_MaterialCalendar_Day_Selected = 2131690169;
-			
-			// aapt resource value: 0x7F0F02BA
-			public const int Widget_MaterialComponents_MaterialCalendar_Day_Today = 2131690170;
+			public const int Widget_MaterialComponents_MaterialCalendar_Day_Today = 2131690169;
 			
 			// aapt resource value: 0x7F0F02BB
 			public const int Widget_MaterialComponents_MaterialCalendar_Fullscreen = 2131690171;
@@ -21408,14 +23967,14 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 0x7F0F02C7
 			public const int Widget_MaterialComponents_MaterialCalendar_Year = 2131690183;
 			
+			// aapt resource value: 0x7F0F02CA
+			public const int Widget_MaterialComponents_MaterialCalendar_YearNavigationButton = 2131690186;
+			
 			// aapt resource value: 0x7F0F02C8
-			public const int Widget_MaterialComponents_MaterialCalendar_YearNavigationButton = 2131690184;
+			public const int Widget_MaterialComponents_MaterialCalendar_Year_Selected = 2131690184;
 			
 			// aapt resource value: 0x7F0F02C9
-			public const int Widget_MaterialComponents_MaterialCalendar_Year_Selected = 2131690185;
-			
-			// aapt resource value: 0x7F0F02CA
-			public const int Widget_MaterialComponents_MaterialCalendar_Year_Today = 2131690186;
+			public const int Widget_MaterialComponents_MaterialCalendar_Year_Today = 2131690185;
 			
 			// aapt resource value: 0x7F0F02CB
 			public const int Widget_MaterialComponents_NavigationRailView = 2131690187;
@@ -21597,9 +24156,9 @@ namespace PetLifeApp.Droid
 					2130904034,
 					2130904046};
 			
-			// aapt resource value: { 0x0 }
+			// aapt resource value: { 0x10100B3 }
 			public static int[] ActionBarLayout = new int[] {
-					0};
+					16842931};
 			
 			// aapt resource value: 0
 			public const int ActionBarLayout_android_layout_gravity = 0;
@@ -21691,15 +24250,16 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 28
 			public const int ActionBar_titleTextStyle = 28;
 			
-			// aapt resource value: { 0x0 }
+			// aapt resource value: { 0x101013F }
 			public static int[] ActionMenuItemView = new int[] {
-					0};
+					16843071};
 			
 			// aapt resource value: 0
 			public const int ActionMenuItemView_android_minWidth = 0;
 			
-			// aapt resource value: {  }
-			public static int[] ActionMenuView = new int[0];
+			// aapt resource value: { 0xFFFFFFFF }
+			public static int[] ActionMenuView = new int[] {
+					-1};
 			
 			// aapt resource value: { 0x7F030047,0x7F03004E,0x7F0300CC,0x7F0301B5,0x7F030371,0x7F0303EE }
 			public static int[] ActionMode = new int[] {
@@ -21739,9 +24299,9 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 1
 			public const int ActivityChooserView_initialActivityCount = 1;
 			
-			// aapt resource value: { 0x0,0x7F030003,0x7F030122,0x7F030123,0x7F03039E }
+			// aapt resource value: { 0x1010003,0x7F030003,0x7F030122,0x7F030123,0x7F03039E }
 			public static int[] ActivityNavigator = new int[] {
-					0,
+					16842755,
 					2130903043,
 					2130903330,
 					2130903331,
@@ -21762,9 +24322,9 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 4
 			public const int ActivityNavigator_targetPackage = 4;
 			
-			// aapt resource value: { 0x0,0x7F030080,0x7F030081,0x7F030257,0x7F030258,0x7F0302B7,0x7F030342,0x7F030344 }
+			// aapt resource value: { 0x10100F2,0x7F030080,0x7F030081,0x7F030257,0x7F030258,0x7F0302B7,0x7F030342,0x7F030344 }
 			public static int[] AlertDialog = new int[] {
-					0,
+					16842994,
 					2130903168,
 					2130903169,
 					2130903639,
@@ -21797,68 +24357,68 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 7
 			public const int AlertDialog_singleChoiceItemLayout = 7;
 			
-			// aapt resource value: { 0x0,0x0,0x0,0x0,0x0,0x0 }
+			// aapt resource value: { 0x101011C,0x1010194,0x1010195,0x1010196,0x101030C,0x101030D }
 			public static int[] AnimatedStateListDrawableCompat = new int[] {
-					0,
-					0,
-					0,
-					0,
-					0,
-					0};
-			
-			// aapt resource value: 0
-			public const int AnimatedStateListDrawableCompat_android_constantSize = 0;
-			
-			// aapt resource value: 1
-			public const int AnimatedStateListDrawableCompat_android_dither = 1;
-			
-			// aapt resource value: 2
-			public const int AnimatedStateListDrawableCompat_android_enterFadeDuration = 2;
+					16843036,
+					16843156,
+					16843157,
+					16843158,
+					16843532,
+					16843533};
 			
 			// aapt resource value: 3
-			public const int AnimatedStateListDrawableCompat_android_exitFadeDuration = 3;
-			
-			// aapt resource value: 4
-			public const int AnimatedStateListDrawableCompat_android_variablePadding = 4;
-			
-			// aapt resource value: 5
-			public const int AnimatedStateListDrawableCompat_android_visible = 5;
-			
-			// aapt resource value: { 0x0,0x0 }
-			public static int[] AnimatedStateListDrawableItem = new int[] {
-					0,
-					0};
+			public const int AnimatedStateListDrawableCompat_android_constantSize = 3;
 			
 			// aapt resource value: 0
-			public const int AnimatedStateListDrawableItem_android_drawable = 0;
+			public const int AnimatedStateListDrawableCompat_android_dither = 0;
+			
+			// aapt resource value: 4
+			public const int AnimatedStateListDrawableCompat_android_enterFadeDuration = 4;
+			
+			// aapt resource value: 5
+			public const int AnimatedStateListDrawableCompat_android_exitFadeDuration = 5;
+			
+			// aapt resource value: 2
+			public const int AnimatedStateListDrawableCompat_android_variablePadding = 2;
 			
 			// aapt resource value: 1
-			public const int AnimatedStateListDrawableItem_android_id = 1;
+			public const int AnimatedStateListDrawableCompat_android_visible = 1;
 			
-			// aapt resource value: { 0x0,0x0,0x0,0x0 }
+			// aapt resource value: { 0x10100D0,0x1010199 }
+			public static int[] AnimatedStateListDrawableItem = new int[] {
+					16842960,
+					16843161};
+			
+			// aapt resource value: 1
+			public const int AnimatedStateListDrawableItem_android_drawable = 1;
+			
+			// aapt resource value: 0
+			public const int AnimatedStateListDrawableItem_android_id = 0;
+			
+			// aapt resource value: { 0x1010199,0x1010449,0x101044A,0x101044B }
 			public static int[] AnimatedStateListDrawableTransition = new int[] {
-					0,
-					0,
-					0,
-					0};
+					16843161,
+					16843849,
+					16843850,
+					16843851};
 			
 			// aapt resource value: 0
 			public const int AnimatedStateListDrawableTransition_android_drawable = 0;
 			
-			// aapt resource value: 1
-			public const int AnimatedStateListDrawableTransition_android_fromId = 1;
-			
 			// aapt resource value: 2
-			public const int AnimatedStateListDrawableTransition_android_reversible = 2;
+			public const int AnimatedStateListDrawableTransition_android_fromId = 2;
 			
 			// aapt resource value: 3
-			public const int AnimatedStateListDrawableTransition_android_toId = 3;
+			public const int AnimatedStateListDrawableTransition_android_reversible = 3;
 			
-			// aapt resource value: { 0x0,0x0,0x0,0x7F030156,0x7F030171,0x7F03024D,0x7F03024E,0x7F030367 }
+			// aapt resource value: 1
+			public const int AnimatedStateListDrawableTransition_android_toId = 1;
+			
+			// aapt resource value: { 0x10100D4,0x101048F,0x1010540,0x7F030156,0x7F030171,0x7F03024D,0x7F03024E,0x7F030367 }
 			public static int[] AppBarLayout = new int[] {
-					0,
-					0,
-					0,
+					16842964,
+					16843919,
+					16844096,
 					2130903382,
 					2130903409,
 					2130903629,
@@ -21887,11 +24447,11 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 0
 			public const int AppBarLayout_android_background = 0;
 			
-			// aapt resource value: 1
-			public const int AppBarLayout_android_keyboardNavigationCluster = 1;
-			
 			// aapt resource value: 2
-			public const int AppBarLayout_android_touchscreenBlocksFocus = 2;
+			public const int AppBarLayout_android_keyboardNavigationCluster = 2;
+			
+			// aapt resource value: 1
+			public const int AppBarLayout_android_touchscreenBlocksFocus = 1;
 			
 			// aapt resource value: 3
 			public const int AppBarLayout_elevation = 3;
@@ -21919,9 +24479,9 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 7
 			public const int AppBarLayout_statusBarForeground = 7;
 			
-			// aapt resource value: { 0x0,0x7F030357,0x7F0303E0,0x7F0303E1 }
+			// aapt resource value: { 0x1010119,0x7F030357,0x7F0303E0,0x7F0303E1 }
 			public static int[] AppCompatImageView = new int[] {
-					0,
+					16843033,
 					2130903895,
 					2130904032,
 					2130904033};
@@ -21938,9 +24498,9 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 3
 			public const int AppCompatImageView_tintMode = 3;
 			
-			// aapt resource value: { 0x0,0x7F0303DC,0x7F0303DD,0x7F0303DE }
+			// aapt resource value: { 0x1010142,0x7F0303DC,0x7F0303DD,0x7F0303DE }
 			public static int[] AppCompatSeekBar = new int[] {
-					0,
+					16843074,
 					2130904028,
 					2130904029,
 					2130904030};
@@ -21957,40 +24517,40 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 3
 			public const int AppCompatSeekBar_tickMarkTintMode = 3;
 			
-			// aapt resource value: { 0x0,0x0,0x0,0x0,0x0,0x0,0x0 }
+			// aapt resource value: { 0x1010034,0x101016D,0x101016E,0x101016F,0x1010170,0x1010392,0x1010393 }
 			public static int[] AppCompatTextHelper = new int[] {
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0};
-			
-			// aapt resource value: 0
-			public const int AppCompatTextHelper_android_drawableBottom = 0;
-			
-			// aapt resource value: 1
-			public const int AppCompatTextHelper_android_drawableEnd = 1;
+					16842804,
+					16843117,
+					16843118,
+					16843119,
+					16843120,
+					16843666,
+					16843667};
 			
 			// aapt resource value: 2
-			public const int AppCompatTextHelper_android_drawableLeft = 2;
-			
-			// aapt resource value: 3
-			public const int AppCompatTextHelper_android_drawableRight = 3;
-			
-			// aapt resource value: 4
-			public const int AppCompatTextHelper_android_drawableStart = 4;
-			
-			// aapt resource value: 5
-			public const int AppCompatTextHelper_android_drawableTop = 5;
+			public const int AppCompatTextHelper_android_drawableBottom = 2;
 			
 			// aapt resource value: 6
-			public const int AppCompatTextHelper_android_textAppearance = 6;
+			public const int AppCompatTextHelper_android_drawableEnd = 6;
 			
-			// aapt resource value: { 0x0,0x7F030041,0x7F030042,0x7F030043,0x7F030044,0x7F030045,0x7F030143,0x7F030144,0x7F030145,0x7F030146,0x7F030148,0x7F030149,0x7F03014A,0x7F03014B,0x7F030189,0x7F03019F,0x7F0301A8,0x7F030203,0x7F030250,0x7F0303A2,0x7F0303C4 }
+			// aapt resource value: 3
+			public const int AppCompatTextHelper_android_drawableLeft = 3;
+			
+			// aapt resource value: 4
+			public const int AppCompatTextHelper_android_drawableRight = 4;
+			
+			// aapt resource value: 5
+			public const int AppCompatTextHelper_android_drawableStart = 5;
+			
+			// aapt resource value: 1
+			public const int AppCompatTextHelper_android_drawableTop = 1;
+			
+			// aapt resource value: 0
+			public const int AppCompatTextHelper_android_textAppearance = 0;
+			
+			// aapt resource value: { 0x1010034,0x7F030041,0x7F030042,0x7F030043,0x7F030044,0x7F030045,0x7F030143,0x7F030144,0x7F030145,0x7F030146,0x7F030148,0x7F030149,0x7F03014A,0x7F03014B,0x7F030189,0x7F03019F,0x7F0301A8,0x7F030203,0x7F030250,0x7F0303A2,0x7F0303C4 }
 			public static int[] AppCompatTextView = new int[] {
-					0,
+					16842804,
 					2130903105,
 					2130903106,
 					2130903107,
@@ -22075,10 +24635,10 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 20
 			public const int AppCompatTextView_textLocale = 20;
 			
-			// aapt resource value: { 0x0,0x0,0x7F030004,0x7F030005,0x7F030006,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000D,0x7F03000E,0x7F03000F,0x7F030010,0x7F030012,0x7F030013,0x7F030014,0x7F030015,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F03001F,0x7F030020,0x7F030021,0x7F030022,0x7F030023,0x7F030024,0x7F030028,0x7F03002A,0x7F03002B,0x7F03002C,0x7F03002D,0x7F030040,0x7F030068,0x7F030079,0x7F03007A,0x7F03007B,0x7F03007C,0x7F03007D,0x7F030082,0x7F030083,0x7F03009A,0x7F0300A3,0x7F0300D5,0x7F0300D6,0x7F0300D7,0x7F0300D8,0x7F0300D9,0x7F0300DA,0x7F0300DB,0x7F0300E2,0x7F0300E3,0x7F0300E9,0x7F030102,0x7F030131,0x7F030136,0x7F030137,0x7F03013C,0x7F03013E,0x7F03014E,0x7F03014F,0x7F030152,0x7F030153,0x7F030155,0x7F0301C2,0x7F0301D2,0x7F030253,0x7F030254,0x7F030255,0x7F030256,0x7F030259,0x7F03025A,0x7F03025B,0x7F03025C,0x7F03025D,0x7F03025E,0x7F03025F,0x7F030260,0x7F030261,0x7F0302D9,0x7F0302DA,0x7F0302DB,0x7F0302F4,0x7F0302F6,0x7F03030E,0x7F030310,0x7F030311,0x7F030312,0x7F030329,0x7F03032C,0x7F03032E,0x7F03032F,0x7F03034F,0x7F030350,0x7F03037E,0x7F0303AD,0x7F0303AF,0x7F0303B0,0x7F0303B1,0x7F0303B3,0x7F0303B4,0x7F0303B5,0x7F0303B6,0x7F0303BE,0x7F0303BF,0x7F0303F0,0x7F0303F1,0x7F0303F2,0x7F0303F3,0x7F030414,0x7F030423,0x7F030424,0x7F030425,0x7F030426,0x7F030427,0x7F030428,0x7F030429,0x7F03042A,0x7F03042B,0x7F03042C }
+			// aapt resource value: { 0x1010057,0x10100AE,0x7F030004,0x7F030005,0x7F030006,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000D,0x7F03000E,0x7F03000F,0x7F030010,0x7F030012,0x7F030013,0x7F030014,0x7F030015,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F03001F,0x7F030020,0x7F030021,0x7F030022,0x7F030023,0x7F030024,0x7F030028,0x7F03002A,0x7F03002B,0x7F03002C,0x7F03002D,0x7F030040,0x7F030068,0x7F030079,0x7F03007A,0x7F03007B,0x7F03007C,0x7F03007D,0x7F030082,0x7F030083,0x7F03009A,0x7F0300A3,0x7F0300D5,0x7F0300D6,0x7F0300D7,0x7F0300D8,0x7F0300D9,0x7F0300DA,0x7F0300DB,0x7F0300E2,0x7F0300E3,0x7F0300E9,0x7F030102,0x7F030131,0x7F030136,0x7F030137,0x7F03013C,0x7F03013E,0x7F03014E,0x7F03014F,0x7F030152,0x7F030153,0x7F030155,0x7F0301C2,0x7F0301D2,0x7F030253,0x7F030254,0x7F030255,0x7F030256,0x7F030259,0x7F03025A,0x7F03025B,0x7F03025C,0x7F03025D,0x7F03025E,0x7F03025F,0x7F030260,0x7F030261,0x7F0302D9,0x7F0302DA,0x7F0302DB,0x7F0302F4,0x7F0302F6,0x7F03030E,0x7F030310,0x7F030311,0x7F030312,0x7F030329,0x7F03032C,0x7F03032E,0x7F03032F,0x7F03034F,0x7F030350,0x7F03037E,0x7F0303AD,0x7F0303AF,0x7F0303B0,0x7F0303B1,0x7F0303B3,0x7F0303B4,0x7F0303B5,0x7F0303B6,0x7F0303BE,0x7F0303BF,0x7F0303F0,0x7F0303F1,0x7F0303F2,0x7F0303F3,0x7F030414,0x7F030423,0x7F030424,0x7F030425,0x7F030426,0x7F030427,0x7F030428,0x7F030429,0x7F03042A,0x7F03042B,0x7F03042C }
 			public static int[] AppCompatTheme = new int[] {
-					0,
-					0,
+					16842839,
+					16842926,
 					2130903044,
 					2130903045,
 					2130903046,
@@ -22316,11 +24876,11 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 38
 			public const int AppCompatTheme_alertDialogTheme = 38;
 			
-			// aapt resource value: 0
-			public const int AppCompatTheme_android_windowAnimationStyle = 0;
-			
 			// aapt resource value: 1
-			public const int AppCompatTheme_android_windowIsFloating = 1;
+			public const int AppCompatTheme_android_windowAnimationStyle = 1;
+			
+			// aapt resource value: 0
+			public const int AppCompatTheme_android_windowIsFloating = 0;
 			
 			// aapt resource value: 39
 			public const int AppCompatTheme_autoCompleteTextViewStyle = 39;
@@ -22586,9 +25146,9 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 126
 			public const int AppCompatTheme_windowNoTitle = 126;
 			
-			// aapt resource value: { 0x0,0x7F03032E }
+			// aapt resource value: { 0x101030E,0x7F03032E }
 			public static int[] BackgroundStyle = new int[] {
-					0,
+					16843534,
 					2130903854};
 			
 			// aapt resource value: 0
@@ -22628,9 +25188,9 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 6
 			public const int Badge_verticalOffset = 6;
 			
-			// aapt resource value: { 0x0,0x7F0301BA,0x7F0301D9,0x7F030290,0x7F03033A,0x7F03033C,0x7F0303FA,0x7F0303FD,0x7F0303FF }
+			// aapt resource value: { 0x1010139,0x7F0301BA,0x7F0301D9,0x7F030290,0x7F03033A,0x7F03033C,0x7F0303FA,0x7F0303FD,0x7F0303FF }
 			public static int[] BaseProgressIndicator = new int[] {
-					0,
+					16843065,
 					2130903482,
 					2130903513,
 					2130903696,
@@ -22721,10 +25281,10 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 0
 			public const int BottomNavigationView_itemHorizontalTranslationEnabled = 0;
 			
-			// aapt resource value: { 0x0,0x0,0x7F030050,0x7F03005B,0x7F03005C,0x7F03005D,0x7F03005E,0x7F03005F,0x7F030061,0x7F030062,0x7F030063,0x7F0301AF,0x7F0302D2,0x7F0302D4,0x7F0302D5,0x7F0302D8,0x7F030333,0x7F030336 }
+			// aapt resource value: { 0x101011F,0x1010440,0x7F030050,0x7F03005B,0x7F03005C,0x7F03005D,0x7F03005E,0x7F03005F,0x7F030061,0x7F030062,0x7F030063,0x7F0301AF,0x7F0302D2,0x7F0302D4,0x7F0302D5,0x7F0302D8,0x7F030333,0x7F030336 }
 			public static int[] BottomSheetBehavior_Layout = new int[] {
-					0,
-					0,
+					16843039,
+					16843840,
 					2130903120,
 					2130903131,
 					2130903132,
@@ -22742,11 +25302,11 @@ namespace PetLifeApp.Droid
 					2130903859,
 					2130903862};
 			
-			// aapt resource value: 0
-			public const int BottomSheetBehavior_Layout_android_elevation = 0;
-			
 			// aapt resource value: 1
-			public const int BottomSheetBehavior_Layout_android_maxWidth = 1;
+			public const int BottomSheetBehavior_Layout_android_elevation = 1;
+			
+			// aapt resource value: 0
+			public const int BottomSheetBehavior_Layout_android_maxWidth = 0;
 			
 			// aapt resource value: 2
 			public const int BottomSheetBehavior_Layout_backgroundTint = 2;
@@ -22814,10 +25374,10 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 1
 			public const int Capability_shortcutMatchRequired = 1;
 			
-			// aapt resource value: { 0x0,0x0,0x7F030086,0x7F030087,0x7F030088,0x7F03008A,0x7F03008B,0x7F03008C,0x7F0300F9,0x7F0300FA,0x7F0300FC,0x7F0300FD,0x7F0300FF }
+			// aapt resource value: { 0x101013F,0x1010140,0x7F030086,0x7F030087,0x7F030088,0x7F03008A,0x7F03008B,0x7F03008C,0x7F0300F9,0x7F0300FA,0x7F0300FC,0x7F0300FD,0x7F0300FF }
 			public static int[] CardView = new int[] {
-					0,
-					0,
+					16843071,
+					16843072,
 					2130903174,
 					2130903175,
 					2130903176,
@@ -22830,11 +25390,11 @@ namespace PetLifeApp.Droid
 					2130903293,
 					2130903295};
 			
-			// aapt resource value: 0
-			public const int CardView_android_minHeight = 0;
-			
 			// aapt resource value: 1
-			public const int CardView_android_minWidth = 1;
+			public const int CardView_android_minHeight = 1;
+			
+			// aapt resource value: 0
+			public const int CardView_android_minWidth = 0;
 			
 			// aapt resource value: 2
 			public const int CardView_cardBackgroundColor = 2;
@@ -22912,23 +25472,23 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 9
 			public const int Carousel_carousel_touchUp_velocityThreshold = 9;
 			
-			// aapt resource value: { 0x0,0x0,0x0,0x7F030139,0x7F030377,0x7F030378 }
+			// aapt resource value: { 0x10101EF,0x10101F0,0x10101F1,0x7F030139,0x7F030377,0x7F030378 }
 			public static int[] CheckBoxPreference = new int[] {
-					0,
-					0,
-					0,
+					16843247,
+					16843248,
+					16843249,
 					2130903353,
 					2130903927,
 					2130903928};
 			
-			// aapt resource value: 0
-			public const int CheckBoxPreference_android_disableDependentsState = 0;
+			// aapt resource value: 2
+			public const int CheckBoxPreference_android_disableDependentsState = 2;
 			
 			// aapt resource value: 1
 			public const int CheckBoxPreference_android_summaryOff = 1;
 			
-			// aapt resource value: 2
-			public const int CheckBoxPreference_android_summaryOn = 2;
+			// aapt resource value: 0
+			public const int CheckBoxPreference_android_summaryOn = 0;
 			
 			// aapt resource value: 3
 			public const int CheckBoxPreference_disableDependentsState = 3;
@@ -22939,15 +25499,15 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 5
 			public const int CheckBoxPreference_summaryOn = 5;
 			
-			// aapt resource value: { 0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x7F03009D,0x7F03009E,0x7F0300A1,0x7F0300A2,0x7F0300A4,0x7F0300A5,0x7F0300A6,0x7F0300A8,0x7F0300A9,0x7F0300AA,0x7F0300AB,0x7F0300AC,0x7F0300AD,0x7F0300AE,0x7F0300B3,0x7F0300B4,0x7F0300B5,0x7F0300B7,0x7F0300C5,0x7F0300C6,0x7F0300C7,0x7F0300C8,0x7F0300C9,0x7F0300CA,0x7F0300CB,0x7F030164,0x7F0301BB,0x7F0301C7,0x7F0301CC,0x7F03031D,0x7F030333,0x7F030336,0x7F03033E,0x7F0303C0,0x7F0303C9 }
+			// aapt resource value: { 0x1010034,0x1010095,0x1010098,0x10100AB,0x101011F,0x101014F,0x10101E5,0x7F03009D,0x7F03009E,0x7F0300A1,0x7F0300A2,0x7F0300A4,0x7F0300A5,0x7F0300A6,0x7F0300A8,0x7F0300A9,0x7F0300AA,0x7F0300AB,0x7F0300AC,0x7F0300AD,0x7F0300AE,0x7F0300B3,0x7F0300B4,0x7F0300B5,0x7F0300B7,0x7F0300C5,0x7F0300C6,0x7F0300C7,0x7F0300C8,0x7F0300C9,0x7F0300CA,0x7F0300CB,0x7F030164,0x7F0301BB,0x7F0301C7,0x7F0301CC,0x7F03031D,0x7F030333,0x7F030336,0x7F03033E,0x7F0303C0,0x7F0303C9 }
 			public static int[] Chip = new int[] {
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
+					16842804,
+					16842901,
+					16842904,
+					16842923,
+					16843039,
+					16843087,
+					16843237,
 					2130903197,
 					2130903198,
 					2130903201,
@@ -23015,26 +25575,26 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 6
 			public const int ChipGroup_singleSelection = 6;
 			
-			// aapt resource value: 0
-			public const int Chip_android_checkable = 0;
-			
-			// aapt resource value: 1
-			public const int Chip_android_ellipsize = 1;
-			
-			// aapt resource value: 2
-			public const int Chip_android_maxWidth = 2;
+			// aapt resource value: 6
+			public const int Chip_android_checkable = 6;
 			
 			// aapt resource value: 3
-			public const int Chip_android_text = 3;
+			public const int Chip_android_ellipsize = 3;
 			
 			// aapt resource value: 4
-			public const int Chip_android_textAppearance = 4;
+			public const int Chip_android_maxWidth = 4;
 			
 			// aapt resource value: 5
-			public const int Chip_android_textColor = 5;
+			public const int Chip_android_text = 5;
 			
-			// aapt resource value: 6
-			public const int Chip_android_textSize = 6;
+			// aapt resource value: 0
+			public const int Chip_android_textAppearance = 0;
+			
+			// aapt resource value: 2
+			public const int Chip_android_textColor = 2;
+			
+			// aapt resource value: 1
+			public const int Chip_android_textSize = 1;
 			
 			// aapt resource value: 7
 			public const int Chip_checkedIcon = 7;
@@ -23276,24 +25836,24 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 19
 			public const int CollapsingToolbarLayout_toolbarId = 19;
 			
-			// aapt resource value: { 0x0,0x0,0x7F030032 }
+			// aapt resource value: { 0x10101A5,0x101031F,0x7F030032 }
 			public static int[] ColorStateListItem = new int[] {
-					0,
-					0,
+					16843173,
+					16843551,
 					2130903090};
 			
 			// aapt resource value: 2
 			public const int ColorStateListItem_alpha = 2;
 			
-			// aapt resource value: 0
-			public const int ColorStateListItem_android_alpha = 0;
-			
 			// aapt resource value: 1
-			public const int ColorStateListItem_android_color = 1;
+			public const int ColorStateListItem_android_alpha = 1;
 			
-			// aapt resource value: { 0x0,0x7F03007E,0x7F030084,0x7F030085 }
+			// aapt resource value: 0
+			public const int ColorStateListItem_android_color = 0;
+			
+			// aapt resource value: { 0x1010107,0x7F03007E,0x7F030084,0x7F030085 }
 			public static int[] CompoundButton = new int[] {
-					0,
+					16843015,
 					2130903166,
 					2130903172,
 					2130903173};
@@ -23310,35 +25870,35 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 3
 			public const int CompoundButton_buttonTintMode = 3;
 			
-			// aapt resource value: { 0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x7F030035,0x7F030036,0x7F030056,0x7F030057,0x7F030058,0x7F030098,0x7F0300EE,0x7F0300EF,0x7F030142,0x7F03018B,0x7F03018C,0x7F03018D,0x7F03018E,0x7F03018F,0x7F030190,0x7F030191,0x7F030192,0x7F030193,0x7F030194,0x7F030195,0x7F030196,0x7F030197,0x7F030199,0x7F03019A,0x7F03019B,0x7F03019C,0x7F03019D,0x7F03020E,0x7F03020F,0x7F030210,0x7F030211,0x7F030212,0x7F030213,0x7F030214,0x7F030215,0x7F030216,0x7F030217,0x7F030218,0x7F030219,0x7F03021A,0x7F03021B,0x7F03021C,0x7F03021D,0x7F03021E,0x7F03021F,0x7F030220,0x7F030221,0x7F030222,0x7F030223,0x7F030224,0x7F030225,0x7F030226,0x7F030227,0x7F030228,0x7F030229,0x7F03022A,0x7F03022B,0x7F03022C,0x7F03022D,0x7F03022E,0x7F03022F,0x7F030230,0x7F030231,0x7F030232,0x7F030233,0x7F030234,0x7F030235,0x7F030236,0x7F030237,0x7F030238,0x7F030239,0x7F03023A,0x7F03023B,0x7F03023D,0x7F03023E,0x7F03023F,0x7F030240,0x7F030241,0x7F030242,0x7F030243,0x7F030244,0x7F030245,0x7F030248,0x7F03024C,0x7F0302B1,0x7F0302B2,0x7F0302E1,0x7F0302E9,0x7F0302EE,0x7F030308,0x7F030309,0x7F03030A,0x7F030402,0x7F030404,0x7F030406,0x7F030419 }
+			// aapt resource value: { 0x10100C4,0x10100D0,0x10100DC,0x10100F4,0x10100F5,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x101011F,0x1010120,0x101013F,0x1010140,0x101031F,0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103B5,0x10103B6,0x10103FA,0x1010440,0x7F030035,0x7F030036,0x7F030056,0x7F030057,0x7F030058,0x7F030098,0x7F0300EE,0x7F0300EF,0x7F030142,0x7F03018B,0x7F03018C,0x7F03018D,0x7F03018E,0x7F03018F,0x7F030190,0x7F030191,0x7F030192,0x7F030193,0x7F030194,0x7F030195,0x7F030196,0x7F030197,0x7F030199,0x7F03019A,0x7F03019B,0x7F03019C,0x7F03019D,0x7F03020E,0x7F03020F,0x7F030210,0x7F030211,0x7F030212,0x7F030213,0x7F030214,0x7F030215,0x7F030216,0x7F030217,0x7F030218,0x7F030219,0x7F03021A,0x7F03021B,0x7F03021C,0x7F03021D,0x7F03021E,0x7F03021F,0x7F030220,0x7F030221,0x7F030222,0x7F030223,0x7F030224,0x7F030225,0x7F030226,0x7F030227,0x7F030228,0x7F030229,0x7F03022A,0x7F03022B,0x7F03022C,0x7F03022D,0x7F03022E,0x7F03022F,0x7F030230,0x7F030231,0x7F030232,0x7F030233,0x7F030234,0x7F030235,0x7F030236,0x7F030237,0x7F030238,0x7F030239,0x7F03023A,0x7F03023B,0x7F03023D,0x7F03023E,0x7F03023F,0x7F030240,0x7F030241,0x7F030242,0x7F030243,0x7F030244,0x7F030245,0x7F030248,0x7F03024C,0x7F0302B1,0x7F0302B2,0x7F0302E1,0x7F0302E9,0x7F0302EE,0x7F030308,0x7F030309,0x7F03030A,0x7F030402,0x7F030404,0x7F030406,0x7F030419 }
 			public static int[] Constraint = new int[] {
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
+					16842948,
+					16842960,
+					16842972,
+					16842996,
+					16842997,
+					16842999,
+					16843000,
+					16843001,
+					16843002,
+					16843039,
+					16843040,
+					16843071,
+					16843072,
+					16843551,
+					16843552,
+					16843553,
+					16843554,
+					16843555,
+					16843556,
+					16843557,
+					16843558,
+					16843559,
+					16843560,
+					16843701,
+					16843702,
+					16843770,
+					16843840,
 					2130903093,
 					2130903094,
 					2130903126,
@@ -23436,33 +25996,33 @@ namespace PetLifeApp.Droid
 					2130904070,
 					2130904089};
 			
-			// aapt resource value: { 0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x7F030056,0x7F030057,0x7F030058,0x7F030098,0x7F0300BA,0x7F0300BB,0x7F0300BC,0x7F0300BD,0x7F0300BE,0x7F0300EB,0x7F0300EE,0x7F0300EF,0x7F03018B,0x7F03018C,0x7F03018D,0x7F03018E,0x7F03018F,0x7F030190,0x7F030191,0x7F030192,0x7F030193,0x7F030194,0x7F030195,0x7F030196,0x7F030197,0x7F030199,0x7F03019A,0x7F03019B,0x7F03019C,0x7F03019D,0x7F030206,0x7F03020E,0x7F03020F,0x7F030210,0x7F030211,0x7F030212,0x7F030213,0x7F030214,0x7F030215,0x7F030216,0x7F030217,0x7F030218,0x7F030219,0x7F03021A,0x7F03021B,0x7F03021C,0x7F03021D,0x7F03021E,0x7F03021F,0x7F030220,0x7F030221,0x7F030222,0x7F030223,0x7F030224,0x7F030225,0x7F030226,0x7F030227,0x7F030228,0x7F030229,0x7F03022A,0x7F03022B,0x7F03022C,0x7F03022D,0x7F03022E,0x7F03022F,0x7F030230,0x7F030231,0x7F030232,0x7F030233,0x7F030234,0x7F030235,0x7F030236,0x7F030237,0x7F030238,0x7F030239,0x7F03023A,0x7F03023B,0x7F03023D,0x7F03023E,0x7F03023F,0x7F030240,0x7F030241,0x7F030242,0x7F030243,0x7F030244,0x7F030245,0x7F030248,0x7F030249,0x7F03024C }
+			// aapt resource value: { 0x10100C4,0x10100D5,0x10100D6,0x10100D7,0x10100D8,0x10100D9,0x10100DC,0x10100F4,0x10100F5,0x10100F6,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x101011F,0x1010120,0x101013F,0x1010140,0x10103B3,0x10103B4,0x10103B5,0x10103B6,0x1010440,0x101053B,0x101053C,0x7F030056,0x7F030057,0x7F030058,0x7F030098,0x7F0300BA,0x7F0300BB,0x7F0300BC,0x7F0300BD,0x7F0300BE,0x7F0300EB,0x7F0300EE,0x7F0300EF,0x7F03018B,0x7F03018C,0x7F03018D,0x7F03018E,0x7F03018F,0x7F030190,0x7F030191,0x7F030192,0x7F030193,0x7F030194,0x7F030195,0x7F030196,0x7F030197,0x7F030199,0x7F03019A,0x7F03019B,0x7F03019C,0x7F03019D,0x7F030206,0x7F03020E,0x7F03020F,0x7F030210,0x7F030211,0x7F030212,0x7F030213,0x7F030214,0x7F030215,0x7F030216,0x7F030217,0x7F030218,0x7F030219,0x7F03021A,0x7F03021B,0x7F03021C,0x7F03021D,0x7F03021E,0x7F03021F,0x7F030220,0x7F030221,0x7F030222,0x7F030223,0x7F030224,0x7F030225,0x7F030226,0x7F030227,0x7F030228,0x7F030229,0x7F03022A,0x7F03022B,0x7F03022C,0x7F03022D,0x7F03022E,0x7F03022F,0x7F030230,0x7F030231,0x7F030232,0x7F030233,0x7F030234,0x7F030235,0x7F030236,0x7F030237,0x7F030238,0x7F030239,0x7F03023A,0x7F03023B,0x7F03023D,0x7F03023E,0x7F03023F,0x7F030240,0x7F030241,0x7F030242,0x7F030243,0x7F030244,0x7F030245,0x7F030248,0x7F030249,0x7F03024C }
 			public static int[] ConstraintLayout_Layout = new int[] {
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
+					16842948,
+					16842965,
+					16842966,
+					16842967,
+					16842968,
+					16842969,
+					16842972,
+					16842996,
+					16842997,
+					16842998,
+					16842999,
+					16843000,
+					16843001,
+					16843002,
+					16843039,
+					16843040,
+					16843071,
+					16843072,
+					16843699,
+					16843700,
+					16843701,
+					16843702,
+					16843840,
+					16844091,
+					16844092,
 					2130903126,
 					2130903127,
 					2130903128,
@@ -23553,80 +26113,80 @@ namespace PetLifeApp.Droid
 					2130903625,
 					2130903628};
 			
-			// aapt resource value: 0
-			public const int ConstraintLayout_Layout_android_elevation = 0;
-			
-			// aapt resource value: 23
-			public const int ConstraintLayout_Layout_android_layout_height = 23;
-			
 			// aapt resource value: 22
-			public const int ConstraintLayout_Layout_android_layout_margin = 22;
-			
-			// aapt resource value: 21
-			public const int ConstraintLayout_Layout_android_layout_marginBottom = 21;
-			
-			// aapt resource value: 20
-			public const int ConstraintLayout_Layout_android_layout_marginEnd = 20;
-			
-			// aapt resource value: 19
-			public const int ConstraintLayout_Layout_android_layout_marginHorizontal = 19;
-			
-			// aapt resource value: 18
-			public const int ConstraintLayout_Layout_android_layout_marginLeft = 18;
-			
-			// aapt resource value: 17
-			public const int ConstraintLayout_Layout_android_layout_marginRight = 17;
-			
-			// aapt resource value: 16
-			public const int ConstraintLayout_Layout_android_layout_marginStart = 16;
-			
-			// aapt resource value: 15
-			public const int ConstraintLayout_Layout_android_layout_marginTop = 15;
-			
-			// aapt resource value: 14
-			public const int ConstraintLayout_Layout_android_layout_marginVertical = 14;
-			
-			// aapt resource value: 13
-			public const int ConstraintLayout_Layout_android_layout_width = 13;
-			
-			// aapt resource value: 24
-			public const int ConstraintLayout_Layout_android_maxHeight = 24;
-			
-			// aapt resource value: 12
-			public const int ConstraintLayout_Layout_android_maxWidth = 12;
-			
-			// aapt resource value: 11
-			public const int ConstraintLayout_Layout_android_minHeight = 11;
-			
-			// aapt resource value: 10
-			public const int ConstraintLayout_Layout_android_minWidth = 10;
-			
-			// aapt resource value: 9
-			public const int ConstraintLayout_Layout_android_orientation = 9;
+			public const int ConstraintLayout_Layout_android_elevation = 22;
 			
 			// aapt resource value: 8
-			public const int ConstraintLayout_Layout_android_padding = 8;
+			public const int ConstraintLayout_Layout_android_layout_height = 8;
+			
+			// aapt resource value: 9
+			public const int ConstraintLayout_Layout_android_layout_margin = 9;
+			
+			// aapt resource value: 13
+			public const int ConstraintLayout_Layout_android_layout_marginBottom = 13;
+			
+			// aapt resource value: 21
+			public const int ConstraintLayout_Layout_android_layout_marginEnd = 21;
+			
+			// aapt resource value: 23
+			public const int ConstraintLayout_Layout_android_layout_marginHorizontal = 23;
+			
+			// aapt resource value: 10
+			public const int ConstraintLayout_Layout_android_layout_marginLeft = 10;
+			
+			// aapt resource value: 12
+			public const int ConstraintLayout_Layout_android_layout_marginRight = 12;
+			
+			// aapt resource value: 20
+			public const int ConstraintLayout_Layout_android_layout_marginStart = 20;
+			
+			// aapt resource value: 11
+			public const int ConstraintLayout_Layout_android_layout_marginTop = 11;
+			
+			// aapt resource value: 24
+			public const int ConstraintLayout_Layout_android_layout_marginVertical = 24;
 			
 			// aapt resource value: 7
-			public const int ConstraintLayout_Layout_android_paddingBottom = 7;
+			public const int ConstraintLayout_Layout_android_layout_width = 7;
 			
-			// aapt resource value: 6
-			public const int ConstraintLayout_Layout_android_paddingEnd = 6;
+			// aapt resource value: 15
+			public const int ConstraintLayout_Layout_android_maxHeight = 15;
+			
+			// aapt resource value: 14
+			public const int ConstraintLayout_Layout_android_maxWidth = 14;
+			
+			// aapt resource value: 17
+			public const int ConstraintLayout_Layout_android_minHeight = 17;
+			
+			// aapt resource value: 16
+			public const int ConstraintLayout_Layout_android_minWidth = 16;
+			
+			// aapt resource value: 0
+			public const int ConstraintLayout_Layout_android_orientation = 0;
+			
+			// aapt resource value: 1
+			public const int ConstraintLayout_Layout_android_padding = 1;
 			
 			// aapt resource value: 5
-			public const int ConstraintLayout_Layout_android_paddingLeft = 5;
+			public const int ConstraintLayout_Layout_android_paddingBottom = 5;
+			
+			// aapt resource value: 19
+			public const int ConstraintLayout_Layout_android_paddingEnd = 19;
+			
+			// aapt resource value: 2
+			public const int ConstraintLayout_Layout_android_paddingLeft = 2;
 			
 			// aapt resource value: 4
 			public const int ConstraintLayout_Layout_android_paddingRight = 4;
 			
+			// aapt resource value: 18
+			public const int ConstraintLayout_Layout_android_paddingStart = 18;
+			
 			// aapt resource value: 3
-			public const int ConstraintLayout_Layout_android_paddingStart = 3;
+			public const int ConstraintLayout_Layout_android_paddingTop = 3;
 			
-			// aapt resource value: 2
-			public const int ConstraintLayout_Layout_android_paddingTop = 2;
-			
-			// aapt resource value: 1
-			public const int ConstraintLayout_Layout_android_visibility = 1;
+			// aapt resource value: 6
+			public const int ConstraintLayout_Layout_android_visibility = 6;
 			
 			// aapt resource value: 25
 			public const int ConstraintLayout_Layout_barrierAllowsGoneWidgets = 25;
@@ -23925,35 +26485,35 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 3
 			public const int ConstraintLayout_ReactiveGuide_reactiveGuide_valueId = 3;
 			
-			// aapt resource value: { 0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x7F030035,0x7F030036,0x7F030056,0x7F030057,0x7F030058,0x7F030098,0x7F0300EE,0x7F030142,0x7F03018B,0x7F03018C,0x7F03018D,0x7F03018E,0x7F03018F,0x7F030190,0x7F030191,0x7F030192,0x7F030193,0x7F030194,0x7F030195,0x7F030196,0x7F030197,0x7F030199,0x7F03019A,0x7F03019B,0x7F03019C,0x7F03019D,0x7F03020E,0x7F03020F,0x7F030210,0x7F030214,0x7F030218,0x7F030219,0x7F03021A,0x7F03021D,0x7F03021E,0x7F03021F,0x7F030220,0x7F030221,0x7F030222,0x7F030223,0x7F030224,0x7F030225,0x7F030226,0x7F030227,0x7F030228,0x7F03022B,0x7F030230,0x7F030231,0x7F030234,0x7F030235,0x7F030236,0x7F030237,0x7F030238,0x7F030239,0x7F03023A,0x7F03023B,0x7F03023D,0x7F03023E,0x7F03023F,0x7F030240,0x7F030241,0x7F030242,0x7F030243,0x7F030244,0x7F030245,0x7F030248,0x7F03024C,0x7F0302B1,0x7F0302B2,0x7F0302B3,0x7F0302E1,0x7F0302E9,0x7F0302EE,0x7F030308,0x7F030309,0x7F03030A,0x7F030402,0x7F030404,0x7F030406,0x7F030419 }
+			// aapt resource value: { 0x10100C4,0x10100D0,0x10100DC,0x10100F4,0x10100F5,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x101011F,0x1010120,0x101013F,0x1010140,0x101031F,0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103B5,0x10103B6,0x10103FA,0x1010440,0x7F030035,0x7F030036,0x7F030056,0x7F030057,0x7F030058,0x7F030098,0x7F0300EE,0x7F030142,0x7F03018B,0x7F03018C,0x7F03018D,0x7F03018E,0x7F03018F,0x7F030190,0x7F030191,0x7F030192,0x7F030193,0x7F030194,0x7F030195,0x7F030196,0x7F030197,0x7F030199,0x7F03019A,0x7F03019B,0x7F03019C,0x7F03019D,0x7F03020E,0x7F03020F,0x7F030210,0x7F030214,0x7F030218,0x7F030219,0x7F03021A,0x7F03021D,0x7F03021E,0x7F03021F,0x7F030220,0x7F030221,0x7F030222,0x7F030223,0x7F030224,0x7F030225,0x7F030226,0x7F030227,0x7F030228,0x7F03022B,0x7F030230,0x7F030231,0x7F030234,0x7F030235,0x7F030236,0x7F030237,0x7F030238,0x7F030239,0x7F03023A,0x7F03023B,0x7F03023D,0x7F03023E,0x7F03023F,0x7F030240,0x7F030241,0x7F030242,0x7F030243,0x7F030244,0x7F030245,0x7F030248,0x7F03024C,0x7F0302B1,0x7F0302B2,0x7F0302B3,0x7F0302E1,0x7F0302E9,0x7F0302EE,0x7F030308,0x7F030309,0x7F03030A,0x7F030402,0x7F030404,0x7F030406,0x7F030419 }
 			public static int[] ConstraintOverride = new int[] {
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
+					16842948,
+					16842960,
+					16842972,
+					16842996,
+					16842997,
+					16842999,
+					16843000,
+					16843001,
+					16843002,
+					16843039,
+					16843040,
+					16843071,
+					16843072,
+					16843551,
+					16843552,
+					16843553,
+					16843554,
+					16843555,
+					16843556,
+					16843557,
+					16843558,
+					16843559,
+					16843560,
+					16843701,
+					16843702,
+					16843770,
+					16843840,
 					2130903093,
 					2130903094,
 					2130903126,
@@ -24035,86 +26595,86 @@ namespace PetLifeApp.Droid
 					2130904070,
 					2130904089};
 			
-			// aapt resource value: 0
-			public const int ConstraintOverride_android_alpha = 0;
-			
-			// aapt resource value: 16
-			public const int ConstraintOverride_android_elevation = 16;
-			
-			// aapt resource value: 17
-			public const int ConstraintOverride_android_id = 17;
-			
-			// aapt resource value: 20
-			public const int ConstraintOverride_android_layout_height = 20;
-			
-			// aapt resource value: 18
-			public const int ConstraintOverride_android_layout_marginBottom = 18;
-			
-			// aapt resource value: 19
-			public const int ConstraintOverride_android_layout_marginEnd = 19;
+			// aapt resource value: 13
+			public const int ConstraintOverride_android_alpha = 13;
 			
 			// aapt resource value: 26
-			public const int ConstraintOverride_android_layout_marginLeft = 26;
-			
-			// aapt resource value: 21
-			public const int ConstraintOverride_android_layout_marginRight = 21;
-			
-			// aapt resource value: 22
-			public const int ConstraintOverride_android_layout_marginStart = 22;
-			
-			// aapt resource value: 23
-			public const int ConstraintOverride_android_layout_marginTop = 23;
-			
-			// aapt resource value: 24
-			public const int ConstraintOverride_android_layout_width = 24;
-			
-			// aapt resource value: 25
-			public const int ConstraintOverride_android_maxHeight = 25;
-			
-			// aapt resource value: 14
-			public const int ConstraintOverride_android_maxWidth = 14;
-			
-			// aapt resource value: 15
-			public const int ConstraintOverride_android_minHeight = 15;
-			
-			// aapt resource value: 12
-			public const int ConstraintOverride_android_minWidth = 12;
-			
-			// aapt resource value: 11
-			public const int ConstraintOverride_android_orientation = 11;
-			
-			// aapt resource value: 10
-			public const int ConstraintOverride_android_rotation = 10;
-			
-			// aapt resource value: 9
-			public const int ConstraintOverride_android_rotationX = 9;
-			
-			// aapt resource value: 8
-			public const int ConstraintOverride_android_rotationY = 8;
-			
-			// aapt resource value: 7
-			public const int ConstraintOverride_android_scaleX = 7;
-			
-			// aapt resource value: 6
-			public const int ConstraintOverride_android_scaleY = 6;
-			
-			// aapt resource value: 5
-			public const int ConstraintOverride_android_transformPivotX = 5;
-			
-			// aapt resource value: 4
-			public const int ConstraintOverride_android_transformPivotY = 4;
-			
-			// aapt resource value: 3
-			public const int ConstraintOverride_android_translationX = 3;
-			
-			// aapt resource value: 2
-			public const int ConstraintOverride_android_translationY = 2;
+			public const int ConstraintOverride_android_elevation = 26;
 			
 			// aapt resource value: 1
-			public const int ConstraintOverride_android_translationZ = 1;
+			public const int ConstraintOverride_android_id = 1;
 			
-			// aapt resource value: 13
-			public const int ConstraintOverride_android_visibility = 13;
+			// aapt resource value: 4
+			public const int ConstraintOverride_android_layout_height = 4;
+			
+			// aapt resource value: 8
+			public const int ConstraintOverride_android_layout_marginBottom = 8;
+			
+			// aapt resource value: 24
+			public const int ConstraintOverride_android_layout_marginEnd = 24;
+			
+			// aapt resource value: 5
+			public const int ConstraintOverride_android_layout_marginLeft = 5;
+			
+			// aapt resource value: 7
+			public const int ConstraintOverride_android_layout_marginRight = 7;
+			
+			// aapt resource value: 23
+			public const int ConstraintOverride_android_layout_marginStart = 23;
+			
+			// aapt resource value: 6
+			public const int ConstraintOverride_android_layout_marginTop = 6;
+			
+			// aapt resource value: 3
+			public const int ConstraintOverride_android_layout_width = 3;
+			
+			// aapt resource value: 10
+			public const int ConstraintOverride_android_maxHeight = 10;
+			
+			// aapt resource value: 9
+			public const int ConstraintOverride_android_maxWidth = 9;
+			
+			// aapt resource value: 12
+			public const int ConstraintOverride_android_minHeight = 12;
+			
+			// aapt resource value: 11
+			public const int ConstraintOverride_android_minWidth = 11;
+			
+			// aapt resource value: 0
+			public const int ConstraintOverride_android_orientation = 0;
+			
+			// aapt resource value: 20
+			public const int ConstraintOverride_android_rotation = 20;
+			
+			// aapt resource value: 21
+			public const int ConstraintOverride_android_rotationX = 21;
+			
+			// aapt resource value: 22
+			public const int ConstraintOverride_android_rotationY = 22;
+			
+			// aapt resource value: 18
+			public const int ConstraintOverride_android_scaleX = 18;
+			
+			// aapt resource value: 19
+			public const int ConstraintOverride_android_scaleY = 19;
+			
+			// aapt resource value: 14
+			public const int ConstraintOverride_android_transformPivotX = 14;
+			
+			// aapt resource value: 15
+			public const int ConstraintOverride_android_transformPivotY = 15;
+			
+			// aapt resource value: 16
+			public const int ConstraintOverride_android_translationX = 16;
+			
+			// aapt resource value: 17
+			public const int ConstraintOverride_android_translationY = 17;
+			
+			// aapt resource value: 25
+			public const int ConstraintOverride_android_translationZ = 25;
+			
+			// aapt resource value: 2
+			public const int ConstraintOverride_android_visibility = 2;
 			
 			// aapt resource value: 27
 			public const int ConstraintOverride_animateCircleAngleTo = 27;
@@ -24356,37 +26916,37 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 106
 			public const int ConstraintOverride_visibilityMode = 106;
 			
-			// aapt resource value: { 0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x7F030000,0x7F030035,0x7F030036,0x7F030056,0x7F030057,0x7F030058,0x7F030098,0x7F0300EE,0x7F0300EF,0x7F03012F,0x7F030142,0x7F03018B,0x7F03018C,0x7F03018D,0x7F03018E,0x7F03018F,0x7F030190,0x7F030191,0x7F030192,0x7F030193,0x7F030194,0x7F030195,0x7F030196,0x7F030197,0x7F030199,0x7F03019A,0x7F03019B,0x7F03019C,0x7F03019D,0x7F03020E,0x7F03020F,0x7F030210,0x7F030211,0x7F030212,0x7F030213,0x7F030214,0x7F030215,0x7F030216,0x7F030217,0x7F030218,0x7F030219,0x7F03021A,0x7F03021B,0x7F03021C,0x7F03021D,0x7F03021E,0x7F03021F,0x7F030221,0x7F030222,0x7F030223,0x7F030224,0x7F030225,0x7F030226,0x7F030227,0x7F030228,0x7F030229,0x7F03022A,0x7F03022B,0x7F03022C,0x7F03022D,0x7F03022E,0x7F03022F,0x7F030230,0x7F030231,0x7F030232,0x7F030233,0x7F030234,0x7F030235,0x7F030236,0x7F030238,0x7F030239,0x7F03023A,0x7F03023B,0x7F03023D,0x7F03023E,0x7F03023F,0x7F030240,0x7F030241,0x7F030242,0x7F030243,0x7F030244,0x7F030245,0x7F030248,0x7F03024C,0x7F0302B1,0x7F0302B2,0x7F0302E1,0x7F0302E9,0x7F0302EE,0x7F03030A,0x7F030404,0x7F030406 }
+			// aapt resource value: { 0x10100C4,0x10100D0,0x10100DC,0x10100F4,0x10100F5,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x101011F,0x1010120,0x101013F,0x1010140,0x10101B5,0x10101B6,0x101031F,0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103B5,0x10103B6,0x10103FA,0x1010440,0x7F030000,0x7F030035,0x7F030036,0x7F030056,0x7F030057,0x7F030058,0x7F030098,0x7F0300EE,0x7F0300EF,0x7F03012F,0x7F030142,0x7F03018B,0x7F03018C,0x7F03018D,0x7F03018E,0x7F03018F,0x7F030190,0x7F030191,0x7F030192,0x7F030193,0x7F030194,0x7F030195,0x7F030196,0x7F030197,0x7F030199,0x7F03019A,0x7F03019B,0x7F03019C,0x7F03019D,0x7F03020E,0x7F03020F,0x7F030210,0x7F030211,0x7F030212,0x7F030213,0x7F030214,0x7F030215,0x7F030216,0x7F030217,0x7F030218,0x7F030219,0x7F03021A,0x7F03021B,0x7F03021C,0x7F03021D,0x7F03021E,0x7F03021F,0x7F030221,0x7F030222,0x7F030223,0x7F030224,0x7F030225,0x7F030226,0x7F030227,0x7F030228,0x7F030229,0x7F03022A,0x7F03022B,0x7F03022C,0x7F03022D,0x7F03022E,0x7F03022F,0x7F030230,0x7F030231,0x7F030232,0x7F030233,0x7F030234,0x7F030235,0x7F030236,0x7F030238,0x7F030239,0x7F03023A,0x7F03023B,0x7F03023D,0x7F03023E,0x7F03023F,0x7F030240,0x7F030241,0x7F030242,0x7F030243,0x7F030244,0x7F030245,0x7F030248,0x7F03024C,0x7F0302B1,0x7F0302B2,0x7F0302E1,0x7F0302E9,0x7F0302EE,0x7F03030A,0x7F030404,0x7F030406 }
 			public static int[] ConstraintSet = new int[] {
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
+					16842948,
+					16842960,
+					16842972,
+					16842996,
+					16842997,
+					16842999,
+					16843000,
+					16843001,
+					16843002,
+					16843039,
+					16843040,
+					16843071,
+					16843072,
+					16843189,
+					16843190,
+					16843551,
+					16843552,
+					16843553,
+					16843554,
+					16843555,
+					16843556,
+					16843557,
+					16843558,
+					16843559,
+					16843560,
+					16843701,
+					16843702,
+					16843770,
+					16843840,
 					2130903040,
 					2130903093,
 					2130903094,
@@ -24480,92 +27040,92 @@ namespace PetLifeApp.Droid
 					2130904068,
 					2130904070};
 			
-			// aapt resource value: 0
-			public const int ConstraintSet_android_alpha = 0;
-			
-			// aapt resource value: 27
-			public const int ConstraintSet_android_elevation = 27;
-			
-			// aapt resource value: 26
-			public const int ConstraintSet_android_id = 26;
-			
-			// aapt resource value: 25
-			public const int ConstraintSet_android_layout_height = 25;
-			
-			// aapt resource value: 24
-			public const int ConstraintSet_android_layout_marginBottom = 24;
-			
-			// aapt resource value: 23
-			public const int ConstraintSet_android_layout_marginEnd = 23;
-			
-			// aapt resource value: 22
-			public const int ConstraintSet_android_layout_marginLeft = 22;
-			
-			// aapt resource value: 21
-			public const int ConstraintSet_android_layout_marginRight = 21;
-			
-			// aapt resource value: 20
-			public const int ConstraintSet_android_layout_marginStart = 20;
-			
-			// aapt resource value: 19
-			public const int ConstraintSet_android_layout_marginTop = 19;
-			
-			// aapt resource value: 18
-			public const int ConstraintSet_android_layout_width = 18;
-			
-			// aapt resource value: 17
-			public const int ConstraintSet_android_maxHeight = 17;
-			
-			// aapt resource value: 16
-			public const int ConstraintSet_android_maxWidth = 16;
-			
 			// aapt resource value: 15
-			public const int ConstraintSet_android_minHeight = 15;
-			
-			// aapt resource value: 14
-			public const int ConstraintSet_android_minWidth = 14;
-			
-			// aapt resource value: 13
-			public const int ConstraintSet_android_orientation = 13;
-			
-			// aapt resource value: 12
-			public const int ConstraintSet_android_pivotX = 12;
-			
-			// aapt resource value: 11
-			public const int ConstraintSet_android_pivotY = 11;
-			
-			// aapt resource value: 10
-			public const int ConstraintSet_android_rotation = 10;
-			
-			// aapt resource value: 9
-			public const int ConstraintSet_android_rotationX = 9;
-			
-			// aapt resource value: 8
-			public const int ConstraintSet_android_rotationY = 8;
-			
-			// aapt resource value: 7
-			public const int ConstraintSet_android_scaleX = 7;
-			
-			// aapt resource value: 6
-			public const int ConstraintSet_android_scaleY = 6;
-			
-			// aapt resource value: 5
-			public const int ConstraintSet_android_transformPivotX = 5;
-			
-			// aapt resource value: 4
-			public const int ConstraintSet_android_transformPivotY = 4;
-			
-			// aapt resource value: 3
-			public const int ConstraintSet_android_translationX = 3;
-			
-			// aapt resource value: 2
-			public const int ConstraintSet_android_translationY = 2;
-			
-			// aapt resource value: 1
-			public const int ConstraintSet_android_translationZ = 1;
+			public const int ConstraintSet_android_alpha = 15;
 			
 			// aapt resource value: 28
-			public const int ConstraintSet_android_visibility = 28;
+			public const int ConstraintSet_android_elevation = 28;
+			
+			// aapt resource value: 1
+			public const int ConstraintSet_android_id = 1;
+			
+			// aapt resource value: 4
+			public const int ConstraintSet_android_layout_height = 4;
+			
+			// aapt resource value: 8
+			public const int ConstraintSet_android_layout_marginBottom = 8;
+			
+			// aapt resource value: 26
+			public const int ConstraintSet_android_layout_marginEnd = 26;
+			
+			// aapt resource value: 5
+			public const int ConstraintSet_android_layout_marginLeft = 5;
+			
+			// aapt resource value: 7
+			public const int ConstraintSet_android_layout_marginRight = 7;
+			
+			// aapt resource value: 25
+			public const int ConstraintSet_android_layout_marginStart = 25;
+			
+			// aapt resource value: 6
+			public const int ConstraintSet_android_layout_marginTop = 6;
+			
+			// aapt resource value: 3
+			public const int ConstraintSet_android_layout_width = 3;
+			
+			// aapt resource value: 10
+			public const int ConstraintSet_android_maxHeight = 10;
+			
+			// aapt resource value: 9
+			public const int ConstraintSet_android_maxWidth = 9;
+			
+			// aapt resource value: 12
+			public const int ConstraintSet_android_minHeight = 12;
+			
+			// aapt resource value: 11
+			public const int ConstraintSet_android_minWidth = 11;
+			
+			// aapt resource value: 0
+			public const int ConstraintSet_android_orientation = 0;
+			
+			// aapt resource value: 13
+			public const int ConstraintSet_android_pivotX = 13;
+			
+			// aapt resource value: 14
+			public const int ConstraintSet_android_pivotY = 14;
+			
+			// aapt resource value: 22
+			public const int ConstraintSet_android_rotation = 22;
+			
+			// aapt resource value: 23
+			public const int ConstraintSet_android_rotationX = 23;
+			
+			// aapt resource value: 24
+			public const int ConstraintSet_android_rotationY = 24;
+			
+			// aapt resource value: 20
+			public const int ConstraintSet_android_scaleX = 20;
+			
+			// aapt resource value: 21
+			public const int ConstraintSet_android_scaleY = 21;
+			
+			// aapt resource value: 16
+			public const int ConstraintSet_android_transformPivotX = 16;
+			
+			// aapt resource value: 17
+			public const int ConstraintSet_android_transformPivotY = 17;
+			
+			// aapt resource value: 18
+			public const int ConstraintSet_android_translationX = 18;
+			
+			// aapt resource value: 19
+			public const int ConstraintSet_android_translationY = 19;
+			
+			// aapt resource value: 27
+			public const int ConstraintSet_android_translationZ = 27;
+			
+			// aapt resource value: 2
+			public const int ConstraintSet_android_visibility = 2;
 			
 			// aapt resource value: 30
 			public const int ConstraintSet_animateCircleAngleTo = 30;
@@ -24843,86 +27403,86 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 120
 			public const int ConstraintSet_transitionPathRotate = 120;
 			
-			// aapt resource value: 0
-			public const int Constraint_android_alpha = 0;
-			
-			// aapt resource value: 25
-			public const int Constraint_android_elevation = 25;
-			
-			// aapt resource value: 24
-			public const int Constraint_android_id = 24;
-			
-			// aapt resource value: 23
-			public const int Constraint_android_layout_height = 23;
-			
-			// aapt resource value: 22
-			public const int Constraint_android_layout_marginBottom = 22;
-			
-			// aapt resource value: 21
-			public const int Constraint_android_layout_marginEnd = 21;
-			
-			// aapt resource value: 20
-			public const int Constraint_android_layout_marginLeft = 20;
-			
-			// aapt resource value: 19
-			public const int Constraint_android_layout_marginRight = 19;
-			
-			// aapt resource value: 18
-			public const int Constraint_android_layout_marginStart = 18;
-			
-			// aapt resource value: 17
-			public const int Constraint_android_layout_marginTop = 17;
-			
-			// aapt resource value: 16
-			public const int Constraint_android_layout_width = 16;
-			
-			// aapt resource value: 15
-			public const int Constraint_android_maxHeight = 15;
-			
-			// aapt resource value: 14
-			public const int Constraint_android_maxWidth = 14;
+			// aapt resource value: 13
+			public const int Constraint_android_alpha = 13;
 			
 			// aapt resource value: 26
-			public const int Constraint_android_minHeight = 26;
-			
-			// aapt resource value: 13
-			public const int Constraint_android_minWidth = 13;
-			
-			// aapt resource value: 12
-			public const int Constraint_android_orientation = 12;
-			
-			// aapt resource value: 11
-			public const int Constraint_android_rotation = 11;
-			
-			// aapt resource value: 10
-			public const int Constraint_android_rotationX = 10;
-			
-			// aapt resource value: 9
-			public const int Constraint_android_rotationY = 9;
-			
-			// aapt resource value: 8
-			public const int Constraint_android_scaleX = 8;
-			
-			// aapt resource value: 7
-			public const int Constraint_android_scaleY = 7;
-			
-			// aapt resource value: 6
-			public const int Constraint_android_transformPivotX = 6;
-			
-			// aapt resource value: 5
-			public const int Constraint_android_transformPivotY = 5;
-			
-			// aapt resource value: 4
-			public const int Constraint_android_translationX = 4;
-			
-			// aapt resource value: 3
-			public const int Constraint_android_translationY = 3;
-			
-			// aapt resource value: 2
-			public const int Constraint_android_translationZ = 2;
+			public const int Constraint_android_elevation = 26;
 			
 			// aapt resource value: 1
-			public const int Constraint_android_visibility = 1;
+			public const int Constraint_android_id = 1;
+			
+			// aapt resource value: 4
+			public const int Constraint_android_layout_height = 4;
+			
+			// aapt resource value: 8
+			public const int Constraint_android_layout_marginBottom = 8;
+			
+			// aapt resource value: 24
+			public const int Constraint_android_layout_marginEnd = 24;
+			
+			// aapt resource value: 5
+			public const int Constraint_android_layout_marginLeft = 5;
+			
+			// aapt resource value: 7
+			public const int Constraint_android_layout_marginRight = 7;
+			
+			// aapt resource value: 23
+			public const int Constraint_android_layout_marginStart = 23;
+			
+			// aapt resource value: 6
+			public const int Constraint_android_layout_marginTop = 6;
+			
+			// aapt resource value: 3
+			public const int Constraint_android_layout_width = 3;
+			
+			// aapt resource value: 10
+			public const int Constraint_android_maxHeight = 10;
+			
+			// aapt resource value: 9
+			public const int Constraint_android_maxWidth = 9;
+			
+			// aapt resource value: 12
+			public const int Constraint_android_minHeight = 12;
+			
+			// aapt resource value: 11
+			public const int Constraint_android_minWidth = 11;
+			
+			// aapt resource value: 0
+			public const int Constraint_android_orientation = 0;
+			
+			// aapt resource value: 20
+			public const int Constraint_android_rotation = 20;
+			
+			// aapt resource value: 21
+			public const int Constraint_android_rotationX = 21;
+			
+			// aapt resource value: 22
+			public const int Constraint_android_rotationY = 22;
+			
+			// aapt resource value: 18
+			public const int Constraint_android_scaleX = 18;
+			
+			// aapt resource value: 19
+			public const int Constraint_android_scaleY = 19;
+			
+			// aapt resource value: 14
+			public const int Constraint_android_transformPivotX = 14;
+			
+			// aapt resource value: 15
+			public const int Constraint_android_transformPivotY = 15;
+			
+			// aapt resource value: 16
+			public const int Constraint_android_translationX = 16;
+			
+			// aapt resource value: 17
+			public const int Constraint_android_translationY = 17;
+			
+			// aapt resource value: 25
+			public const int Constraint_android_translationZ = 25;
+			
+			// aapt resource value: 2
+			public const int Constraint_android_visibility = 2;
 			
 			// aapt resource value: 27
 			public const int Constraint_animateCircleAngleTo = 27;
@@ -25220,9 +27780,9 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 0
 			public const int CoordinatorLayout_keylines = 0;
 			
-			// aapt resource value: { 0x0,0x7F030209,0x7F03020A,0x7F03020B,0x7F03023C,0x7F030246,0x7F030247 }
+			// aapt resource value: { 0x10100B3,0x7F030209,0x7F03020A,0x7F03020B,0x7F03023C,0x7F030246,0x7F030247 }
 			public static int[] CoordinatorLayout_Layout = new int[] {
-					0,
+					16842931,
 					2130903561,
 					2130903562,
 					2130903563,
@@ -25301,14 +27861,14 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 10
 			public const int CustomAttribute_methodName = 10;
 			
-			// aapt resource value: { 0x0,0x0,0x0,0x0,0x0,0x0,0x7F030132,0x7F030133,0x7F030134,0x7F030138,0x7F0302BF,0x7F0302F7 }
+			// aapt resource value: { 0x10101F2,0x10101F3,0x10101F4,0x10101F5,0x10101F6,0x10101F7,0x7F030132,0x7F030133,0x7F030134,0x7F030138,0x7F0302BF,0x7F0302F7 }
 			public static int[] DialogPreference = new int[] {
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
+					16843250,
+					16843251,
+					16843252,
+					16843253,
+					16843254,
+					16843255,
 					2130903346,
 					2130903347,
 					2130903348,
@@ -25316,23 +27876,23 @@ namespace PetLifeApp.Droid
 					2130903743,
 					2130903799};
 			
-			// aapt resource value: 0
-			public const int DialogPreference_android_dialogIcon = 0;
+			// aapt resource value: 2
+			public const int DialogPreference_android_dialogIcon = 2;
+			
+			// aapt resource value: 5
+			public const int DialogPreference_android_dialogLayout = 5;
 			
 			// aapt resource value: 1
-			public const int DialogPreference_android_dialogLayout = 1;
+			public const int DialogPreference_android_dialogMessage = 1;
 			
-			// aapt resource value: 2
-			public const int DialogPreference_android_dialogMessage = 2;
-			
-			// aapt resource value: 3
-			public const int DialogPreference_android_dialogTitle = 3;
+			// aapt resource value: 0
+			public const int DialogPreference_android_dialogTitle = 0;
 			
 			// aapt resource value: 4
 			public const int DialogPreference_android_negativeButtonText = 4;
 			
-			// aapt resource value: 5
-			public const int DialogPreference_android_positiveButtonText = 5;
+			// aapt resource value: 3
+			public const int DialogPreference_android_positiveButtonText = 3;
 			
 			// aapt resource value: 6
 			public const int DialogPreference_dialogIcon = 6;
@@ -25439,9 +27999,9 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 5
 			public const int ExtendedFloatingActionButton_shrinkMotionSpec = 5;
 			
-			// aapt resource value: { 0x0,0x7F030050,0x7F030051,0x7F030067,0x7F030156,0x7F030164,0x7F030182,0x7F030183,0x7F0301BB,0x7F0301C5,0x7F030285,0x7F030305,0x7F03031D,0x7F030333,0x7F030336,0x7F03033E,0x7F03040F }
+			// aapt resource value: { 0x101000E,0x7F030050,0x7F030051,0x7F030067,0x7F030156,0x7F030164,0x7F030182,0x7F030183,0x7F0301BB,0x7F0301C5,0x7F030285,0x7F030305,0x7F03031D,0x7F030333,0x7F030336,0x7F03033E,0x7F03040F }
 			public static int[] FloatingActionButton = new int[] {
-					0,
+					16842766,
 					2130903120,
 					2130903121,
 					2130903143,
@@ -25538,13 +28098,13 @@ namespace PetLifeApp.Droid
 					2130903461,
 					2130903462};
 			
-			// aapt resource value: { 0x0,0x0,0x0,0x0,0x0,0x7F03019E,0x7F0301A7,0x7F0301A8,0x7F0301A9,0x7F03040B }
+			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x101056F,0x1010570,0x7F03019E,0x7F0301A7,0x7F0301A8,0x7F0301A9,0x7F03040B }
 			public static int[] FontFamilyFont = new int[] {
-					0,
-					0,
-					0,
-					0,
-					0,
+					16844082,
+					16844083,
+					16844095,
+					16844143,
+					16844144,
 					2130903454,
 					2130903463,
 					2130903464,
@@ -25554,17 +28114,17 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 0
 			public const int FontFamilyFont_android_font = 0;
 			
-			// aapt resource value: 1
-			public const int FontFamilyFont_android_fontStyle = 1;
-			
 			// aapt resource value: 2
-			public const int FontFamilyFont_android_fontVariationSettings = 2;
-			
-			// aapt resource value: 3
-			public const int FontFamilyFont_android_fontWeight = 3;
+			public const int FontFamilyFont_android_fontStyle = 2;
 			
 			// aapt resource value: 4
-			public const int FontFamilyFont_android_ttcIndex = 4;
+			public const int FontFamilyFont_android_fontVariationSettings = 4;
+			
+			// aapt resource value: 1
+			public const int FontFamilyFont_android_fontWeight = 1;
+			
+			// aapt resource value: 3
+			public const int FontFamilyFont_android_ttcIndex = 3;
 			
 			// aapt resource value: 5
 			public const int FontFamilyFont_font = 5;
@@ -25602,10 +28162,10 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 6
 			public const int FontFamily_fontProviderSystemFontFamily = 6;
 			
-			// aapt resource value: { 0x0,0x0,0x7F0301AB }
+			// aapt resource value: { 0x1010109,0x1010200,0x7F0301AB }
 			public static int[] ForegroundLinearLayout = new int[] {
-					0,
-					0,
+					16843017,
+					16843264,
 					2130903467};
 			
 			// aapt resource value: 0
@@ -25617,16 +28177,16 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 2
 			public const int ForegroundLinearLayout_foregroundInsidePadding = 2;
 			
-			// aapt resource value: { 0x0,0x0,0x0 }
+			// aapt resource value: { 0x1010003,0x10100D0,0x10100D1 }
 			public static int[] Fragment = new int[] {
-					0,
-					0,
-					0};
+					16842755,
+					16842960,
+					16842961};
 			
-			// aapt resource value: { 0x0,0x0 }
+			// aapt resource value: { 0x1010003,0x10100D1 }
 			public static int[] FragmentContainerView = new int[] {
-					0,
-					0};
+					16842755,
+					16842961};
 			
 			// aapt resource value: 0
 			public const int FragmentContainerView_android_name = 0;
@@ -25634,34 +28194,34 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 1
 			public const int FragmentContainerView_android_tag = 1;
 			
-			// aapt resource value: 0
-			public const int Fragment_android_id = 0;
-			
 			// aapt resource value: 1
-			public const int Fragment_android_name = 1;
+			public const int Fragment_android_id = 1;
+			
+			// aapt resource value: 0
+			public const int Fragment_android_name = 0;
 			
 			// aapt resource value: 2
 			public const int Fragment_android_tag = 2;
 			
-			// aapt resource value: { 0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0 }
+			// aapt resource value: { 0x101019D,0x101019E,0x10101A1,0x10101A2,0x10101A3,0x10101A4,0x1010201,0x101020B,0x1010510,0x1010511,0x1010512,0x1010513 }
 			public static int[] GradientColor = new int[] {
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0};
+					16843165,
+					16843166,
+					16843169,
+					16843170,
+					16843171,
+					16843172,
+					16843265,
+					16843275,
+					16844048,
+					16844049,
+					16844050,
+					16844051};
 			
-			// aapt resource value: { 0x0,0x0 }
+			// aapt resource value: { 0x10101A5,0x1010514 }
 			public static int[] GradientColorItem = new int[] {
-					0,
-					0};
+					16843173,
+					16844052};
 			
 			// aapt resource value: 0
 			public const int GradientColorItem_android_color = 0;
@@ -25669,29 +28229,29 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 1
 			public const int GradientColorItem_android_offset = 1;
 			
-			// aapt resource value: 0
-			public const int GradientColor_android_centerColor = 0;
-			
-			// aapt resource value: 1
-			public const int GradientColor_android_centerX = 1;
-			
-			// aapt resource value: 2
-			public const int GradientColor_android_centerY = 2;
+			// aapt resource value: 7
+			public const int GradientColor_android_centerColor = 7;
 			
 			// aapt resource value: 3
-			public const int GradientColor_android_endColor = 3;
+			public const int GradientColor_android_centerX = 3;
 			
 			// aapt resource value: 4
-			public const int GradientColor_android_endX = 4;
+			public const int GradientColor_android_centerY = 4;
+			
+			// aapt resource value: 1
+			public const int GradientColor_android_endColor = 1;
+			
+			// aapt resource value: 10
+			public const int GradientColor_android_endX = 10;
+			
+			// aapt resource value: 11
+			public const int GradientColor_android_endY = 11;
 			
 			// aapt resource value: 5
-			public const int GradientColor_android_endY = 5;
+			public const int GradientColor_android_gradientRadius = 5;
 			
-			// aapt resource value: 6
-			public const int GradientColor_android_gradientRadius = 6;
-			
-			// aapt resource value: 7
-			public const int GradientColor_android_startColor = 7;
+			// aapt resource value: 0
+			public const int GradientColor_android_startColor = 0;
 			
 			// aapt resource value: 8
 			public const int GradientColor_android_startX = 8;
@@ -25699,11 +28259,11 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 9
 			public const int GradientColor_android_startY = 9;
 			
-			// aapt resource value: 10
-			public const int GradientColor_android_tileMode = 10;
+			// aapt resource value: 6
+			public const int GradientColor_android_tileMode = 6;
 			
-			// aapt resource value: 11
-			public const int GradientColor_android_type = 11;
+			// aapt resource value: 2
+			public const int GradientColor_android_type = 2;
 			
 			// aapt resource value: { 0x7F030034,0x7F030064,0x7F030078,0x7F030101,0x7F030115,0x7F0301D3,0x7F0301D4,0x7F0301D5,0x7F0301D6,0x7F0302D0,0x7F03031F,0x7F030320,0x7F030321,0x7F03041B }
 			public static int[] ImageFilterView = new int[] {
@@ -25797,20 +28357,20 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 0
 			public const int ItemsViewRendererTheme_collectionViewStyle = 0;
 			
-			// aapt resource value: { 0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x7F030117,0x7F0301AD,0x7F0302B1,0x7F0302B3,0x7F030402,0x7F030404,0x7F030406 }
+			// aapt resource value: { 0x101031F,0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103FA,0x1010440,0x7F030117,0x7F0301AD,0x7F0302B1,0x7F0302B3,0x7F030402,0x7F030404,0x7F030406 }
 			public static int[] KeyAttribute = new int[] {
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
+					16843551,
+					16843552,
+					16843553,
+					16843554,
+					16843555,
+					16843556,
+					16843557,
+					16843558,
+					16843559,
+					16843560,
+					16843770,
+					16843840,
 					2130903319,
 					2130903469,
 					2130903729,
@@ -25822,38 +28382,38 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 0
 			public const int KeyAttribute_android_alpha = 0;
 			
-			// aapt resource value: 10
-			public const int KeyAttribute_android_elevation = 10;
+			// aapt resource value: 11
+			public const int KeyAttribute_android_elevation = 11;
 			
-			// aapt resource value: 9
-			public const int KeyAttribute_android_rotation = 9;
+			// aapt resource value: 7
+			public const int KeyAttribute_android_rotation = 7;
 			
 			// aapt resource value: 8
 			public const int KeyAttribute_android_rotationX = 8;
 			
-			// aapt resource value: 7
-			public const int KeyAttribute_android_rotationY = 7;
-			
-			// aapt resource value: 11
-			public const int KeyAttribute_android_scaleX = 11;
+			// aapt resource value: 9
+			public const int KeyAttribute_android_rotationY = 9;
 			
 			// aapt resource value: 5
-			public const int KeyAttribute_android_scaleY = 5;
-			
-			// aapt resource value: 4
-			public const int KeyAttribute_android_transformPivotX = 4;
-			
-			// aapt resource value: 3
-			public const int KeyAttribute_android_transformPivotY = 3;
+			public const int KeyAttribute_android_scaleX = 5;
 			
 			// aapt resource value: 6
-			public const int KeyAttribute_android_translationX = 6;
-			
-			// aapt resource value: 2
-			public const int KeyAttribute_android_translationY = 2;
+			public const int KeyAttribute_android_scaleY = 6;
 			
 			// aapt resource value: 1
-			public const int KeyAttribute_android_translationZ = 1;
+			public const int KeyAttribute_android_transformPivotX = 1;
+			
+			// aapt resource value: 2
+			public const int KeyAttribute_android_transformPivotY = 2;
+			
+			// aapt resource value: 3
+			public const int KeyAttribute_android_translationX = 3;
+			
+			// aapt resource value: 4
+			public const int KeyAttribute_android_translationY = 4;
+			
+			// aapt resource value: 10
+			public const int KeyAttribute_android_translationZ = 10;
 			
 			// aapt resource value: 12
 			public const int KeyAttribute_curveFit = 12;
@@ -25876,18 +28436,18 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 18
 			public const int KeyAttribute_transitionPathRotate = 18;
 			
-			// aapt resource value: { 0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x7F030117,0x7F0301AD,0x7F0302B1,0x7F0302B3,0x7F030404,0x7F030406,0x7F03041D,0x7F03041E,0x7F03041F,0x7F030420,0x7F030421 }
+			// aapt resource value: { 0x101031F,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103FA,0x1010440,0x7F030117,0x7F0301AD,0x7F0302B1,0x7F0302B3,0x7F030404,0x7F030406,0x7F03041D,0x7F03041E,0x7F03041F,0x7F030420,0x7F030421 }
 			public static int[] KeyCycle = new int[] {
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
+					16843551,
+					16843554,
+					16843555,
+					16843556,
+					16843557,
+					16843558,
+					16843559,
+					16843560,
+					16843770,
+					16843840,
 					2130903319,
 					2130903469,
 					2130903729,
@@ -25903,32 +28463,32 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 0
 			public const int KeyCycle_android_alpha = 0;
 			
-			// aapt resource value: 1
-			public const int KeyCycle_android_elevation = 1;
-			
-			// aapt resource value: 2
-			public const int KeyCycle_android_rotation = 2;
-			
-			// aapt resource value: 3
-			public const int KeyCycle_android_rotationX = 3;
-			
-			// aapt resource value: 4
-			public const int KeyCycle_android_rotationY = 4;
+			// aapt resource value: 9
+			public const int KeyCycle_android_elevation = 9;
 			
 			// aapt resource value: 5
-			public const int KeyCycle_android_scaleX = 5;
+			public const int KeyCycle_android_rotation = 5;
 			
 			// aapt resource value: 6
-			public const int KeyCycle_android_scaleY = 6;
+			public const int KeyCycle_android_rotationX = 6;
 			
 			// aapt resource value: 7
-			public const int KeyCycle_android_translationX = 7;
+			public const int KeyCycle_android_rotationY = 7;
+			
+			// aapt resource value: 3
+			public const int KeyCycle_android_scaleX = 3;
+			
+			// aapt resource value: 4
+			public const int KeyCycle_android_scaleY = 4;
+			
+			// aapt resource value: 1
+			public const int KeyCycle_android_translationX = 1;
+			
+			// aapt resource value: 2
+			public const int KeyCycle_android_translationY = 2;
 			
 			// aapt resource value: 8
-			public const int KeyCycle_android_translationY = 8;
-			
-			// aapt resource value: 9
-			public const int KeyCycle_android_translationZ = 9;
+			public const int KeyCycle_android_translationZ = 8;
 			
 			// aapt resource value: 10
 			public const int KeyCycle_curveFit = 10;
@@ -25963,14 +28523,17 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 20
 			public const int KeyCycle_waveVariesBy = 20;
 			
-			// aapt resource value: {  }
-			public static int[] KeyFrame = new int[0];
+			// aapt resource value: { 0xFFFFFFFF }
+			public static int[] KeyFrame = new int[] {
+					-1};
 			
-			// aapt resource value: {  }
-			public static int[] KeyFramesAcceleration = new int[0];
+			// aapt resource value: { 0xFFFFFFFF }
+			public static int[] KeyFramesAcceleration = new int[] {
+					-1};
 			
-			// aapt resource value: {  }
-			public static int[] KeyFramesVelocity = new int[0];
+			// aapt resource value: { 0xFFFFFFFF }
+			public static int[] KeyFramesVelocity = new int[] {
+					-1};
 			
 			// aapt resource value: { 0x7F030117,0x7F030142,0x7F0301AD,0x7F0301FD,0x7F0302B3,0x7F0302E1,0x7F0302E3,0x7F0302E4,0x7F0302E5,0x7F0302E6,0x7F030348,0x7F030404 }
 			public static int[] KeyPosition = new int[] {
@@ -26023,18 +28586,18 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 11
 			public const int KeyPosition_transitionEasing = 11;
 			
-			// aapt resource value: { 0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x7F030117,0x7F0301AD,0x7F0302B1,0x7F0302B3,0x7F030404,0x7F030406,0x7F03041C,0x7F03041D,0x7F03041E,0x7F03041F,0x7F030420 }
+			// aapt resource value: { 0x101031F,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103FA,0x1010440,0x7F030117,0x7F0301AD,0x7F0302B1,0x7F0302B3,0x7F030404,0x7F030406,0x7F03041C,0x7F03041D,0x7F03041E,0x7F03041F,0x7F030420 }
 			public static int[] KeyTimeCycle = new int[] {
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
+					16843551,
+					16843554,
+					16843555,
+					16843556,
+					16843557,
+					16843558,
+					16843559,
+					16843560,
+					16843770,
+					16843840,
 					2130903319,
 					2130903469,
 					2130903729,
@@ -26050,32 +28613,32 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 0
 			public const int KeyTimeCycle_android_alpha = 0;
 			
-			// aapt resource value: 1
-			public const int KeyTimeCycle_android_elevation = 1;
-			
-			// aapt resource value: 2
-			public const int KeyTimeCycle_android_rotation = 2;
-			
-			// aapt resource value: 3
-			public const int KeyTimeCycle_android_rotationX = 3;
-			
-			// aapt resource value: 4
-			public const int KeyTimeCycle_android_rotationY = 4;
+			// aapt resource value: 9
+			public const int KeyTimeCycle_android_elevation = 9;
 			
 			// aapt resource value: 5
-			public const int KeyTimeCycle_android_scaleX = 5;
+			public const int KeyTimeCycle_android_rotation = 5;
 			
 			// aapt resource value: 6
-			public const int KeyTimeCycle_android_scaleY = 6;
+			public const int KeyTimeCycle_android_rotationX = 6;
 			
 			// aapt resource value: 7
-			public const int KeyTimeCycle_android_translationX = 7;
+			public const int KeyTimeCycle_android_rotationY = 7;
+			
+			// aapt resource value: 3
+			public const int KeyTimeCycle_android_scaleX = 3;
+			
+			// aapt resource value: 4
+			public const int KeyTimeCycle_android_scaleY = 4;
+			
+			// aapt resource value: 1
+			public const int KeyTimeCycle_android_translationX = 1;
+			
+			// aapt resource value: 2
+			public const int KeyTimeCycle_android_translationY = 2;
 			
 			// aapt resource value: 8
-			public const int KeyTimeCycle_android_translationY = 8;
-			
-			// aapt resource value: 9
-			public const int KeyTimeCycle_android_translationZ = 9;
+			public const int KeyTimeCycle_android_translationZ = 8;
 			
 			// aapt resource value: 10
 			public const int KeyTimeCycle_curveFit = 10;
@@ -26165,17 +28728,17 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 12
 			public const int KeyTrigger_viewTransitionOnPositiveCross = 12;
 			
-			// aapt resource value: { 0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x7F030056,0x7F030057,0x7F030058,0x7F030098,0x7F0300EE,0x7F0300EF,0x7F03020E,0x7F03020F,0x7F030210,0x7F030211,0x7F030212,0x7F030213,0x7F030214,0x7F030215,0x7F030216,0x7F030217,0x7F030218,0x7F030219,0x7F03021A,0x7F03021B,0x7F03021C,0x7F03021D,0x7F03021E,0x7F03021F,0x7F030220,0x7F030221,0x7F030222,0x7F030223,0x7F030224,0x7F030225,0x7F030226,0x7F030227,0x7F030228,0x7F030229,0x7F03022A,0x7F03022B,0x7F03022C,0x7F03022D,0x7F03022E,0x7F03022F,0x7F030231,0x7F030232,0x7F030233,0x7F030234,0x7F030235,0x7F030236,0x7F030237,0x7F030238,0x7F030239,0x7F03023A,0x7F03023B,0x7F03023D,0x7F03023E,0x7F03023F,0x7F030240,0x7F030241,0x7F030242,0x7F030243,0x7F030244,0x7F030245,0x7F030248,0x7F03024C,0x7F030284,0x7F030288,0x7F03028F,0x7F030293 }
+			// aapt resource value: { 0x10100C4,0x10100F4,0x10100F5,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x10103B5,0x10103B6,0x7F030056,0x7F030057,0x7F030058,0x7F030098,0x7F0300EE,0x7F0300EF,0x7F03020E,0x7F03020F,0x7F030210,0x7F030211,0x7F030212,0x7F030213,0x7F030214,0x7F030215,0x7F030216,0x7F030217,0x7F030218,0x7F030219,0x7F03021A,0x7F03021B,0x7F03021C,0x7F03021D,0x7F03021E,0x7F03021F,0x7F030220,0x7F030221,0x7F030222,0x7F030223,0x7F030224,0x7F030225,0x7F030226,0x7F030227,0x7F030228,0x7F030229,0x7F03022A,0x7F03022B,0x7F03022C,0x7F03022D,0x7F03022E,0x7F03022F,0x7F030231,0x7F030232,0x7F030233,0x7F030234,0x7F030235,0x7F030236,0x7F030237,0x7F030238,0x7F030239,0x7F03023A,0x7F03023B,0x7F03023D,0x7F03023E,0x7F03023F,0x7F030240,0x7F030241,0x7F030242,0x7F030243,0x7F030244,0x7F030245,0x7F030248,0x7F03024C,0x7F030284,0x7F030288,0x7F03028F,0x7F030293 }
 			public static int[] Layout = new int[] {
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
+					16842948,
+					16842996,
+					16842997,
+					16842999,
+					16843000,
+					16843001,
+					16843002,
+					16843701,
+					16843702,
 					2130903126,
 					2130903127,
 					2130903128,
@@ -26243,32 +28806,32 @@ namespace PetLifeApp.Droid
 					2130903695,
 					2130903699};
 			
-			// aapt resource value: 0
-			public const int Layout_android_layout_height = 0;
-			
-			// aapt resource value: 7
-			public const int Layout_android_layout_marginBottom = 7;
+			// aapt resource value: 2
+			public const int Layout_android_layout_height = 2;
 			
 			// aapt resource value: 6
-			public const int Layout_android_layout_marginEnd = 6;
-			
-			// aapt resource value: 5
-			public const int Layout_android_layout_marginLeft = 5;
+			public const int Layout_android_layout_marginBottom = 6;
 			
 			// aapt resource value: 8
-			public const int Layout_android_layout_marginRight = 8;
+			public const int Layout_android_layout_marginEnd = 8;
 			
 			// aapt resource value: 3
-			public const int Layout_android_layout_marginStart = 3;
+			public const int Layout_android_layout_marginLeft = 3;
 			
-			// aapt resource value: 2
-			public const int Layout_android_layout_marginTop = 2;
+			// aapt resource value: 5
+			public const int Layout_android_layout_marginRight = 5;
+			
+			// aapt resource value: 7
+			public const int Layout_android_layout_marginStart = 7;
+			
+			// aapt resource value: 4
+			public const int Layout_android_layout_marginTop = 4;
 			
 			// aapt resource value: 1
 			public const int Layout_android_layout_width = 1;
 			
-			// aapt resource value: 4
-			public const int Layout_android_orientation = 4;
+			// aapt resource value: 0
+			public const int Layout_android_orientation = 0;
 			
 			// aapt resource value: 9
 			public const int Layout_barrierAllowsGoneWidgets = 9;
@@ -26468,29 +29031,29 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 74
 			public const int Layout_minWidth = 74;
 			
-			// aapt resource value: { 0x0,0x0,0x0,0x0,0x0,0x7F03013B,0x7F03013D,0x7F030289,0x7F03033D }
+			// aapt resource value: { 0x10100AF,0x10100C4,0x1010126,0x1010127,0x1010128,0x7F03013B,0x7F03013D,0x7F030289,0x7F03033D }
 			public static int[] LinearLayoutCompat = new int[] {
-					0,
-					0,
-					0,
-					0,
-					0,
+					16842927,
+					16842948,
+					16843046,
+					16843047,
+					16843048,
 					2130903355,
 					2130903357,
 					2130903689,
 					2130903869};
 			
-			// aapt resource value: 0
-			public const int LinearLayoutCompat_android_baselineAligned = 0;
-			
-			// aapt resource value: 1
-			public const int LinearLayoutCompat_android_baselineAlignedChildIndex = 1;
-			
 			// aapt resource value: 2
-			public const int LinearLayoutCompat_android_gravity = 2;
+			public const int LinearLayoutCompat_android_baselineAligned = 2;
 			
 			// aapt resource value: 3
-			public const int LinearLayoutCompat_android_orientation = 3;
+			public const int LinearLayoutCompat_android_baselineAlignedChildIndex = 3;
+			
+			// aapt resource value: 0
+			public const int LinearLayoutCompat_android_gravity = 0;
+			
+			// aapt resource value: 1
+			public const int LinearLayoutCompat_android_orientation = 1;
 			
 			// aapt resource value: 4
 			public const int LinearLayoutCompat_android_weightSum = 4;
@@ -26501,24 +29064,24 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 6
 			public const int LinearLayoutCompat_dividerPadding = 6;
 			
-			// aapt resource value: { 0x0,0x0,0x0,0x0 }
+			// aapt resource value: { 0x10100B3,0x10100F4,0x10100F5,0x1010181 }
 			public static int[] LinearLayoutCompat_Layout = new int[] {
-					0,
-					0,
-					0,
-					0};
+					16842931,
+					16842996,
+					16842997,
+					16843137};
 			
 			// aapt resource value: 0
 			public const int LinearLayoutCompat_Layout_android_layout_gravity = 0;
 			
-			// aapt resource value: 1
-			public const int LinearLayoutCompat_Layout_android_layout_height = 1;
-			
 			// aapt resource value: 2
-			public const int LinearLayoutCompat_Layout_android_layout_weight = 2;
+			public const int LinearLayoutCompat_Layout_android_layout_height = 2;
 			
 			// aapt resource value: 3
-			public const int LinearLayoutCompat_Layout_android_layout_width = 3;
+			public const int LinearLayoutCompat_Layout_android_layout_weight = 3;
+			
+			// aapt resource value: 1
+			public const int LinearLayoutCompat_Layout_android_layout_width = 1;
 			
 			// aapt resource value: 7
 			public const int LinearLayoutCompat_measureWithLargestChild = 7;
@@ -26537,10 +29100,10 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 1
 			public const int LinearProgressIndicator_indicatorDirectionLinear = 1;
 			
-			// aapt resource value: { 0x0,0x0 }
+			// aapt resource value: { 0x10102AC,0x10102AD }
 			public static int[] ListPopupWindow = new int[] {
-					0,
-					0};
+					16843436,
+					16843437};
 			
 			// aapt resource value: 0
 			public const int ListPopupWindow_android_dropDownHorizontalOffset = 0;
@@ -26548,10 +29111,10 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 1
 			public const int ListPopupWindow_android_dropDownVerticalOffset = 1;
 			
-			// aapt resource value: { 0x0,0x0,0x7F030166,0x7F030167,0x7F030411 }
+			// aapt resource value: { 0x10100B2,0x10101F8,0x7F030166,0x7F030167,0x7F030411 }
 			public static int[] ListPreference = new int[] {
-					0,
-					0,
+					16842930,
+					16843256,
 					2130903398,
 					2130903399,
 					2130904081};
@@ -26613,21 +29176,21 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 3
 			public const int MaterialAlertDialog_backgroundInsetTop = 3;
 			
-			// aapt resource value: { 0x0 }
+			// aapt resource value: { 0x1010220 }
 			public static int[] MaterialAutoCompleteTextView = new int[] {
-					0};
+					16843296};
 			
 			// aapt resource value: 0
 			public const int MaterialAutoCompleteTextView_android_inputType = 0;
 			
-			// aapt resource value: { 0x0,0x0,0x0,0x0,0x0,0x0,0x7F030050,0x7F030051,0x7F030109,0x7F030156,0x7F0301C6,0x7F0301C8,0x7F0301C9,0x7F0301CA,0x7F0301CD,0x7F0301CE,0x7F03031D,0x7F030333,0x7F030336,0x7F030369,0x7F03036A }
+			// aapt resource value: { 0x10100D4,0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x10101E5,0x7F030050,0x7F030051,0x7F030109,0x7F030156,0x7F0301C6,0x7F0301C8,0x7F0301C9,0x7F0301CA,0x7F0301CD,0x7F0301CE,0x7F03031D,0x7F030333,0x7F030336,0x7F030369,0x7F03036A }
 			public static int[] MaterialButton = new int[] {
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
+					16842964,
+					16843191,
+					16843192,
+					16843193,
+					16843194,
+					16843237,
 					2130903120,
 					2130903121,
 					2130903305,
@@ -26662,20 +29225,20 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 0
 			public const int MaterialButton_android_background = 0;
 			
-			// aapt resource value: 1
-			public const int MaterialButton_android_checkable = 1;
-			
-			// aapt resource value: 2
-			public const int MaterialButton_android_insetBottom = 2;
-			
-			// aapt resource value: 3
-			public const int MaterialButton_android_insetLeft = 3;
+			// aapt resource value: 5
+			public const int MaterialButton_android_checkable = 5;
 			
 			// aapt resource value: 4
-			public const int MaterialButton_android_insetRight = 4;
+			public const int MaterialButton_android_insetBottom = 4;
 			
-			// aapt resource value: 5
-			public const int MaterialButton_android_insetTop = 5;
+			// aapt resource value: 1
+			public const int MaterialButton_android_insetLeft = 1;
+			
+			// aapt resource value: 2
+			public const int MaterialButton_android_insetRight = 2;
+			
+			// aapt resource value: 3
+			public const int MaterialButton_android_insetTop = 3;
 			
 			// aapt resource value: 6
 			public const int MaterialButton_backgroundTint = 6;
@@ -26722,9 +29285,9 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 20
 			public const int MaterialButton_strokeWidth = 20;
 			
-			// aapt resource value: { 0x0,0x7F030124,0x7F030125,0x7F030126,0x7F030127,0x7F0302C2,0x7F03030F,0x7F03042D,0x7F03042E,0x7F03042F }
+			// aapt resource value: { 0x101020D,0x7F030124,0x7F030125,0x7F030126,0x7F030127,0x7F0302C2,0x7F03030F,0x7F03042D,0x7F03042E,0x7F03042F }
 			public static int[] MaterialCalendar = new int[] {
-					0,
+					16843277,
 					2130903332,
 					2130903333,
 					2130903334,
@@ -26735,12 +29298,12 @@ namespace PetLifeApp.Droid
 					2130904110,
 					2130904111};
 			
-			// aapt resource value: { 0x0,0x0,0x0,0x0,0x7F0301E5,0x7F0301EE,0x7F0301EF,0x7F0301F6,0x7F0301F7,0x7F0301FB }
+			// aapt resource value: { 0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x7F0301E5,0x7F0301EE,0x7F0301EF,0x7F0301F6,0x7F0301F7,0x7F0301FB }
 			public static int[] MaterialCalendarItem = new int[] {
-					0,
-					0,
-					0,
-					0,
+					16843191,
+					16843192,
+					16843193,
+					16843194,
 					2130903525,
 					2130903534,
 					2130903535,
@@ -26748,17 +29311,17 @@ namespace PetLifeApp.Droid
 					2130903543,
 					2130903547};
 			
+			// aapt resource value: 3
+			public const int MaterialCalendarItem_android_insetBottom = 3;
+			
 			// aapt resource value: 0
-			public const int MaterialCalendarItem_android_insetBottom = 0;
+			public const int MaterialCalendarItem_android_insetLeft = 0;
 			
 			// aapt resource value: 1
-			public const int MaterialCalendarItem_android_insetLeft = 1;
+			public const int MaterialCalendarItem_android_insetRight = 1;
 			
 			// aapt resource value: 2
-			public const int MaterialCalendarItem_android_insetRight = 2;
-			
-			// aapt resource value: 3
-			public const int MaterialCalendarItem_android_insetTop = 3;
+			public const int MaterialCalendarItem_android_insetTop = 2;
 			
 			// aapt resource value: 4
 			public const int MaterialCalendarItem_itemFillColor = 4;
@@ -26808,9 +29371,9 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 9
 			public const int MaterialCalendar_yearTodayStyle = 9;
 			
-			// aapt resource value: { 0x0,0x7F030089,0x7F03009D,0x7F03009F,0x7F0300A0,0x7F0300A1,0x7F03031D,0x7F030333,0x7F030336,0x7F030363,0x7F030369,0x7F03036A }
+			// aapt resource value: { 0x10101E5,0x7F030089,0x7F03009D,0x7F03009F,0x7F0300A0,0x7F0300A1,0x7F03031D,0x7F030333,0x7F030336,0x7F030363,0x7F030369,0x7F03036A }
 			public static int[] MaterialCardView = new int[] {
-					0,
+					16843237,
 					2130903177,
 					2130903197,
 					2130903199,
@@ -26892,10 +29455,10 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 1
 			public const int MaterialShape_shapeAppearanceOverlay = 1;
 			
-			// aapt resource value: { 0x0,0x0,0x7F030250 }
+			// aapt resource value: { 0x10104B6,0x101057F,0x7F030250 }
 			public static int[] MaterialTextAppearance = new int[] {
-					0,
-					0,
+					16843958,
+					16844159,
 					2130903632};
 			
 			// aapt resource value: 0
@@ -26907,17 +29470,17 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 2
 			public const int MaterialTextAppearance_lineHeight = 2;
 			
-			// aapt resource value: { 0x0,0x0,0x7F030250 }
+			// aapt resource value: { 0x1010034,0x101057F,0x7F030250 }
 			public static int[] MaterialTextView = new int[] {
-					0,
-					0,
+					16842804,
+					16844159,
 					2130903632};
 			
-			// aapt resource value: 0
-			public const int MaterialTextView_android_lineHeight = 0;
-			
 			// aapt resource value: 1
-			public const int MaterialTextView_android_textAppearance = 1;
+			public const int MaterialTextView_android_lineHeight = 1;
+			
+			// aapt resource value: 0
+			public const int MaterialTextView_android_textAppearance = 0;
 			
 			// aapt resource value: 2
 			public const int MaterialTextView_lineHeight = 2;
@@ -26948,23 +29511,23 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 2
 			public const int MaterialToolbar_titleCentered = 2;
 			
-			// aapt resource value: { 0x0,0x0,0x0,0x0,0x0,0x0 }
+			// aapt resource value: { 0x101000E,0x10100D0,0x1010194,0x10101DE,0x10101DF,0x10101E0 }
 			public static int[] MenuGroup = new int[] {
-					0,
-					0,
-					0,
-					0,
-					0,
-					0};
+					16842766,
+					16842960,
+					16843156,
+					16843230,
+					16843231,
+					16843232};
+			
+			// aapt resource value: 5
+			public const int MenuGroup_android_checkableBehavior = 5;
 			
 			// aapt resource value: 0
-			public const int MenuGroup_android_checkableBehavior = 0;
+			public const int MenuGroup_android_enabled = 0;
 			
 			// aapt resource value: 1
-			public const int MenuGroup_android_enabled = 1;
-			
-			// aapt resource value: 2
-			public const int MenuGroup_android_id = 2;
+			public const int MenuGroup_android_id = 1;
 			
 			// aapt resource value: 3
 			public const int MenuGroup_android_menuCategory = 3;
@@ -26972,24 +29535,24 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 4
 			public const int MenuGroup_android_orderInCategory = 4;
 			
-			// aapt resource value: 5
-			public const int MenuGroup_android_visible = 5;
+			// aapt resource value: 2
+			public const int MenuGroup_android_visible = 2;
 			
-			// aapt resource value: { 0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x7F030011,0x7F030025,0x7F030027,0x7F030033,0x7F0300F2,0x7F0301CD,0x7F0301CE,0x7F0302C5,0x7F03033B,0x7F0303F5 }
+			// aapt resource value: { 0x1010002,0x101000E,0x10100D0,0x1010106,0x1010194,0x10101DE,0x10101DF,0x10101E1,0x10101E2,0x10101E3,0x10101E4,0x10101E5,0x101026F,0x7F030011,0x7F030025,0x7F030027,0x7F030033,0x7F0300F2,0x7F0301CD,0x7F0301CE,0x7F0302C5,0x7F03033B,0x7F0303F5 }
 			public static int[] MenuItem = new int[] {
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
+					16842754,
+					16842766,
+					16842960,
+					16843014,
+					16843156,
+					16843230,
+					16843231,
+					16843233,
+					16843234,
+					16843235,
+					16843236,
+					16843237,
+					16843375,
 					2130903057,
 					2130903077,
 					2130903079,
@@ -27013,44 +29576,44 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 16
 			public const int MenuItem_alphabeticModifiers = 16;
 			
-			// aapt resource value: 4
-			public const int MenuItem_android_alphabeticShortcut = 4;
-			
-			// aapt resource value: 5
-			public const int MenuItem_android_checkable = 5;
-			
-			// aapt resource value: 6
-			public const int MenuItem_android_checked = 6;
-			
-			// aapt resource value: 7
-			public const int MenuItem_android_enabled = 7;
-			
-			// aapt resource value: 8
-			public const int MenuItem_android_icon = 8;
-			
 			// aapt resource value: 9
-			public const int MenuItem_android_id = 9;
+			public const int MenuItem_android_alphabeticShortcut = 9;
 			
-			// aapt resource value: 10
-			public const int MenuItem_android_menuCategory = 10;
+			// aapt resource value: 11
+			public const int MenuItem_android_checkable = 11;
+			
+			// aapt resource value: 3
+			public const int MenuItem_android_checked = 3;
+			
+			// aapt resource value: 1
+			public const int MenuItem_android_enabled = 1;
 			
 			// aapt resource value: 0
-			public const int MenuItem_android_numericShortcut = 0;
+			public const int MenuItem_android_icon = 0;
+			
+			// aapt resource value: 2
+			public const int MenuItem_android_id = 2;
+			
+			// aapt resource value: 5
+			public const int MenuItem_android_menuCategory = 5;
+			
+			// aapt resource value: 10
+			public const int MenuItem_android_numericShortcut = 10;
 			
 			// aapt resource value: 12
 			public const int MenuItem_android_onClick = 12;
 			
-			// aapt resource value: 11
-			public const int MenuItem_android_orderInCategory = 11;
+			// aapt resource value: 6
+			public const int MenuItem_android_orderInCategory = 6;
 			
-			// aapt resource value: 3
-			public const int MenuItem_android_title = 3;
+			// aapt resource value: 7
+			public const int MenuItem_android_title = 7;
 			
-			// aapt resource value: 2
-			public const int MenuItem_android_titleCondensed = 2;
+			// aapt resource value: 8
+			public const int MenuItem_android_titleCondensed = 8;
 			
-			// aapt resource value: 1
-			public const int MenuItem_android_visible = 1;
+			// aapt resource value: 4
+			public const int MenuItem_android_visible = 4;
 			
 			// aapt resource value: 17
 			public const int MenuItem_contentDescription = 17;
@@ -27070,38 +29633,38 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 22
 			public const int MenuItem_tooltipText = 22;
 			
-			// aapt resource value: { 0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x7F030304,0x7F03036B }
+			// aapt resource value: { 0x10100AE,0x101012C,0x101012D,0x101012E,0x101012F,0x1010130,0x1010131,0x7F030304,0x7F03036B }
 			public static int[] MenuView = new int[] {
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
+					16842926,
+					16843052,
+					16843053,
+					16843054,
+					16843055,
+					16843056,
+					16843057,
 					2130903812,
 					2130903915};
 			
-			// aapt resource value: 0
-			public const int MenuView_android_headerBackground = 0;
-			
-			// aapt resource value: 1
-			public const int MenuView_android_horizontalDivider = 1;
+			// aapt resource value: 4
+			public const int MenuView_android_headerBackground = 4;
 			
 			// aapt resource value: 2
-			public const int MenuView_android_itemBackground = 2;
-			
-			// aapt resource value: 3
-			public const int MenuView_android_itemIconDisabledAlpha = 3;
-			
-			// aapt resource value: 4
-			public const int MenuView_android_itemTextAppearance = 4;
+			public const int MenuView_android_horizontalDivider = 2;
 			
 			// aapt resource value: 5
-			public const int MenuView_android_verticalDivider = 5;
+			public const int MenuView_android_itemBackground = 5;
 			
 			// aapt resource value: 6
-			public const int MenuView_android_windowAnimationStyle = 6;
+			public const int MenuView_android_itemIconDisabledAlpha = 6;
+			
+			// aapt resource value: 1
+			public const int MenuView_android_itemTextAppearance = 1;
+			
+			// aapt resource value: 3
+			public const int MenuView_android_verticalDivider = 3;
+			
+			// aapt resource value: 0
+			public const int MenuView_android_windowAnimationStyle = 0;
 			
 			// aapt resource value: 7
 			public const int MenuView_preserveIconSpacing = 7;
@@ -27195,17 +29758,17 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 1
 			public const int MotionHelper_onShow = 1;
 			
-			// aapt resource value: { 0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x7F030065,0x7F030066,0x7F030322,0x7F0303B9,0x7F0303BA,0x7F0303BB,0x7F0303BC,0x7F0303BD,0x7F0303C5,0x7F0303C6,0x7F0303C7,0x7F0303C8,0x7F0303CA,0x7F0303CB,0x7F0303CC,0x7F0303CD }
+			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x10100AF,0x101014F,0x1010164,0x10103AC,0x1010535,0x7F030065,0x7F030066,0x7F030322,0x7F0303B9,0x7F0303BA,0x7F0303BB,0x7F0303BC,0x7F0303BD,0x7F0303C5,0x7F0303C6,0x7F0303C7,0x7F0303C8,0x7F0303CA,0x7F0303CB,0x7F0303CC,0x7F0303CD }
 			public static int[] MotionLabel = new int[] {
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
+					16842901,
+					16842902,
+					16842903,
+					16842904,
+					16842927,
+					16843087,
+					16843108,
+					16843692,
+					16844085,
 					2130903141,
 					2130903142,
 					2130903842,
@@ -27223,32 +29786,32 @@ namespace PetLifeApp.Droid
 					2130904012,
 					2130904013};
 			
-			// aapt resource value: 0
-			public const int MotionLabel_android_autoSizeTextType = 0;
-			
-			// aapt resource value: 1
-			public const int MotionLabel_android_fontFamily = 1;
-			
-			// aapt resource value: 2
-			public const int MotionLabel_android_gravity = 2;
-			
-			// aapt resource value: 3
-			public const int MotionLabel_android_shadowRadius = 3;
-			
-			// aapt resource value: 4
-			public const int MotionLabel_android_text = 4;
-			
-			// aapt resource value: 5
-			public const int MotionLabel_android_textColor = 5;
-			
-			// aapt resource value: 6
-			public const int MotionLabel_android_textSize = 6;
+			// aapt resource value: 8
+			public const int MotionLabel_android_autoSizeTextType = 8;
 			
 			// aapt resource value: 7
-			public const int MotionLabel_android_textStyle = 7;
+			public const int MotionLabel_android_fontFamily = 7;
 			
-			// aapt resource value: 8
-			public const int MotionLabel_android_typeface = 8;
+			// aapt resource value: 4
+			public const int MotionLabel_android_gravity = 4;
+			
+			// aapt resource value: 6
+			public const int MotionLabel_android_shadowRadius = 6;
+			
+			// aapt resource value: 5
+			public const int MotionLabel_android_text = 5;
+			
+			// aapt resource value: 3
+			public const int MotionLabel_android_textColor = 3;
+			
+			// aapt resource value: 0
+			public const int MotionLabel_android_textSize = 0;
+			
+			// aapt resource value: 2
+			public const int MotionLabel_android_textStyle = 2;
+			
+			// aapt resource value: 1
+			public const int MotionLabel_android_typeface = 1;
 			
 			// aapt resource value: 9
 			public const int MotionLabel_borderRound = 9;
@@ -27381,10 +29944,10 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 9
 			public const int Motion_transitionEasing = 9;
 			
-			// aapt resource value: { 0x0,0x0,0x7F030166,0x7F030167 }
+			// aapt resource value: { 0x10100B2,0x10101F8,0x7F030166,0x7F030167 }
 			public static int[] MultiSelectListPreference = new int[] {
-					0,
-					0,
+					16842930,
+					16843256,
 					2130903398,
 					2130903399};
 			
@@ -27400,9 +29963,9 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 3
 			public const int MultiSelectListPreference_entryValues = 3;
 			
-			// aapt resource value: { 0x0,0x7F030130,0x7F030165,0x7F03016F,0x7F030204,0x7F0302EF,0x7F0302F0,0x7F0302F1,0x7F0302F2 }
+			// aapt resource value: { 0x10100D0,0x7F030130,0x7F030165,0x7F03016F,0x7F030204,0x7F0302EF,0x7F0302F0,0x7F0302F1,0x7F0302F2 }
 			public static int[] NavAction = new int[] {
-					0,
+					16842960,
 					2130903344,
 					2130903397,
 					2130903407,
@@ -27439,18 +30002,18 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 8
 			public const int NavAction_popUpToInclusive = 8;
 			
-			// aapt resource value: { 0x0,0x0,0x7F03003B,0x7F0302C3 }
+			// aapt resource value: { 0x1010003,0x10101ED,0x7F03003B,0x7F0302C3 }
 			public static int[] NavArgument = new int[] {
-					0,
-					0,
+					16842755,
+					16843245,
 					2130903099,
 					2130903747};
 			
-			// aapt resource value: 0
-			public const int NavArgument_android_defaultValue = 0;
-			
 			// aapt resource value: 1
-			public const int NavArgument_android_name = 1;
+			public const int NavArgument_android_defaultValue = 1;
+			
+			// aapt resource value: 0
+			public const int NavArgument_android_name = 0;
 			
 			// aapt resource value: 2
 			public const int NavArgument_argType = 2;
@@ -27458,9 +30021,9 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 3
 			public const int NavArgument_nullable = 3;
 			
-			// aapt resource value: { 0x0,0x7F030003,0x7F03028D,0x7F03040E }
+			// aapt resource value: { 0x10104EE,0x7F030003,0x7F03028D,0x7F03040E }
 			public static int[] NavDeepLink = new int[] {
-					0,
+					16844014,
 					2130903043,
 					2130903693,
 					2130904078};
@@ -27549,11 +30112,11 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 1
 			public const int NavigationRailView_menuGravity = 1;
 			
-			// aapt resource value: { 0x0,0x0,0x0,0x7F030156,0x7F0301B4,0x7F0301E4,0x7F0301E6,0x7F0301E8,0x7F0301E9,0x7F0301EA,0x7F0301EB,0x7F0301EE,0x7F0301EF,0x7F0301F0,0x7F0301F1,0x7F0301F2,0x7F0301F3,0x7F0301F4,0x7F0301F8,0x7F0301FB,0x7F03028A,0x7F030333,0x7F030336 }
+			// aapt resource value: { 0x10100D4,0x10100DD,0x101011F,0x7F030156,0x7F0301B4,0x7F0301E4,0x7F0301E6,0x7F0301E8,0x7F0301E9,0x7F0301EA,0x7F0301EB,0x7F0301EE,0x7F0301EF,0x7F0301F0,0x7F0301F1,0x7F0301F2,0x7F0301F3,0x7F0301F4,0x7F0301F8,0x7F0301FB,0x7F03028A,0x7F030333,0x7F030336 }
 			public static int[] NavigationView = new int[] {
-					0,
-					0,
-					0,
+					16842964,
+					16842973,
+					16843039,
 					2130903382,
 					2130903476,
 					2130903524,
@@ -27644,16 +30207,16 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 22
 			public const int NavigationView_shapeAppearanceOverlay = 22;
 			
-			// aapt resource value: { 0x0,0x0 }
+			// aapt resource value: { 0x1010001,0x10100D0 }
 			public static int[] Navigator = new int[] {
-					0,
-					0};
-			
-			// aapt resource value: 0
-			public const int Navigator_android_id = 0;
+					16842753,
+					16842960};
 			
 			// aapt resource value: 1
-			public const int Navigator_android_label = 1;
+			public const int Navigator_android_id = 1;
+			
+			// aapt resource value: 0
+			public const int Navigator_android_label = 0;
 			
 			// aapt resource value: { 0x7F0301B1 }
 			public static int[] NavInclude = new int[] {
@@ -27752,10 +30315,10 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 18
 			public const int OnSwipe_touchRegionId = 18;
 			
-			// aapt resource value: { 0x0,0x0,0x7F0302CF }
+			// aapt resource value: { 0x1010176,0x10102C9,0x7F0302CF }
 			public static int[] PopupWindow = new int[] {
-					0,
-					0,
+					16843126,
+					16843465,
 					2130903759};
 			
 			// aapt resource value: { 0x7F030360 }
@@ -27765,33 +30328,33 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 0
 			public const int PopupWindowBackgroundState_state_above_anchor = 0;
 			
-			// aapt resource value: 0
-			public const int PopupWindow_android_popupAnimationStyle = 0;
-			
 			// aapt resource value: 1
-			public const int PopupWindow_android_popupBackground = 1;
+			public const int PopupWindow_android_popupAnimationStyle = 1;
+			
+			// aapt resource value: 0
+			public const int PopupWindow_android_popupBackground = 0;
 			
 			// aapt resource value: 2
 			public const int PopupWindow_overlapAnchor = 2;
 			
-			// aapt resource value: { 0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x7F03002E,0x7F030030,0x7F03012B,0x7F03012E,0x7F030159,0x7F03015B,0x7F0301AC,0x7F0301C6,0x7F0301CB,0x7F0301E3,0x7F0301FC,0x7F030205,0x7F0302CD,0x7F0302E8,0x7F03032D,0x7F030339,0x7F030346,0x7F030376,0x7F0303E2,0x7F030422 }
+			// aapt resource value: { 0x1010002,0x101000D,0x101000E,0x10100F2,0x10101E1,0x10101E6,0x10101E8,0x10101E9,0x10101EA,0x10101EB,0x10101EC,0x10101ED,0x10101EE,0x10102E3,0x101055C,0x1010561,0x7F03002E,0x7F030030,0x7F03012B,0x7F03012E,0x7F030159,0x7F03015B,0x7F0301AC,0x7F0301C6,0x7F0301CB,0x7F0301E3,0x7F0301FC,0x7F030205,0x7F0302CD,0x7F0302E8,0x7F03032D,0x7F030339,0x7F030346,0x7F030376,0x7F0303E2,0x7F030422 }
 			public static int[] Preference = new int[] {
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
+					16842754,
+					16842765,
+					16842766,
+					16842994,
+					16843233,
+					16843238,
+					16843240,
+					16843241,
+					16843242,
+					16843243,
+					16843244,
+					16843245,
+					16843246,
+					16843491,
+					16844124,
+					16844129,
 					2130903086,
 					2130903088,
 					2130903339,
@@ -27813,47 +30376,47 @@ namespace PetLifeApp.Droid
 					2130904034,
 					2130904098};
 			
-			// aapt resource value: { 0x0,0x0,0x0,0x7F03002F }
+			// aapt resource value: { 0x10100F2,0x1010129,0x101012A,0x7F03002F }
 			public static int[] PreferenceFragment = new int[] {
-					0,
-					0,
-					0,
+					16842994,
+					16843049,
+					16843050,
 					2130903087};
 			
-			// aapt resource value: { 0x0,0x0,0x0,0x7F03002F }
+			// aapt resource value: { 0x10100F2,0x1010129,0x101012A,0x7F03002F }
 			public static int[] PreferenceFragmentCompat = new int[] {
-					0,
-					0,
-					0,
+					16842994,
+					16843049,
+					16843050,
 					2130903087};
 			
 			// aapt resource value: 3
 			public const int PreferenceFragmentCompat_allowDividerAfterLastItem = 3;
 			
-			// aapt resource value: 0
-			public const int PreferenceFragmentCompat_android_divider = 0;
-			
 			// aapt resource value: 1
-			public const int PreferenceFragmentCompat_android_dividerHeight = 1;
+			public const int PreferenceFragmentCompat_android_divider = 1;
 			
 			// aapt resource value: 2
-			public const int PreferenceFragmentCompat_android_layout = 2;
+			public const int PreferenceFragmentCompat_android_dividerHeight = 2;
+			
+			// aapt resource value: 0
+			public const int PreferenceFragmentCompat_android_layout = 0;
 			
 			// aapt resource value: 3
 			public const int PreferenceFragment_allowDividerAfterLastItem = 3;
 			
-			// aapt resource value: 0
-			public const int PreferenceFragment_android_divider = 0;
-			
 			// aapt resource value: 1
-			public const int PreferenceFragment_android_dividerHeight = 1;
+			public const int PreferenceFragment_android_divider = 1;
 			
 			// aapt resource value: 2
-			public const int PreferenceFragment_android_layout = 2;
+			public const int PreferenceFragment_android_dividerHeight = 2;
 			
-			// aapt resource value: { 0x0,0x7F0301DF,0x7F0302CE }
+			// aapt resource value: 0
+			public const int PreferenceFragment_android_layout = 0;
+			
+			// aapt resource value: { 0x10101E7,0x7F0301DF,0x7F0302CE }
 			public static int[] PreferenceGroup = new int[] {
-					0,
+					16843239,
 					2130903519,
 					2130903758};
 			
@@ -27866,18 +30429,18 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 2
 			public const int PreferenceGroup_orderingFromXml = 2;
 			
-			// aapt resource value: { 0x0,0x0,0x7F030284,0x7F030288 }
+			// aapt resource value: { 0x101011F,0x1010120,0x7F030284,0x7F030288 }
 			public static int[] PreferenceImageView = new int[] {
-					0,
-					0,
+					16843039,
+					16843040,
 					2130903684,
 					2130903688};
 			
-			// aapt resource value: 0
-			public const int PreferenceImageView_android_maxHeight = 0;
-			
 			// aapt resource value: 1
-			public const int PreferenceImageView_android_maxWidth = 1;
+			public const int PreferenceImageView_android_maxHeight = 1;
+			
+			// aapt resource value: 0
+			public const int PreferenceImageView_android_maxWidth = 0;
 			
 			// aapt resource value: 2
 			public const int PreferenceImageView_maxHeight = 2;
@@ -27958,53 +30521,53 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 17
 			public const int Preference_allowDividerBelow = 17;
 			
-			// aapt resource value: 2
-			public const int Preference_android_defaultValue = 2;
-			
-			// aapt resource value: 3
-			public const int Preference_android_dependency = 3;
-			
-			// aapt resource value: 4
-			public const int Preference_android_enabled = 4;
-			
-			// aapt resource value: 5
-			public const int Preference_android_fragment = 5;
-			
-			// aapt resource value: 6
-			public const int Preference_android_icon = 6;
-			
-			// aapt resource value: 7
-			public const int Preference_android_iconSpaceReserved = 7;
-			
-			// aapt resource value: 8
-			public const int Preference_android_key = 8;
-			
-			// aapt resource value: 9
-			public const int Preference_android_layout = 9;
+			// aapt resource value: 11
+			public const int Preference_android_defaultValue = 11;
 			
 			// aapt resource value: 10
-			public const int Preference_android_order = 10;
+			public const int Preference_android_dependency = 10;
 			
-			// aapt resource value: 11
-			public const int Preference_android_persistent = 11;
-			
-			// aapt resource value: 12
-			public const int Preference_android_selectable = 12;
+			// aapt resource value: 2
+			public const int Preference_android_enabled = 2;
 			
 			// aapt resource value: 13
-			public const int Preference_android_shouldDisableView = 13;
+			public const int Preference_android_fragment = 13;
+			
+			// aapt resource value: 0
+			public const int Preference_android_icon = 0;
+			
+			// aapt resource value: 15
+			public const int Preference_android_iconSpaceReserved = 15;
+			
+			// aapt resource value: 6
+			public const int Preference_android_key = 6;
+			
+			// aapt resource value: 3
+			public const int Preference_android_layout = 3;
+			
+			// aapt resource value: 8
+			public const int Preference_android_order = 8;
+			
+			// aapt resource value: 1
+			public const int Preference_android_persistent = 1;
+			
+			// aapt resource value: 5
+			public const int Preference_android_selectable = 5;
+			
+			// aapt resource value: 12
+			public const int Preference_android_shouldDisableView = 12;
 			
 			// aapt resource value: 14
 			public const int Preference_android_singleLineTitle = 14;
 			
-			// aapt resource value: 15
-			public const int Preference_android_summary = 15;
+			// aapt resource value: 7
+			public const int Preference_android_summary = 7;
 			
-			// aapt resource value: 1
-			public const int Preference_android_title = 1;
+			// aapt resource value: 4
+			public const int Preference_android_title = 4;
 			
-			// aapt resource value: 0
-			public const int Preference_android_widgetLayout = 0;
+			// aapt resource value: 9
+			public const int Preference_android_widgetLayout = 9;
 			
 			// aapt resource value: 18
 			public const int Preference_defaultValue = 18;
@@ -28060,19 +30623,19 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 35
 			public const int Preference_widgetLayout = 35;
 			
-			// aapt resource value: { 0x0,0x0,0x7F030230,0x7F0302B1,0x7F030419 }
+			// aapt resource value: { 0x10100DC,0x101031F,0x7F030230,0x7F0302B1,0x7F030419 }
 			public static int[] PropertySet = new int[] {
-					0,
-					0,
+					16842972,
+					16843551,
 					2130903600,
 					2130903729,
 					2130904089};
 			
-			// aapt resource value: 0
-			public const int PropertySet_android_alpha = 0;
-			
 			// aapt resource value: 1
-			public const int PropertySet_android_visibility = 1;
+			public const int PropertySet_android_alpha = 1;
+			
+			// aapt resource value: 0
+			public const int PropertySet_android_visibility = 0;
 			
 			// aapt resource value: 2
 			public const int PropertySet_layout_constraintTag = 2;
@@ -28112,11 +30675,11 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 1
 			public const int RecycleListView_paddingTopNoTitle = 1;
 			
-			// aapt resource value: { 0x0,0x0,0x0,0x7F030184,0x7F030185,0x7F030186,0x7F030187,0x7F030188,0x7F030208,0x7F03031C,0x7F03034D,0x7F030358 }
+			// aapt resource value: { 0x10100C4,0x10100EB,0x10100F1,0x7F030184,0x7F030185,0x7F030186,0x7F030187,0x7F030188,0x7F030208,0x7F03031C,0x7F03034D,0x7F030358 }
 			public static int[] RecyclerView = new int[] {
-					0,
-					0,
-					0,
+					16842948,
+					16842987,
+					16842993,
 					2130903428,
 					2130903429,
 					2130903430,
@@ -28127,14 +30690,14 @@ namespace PetLifeApp.Droid
 					2130903885,
 					2130903896};
 			
-			// aapt resource value: 0
-			public const int RecyclerView_android_clipToPadding = 0;
-			
 			// aapt resource value: 1
-			public const int RecyclerView_android_descendantFocusability = 1;
+			public const int RecyclerView_android_clipToPadding = 1;
 			
 			// aapt resource value: 2
-			public const int RecyclerView_android_orientation = 2;
+			public const int RecyclerView_android_descendantFocusability = 2;
+			
+			// aapt resource value: 0
+			public const int RecyclerView_android_orientation = 0;
 			
 			// aapt resource value: 3
 			public const int RecyclerView_fastScrollEnabled = 3;
@@ -28184,12 +30747,12 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 0
 			public const int ScrollViewRendererTheme_scrollViewStyle = 0;
 			
-			// aapt resource value: { 0x0,0x0,0x0,0x0,0x7F0300C5,0x7F0300EA,0x7F030129,0x7F0301B0,0x7F0301CF,0x7F030205,0x7F03030B,0x7F03030C,0x7F030327,0x7F030328,0x7F03036C,0x7F030375,0x7F03041A }
+			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F0300C5,0x7F0300EA,0x7F030129,0x7F0301B0,0x7F0301CF,0x7F030205,0x7F03030B,0x7F03030C,0x7F030327,0x7F030328,0x7F03036C,0x7F030375,0x7F03041A }
 			public static int[] SearchView = new int[] {
-					0,
-					0,
-					0,
-					0,
+					16842970,
+					16843039,
+					16843296,
+					16843364,
 					2130903237,
 					2130903274,
 					2130903337,
@@ -28207,14 +30770,14 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 0
 			public const int SearchView_android_focusable = 0;
 			
-			// aapt resource value: 1
-			public const int SearchView_android_imeOptions = 1;
+			// aapt resource value: 3
+			public const int SearchView_android_imeOptions = 3;
 			
 			// aapt resource value: 2
 			public const int SearchView_android_inputType = 2;
 			
-			// aapt resource value: 3
-			public const int SearchView_android_maxWidth = 3;
+			// aapt resource value: 1
+			public const int SearchView_android_maxWidth = 1;
 			
 			// aapt resource value: 4
 			public const int SearchView_closeIcon = 4;
@@ -28255,10 +30818,10 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 16
 			public const int SearchView_voiceIcon = 16;
 			
-			// aapt resource value: { 0x0,0x0,0x7F030029,0x7F03028E,0x7F03032A,0x7F030340,0x7F03040D }
+			// aapt resource value: { 0x10100F2,0x1010136,0x7F030029,0x7F03028E,0x7F03032A,0x7F030340,0x7F03040D }
 			public static int[] SeekBarPreference = new int[] {
-					0,
-					0,
+					16842994,
+					16843062,
 					2130903081,
 					2130903694,
 					2130903850,
@@ -28376,13 +30939,13 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 9
 			public const int ShapeAppearance_cornerSizeTopRight = 9;
 			
-			// aapt resource value: { 0x0,0x0,0x0,0x0,0x0,0x7F0301B2,0x7F0301B3,0x7F030200,0x7F030201,0x7F0303D1,0x7F0303D2,0x7F0303D3,0x7F0303D4,0x7F0303D5,0x7F0303D9,0x7F0303DA,0x7F0303DB,0x7F0303DF,0x7F0303FA,0x7F0303FB,0x7F0303FC,0x7F0303FE }
+			// aapt resource value: { 0x101000E,0x1010024,0x1010146,0x10102DE,0x10102DF,0x7F0301B2,0x7F0301B3,0x7F030200,0x7F030201,0x7F0303D1,0x7F0303D2,0x7F0303D3,0x7F0303D4,0x7F0303D5,0x7F0303D9,0x7F0303DA,0x7F0303DB,0x7F0303DF,0x7F0303FA,0x7F0303FB,0x7F0303FC,0x7F0303FE }
 			public static int[] Slider = new int[] {
-					0,
-					0,
-					0,
-					0,
-					0,
+					16842766,
+					16842788,
+					16843078,
+					16843486,
+					16843487,
 					2130903474,
 					2130903475,
 					2130903552,
@@ -28404,11 +30967,11 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 0
 			public const int Slider_android_enabled = 0;
 			
-			// aapt resource value: 1
-			public const int Slider_android_stepSize = 1;
-			
 			// aapt resource value: 2
-			public const int Slider_android_value = 2;
+			public const int Slider_android_stepSize = 2;
+			
+			// aapt resource value: 1
+			public const int Slider_android_value = 1;
 			
 			// aapt resource value: 3
 			public const int Slider_android_valueFrom = 3;
@@ -28473,9 +31036,9 @@ namespace PetLifeApp.Droid
 					2130903883,
 					2130903884};
 			
-			// aapt resource value: { 0x0,0x7F030026,0x7F030037,0x7F03004D,0x7F030050,0x7F030051,0x7F030156,0x7F030281 }
+			// aapt resource value: { 0x101011F,0x7F030026,0x7F030037,0x7F03004D,0x7F030050,0x7F030051,0x7F030156,0x7F030281 }
 			public static int[] SnackbarLayout = new int[] {
-					0,
+					16843039,
 					2130903078,
 					2130903095,
 					2130903117,
@@ -28517,67 +31080,67 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 2
 			public const int Snackbar_snackbarTextViewStyle = 2;
 			
-			// aapt resource value: { 0x0,0x0,0x0,0x0,0x7F0302F5 }
+			// aapt resource value: { 0x10100B2,0x1010176,0x101017B,0x1010262,0x7F0302F5 }
 			public static int[] Spinner = new int[] {
-					0,
-					0,
-					0,
-					0,
+					16842930,
+					16843126,
+					16843131,
+					16843362,
 					2130903797};
 			
+			// aapt resource value: 3
+			public const int Spinner_android_dropDownWidth = 3;
+			
 			// aapt resource value: 0
-			public const int Spinner_android_dropDownWidth = 0;
+			public const int Spinner_android_entries = 0;
 			
 			// aapt resource value: 1
-			public const int Spinner_android_entries = 1;
+			public const int Spinner_android_popupBackground = 1;
 			
 			// aapt resource value: 2
-			public const int Spinner_android_popupBackground = 2;
-			
-			// aapt resource value: 3
-			public const int Spinner_android_prompt = 3;
+			public const int Spinner_android_prompt = 2;
 			
 			// aapt resource value: 4
 			public const int Spinner_popupTheme = 4;
 			
-			// aapt resource value: { 0x0,0x7F0300F0 }
+			// aapt resource value: { 0x10100D0,0x7F0300F0 }
 			public static int[] State = new int[] {
-					0,
+					16842960,
 					2130903280};
 			
-			// aapt resource value: { 0x0,0x0,0x0,0x0,0x0,0x0 }
+			// aapt resource value: { 0x101011C,0x1010194,0x1010195,0x1010196,0x101030C,0x101030D }
 			public static int[] StateListDrawable = new int[] {
-					0,
-					0,
-					0,
-					0,
-					0,
-					0};
+					16843036,
+					16843156,
+					16843157,
+					16843158,
+					16843532,
+					16843533};
 			
-			// aapt resource value: { 0x0 }
+			// aapt resource value: { 0x1010199 }
 			public static int[] StateListDrawableItem = new int[] {
-					0};
+					16843161};
 			
 			// aapt resource value: 0
 			public const int StateListDrawableItem_android_drawable = 0;
 			
-			// aapt resource value: 0
-			public const int StateListDrawable_android_constantSize = 0;
-			
-			// aapt resource value: 1
-			public const int StateListDrawable_android_dither = 1;
-			
-			// aapt resource value: 2
-			public const int StateListDrawable_android_enterFadeDuration = 2;
-			
 			// aapt resource value: 3
-			public const int StateListDrawable_android_exitFadeDuration = 3;
+			public const int StateListDrawable_android_constantSize = 3;
+			
+			// aapt resource value: 0
+			public const int StateListDrawable_android_dither = 0;
 			
 			// aapt resource value: 4
-			public const int StateListDrawable_android_variablePadding = 4;
+			public const int StateListDrawable_android_enterFadeDuration = 4;
 			
 			// aapt resource value: 5
-			public const int StateListDrawable_android_visible = 5;
+			public const int StateListDrawable_android_exitFadeDuration = 5;
+			
+			// aapt resource value: 2
+			public const int StateListDrawable_android_variablePadding = 2;
+			
+			// aapt resource value: 1
+			public const int StateListDrawable_android_visible = 1;
 			
 			// aapt resource value: { 0x7F03012A }
 			public static int[] StateSet = new int[] {
@@ -28599,11 +31162,11 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 0
 			public const int SwipeRefreshLayout_swipeRefreshLayoutProgressSpinnerBackgroundColor = 0;
 			
-			// aapt resource value: { 0x0,0x0,0x0,0x7F030341,0x7F030351,0x7F03037A,0x7F03037B,0x7F03037F,0x7F0303D6,0x7F0303D7,0x7F0303D8,0x7F0303F9,0x7F030400,0x7F030401 }
+			// aapt resource value: { 0x1010124,0x1010125,0x1010142,0x7F030341,0x7F030351,0x7F03037A,0x7F03037B,0x7F03037F,0x7F0303D6,0x7F0303D7,0x7F0303D8,0x7F0303F9,0x7F030400,0x7F030401 }
 			public static int[] SwitchCompat = new int[] {
-					0,
-					0,
-					0,
+					16843044,
+					16843045,
+					16843074,
 					2130903873,
 					2130903889,
 					2130903930,
@@ -28616,11 +31179,11 @@ namespace PetLifeApp.Droid
 					2130904064,
 					2130904065};
 			
-			// aapt resource value: 0
-			public const int SwitchCompat_android_textOff = 0;
-			
 			// aapt resource value: 1
-			public const int SwitchCompat_android_textOn = 1;
+			public const int SwitchCompat_android_textOff = 1;
+			
+			// aapt resource value: 0
+			public const int SwitchCompat_android_textOn = 0;
 			
 			// aapt resource value: 2
 			public const int SwitchCompat_android_thumb = 2;
@@ -28665,46 +31228,46 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 0
 			public const int SwitchMaterial_useMaterialThemeColors = 0;
 			
-			// aapt resource value: { 0x0,0x0,0x0,0x0,0x0,0x7F030139,0x7F030377,0x7F030378,0x7F030380,0x7F030381 }
+			// aapt resource value: { 0x10101EF,0x10101F0,0x10101F1,0x101036B,0x101036C,0x7F030139,0x7F030377,0x7F030378,0x7F030380,0x7F030381 }
 			public static int[] SwitchPreference = new int[] {
-					0,
-					0,
-					0,
-					0,
-					0,
+					16843247,
+					16843248,
+					16843249,
+					16843627,
+					16843628,
 					2130903353,
 					2130903927,
 					2130903928,
 					2130903936,
 					2130903937};
 			
-			// aapt resource value: { 0x0,0x0,0x0,0x0,0x0,0x7F030139,0x7F030377,0x7F030378,0x7F030380,0x7F030381 }
+			// aapt resource value: { 0x10101EF,0x10101F0,0x10101F1,0x101036B,0x101036C,0x7F030139,0x7F030377,0x7F030378,0x7F030380,0x7F030381 }
 			public static int[] SwitchPreferenceCompat = new int[] {
-					0,
-					0,
-					0,
-					0,
-					0,
+					16843247,
+					16843248,
+					16843249,
+					16843627,
+					16843628,
 					2130903353,
 					2130903927,
 					2130903928,
 					2130903936,
 					2130903937};
 			
-			// aapt resource value: 0
-			public const int SwitchPreferenceCompat_android_disableDependentsState = 0;
+			// aapt resource value: 2
+			public const int SwitchPreferenceCompat_android_disableDependentsState = 2;
 			
 			// aapt resource value: 1
 			public const int SwitchPreferenceCompat_android_summaryOff = 1;
 			
-			// aapt resource value: 2
-			public const int SwitchPreferenceCompat_android_summaryOn = 2;
-			
-			// aapt resource value: 3
-			public const int SwitchPreferenceCompat_android_switchTextOff = 3;
+			// aapt resource value: 0
+			public const int SwitchPreferenceCompat_android_summaryOn = 0;
 			
 			// aapt resource value: 4
-			public const int SwitchPreferenceCompat_android_switchTextOn = 4;
+			public const int SwitchPreferenceCompat_android_switchTextOff = 4;
+			
+			// aapt resource value: 3
+			public const int SwitchPreferenceCompat_android_switchTextOn = 3;
 			
 			// aapt resource value: 5
 			public const int SwitchPreferenceCompat_disableDependentsState = 5;
@@ -28721,20 +31284,20 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 9
 			public const int SwitchPreferenceCompat_switchTextOn = 9;
 			
-			// aapt resource value: 0
-			public const int SwitchPreference_android_disableDependentsState = 0;
+			// aapt resource value: 2
+			public const int SwitchPreference_android_disableDependentsState = 2;
 			
 			// aapt resource value: 1
 			public const int SwitchPreference_android_summaryOff = 1;
 			
-			// aapt resource value: 2
-			public const int SwitchPreference_android_summaryOn = 2;
-			
-			// aapt resource value: 3
-			public const int SwitchPreference_android_switchTextOff = 3;
+			// aapt resource value: 0
+			public const int SwitchPreference_android_summaryOn = 0;
 			
 			// aapt resource value: 4
-			public const int SwitchPreference_android_switchTextOn = 4;
+			public const int SwitchPreference_android_switchTextOff = 4;
+			
+			// aapt resource value: 3
+			public const int SwitchPreference_android_switchTextOn = 3;
 			
 			// aapt resource value: 5
 			public const int SwitchPreference_disableDependentsState = 5;
@@ -28751,11 +31314,11 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 9
 			public const int SwitchPreference_switchTextOn = 9;
 			
-			// aapt resource value: { 0x0,0x0,0x0 }
+			// aapt resource value: { 0x1010002,0x10100F2,0x101014F }
 			public static int[] TabItem = new int[] {
-					0,
-					0,
-					0};
+					16842754,
+					16842994,
+					16843087};
 			
 			// aapt resource value: 0
 			public const int TabItem_android_icon = 0;
@@ -28873,60 +31436,60 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 25
 			public const int TabLayout_tabUnboundedRipple = 25;
 			
-			// aapt resource value: { 0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x7F03019F,0x7F0301A8,0x7F0303A2,0x7F0303C4 }
+			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x101009A,0x101009B,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x1010585,0x7F03019F,0x7F0301A8,0x7F0303A2,0x7F0303C4 }
 			public static int[] TextAppearance = new int[] {
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
+					16842901,
+					16842902,
+					16842903,
+					16842904,
+					16842906,
+					16842907,
+					16843105,
+					16843106,
+					16843107,
+					16843108,
+					16843692,
+					16844165,
 					2130903455,
 					2130903464,
 					2130903970,
 					2130904004};
 			
-			// aapt resource value: 0
-			public const int TextAppearance_android_fontFamily = 0;
-			
-			// aapt resource value: 1
-			public const int TextAppearance_android_shadowColor = 1;
-			
-			// aapt resource value: 2
-			public const int TextAppearance_android_shadowDx = 2;
-			
-			// aapt resource value: 3
-			public const int TextAppearance_android_shadowDy = 3;
-			
-			// aapt resource value: 4
-			public const int TextAppearance_android_shadowRadius = 4;
-			
-			// aapt resource value: 5
-			public const int TextAppearance_android_textColor = 5;
+			// aapt resource value: 10
+			public const int TextAppearance_android_fontFamily = 10;
 			
 			// aapt resource value: 6
-			public const int TextAppearance_android_textColorHint = 6;
+			public const int TextAppearance_android_shadowColor = 6;
 			
 			// aapt resource value: 7
-			public const int TextAppearance_android_textColorLink = 7;
+			public const int TextAppearance_android_shadowDx = 7;
 			
 			// aapt resource value: 8
-			public const int TextAppearance_android_textFontWeight = 8;
+			public const int TextAppearance_android_shadowDy = 8;
 			
 			// aapt resource value: 9
-			public const int TextAppearance_android_textSize = 9;
+			public const int TextAppearance_android_shadowRadius = 9;
 			
-			// aapt resource value: 10
-			public const int TextAppearance_android_textStyle = 10;
+			// aapt resource value: 3
+			public const int TextAppearance_android_textColor = 3;
+			
+			// aapt resource value: 4
+			public const int TextAppearance_android_textColorHint = 4;
+			
+			// aapt resource value: 5
+			public const int TextAppearance_android_textColorLink = 5;
 			
 			// aapt resource value: 11
-			public const int TextAppearance_android_typeface = 11;
+			public const int TextAppearance_android_textFontWeight = 11;
+			
+			// aapt resource value: 0
+			public const int TextAppearance_android_textSize = 0;
+			
+			// aapt resource value: 2
+			public const int TextAppearance_android_textStyle = 2;
+			
+			// aapt resource value: 1
+			public const int TextAppearance_android_typeface = 1;
 			
 			// aapt resource value: 12
 			public const int TextAppearance_fontFamily = 12;
@@ -28940,49 +31503,49 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 15
 			public const int TextAppearance_textLocale = 15;
 			
-			// aapt resource value: { 0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x7F030065,0x7F030066,0x7F0303C1,0x7F0303C5,0x7F0303C6 }
+			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x101014F,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x7F030065,0x7F030066,0x7F0303C1,0x7F0303C5,0x7F0303C6 }
 			public static int[] TextEffects = new int[] {
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
+					16842901,
+					16842902,
+					16842903,
+					16843087,
+					16843105,
+					16843106,
+					16843107,
+					16843108,
+					16843692,
 					2130903141,
 					2130903142,
 					2130904001,
 					2130904005,
 					2130904006};
 			
-			// aapt resource value: 0
-			public const int TextEffects_android_fontFamily = 0;
-			
-			// aapt resource value: 1
-			public const int TextEffects_android_shadowColor = 1;
-			
-			// aapt resource value: 2
-			public const int TextEffects_android_shadowDx = 2;
-			
-			// aapt resource value: 3
-			public const int TextEffects_android_shadowDy = 3;
+			// aapt resource value: 8
+			public const int TextEffects_android_fontFamily = 8;
 			
 			// aapt resource value: 4
-			public const int TextEffects_android_shadowRadius = 4;
+			public const int TextEffects_android_shadowColor = 4;
 			
 			// aapt resource value: 5
-			public const int TextEffects_android_text = 5;
+			public const int TextEffects_android_shadowDx = 5;
 			
 			// aapt resource value: 6
-			public const int TextEffects_android_textSize = 6;
+			public const int TextEffects_android_shadowDy = 6;
 			
 			// aapt resource value: 7
-			public const int TextEffects_android_textStyle = 7;
+			public const int TextEffects_android_shadowRadius = 7;
 			
-			// aapt resource value: 8
-			public const int TextEffects_android_typeface = 8;
+			// aapt resource value: 3
+			public const int TextEffects_android_text = 3;
+			
+			// aapt resource value: 0
+			public const int TextEffects_android_textSize = 0;
+			
+			// aapt resource value: 2
+			public const int TextEffects_android_textStyle = 2;
+			
+			// aapt resource value: 1
+			public const int TextEffects_android_typeface = 1;
 			
 			// aapt resource value: 9
 			public const int TextEffects_borderRound = 9;
@@ -29006,13 +31569,13 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 0
 			public const int TextInputEditText_textInputLayoutFocusedRectEnabled = 0;
 			
-			// aapt resource value: { 0x0,0x0,0x0,0x0,0x0,0x7F03006D,0x7F03006E,0x7F03006F,0x7F030070,0x7F030071,0x7F030072,0x7F030073,0x7F030074,0x7F030075,0x7F030076,0x7F030077,0x7F03010F,0x7F030110,0x7F030111,0x7F030112,0x7F030113,0x7F030114,0x7F03015C,0x7F03015D,0x7F03015E,0x7F03015F,0x7F030160,0x7F030161,0x7F030168,0x7F030169,0x7F03016A,0x7F03016B,0x7F03016C,0x7F03016D,0x7F03016E,0x7F030172,0x7F0301B6,0x7F0301B7,0x7F0301B8,0x7F0301B9,0x7F0301BE,0x7F0301BF,0x7F0301C0,0x7F0301C1,0x7F0302DC,0x7F0302DD,0x7F0302DE,0x7F0302DF,0x7F0302E0,0x7F0302EA,0x7F0302EB,0x7F0302EC,0x7F030301,0x7F030302,0x7F030303,0x7F030333,0x7F030336,0x7F03035B,0x7F03035C,0x7F03035D,0x7F03035E,0x7F03035F,0x7F030372,0x7F030373,0x7F030374 }
+			// aapt resource value: { 0x101000E,0x101009A,0x101011F,0x101013F,0x1010150,0x7F03006D,0x7F03006E,0x7F03006F,0x7F030070,0x7F030071,0x7F030072,0x7F030073,0x7F030074,0x7F030075,0x7F030076,0x7F030077,0x7F03010F,0x7F030110,0x7F030111,0x7F030112,0x7F030113,0x7F030114,0x7F03015C,0x7F03015D,0x7F03015E,0x7F03015F,0x7F030160,0x7F030161,0x7F030168,0x7F030169,0x7F03016A,0x7F03016B,0x7F03016C,0x7F03016D,0x7F03016E,0x7F030172,0x7F0301B6,0x7F0301B7,0x7F0301B8,0x7F0301B9,0x7F0301BE,0x7F0301BF,0x7F0301C0,0x7F0301C1,0x7F0302DC,0x7F0302DD,0x7F0302DE,0x7F0302DF,0x7F0302E0,0x7F0302EA,0x7F0302EB,0x7F0302EC,0x7F030301,0x7F030302,0x7F030303,0x7F030333,0x7F030336,0x7F03035B,0x7F03035C,0x7F03035D,0x7F03035E,0x7F03035F,0x7F030372,0x7F030373,0x7F030374 }
 			public static int[] TextInputLayout = new int[] {
-					0,
-					0,
-					0,
-					0,
-					0,
+					16842766,
+					16842906,
+					16843039,
+					16843071,
+					16843088,
 					2130903149,
 					2130903150,
 					2130903151,
@@ -29077,8 +31640,8 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 0
 			public const int TextInputLayout_android_enabled = 0;
 			
-			// aapt resource value: 1
-			public const int TextInputLayout_android_hint = 1;
+			// aapt resource value: 4
+			public const int TextInputLayout_android_hint = 4;
 			
 			// aapt resource value: 2
 			public const int TextInputLayout_android_maxWidth = 2;
@@ -29086,8 +31649,8 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 3
 			public const int TextInputLayout_android_minWidth = 3;
 			
-			// aapt resource value: 4
-			public const int TextInputLayout_android_textColorHint = 4;
+			// aapt resource value: 1
+			public const int TextInputLayout_android_textColorHint = 1;
 			
 			// aapt resource value: 5
 			public const int TextInputLayout_boxBackgroundColor = 5;
@@ -29269,9 +31832,9 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 64
 			public const int TextInputLayout_suffixTextColor = 64;
 			
-			// aapt resource value: { 0x0,0x7F030162,0x7F030163 }
+			// aapt resource value: { 0x1010034,0x7F030162,0x7F030163 }
 			public static int[] ThemeEnforcement = new int[] {
-					0,
+					16842804,
 					2130903394,
 					2130903395};
 			
@@ -29284,10 +31847,10 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 2
 			public const int ThemeEnforcement_enforceTextAppearance = 2;
 			
-			// aapt resource value: { 0x0,0x0,0x7F03007F,0x7F0300CD,0x7F0300CE,0x7F0300F3,0x7F0300F4,0x7F0300F5,0x7F0300F6,0x7F0300F7,0x7F0300F8,0x7F030262,0x7F030263,0x7F030282,0x7F03028A,0x7F0302B9,0x7F0302BA,0x7F0302F5,0x7F03036D,0x7F03036F,0x7F030370,0x7F0303E2,0x7F0303E6,0x7F0303E7,0x7F0303E8,0x7F0303E9,0x7F0303EA,0x7F0303EB,0x7F0303EC,0x7F0303ED }
+			// aapt resource value: { 0x10100AF,0x1010140,0x7F03007F,0x7F0300CD,0x7F0300CE,0x7F0300F3,0x7F0300F4,0x7F0300F5,0x7F0300F6,0x7F0300F7,0x7F0300F8,0x7F030262,0x7F030263,0x7F030282,0x7F03028A,0x7F0302B9,0x7F0302BA,0x7F0302F5,0x7F03036D,0x7F03036F,0x7F030370,0x7F0303E2,0x7F0303E6,0x7F0303E7,0x7F0303E8,0x7F0303E9,0x7F0303EA,0x7F0303EB,0x7F0303EC,0x7F0303ED }
 			public static int[] Toolbar = new int[] {
-					0,
-					0,
+					16842927,
+					16843072,
 					2130903167,
 					2130903245,
 					2130903246,
@@ -29407,63 +31970,63 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 29
 			public const int Toolbar_titleTextColor = 29;
 			
-			// aapt resource value: { 0x0,0x0,0x0,0x0,0x0,0x0,0x7F030050 }
+			// aapt resource value: { 0x1010034,0x10100D5,0x10100F6,0x101013F,0x1010140,0x101014F,0x7F030050 }
 			public static int[] Tooltip = new int[] {
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
+					16842804,
+					16842965,
+					16842998,
+					16843071,
+					16843072,
+					16843087,
 					2130903120};
 			
-			// aapt resource value: 0
-			public const int Tooltip_android_layout_margin = 0;
-			
-			// aapt resource value: 1
-			public const int Tooltip_android_minHeight = 1;
-			
 			// aapt resource value: 2
-			public const int Tooltip_android_minWidth = 2;
-			
-			// aapt resource value: 3
-			public const int Tooltip_android_padding = 3;
+			public const int Tooltip_android_layout_margin = 2;
 			
 			// aapt resource value: 4
-			public const int Tooltip_android_text = 4;
+			public const int Tooltip_android_minHeight = 4;
+			
+			// aapt resource value: 3
+			public const int Tooltip_android_minWidth = 3;
+			
+			// aapt resource value: 1
+			public const int Tooltip_android_padding = 1;
 			
 			// aapt resource value: 5
-			public const int Tooltip_android_textAppearance = 5;
+			public const int Tooltip_android_text = 5;
+			
+			// aapt resource value: 0
+			public const int Tooltip_android_textAppearance = 0;
 			
 			// aapt resource value: 6
 			public const int Tooltip_backgroundTint = 6;
 			
-			// aapt resource value: { 0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x7F030402 }
+			// aapt resource value: { 0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103FA,0x1010440,0x7F030402 }
 			public static int[] Transform = new int[] {
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
+					16843552,
+					16843553,
+					16843554,
+					16843555,
+					16843556,
+					16843557,
+					16843558,
+					16843559,
+					16843560,
+					16843770,
+					16843840,
 					2130904066};
 			
-			// aapt resource value: 0
-			public const int Transform_android_elevation = 0;
+			// aapt resource value: 10
+			public const int Transform_android_elevation = 10;
 			
-			// aapt resource value: 1
-			public const int Transform_android_rotation = 1;
+			// aapt resource value: 6
+			public const int Transform_android_rotation = 6;
 			
-			// aapt resource value: 2
-			public const int Transform_android_rotationX = 2;
+			// aapt resource value: 7
+			public const int Transform_android_rotationX = 7;
 			
-			// aapt resource value: 3
-			public const int Transform_android_rotationY = 3;
+			// aapt resource value: 8
+			public const int Transform_android_rotationY = 8;
 			
 			// aapt resource value: 4
 			public const int Transform_android_scaleX = 4;
@@ -29471,27 +32034,27 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 5
 			public const int Transform_android_scaleY = 5;
 			
-			// aapt resource value: 6
-			public const int Transform_android_transformPivotX = 6;
+			// aapt resource value: 0
+			public const int Transform_android_transformPivotX = 0;
 			
-			// aapt resource value: 7
-			public const int Transform_android_transformPivotY = 7;
+			// aapt resource value: 1
+			public const int Transform_android_transformPivotY = 1;
 			
-			// aapt resource value: 8
-			public const int Transform_android_translationX = 8;
+			// aapt resource value: 2
+			public const int Transform_android_translationX = 2;
+			
+			// aapt resource value: 3
+			public const int Transform_android_translationY = 3;
 			
 			// aapt resource value: 9
-			public const int Transform_android_translationY = 9;
-			
-			// aapt resource value: 10
-			public const int Transform_android_translationZ = 10;
+			public const int Transform_android_translationZ = 9;
 			
 			// aapt resource value: 11
 			public const int Transform_transformPivotTarget = 11;
 			
-			// aapt resource value: { 0x0,0x7F030046,0x7F0300EC,0x7F0300ED,0x7F030151,0x7F030207,0x7F0302AE,0x7F0302E1,0x7F030359,0x7F030403,0x7F030405 }
+			// aapt resource value: { 0x10100D0,0x7F030046,0x7F0300EC,0x7F0300ED,0x7F030151,0x7F030207,0x7F0302AE,0x7F0302E1,0x7F030359,0x7F030403,0x7F030405 }
 			public static int[] Transition = new int[] {
-					0,
+					16842960,
 					2130903110,
 					2130903276,
 					2130903277,
@@ -29559,17 +32122,17 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 4
 			public const int Variant_region_widthMoreThan = 4;
 			
-			// aapt resource value: { 0x0,0x0,0x7F0302D3,0x7F0302D6,0x7F0303CE }
+			// aapt resource value: { 0x1010000,0x10100DA,0x7F0302D3,0x7F0302D6,0x7F0303CE }
 			public static int[] View = new int[] {
-					0,
-					0,
+					16842752,
+					16842970,
 					2130903763,
 					2130903766,
 					2130904014};
 			
-			// aapt resource value: { 0x0,0x7F030050,0x7F030051 }
+			// aapt resource value: { 0x10100D4,0x7F030050,0x7F030051 }
 			public static int[] ViewBackgroundHelper = new int[] {
-					0,
+					16842964,
 					2130903120,
 					2130903121};
 			
@@ -29582,31 +32145,31 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 2
 			public const int ViewBackgroundHelper_backgroundTintMode = 2;
 			
-			// aapt resource value: { 0x0 }
+			// aapt resource value: { 0x10100C4 }
 			public static int[] ViewPager2 = new int[] {
-					0};
+					16842948};
 			
 			// aapt resource value: 0
 			public const int ViewPager2_android_orientation = 0;
 			
-			// aapt resource value: { 0x0,0x0,0x0 }
+			// aapt resource value: { 0x10100D0,0x10100F2,0x10100F3 }
 			public static int[] ViewStubCompat = new int[] {
-					0,
-					0,
-					0};
+					16842960,
+					16842994,
+					16842995};
 			
 			// aapt resource value: 0
 			public const int ViewStubCompat_android_id = 0;
 			
-			// aapt resource value: 1
-			public const int ViewStubCompat_android_inflatedId = 1;
-			
 			// aapt resource value: 2
-			public const int ViewStubCompat_android_layout = 2;
+			public const int ViewStubCompat_android_inflatedId = 2;
 			
-			// aapt resource value: { 0x0,0x7F030001,0x7F030002,0x7F0300BF,0x7F030151,0x7F0301D0,0x7F0301D1,0x7F0302AE,0x7F0302B3,0x7F0302CB,0x7F0302E1,0x7F030332,0x7F030403,0x7F03040C,0x7F030415 }
+			// aapt resource value: 1
+			public const int ViewStubCompat_android_layout = 1;
+			
+			// aapt resource value: { 0x10100D0,0x7F030001,0x7F030002,0x7F0300BF,0x7F030151,0x7F0301D0,0x7F0301D1,0x7F0302AE,0x7F0302B3,0x7F0302CB,0x7F0302E1,0x7F030332,0x7F030403,0x7F03040C,0x7F030415 }
 			public static int[] ViewTransition = new int[] {
-					0,
+					16842960,
 					2130903041,
 					2130903042,
 					2130903231,
@@ -29667,11 +32230,11 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 14
 			public const int ViewTransition_viewTransitionMode = 14;
 			
-			// aapt resource value: 0
-			public const int View_android_focusable = 0;
-			
 			// aapt resource value: 1
-			public const int View_android_theme = 1;
+			public const int View_android_focusable = 1;
+			
+			// aapt resource value: 0
+			public const int View_android_theme = 0;
 			
 			// aapt resource value: 2
 			public const int View_paddingEnd = 2;

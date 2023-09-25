@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             x:Class="PetLifeApp.Views.PageLogin"
+             BackgroundColor="White"
+             NavigationPage.HasNavigationBar="False">
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="petLifeLogo"
+                   WidthRequest="100"
+                   HeightRequest="100"
+                   Margin="0,50,0,0"/>
+
+            <StackLayout Margin="20" VerticalOptions="CenterAndExpand">
+                <yummy:PancakeView CornerRadius="40"
+                                   Border="{yummy:BorderMarkup Color=#242424, Thickness='1'}">
+    
+                    <Entry x:Name="txtEmail"
+                           Placeholder="Email"
+                           PlaceholderColor="#242424"
+                           HorizontalTextAlignment="Center"
+                           TextColor="#242424"
+                           Margin="8"
+                           Keyboard="Email"/>
+                    
+                </yummy:PancakeView>
+
+                <yummy:PancakeView CornerRadius="40"
+                                   Margin="0,20,0,20"
+                                   Border="{yummy:BorderMarkup Color=#242424, Thickness='1'}">
+
+                    <Entry x:Name="txtSenha"
+                           IsPassword="True"
+                           Placeholder="Senha"
+                           PlaceholderColor="#242424"
+                           HorizontalTextAlignment="Center"
+                           TextColor="#242424"
+                           Margin="8"
+                           Keyboard="Default"/>
+
+                </yummy:PancakeView>
+
+                <Button x:Name="btnLogin"
+                        Clicked="btnLogin_Clicked"
+                        Text="Fazer Login"
+                        FontSize="18"
+                        TextColor="#242424"
+                        CornerRadius="40"
+                        BackgroundColor="#00BF63"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
