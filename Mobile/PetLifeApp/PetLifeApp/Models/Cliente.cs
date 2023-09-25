@@ -42,6 +42,7 @@ namespace PetLifeApp.Models
                     {
                         cmd.ExecuteNonQuery();
                     }
+                    con.Close();
                 }
             }
             catch (Exception ex)
@@ -63,6 +64,7 @@ namespace PetLifeApp.Models
                     {
                         cmd.ExecuteNonQuery();
                     }
+                    con.Close();
                 }
             }
             catch (Exception ex)
@@ -83,11 +85,37 @@ namespace PetLifeApp.Models
                     {
                         cmd.ExecuteNonQuery();
                     }
+                    con.Close();
                 }
             }
             catch (Exception ex)
             {
                 throw new Exception(ex.Message);
+            }
+        }
+
+        public bool FazerLogin(Cliente cliente)
+        {
+            try
+            {
+                bool loginAutorizado = false;
+
+                using (MySqlConnection con = new MySqlConnection(conn))
+                {
+                    string sql = "CALL login("+ObterId(cliente.Nome)+", '"+cliente.Email+"', '"+cliente.senha+"')";
+                    con.Open();
+                    using(MySqlCommand cmd = new MySqlCommand(sql, con))
+                    {
+                        loginAutorizado = Convert.ToBoolean(cmd.ExecuteScalar());
+                    }
+                    con.Close();
+                }
+
+                return loginAutorizado;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception (ex.Message);
             }
         }
 
