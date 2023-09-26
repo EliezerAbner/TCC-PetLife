@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using PetLifeApp.Models;
+using System;
 using Xamarin.Forms;
 
 namespace PetLifeApp
@@ -13,6 +9,26 @@ namespace PetLifeApp
         public MainPage()
         {
             InitializeComponent();
+        }
+
+        private void bt_Clicked(object sender, EventArgs e)
+        {
+            Cliente cobaia = new Cliente()
+            {
+                Nome = "Teste 01",
+                dataNascimento = DateTime.Now,
+                Email = "kagaro@bol.com",
+                Rua = "Av Brasil",
+                Numero = 564,
+                Cep = "87043698",
+                Cidade = "Maringá",
+                Estado = "PR",
+                Telefone = "(44) 9 9874-2145"
+            };
+
+            Cliente cliente = new Cliente();
+            cliente.NovoCliente(cobaia);
+            DisplayAlert("Sucesso", "Deu bom :)", "OK");
         }
     }
 }

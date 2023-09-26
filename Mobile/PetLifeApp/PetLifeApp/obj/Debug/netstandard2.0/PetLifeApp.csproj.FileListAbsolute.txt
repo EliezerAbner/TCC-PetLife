@@ -1,0 +1,15 @@
+C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\bin\Debug\netstandard2.0\PetLifeApp.deps.json
+C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\bin\Debug\netstandard2.0\PetLifeApp.dll
+C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\bin\Debug\netstandard2.0\ref\PetLifeApp.dll
+C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\bin\Debug\netstandard2.0\PetLifeApp.pdb
+C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\PetLifeApp.csproj.AssemblyReference.cache
+C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\PetLifeApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\PetLifeApp.AssemblyInfoInputs.cache
+C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\PetLifeApp.AssemblyInfo.cs
+C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\PetLifeApp.csproj.CoreCompileInputs.cache
+C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\PetLifeApp.dll
+C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\refint\PetLifeApp.dll
+C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\PetLifeApp.pdb

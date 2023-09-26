@@ -1,6 +1,5 @@
 ﻿using MySqlConnector;
 using System;
-using System.Collections.Generic;
 using System.Security.Cryptography;
 using System.Text;
 
@@ -17,7 +16,7 @@ namespace PetLifeApp.Models
             set { senha = Encode(value); } 
         }
 
-        private static string conn = @"server=sql.freedb.tech;port=3306;database=freedb_matadoresDePorco;user id=freedb_user001;password=pk6rmPza!vD4MGY;charset=utf8";
+        private static string conn = @"server=35.232.102.184;port=3306;database=petlifedb;user id=tds;password=tdssabado;charset=utf8";
 
         public int Id { get; set; }
         public string Nome { get; set; }
