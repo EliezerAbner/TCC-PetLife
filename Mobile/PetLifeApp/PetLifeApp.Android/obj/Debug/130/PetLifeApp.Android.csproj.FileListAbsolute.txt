@@ -646,3 +646,6 @@ C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\andr
 C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\android\src\crc64f8908e42fa42e603\PancakeDrawable.java
 C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\android\src\crc64f8908e42fa42e603\PancakeViewRenderer.java
 C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\android\src\crc64f8908e42fa42e603\RoundedCornerOutlineProvider.java
+C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\res\drawable\pets.png
+C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\res\drawable\petfood.png
+C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\res\drawable\petlocation.png

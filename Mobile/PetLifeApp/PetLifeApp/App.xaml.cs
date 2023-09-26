@@ -1,6 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using PetLifeApp.Views;
 using PetLifeApp.Views.Login;
 
 namespace PetLifeApp

@@ -5,7 +5,6 @@ C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\bin\Debug\netstandard2.0\P
 C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\PetLifeApp.csproj.AssemblyReference.cache
 C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\PetLifeApp.GeneratedMSBuildEditorConfig.editorconfig
 C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\App.xaml.g.cs
-C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\PetLifeApp.AssemblyInfoInputs.cache
 C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\PetLifeApp.AssemblyInfo.cs
 C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\PetLifeApp.csproj.CoreCompileInputs.cache
@@ -16,3 +15,7 @@ C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\P
 C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\Views\Login\PageLogin.xaml.g.cs
 C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\Views\Login\PageWelcome.xaml.g.cs
 C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\Views\Login\PageNovoCliente.xaml.g.cs
+C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\Views\FlyoutMenuPage.xaml.g.cs
+C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\Views\HomePage.xaml.g.cs
+C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\Views\PageMeusPets.xaml.g.cs
+C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\Views\PagePrincipal.xaml.g.cs

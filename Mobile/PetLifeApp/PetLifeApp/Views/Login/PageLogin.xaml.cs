@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using PetLifeApp.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -19,7 +19,8 @@ namespace PetLifeApp.Views
 
         private void btnLogin_Clicked(object sender, EventArgs e)
         {
-
+            //this.Navigation.PopAsync();
+            Navigation.PushAsync(new PagePrincipal());
         }
     }
 }
