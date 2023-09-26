@@ -1,20 +1,26 @@
 DELIMITER $$
 CREATE PROCEDURE `login`
 (
-    IN clienteId INT,
-    IN email VARCHAR(100),
-    IN senha VARCHAR(200),
-    OUT loginAutorizado BOOLEAN
+    IN _email VARCHAR(100),
+    IN _senha VARCHAR(200),
+    OUT loginAutorizado BOOLEAN,
+    OUT _clienteId INT
 )
 BEGIN
     DECLARE _emailId INT;
 
-    IF EXISTS (SELECT nome FROM cliente WHERE clienteId=clienteId) THEN
+    IF EXISTS (SELECT email FROM email WHERE email = _email) THEN
+    
+        SELECT emailId INTO _emailId FROM email WHERE email = _email;
         
-        SELECT emailId INTO _emailId FROM email WHERE clienteId = clienteId;
-
-        IF EXISTS (SELECT loginId FROM login WHERE emailId=_emailId AND senha=senha ) THEN
+        IF EXISTS (SELECT loginId FROM login WHERE emailId=_emailId AND senha=_senha ) THEN
             SET loginAutorizado = TRUE;
+            
+            SELECT clienteId 
+				INTO _clienteId
+                FROM login
+                WHERE emailId=_emailId 
+                AND senha=_senha;
         ELSE
             SET loginAutorizado = FALSE;
         END IF;   

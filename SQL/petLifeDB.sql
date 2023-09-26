@@ -21,6 +21,7 @@ CREATE TABLE IF NOT EXISTS `petlifedb`.`cliente` (
   `clienteId` INT(11) NOT NULL AUTO_INCREMENT,
   `nome` VARCHAR(50) NOT NULL,
   `dataNascimento` DATE NULL,
+  `status` TINYINT NULL,
   PRIMARY KEY (`clienteId`))
 ENGINE = InnoDB
 DEFAULT CHARACTER SET = utf8mb4;
@@ -106,8 +107,8 @@ CREATE TABLE IF NOT EXISTS `petlifedb`.`endereco` (
   `numero` INT(11) NOT NULL,
   `cep` VARCHAR(15) NOT NULL,
   PRIMARY KEY (`enderecoId`),
-  INDEX `fk_endereco_cliente1_idx` (`clienteId`),
-  INDEX `fk_endereco_cidade1_idx` (`cidadeId`),
+  INDEX `fk_endereco_cliente1_idx` (`clienteId`) ,
+  INDEX `fk_endereco_cidade1_idx` (`cidadeId`) ,
   CONSTRAINT `fk_endereco_cliente1`
     FOREIGN KEY (`clienteId`)
     REFERENCES `petlifedb`.`cliente` (`clienteId`)
@@ -136,7 +137,7 @@ CREATE TABLE IF NOT EXISTS `petlifedb`.`pet` (
   `raca` VARCHAR(30) NOT NULL,
   `observacao` VARCHAR(200) NOT NULL,
   PRIMARY KEY (`petId`),
-  INDEX `fk_pet_cliente_idx` (`clienteId`),
+  INDEX `fk_pet_cliente_idx` (`clienteId`) ,
   CONSTRAINT `fk_pet_cliente`
     FOREIGN KEY (`clienteId`)
     REFERENCES `petlifedb`.`cliente` (`clienteId`)
@@ -175,7 +176,7 @@ CREATE TABLE IF NOT EXISTS `petlifedb`.`telefone` (
   `clienteId` INT(11) NOT NULL,
   `telefone` VARCHAR(50) NOT NULL,
   PRIMARY KEY (`telefoneId`),
-  INDEX `fk_telefone_cliente1_idx` (`clienteId`),
+  INDEX `fk_telefone_cliente1_idx` (`clienteId`) ,
   CONSTRAINT `fk_telefone_cliente1`
     FOREIGN KEY (`clienteId`)
     REFERENCES `petlifedb`.`cliente` (`clienteId`)
@@ -248,7 +249,7 @@ CREATE TABLE IF NOT EXISTS `petlifedb`.`login` (
   `emailId` INT(11) NOT NULL,
   `senha` VARCHAR(200) NOT NULL,
   PRIMARY KEY (`loginId`),
-  INDEX `fk_login_cliente1_idx` (`clienteId`) ,
+  INDEX `fk_login_cliente1_idx` (`clienteId`),
   INDEX `fk_login_email1_idx` (`emailId`),
   CONSTRAINT `fk_login_cliente1`
     FOREIGN KEY (`clienteId`)
@@ -296,7 +297,7 @@ CREATE TABLE IF NOT EXISTS `petlifedb`.`pet_caminhada` (
   `pet_caminhadaId` INT NOT NULL AUTO_INCREMENT,
   `petId` INT(11) NOT NULL,
   `caminhadaId` INT NOT NULL,
-  INDEX `fk_pet_has_caminhada_caminhada1_idx` (`caminhadaId`) ,
+  INDEX `fk_pet_has_caminhada_caminhada1_idx` (`caminhadaId`),
   INDEX `fk_pet_has_caminhada_pet1_idx` (`petId`),
   PRIMARY KEY (`pet_caminhadaId`),
   CONSTRAINT `fk_pet_has_caminhada_pet1`

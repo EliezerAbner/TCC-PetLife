@@ -1,28 +1,14 @@
 DELIMITER $$
 CREATE PROCEDURE `excluir_cliente`
 (
-    IN clienteId INT
+    IN _clienteId INT
 )
 BEGIN
-    DECLARE _emailId INT;
+	SET SQL_SAFE_UPDATES = 0;
 
-    DELETE  
-        FROM telefone
-        WHERE clienteId = clienteId;
-
-    DELETE
-        FROM login
-        WHERE clienteId = clienteId;
-
-    DELETE
-        FROM email
-        WHERE clienteId = clienteId;
-
-    DELETE
-        FROM endereco
-        WHERE clienteId =  clienteId;
+   UPDATE cliente
+        SET status = 0
+        WHERE clienteId = _clienteId;
         
-    DELETE 
-        FROM cliente 
-        WHERE clienteId =  clienteId;
+	SET SQL_SAFE_UPDATES = 1;
 END;

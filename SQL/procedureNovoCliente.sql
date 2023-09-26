@@ -18,8 +18,8 @@ BEGIN
     DECLARE _cidadeId INT;
     
     INSERT 
-		INTO cliente (nome, dataNascimento) 
-        VALUES (nome, dataNascimento);
+		INTO cliente (nome, dataNascimento, status) 
+        VALUES (nome, dataNascimento, 1);
         
     SELECT MAX(clienteId) 
 		INTO _clienteId 
