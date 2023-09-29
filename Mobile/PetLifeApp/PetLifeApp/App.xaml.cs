@@ -13,6 +13,7 @@ namespace PetLifeApp
             InitializeComponent();
 
             MainPage = new NavigationPage(new PageWelcome());
+            // Abre a main page em "PageWelcome" localizada em: view > login 
         }
 
         protected override void OnStart()

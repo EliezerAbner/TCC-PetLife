@@ -7,6 +7,9 @@ using PetLifeApp.Views.Login;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
+[assembly: ExportFont("Roboto-Black.ttf", Alias = "Roboto-Black")]
+[assembly: ExportFont("baloo-chettan-regular.ttf", Alias = "baloo-chettan-regular")]
+
 namespace PetLifeApp.Views.Login
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
