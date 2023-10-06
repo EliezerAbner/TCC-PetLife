@@ -13,11 +13,11 @@ namespace PetLifeApp
 
         private void bt_Clicked(object sender, EventArgs e)
         {
-            Cliente cobaia = new Cliente()
+            Cliente teste = new Cliente()
             {
                 Nome = "Teste 01",
                 dataNascimento = DateTime.Now,
-                Email = "kagaro@bol.com",
+                Email = "teste@teste.com",
                 Rua = "Av Brasil",
                 Numero = 564,
                 Cep = "87043698",
@@ -26,9 +26,15 @@ namespace PetLifeApp
                 Telefone = "(44) 9 9874-2145"
             };
 
-            Cliente cliente = new Cliente();
-            cliente.NovoCliente(cobaia);
-            DisplayAlert("Sucesso", "Deu bom :)", "OK");
+            try
+            {
+                teste.NovoCliente();
+                DisplayAlert("Sucesso", "Deu bom :)", "OK");
+            }
+            catch (Exception ex)
+            {
+                DisplayAlert("Erro", $"{ex.Message}", "OK");
+            }
         }
     }
 }

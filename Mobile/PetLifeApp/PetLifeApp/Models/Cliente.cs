@@ -29,93 +29,65 @@ namespace PetLifeApp.Models
         public string Estado { get; set; }
         public string Telefone { get; set; }
 
-        public void NovoCliente(Cliente cliente)
+        public void NovoCliente()
         {
-            try
+            using (MySqlConnection con = new MySqlConnection(conn))
             {
-                using (MySqlConnection con = new MySqlConnection(conn))
+                string sql = "CALL novo_cliente('" + this.Nome + "', " + this.dataNascimento + ", '" + this.Email + "', '" + this.senha + "', '" + this.Rua + "', '" + this.Numero + "', '" + this.Cep + "', '" + this.Cidade + "', '" + this.Estado + "', '" + this.Telefone + "')";
+                con.Open();
+                using (MySqlCommand cmd = new MySqlCommand(sql, con))
                 {
-                    string sql = "CALL novo_cliente('"+cliente.Nome+"', "+cliente.dataNascimento+", '"+cliente.Email+"', '"+cliente.senha+"', '"+cliente.Rua+"', '"+cliente.Numero+"', '"+cliente.Cep+"', '"+cliente.Cidade+"', '"+cliente.Estado+"', '"+cliente.Telefone+"')";
-                    con.Open();
-                    using (MySqlCommand cmd = new MySqlCommand(sql, con))
-                    {
-                        cmd.ExecuteNonQuery();
-                    }
-                    con.Close();
+                    cmd.ExecuteNonQuery();
                 }
-            }
-            catch (Exception ex)
-            {
-                throw new Exception(ex.Message);
+                con.Close();
             }
         }
 
-        public void EditarCliente(Cliente cliente)
+        public void EditarCliente()
         {
-            try
+            using (MySqlConnection con = new MySqlConnection(conn))
             {
-                using (MySqlConnection con = new MySqlConnection(conn))
+                ObterId(this.Nome);
+                string sql = "CALL editar_cliente(" + id + " '" + this.Nome + "', " + this.dataNascimento + ", '" + this.Email + "', '" + this.senha + "', '" + this.Rua + "', '" + this.Numero + "', '" + this.Cep + "', '" + this.Cidade + "', '" + this.Estado + "', '" + this.Telefone + "')";
+                con.Open();
+                using (MySqlCommand cmd = new MySqlCommand(sql, con))
                 {
-                    ObterId(cliente.Nome);
-                    string sql = "CALL editar_cliente("+id+" '"+cliente.Nome+"', "+cliente.dataNascimento+", '"+cliente.Email+"', '"+cliente.senha+"', '"+cliente.Rua+"', '"+cliente.Numero+"', '"+cliente.Cep+"', '"+cliente.Cidade+"', '"+cliente.Estado+"', '"+cliente.Telefone+"')";
-                    con.Open();
-                    using (MySqlCommand cmd = new MySqlCommand(sql, con))
-                    {
-                        cmd.ExecuteNonQuery();
-                    }
-                    con.Close();
+                    cmd.ExecuteNonQuery();
                 }
-            }
-            catch (Exception ex)
-            {
-                throw new Exception(ex.Message);
+                con.Close();
             }
         }
 
         public void ExcluirCliente(int id)
         {
-            try
+            using (MySqlConnection con = new MySqlConnection(conn))
             {
-                using(MySqlConnection con = new MySqlConnection(conn))
+                string sql = "CALL excluir_cliente(" + id + ")";
+                con.Open();
+                using (MySqlCommand cmd = new MySqlCommand(sql, con))
                 {
-                    string sql = "CALL excluir_cliente("+id+")";
-                    con.Open();
-                    using (MySqlCommand cmd = new MySqlCommand(sql, con))
-                    {
-                        cmd.ExecuteNonQuery();
-                    }
-                    con.Close();
+                    cmd.ExecuteNonQuery();
                 }
-            }
-            catch (Exception ex)
-            {
-                throw new Exception(ex.Message);
+                con.Close();
             }
         }
 
         public bool FazerLogin(Cliente cliente)
         {
-            try
-            {
-                bool loginAutorizado = false;
+            bool loginAutorizado = false;
 
-                using (MySqlConnection con = new MySqlConnection(conn))
+            using (MySqlConnection con = new MySqlConnection(conn))
+            {
+                string sql = "CALL login(" + ObterId(cliente.Nome) + ", '" + cliente.Email + "', '" + cliente.senha + "')";
+                con.Open();
+                using (MySqlCommand cmd = new MySqlCommand(sql, con))
                 {
-                    string sql = "CALL login("+ObterId(cliente.Nome)+", '"+cliente.Email+"', '"+cliente.senha+"')";
-                    con.Open();
-                    using(MySqlCommand cmd = new MySqlCommand(sql, con))
-                    {
-                        loginAutorizado = Convert.ToBoolean(cmd.ExecuteScalar());
-                    }
-                    con.Close();
+                    loginAutorizado = Convert.ToBoolean(cmd.ExecuteScalar());
                 }
+                con.Close();
+            }
 
-                return loginAutorizado;
-            }
-            catch (Exception ex)
-            {
-                throw new Exception (ex.Message);
-            }
+            return loginAutorizado;
         }
 
         private static string Encode(string senha)
@@ -135,24 +107,17 @@ namespace PetLifeApp.Models
 
         private int ObterId (string nome)
         {
-            try
+            using (MySqlConnection con = new MySqlConnection(conn))
             {
-                using (MySqlConnection con = new MySqlConnection(conn))
+                string sql = "SELECT clienteId FROM cliente WHERE nome=" + nome + "";
+                con.Open();
+                using (MySqlCommand cmd = new MySqlCommand(sql, con))
                 {
-                    string sql = "SELECT clienteId FROM cliente WHERE nome=" + nome + "";
-                    con.Open();
-                    using (MySqlCommand cmd = new MySqlCommand(sql, con))
-                    {
-                        int id = (int)cmd.ExecuteScalar();
-                    }
-                    con.Close();
+                    int id = (int)cmd.ExecuteScalar();
                 }
-                return id;
+                con.Close();
             }
-            catch (Exception ex)
-            {
-                throw new Exception(ex.Message);
-            }
+            return id;
         }
     }
 }
