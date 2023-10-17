@@ -5,10 +5,11 @@ using System.Text;
 
 namespace PetLifeApp.Models
 {
-    class Cliente
+    class Cliente : Conexao
     {
         private int id;
         private string senha;
+        private string dataNascimento;
         public string Senha 
         { 
             get { return senha; } 
@@ -16,11 +17,15 @@ namespace PetLifeApp.Models
             set { senha = Encode(value); } 
         }
 
-        private static string conn = @"server=35.232.102.184;port=3306;database=petlifedb;user id=tds;password=tdssabado;charset=utf8";
+        public string DataNascimento
+        {
+            get { return dataNascimento; }
+
+            set {  dataNascimento = ConversorDatas(value);}
+        }
 
         public int Id { get; set; }
         public string Nome { get; set; }
-        public DateTime dataNascimento { get; set; }
         public string Email {  get; set; }
         public string Rua { get; set; }
         public int Numero { get; set; }
@@ -29,13 +34,36 @@ namespace PetLifeApp.Models
         public string Estado { get; set; }
         public string Telefone { get; set; }
 
-        public void NovoCliente(Cliente cliente)
+        private static string Encode(string senha)
+        {
+            using (SHA256 sha256Hash = SHA256.Create())
+            {
+                byte[] bytes = sha256Hash.ComputeHash(Encoding.UTF8.GetBytes(senha));
+
+                StringBuilder builder = new StringBuilder();
+                for (int i = 0; i < bytes.Length; i++)
+                {
+                    builder.Append(bytes[i].ToString("x2"));
+                }
+                return builder.ToString();
+            }
+        }
+
+        private string ConversorDatas(string valorAntigo)
+        {
+            DateTime dataAntiga = Convert.ToDateTime(valorAntigo);
+            string dataConvertida = dataAntiga.ToString("yyyy-MM-dd HH:mm:ss");
+
+            return dataConvertida;
+        }
+
+        public void NovoCliente()
         {
             try
             {
                 using (MySqlConnection con = new MySqlConnection(conn))
                 {
-                    string sql = "CALL novo_cliente('"+cliente.Nome+"', "+cliente.dataNascimento+", '"+cliente.Email+"', '"+cliente.senha+"', '"+cliente.Rua+"', '"+cliente.Numero+"', '"+cliente.Cep+"', '"+cliente.Cidade+"', '"+cliente.Estado+"', '"+cliente.Telefone+"')";
+                    string sql = "CALL novo_cliente('"+this.Nome+"', "+ this.dataNascimento+", '"+ this.Email+"', '"+ this.senha+"', '"+ this.Rua+"', '"+ this.Numero+"', '"+ this.Cep+"', '"+ this.Cidade+"', '"+ this.Estado+"', '"+ this.Telefone+"')";
                     con.Open();
                     using (MySqlCommand cmd = new MySqlCommand(sql, con))
                     {
@@ -50,14 +78,14 @@ namespace PetLifeApp.Models
             }
         }
 
-        public void EditarCliente(Cliente cliente)
+        public void EditarCliente()
         {
             try
             {
                 using (MySqlConnection con = new MySqlConnection(conn))
                 {
-                    ObterId(cliente.Nome);
-                    string sql = "CALL editar_cliente("+id+" '"+cliente.Nome+"', "+cliente.dataNascimento+", '"+cliente.Email+"', '"+cliente.senha+"', '"+cliente.Rua+"', '"+cliente.Numero+"', '"+cliente.Cep+"', '"+cliente.Cidade+"', '"+cliente.Estado+"', '"+cliente.Telefone+"')";
+                    ObterId(this.Nome);
+                    string sql = "CALL editar_cliente("+id+" '"+ this.Nome+"', "+ this.dataNascimento+", '"+ this.Email+"', '"+ this.senha+"', '"+ this.Rua+"', '"+ this.Numero+"', '"+ this.Cep+"', '"+ this.Cidade+"', '"+ this.Estado+"', '"+ this.Telefone+"')";
                     con.Open();
                     using (MySqlCommand cmd = new MySqlCommand(sql, con))
                     {
@@ -115,21 +143,6 @@ namespace PetLifeApp.Models
             catch (Exception ex)
             {
                 throw new Exception (ex.Message);
-            }
-        }
-
-        private static string Encode(string senha)
-        {
-            using (SHA256 sha256Hash = SHA256.Create())
-            {
-                byte[] bytes = sha256Hash.ComputeHash(Encoding.UTF8.GetBytes(senha));
-
-                StringBuilder builder = new StringBuilder();
-                for (int i = 0; i < bytes.Length; i++)
-                {
-                    builder.Append(bytes[i].ToString("x2"));
-                }
-                return builder.ToString();
             }
         }
 
