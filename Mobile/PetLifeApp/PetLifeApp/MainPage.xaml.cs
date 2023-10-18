@@ -16,7 +16,7 @@ namespace PetLifeApp
             Cliente cobaia = new Cliente()
             {
                 Nome = "Teste 01",
-                dataNascimento = DateTime.Now,
+                DataNascimento = DateTime.Now.ToString(),
                 Email = "kagaro@bol.com",
                 Rua = "Av Brasil",
                 Numero = 564,
@@ -27,7 +27,7 @@ namespace PetLifeApp
             };
 
             Cliente cliente = new Cliente();
-            cliente.NovoCliente(cobaia);
+            cliente.NovoCliente();
             DisplayAlert("Sucesso", "Deu bom :)", "OK");
         }
     }

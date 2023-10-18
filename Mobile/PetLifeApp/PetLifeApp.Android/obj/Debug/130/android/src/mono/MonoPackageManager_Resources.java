@@ -5,6 +5,7 @@ public class MonoPackageManager_Resources {
 		"PetLifeApp.Android.dll",
 		"FormsViewGroup.dll",
 		"MySqlConnector.dll",
+		"Newtonsoft.Json.dll",
 		"PetLifeApp.dll",
 		"System.Diagnostics.DiagnosticSource.dll",
 		"Xamarin.AndroidX.Activity.dll",
