@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PetLifeApp.Views.PageAlimentador">
+    <ContentPage.Content>
+        <StackLayout Margin="10" Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+            <StackLayout>
+                <Frame>
+                    <Label Text="ALIMENTADOR" Background="Transparent" TextColor="Black" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+                </Frame>
+                <Frame BorderColor="Orange" HorizontalOptions="CenterAndExpand"  CornerRadius="10" HasShadow="True">
+                    <Image Source="alimentador.png"/>                    
+                </Frame>
+                <Frame>
+                    <Label Text="Adicione sua imagem a cima"/>
+                </Frame>
+                <StackLayout>
+                    <Frame Margin="20" HorizontalOptions="Start">
+                        <ImageButton />
+                    </Frame>
+                </StackLayout>
+            </StackLayout>            
+        </StackLayout>
+       
+    </ContentPage.Content>
+</ContentPage>

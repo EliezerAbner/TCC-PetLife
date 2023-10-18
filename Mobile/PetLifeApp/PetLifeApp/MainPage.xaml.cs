@@ -1,6 +1,7 @@
 ﻿using PetLifeApp.Models;
 using System;
 using Xamarin.Forms;
+using PetLifeApp.Views;
 
 namespace PetLifeApp
 {
@@ -36,5 +37,10 @@ namespace PetLifeApp
                 DisplayAlert("Erro", $"{ex.Message}", "OK");
             }
         }
-    }
+
+		private async void Alimentador_Clicked(object sender, EventArgs e)
+		{
+            await Navigation.PushAsync(new PageAlimentador());
+		}
+	}
 }
