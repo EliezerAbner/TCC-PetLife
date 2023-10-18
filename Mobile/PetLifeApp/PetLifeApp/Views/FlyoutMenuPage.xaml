@@ -12,7 +12,7 @@
                    BackgroundColor="#00BF63">
                 <StackLayout Orientation="Horizontal">
                     <!-- Coloquei um botão aqui só pra experimentar a UI -->
-                    <Button WidthRequest="90"   
+                    <Button WidthRequest="90"
                             HeightRequest="90"
                             CornerRadius="60"
                             BackgroundColor="Black"

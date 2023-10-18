@@ -40,3 +40,24 @@ C:\Users\Aluno\source\repos\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\n
 C:\Users\Aluno\source\repos\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\PetLifeApp.dll
 C:\Users\Aluno\source\repos\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\refint\PetLifeApp.dll
 C:\Users\Aluno\source\repos\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\PetLifeApp.pdb
+C:\Users\Aluno\Desktop\TCC petlife\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\bin\Debug\netstandard2.0\PetLifeApp.deps.json
+C:\Users\Aluno\Desktop\TCC petlife\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\bin\Debug\netstandard2.0\PetLifeApp.dll
+C:\Users\Aluno\Desktop\TCC petlife\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\bin\Debug\netstandard2.0\ref\PetLifeApp.dll
+C:\Users\Aluno\Desktop\TCC petlife\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\bin\Debug\netstandard2.0\PetLifeApp.pdb
+C:\Users\Aluno\Desktop\TCC petlife\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\PetLifeApp.csproj.AssemblyReference.cache
+C:\Users\Aluno\Desktop\TCC petlife\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\PetLifeApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aluno\Desktop\TCC petlife\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Aluno\Desktop\TCC petlife\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\Views\FlyoutMenuPage.xaml.g.cs
+C:\Users\Aluno\Desktop\TCC petlife\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\Views\HomePage.xaml.g.cs
+C:\Users\Aluno\Desktop\TCC petlife\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\Views\Login\PageLogin.xaml.g.cs
+C:\Users\Aluno\Desktop\TCC petlife\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\Views\Login\PageNovoCliente.xaml.g.cs
+C:\Users\Aluno\Desktop\TCC petlife\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\Views\Login\PageWelcome.xaml.g.cs
+C:\Users\Aluno\Desktop\TCC petlife\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\Views\PageMeusPets.xaml.g.cs
+C:\Users\Aluno\Desktop\TCC petlife\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\Views\PagePrincipal.xaml.g.cs
+C:\Users\Aluno\Desktop\TCC petlife\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\PetLifeApp.AssemblyInfoInputs.cache
+C:\Users\Aluno\Desktop\TCC petlife\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\PetLifeApp.AssemblyInfo.cs
+C:\Users\Aluno\Desktop\TCC petlife\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\PetLifeApp.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\Desktop\TCC petlife\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Aluno\Desktop\TCC petlife\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\PetLifeApp.dll
+C:\Users\Aluno\Desktop\TCC petlife\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\refint\PetLifeApp.dll
+C:\Users\Aluno\Desktop\TCC petlife\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\PetLifeApp.pdb
