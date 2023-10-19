@@ -22,5 +22,6 @@ namespace PetLifeApp.Views
             //this.Navigation.PopAsync();
             Navigation.PushAsync(new PagePrincipal());
         }
+
     }
 }

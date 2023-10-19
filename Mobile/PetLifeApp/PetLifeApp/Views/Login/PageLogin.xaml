@@ -4,14 +4,16 @@
              xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
              x:Class="PetLifeApp.Views.PageLogin"
              BackgroundColor="White"
-             NavigationPage.HasNavigationBar="False"
-             Xamarin.Forms.PancakeView>
+             NavigationPage.HasNavigationBar="False">
+
 
     <ContentPage.Content>
         <yummy:PancakeView BackgroundColor="Transparent" CornerRadius="20">
+            
             <yummy:PancakeView.Shadow>
                 <yummy:DropShadow Color="#000" Offset="2,2" BlurRadius="4"/>
             </yummy:PancakeView.Shadow>
+            
             <StackLayout VerticalOptions="CenterAndExpand">
                 <Image Source="petLifeLogo"
                            WidthRequest="30"
