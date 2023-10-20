@@ -25,11 +25,11 @@ androidgeneratejnimarshalmethods=false
 os=windows_nt
 androidincludedebugsymbols=true
 androidpackagenamingpolicy=lowercasecrc64
-_nugetassetstimestamp=638331678899651569
+_nugetassetstimestamp=638333403723421924
 typemapkind=strings-asm
 androidsupportedabis=arm64-v8a
 armeabi-v7a
 x86
 x86_64
 androidmanifestplaceholders=
-projectfullpath=c:\users\aluno\source\repos\eliezerabner\tcc-petlife\mobile\petlifeapp\petlifeapp.android\petlifeapp.android.csproj
+projectfullpath=c:\users\aluno\source\repos\tcc-petlife\mobile\petlifeapp\petlifeapp.android\petlifeapp.android.csproj

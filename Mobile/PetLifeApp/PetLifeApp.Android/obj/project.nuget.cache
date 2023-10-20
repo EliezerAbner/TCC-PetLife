@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XjFM07FZ+KoPpC4C5tXjDgD3qJtEBjXEGsEiP8zCCfBWD18CqRCdwnDdcmja6/WMpzkZa5drJ3zd6P1i595uMA==",
+  "dgSpecHash": "Ejd1xKvy20UhTJrqwxlaK0ovaounqOxCEcVUBRzHiREhzDvfrHLY2AFQUUW/IDu9ebK/203beDlW5eIg3ke6vQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Aluno\\source\\repos\\EliezerAbner\\TCC-PetLife\\Mobile\\PetLifeApp\\PetLifeApp.Android\\PetLifeApp.Android.csproj",
+  "projectFilePath": "C:\\Users\\Aluno\\source\\repos\\TCC-PetLife\\Mobile\\PetLifeApp\\PetLifeApp.Android\\PetLifeApp.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Aluno\\.nuget\\packages\\mysqlconnector\\2.2.7\\mysqlconnector.2.2.7.nupkg.sha512",
     "C:\\Users\\Aluno\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
