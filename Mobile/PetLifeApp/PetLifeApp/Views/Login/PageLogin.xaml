@@ -30,10 +30,10 @@
 
                 <Button x:Name="btnLogin"
                             Clicked="btnLogin_Clicked"
-                            Text="Fazer Login"
+                            Text="Próximo"
                             FontSize="18"
                             TextColor="#242424"
-                            CornerRadius="40"
+                            CornerRadius="10"
                             BackgroundColor="#00BF63"
                             Margin="20,0,20,0"/>
             </StackLayout>

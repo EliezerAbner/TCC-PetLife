@@ -16,5 +16,9 @@ namespace PetLifeApp.Views.Login
 		{
 			InitializeComponent ();
 		}
+		private void btnSenha_Clicked(object sender, EventArgs e)
+		{
+			
+		}
 	}
 }
