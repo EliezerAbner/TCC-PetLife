@@ -5,3 +5,5 @@
 /Mobile/PetLifeApp/.vs/PetLifeApp
 /Mobile/PetLifeApp/PetLifeApp/obj/Debug/netstandard2.0
 /Mobile/PetLifeApp/PetLifeApp.Android/obj
+
+dbConn.json
