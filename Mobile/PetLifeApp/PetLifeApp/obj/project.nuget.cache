@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "nvU6/xMfkrBYaQvmJeymm1x3BjjPXOqaFJXARZfOkI90/f5vd9AvkOX7YK0/NjQ8XXoIJKfQykb7KgMSAl1FLQ==",
+  "dgSpecHash": "U0dP775eGOoyY4DlWOBl6UuW0UzAaDlv6jdNqAmBclD0P05IYnA38VGXNa3Uv+uY2ZR9R8+N9yGLMLWI2d4QJQ==",
   "success": true,
   "projectFilePath": "C:\\Programas\\TCC-PetLife\\Mobile\\PetLifeApp\\PetLifeApp\\PetLifeApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\eliez\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\eliez\\.nuget\\packages\\mysqlconnector\\2.2.7\\mysqlconnector.2.2.7.nupkg.sha512",
     "C:\\Users\\eliez\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\eliez\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\eliez\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\eliez\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\eliez\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
@@ -16,5 +17,12 @@
     "C:\\Users\\eliez\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
     "C:\\Users\\eliez\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Programas\\TCC-PetLife\\Mobile\\PetLifeApp\\PetLifeApp\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
