@@ -9,7 +9,7 @@ namespace PetLifeApp.Models
 {
     class Conexao
     {
-        protected static string conn;
+        public string Conn { get; set; }
 
         public Conexao() 
         {
@@ -23,7 +23,7 @@ namespace PetLifeApp.Models
 
             var resultado = jsonObject["conn"]?.ToString();
 
-            conn = resultado;
+            Conn = resultado;
         }
 
         private string ReadJson()
