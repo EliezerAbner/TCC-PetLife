@@ -1,0 +1,9 @@
+﻿################################################################################
+# Este arquivo .gitignore foi criado automaticamente pelo Microsoft(R) Visual Studio.
+################################################################################
+
+/Mobile/PetLifeApp/.vs/PetLifeApp
+/Mobile/PetLifeApp/PetLifeApp/obj/Debug/netstandard2.0
+/Mobile/PetLifeApp/PetLifeApp.Android/obj
+
+dbConn.json
