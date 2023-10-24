@@ -32,12 +32,12 @@ namespace PetLifeApp.Services
             return clienteId;
         }
 
-        public void NovoCliente(Cliente cliente, Endereco endereco)
+        public void NovoCliente(Cliente cliente, Endereco endereco, Login login)
         {
 
             using (MySqlConnection con = new MySqlConnection(conn))
             {
-                string sql = "CALL novo_cliente('" + cliente.Nome + "', " + cliente.DataNascimento + ", '" + cliente.Email + "', '" + cliente.Senha + "', '" + endereco.Rua + "', '" + endereco.Numero + "', '" + endereco.Cep + "', '" + endereco.Cidade + "', '" + endereco.Estado + "', '" + cliente.Telefone + "')";
+                string sql = "CALL novo_cliente('" + cliente.Nome + "', " + cliente.DataNascimento + ", '" + login.Email + "', '" + login.Senha + "', '" + endereco.Rua + "', '" + endereco.Numero + "', '" + endereco.Cep + "', '" + endereco.Cidade + "', '" + endereco.Estado + "', '" + cliente.Telefone + "')";
                 con.Open();
                 using (MySqlCommand cmd = new MySqlCommand(sql, con))
                 {
@@ -47,11 +47,11 @@ namespace PetLifeApp.Services
             }
         }
 
-        public void EditarCliente(Cliente cliente, Endereco endereco)
+        public void EditarCliente(Cliente cliente, Endereco endereco, Login login)
         {
             using (MySqlConnection con = new MySqlConnection(conn))
             {
-                string sql = "CALL editar_cliente(" + ObterId(cliente.Nome) + " '" + cliente.Nome + "', " + cliente.DataNascimento + ", '" + cliente.Email + "', '" + cliente.Senha + "', '" + endereco.Rua + "', '" + endereco.Numero + "', '" + endereco.Cep + "', '" + endereco.Cidade + "', '" + endereco.Estado + "', '" + cliente.Telefone + "')";
+                string sql = "CALL editar_cliente(" + ObterId(cliente.Nome) + " '" + cliente.Nome + "', " + cliente.DataNascimento + ", '" + login.Email + "', '" + login.Senha + "', '" + endereco.Rua + "', '" + endereco.Numero + "', '" + endereco.Cep + "', '" + endereco.Cidade + "', '" + endereco.Estado + "', '" + cliente.Telefone + "')";
                 con.Open();
                 using (MySqlCommand cmd = new MySqlCommand(sql, con))
                 {
