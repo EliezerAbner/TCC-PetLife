@@ -100,6 +100,12 @@
     <AndroidResource Include="Resources\drawable\alimentador.png" />
   </ItemGroup>
   <ItemGroup>
+    <AndroidResource Include="Resources\drawable\pote_racao1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\pote_agua1.png" />
+  </ItemGroup>
+  <ItemGroup>
     <AndroidResource Include="Resources\drawable\pote_racao.png" />
   </ItemGroup>
   <ItemGroup>

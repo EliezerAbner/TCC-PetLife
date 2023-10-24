@@ -27,7 +27,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="Views\PageAlimentador.xaml">
+    <EmbeddedResource Update="Views\Alimentador\PageAlimentador.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
