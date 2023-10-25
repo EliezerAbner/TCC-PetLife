@@ -16651,17 +16651,23 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 0x7F07008B
 			public const int notify_panel_notification_icon_bg = 2131165323;
 			
-			// aapt resource value: 0x7F07008C
-			public const int preference_list_divider_material = 2131165324;
-			
 			// aapt resource value: 0x7F07008D
-			public const int test_custom_background = 2131165325;
+			public const int petFood_img = 2131165325;
+			
+			// aapt resource value: 0x7F07008C
+			public const int pet_img = 2131165324;
 			
 			// aapt resource value: 0x7F07008E
-			public const int tooltip_frame_dark = 2131165326;
+			public const int preference_list_divider_material = 2131165326;
 			
 			// aapt resource value: 0x7F07008F
-			public const int tooltip_frame_light = 2131165327;
+			public const int test_custom_background = 2131165327;
+			
+			// aapt resource value: 0x7F070090
+			public const int tooltip_frame_dark = 2131165328;
+			
+			// aapt resource value: 0x7F070091
+			public const int tooltip_frame_light = 2131165329;
 			
 			static Drawable()
 			{

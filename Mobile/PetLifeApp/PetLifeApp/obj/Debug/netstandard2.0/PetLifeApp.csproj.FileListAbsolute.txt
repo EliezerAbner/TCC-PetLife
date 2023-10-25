@@ -16,3 +16,4 @@ C:\Users\Aluno\source\repos\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\bin\Debug\n
 C:\Users\Aluno\source\repos\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\bin\Debug\netstandard2.0\ref\PetLifeApp.dll
 C:\Users\Aluno\source\repos\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\bin\Debug\netstandard2.0\PetLifeApp.pdb
 C:\Users\Aluno\source\repos\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Aluno\source\repos\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\Views\Pets\PageMeusPets.xaml.g.cs

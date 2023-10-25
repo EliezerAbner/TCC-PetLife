@@ -642,3 +642,5 @@ C:\Users\Aluno\source\repos\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj
 C:\Users\Aluno\source\repos\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\stamp\_GenerateJavaStubs.stamp
 C:\Users\Aluno\source\repos\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Aluno\source\repos\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\Aluno\source\repos\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\res\drawable\pet_img.png
+C:\Users\Aluno\source\repos\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\res\drawable\petfood_img.png

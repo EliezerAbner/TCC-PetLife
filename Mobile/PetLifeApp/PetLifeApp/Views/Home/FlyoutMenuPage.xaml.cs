@@ -12,6 +12,8 @@ namespace PetLifeApp.Views.Home
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class FlyoutMenuPage : ContentPage
     {
+        private int teste = 0;
+
         public FlyoutMenuPage()
         {
             InitializeComponent();

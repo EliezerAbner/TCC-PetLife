@@ -10,8 +10,8 @@
     </FlyoutPage.Flyout>
 
     <FlyoutPage.Detail>
-        <NavigationPage>
-            <x:Arguments Title="Teste">
+        <NavigationPage Title="Teste">
+            <x:Arguments>
                 <local:PageHome/>
             </x:Arguments>
         </NavigationPage>

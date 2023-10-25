@@ -91,13 +91,16 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Resources\drawable\" />
+    <AndroidResource Include="Resources\drawable\petFood_img.png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\PetLifeApp\PetLifeApp.csproj">
       <Project>{9949322B-05BD-4C14-BA21-4064FA00803D}</Project>
       <Name>PetLifeApp</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\pet_img.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

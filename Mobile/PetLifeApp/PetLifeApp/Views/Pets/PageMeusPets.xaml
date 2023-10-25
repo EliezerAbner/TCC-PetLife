@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PetLifeApp.Views.Pets.PageMeusPets"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="White">
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout VerticalOptions="Start"
+                         Orientation="Horizontal"
+                         BackgroundColor="#00BF63"
+                         HeightRequest="60">
+                
+                <Label Text="Meus Pets"/>
+
+            </StackLayout>
+
+            <StackLayout Margin="20,50">
+                <StackLayout Orientation="Horizontal">
+
+                    <Label Text="Meus Pets"
+                           TextColor="Black"
+                           FontSize="25"
+                           VerticalTextAlignment="Center"/>
+
+                    <Button x:Name="btnAddPet"
+                            Clicked="btnAddPet_Clicked"
+                            HeightRequest="50"
+                            WidthRequest="50"
+                            BackgroundColor="#00BF63"
+                            HorizontalOptions="EndAndExpand"/>
+                    
+                    <!--INSIRA O CARROSEL AQ-->
+
+                    
+
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

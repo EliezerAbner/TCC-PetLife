@@ -3662,24 +3662,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\eliez\\.nuget\\packages\\": {},
+    "C:\\Users\\Aluno\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Programas\\TCC-PetLife\\Mobile\\PetLifeApp\\PetLifeApp.Android\\PetLifeApp.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Aluno\\source\\repos\\TCC-PetLife\\Mobile\\PetLifeApp\\PetLifeApp.Android\\PetLifeApp.Android.csproj",
       "projectName": "PetLifeApp.Android",
-      "projectPath": "C:\\Programas\\TCC-PetLife\\Mobile\\PetLifeApp\\PetLifeApp.Android\\PetLifeApp.Android.csproj",
-      "packagesPath": "C:\\Users\\eliez\\.nuget\\packages\\",
-      "outputPath": "C:\\Programas\\TCC-PetLife\\Mobile\\PetLifeApp\\PetLifeApp.Android\\obj\\",
+      "projectPath": "C:\\Users\\Aluno\\source\\repos\\TCC-PetLife\\Mobile\\PetLifeApp\\PetLifeApp.Android\\PetLifeApp.Android.csproj",
+      "packagesPath": "C:\\Users\\Aluno\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Aluno\\source\\repos\\TCC-PetLife\\Mobile\\PetLifeApp\\PetLifeApp.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\eliez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Aluno\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3693,8 +3693,8 @@
       "frameworks": {
         "monoandroid13.0": {
           "projectReferences": {
-            "C:\\Programas\\TCC-PetLife\\Mobile\\PetLifeApp\\PetLifeApp\\PetLifeApp.csproj": {
-              "projectPath": "C:\\Programas\\TCC-PetLife\\Mobile\\PetLifeApp\\PetLifeApp\\PetLifeApp.csproj"
+            "C:\\Users\\Aluno\\source\\repos\\TCC-PetLife\\Mobile\\PetLifeApp\\PetLifeApp\\PetLifeApp.csproj": {
+              "projectPath": "C:\\Users\\Aluno\\source\\repos\\TCC-PetLife\\Mobile\\PetLifeApp\\PetLifeApp\\PetLifeApp.csproj"
             }
           }
         }

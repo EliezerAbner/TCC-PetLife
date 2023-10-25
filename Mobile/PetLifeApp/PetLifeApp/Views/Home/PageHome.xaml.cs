@@ -16,5 +16,16 @@ namespace PetLifeApp.Views.Home
         {
             InitializeComponent();
         }
+
+        private void btnVerMaisPet_Clicked(object sender, EventArgs e)
+        {
+            //Pet by Vector Place
+            //Pet-Food by Andinur Studio
+        }
+
+        private void btnVerMaisAlimentador_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }
