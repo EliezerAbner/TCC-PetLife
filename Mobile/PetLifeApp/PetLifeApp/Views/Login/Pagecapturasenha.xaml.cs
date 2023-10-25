@@ -18,7 +18,7 @@ namespace PetLifeApp.Views.Login
 		}
 		private void btnSenha_Clicked(object sender, EventArgs e)
 		{
-			
+			Navigation.PushAsync(new HomePage());
 		}
 	}
 }

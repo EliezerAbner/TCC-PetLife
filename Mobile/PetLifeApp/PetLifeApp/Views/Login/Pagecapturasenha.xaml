@@ -19,17 +19,21 @@
                            HeightRequest="300"
                            Margin="0,50,0,0"/>
 
+                <Label Text="Insira aqui a senha do seu aplicativo"
+                           HorizontalTextAlignment="Center"
+                           Margin="20,0,20,0"/>
+
                 <Entry x:Name="txtEmail"
-                           Placeholder="Email"
+                           Placeholder="senha do aplicativo"
                            PlaceholderColor="#242424"
                            HorizontalTextAlignment="Center"
                            TextColor="#242424"                          
-                           Keyboard="Email"
+                           Keyboard="Default"
                            Margin="20,0,20,0"/>
 
                 <Button x:Name="btnSenha"
                             Clicked="btnSenha_Clicked"
-                            Text="Inserir senha"
+                            Text="Próximo"
                             FontSize="18"
                             TextColor="#242424"
                             CornerRadius="40"

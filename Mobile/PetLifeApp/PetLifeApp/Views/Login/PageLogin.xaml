@@ -15,13 +15,18 @@
             </yummy:PancakeView.Shadow>
             
             <StackLayout VerticalOptions="CenterAndExpand">
+                
                 <Image Source="petLifeLogo"
                            WidthRequest="30"
                            HeightRequest="300"
                            Margin="0,50,0,0"/>
+                
+                <Label Text="Insira aqui o email do seu aplicativo"
+                           HorizontalTextAlignment="Center"
+                           Margin="20,0,20,0"/>
 
                 <Entry x:Name="txtEmail"
-                           Placeholder="Email"
+                           Placeholder="Email do aplicativo"
                            PlaceholderColor="#242424"
                            HorizontalTextAlignment="Center"
                            TextColor="#242424"                          
@@ -36,6 +41,38 @@
                             CornerRadius="10"
                             BackgroundColor="#00BF63"
                             Margin="20,0,20,0"/>
+                                        
+                <Label Text="Insira aqui a senha do seu aplicativo"
+                           HorizontalTextAlignment="Center"
+                           Margin="20,0,20,0"/>
+
+                <Entry x:Name="txtSenha"
+                           Placeholder="Senha do aplicativo"
+                           PlaceholderColor="#242424"
+                           HorizontalTextAlignment="Center"
+                           TextColor="#242424"                          
+                           Keyboard="Email"
+                           Margin="20,0,20,0"/>
+
+                <Button x:Name="btnSenha"
+                            Clicked="btnSenha_Clicked"
+                            Text="Próximo"
+                            FontSize="18"
+                            TextColor="#242424"
+                            CornerRadius="10"
+                            BackgroundColor="#00BF63"
+                            Margin="20,0,20,0"/>
+
+
+                <Button x:Name="btnLogin"
+                            Clicked="btnLogin_Clicked"
+                            Text="Próximo"
+                            FontSize="18"
+                            TextColor="#242424"
+                            CornerRadius="10"
+                            BackgroundColor="#00BF63"
+                            Margin="20,0,20,0"/>
+
             </StackLayout>
         </yummy:PancakeView>
     </ContentPage.Content>
