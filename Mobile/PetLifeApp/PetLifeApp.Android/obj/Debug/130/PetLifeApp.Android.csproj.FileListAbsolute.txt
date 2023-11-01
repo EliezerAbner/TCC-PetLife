@@ -1353,8 +1353,6 @@ C:\Users\Aluno\Source\Repos\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj
 C:\Users\Aluno\Source\Repos\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\res\mipmap-xxxhdpi\icon.png
 C:\Users\Aluno\Source\Repos\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\res\mipmap-xxxhdpi\launcher_foreground.png
 C:\Users\Aluno\Source\Repos\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\res\drawable\alimentador.png
-C:\Users\Aluno\Source\Repos\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\res\drawable\pote_racao1.png
-C:\Users\Aluno\Source\Repos\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\res\drawable\pote_agua1.png
 C:\Users\Aluno\Source\Repos\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\res\drawable\pote_racao.png
 C:\Users\Aluno\Source\Repos\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\res\drawable\pote_agua.png
 C:\Users\Aluno\Source\Repos\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\uploadflags.txt
@@ -1937,3 +1935,7 @@ C:\Users\Aluno\Source\Repos\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj
 C:\Users\Aluno\Source\Repos\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\stamp\_GenerateJavaStubs.stamp
 C:\Users\Aluno\Source\Repos\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Aluno\Source\Repos\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\Aluno\Source\Repos\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\res\drawable\pote_agua1.jpeg
+C:\Users\Aluno\Source\Repos\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\res\drawable\pote_racao1.jpeg
+C:\Users\Aluno\Source\Repos\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\res\drawable\meu_pet.png
+C:\Users\Aluno\Source\Repos\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\res\drawable\coleira.png

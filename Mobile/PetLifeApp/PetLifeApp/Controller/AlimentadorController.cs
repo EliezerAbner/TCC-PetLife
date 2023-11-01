@@ -20,7 +20,7 @@ namespace PetLifeApp.Controller
         {
             using (MySqlConnection con = new MySqlConnection(conn))
             {
-                string sql = $"INSERT INTO alimentador (clienteId, identificador, status) VALUES ({al.ClienteId}, '{al.Identificador}', 1)";
+                string sql = $"INSERT INTO alimentador (clienteId, identificador, nomeAlimentador, status) VALUES ({al.ClienteId}, '{al.Identificador}', 1)";
 
                 con.Open();
                 using (MySqlCommand cmd = new MySqlCommand(sql, con))

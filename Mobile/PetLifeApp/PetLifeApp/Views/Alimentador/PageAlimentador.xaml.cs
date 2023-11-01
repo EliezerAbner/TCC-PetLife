@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PetLifeApp.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +16,10 @@ namespace PetLifeApp.Views
 		public PageAlimentador()
 		{
 			InitializeComponent();
+			List<Alimentador> mylist = new List<Alimentador>()
+			{
+				new Alimentador{Identificador=""}
+			};
 		}
 	}
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WvavFVp5ojMNwWO0XmBJ84td0TvshxQpqN1e09JGXq8HyYzRpdEUXy4b29EdCsuzw2bdVcGE1CyWzEPgmRo71g==",
+  "dgSpecHash": "NX0JkanOcXsyeM5m6ZSOtFfcTomv+BQjSXGFRyUHUVTCVRbM99z3QhuLfr3fgL3+G3X3x70proqB/geuUV+pdA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Aluno\\source\\repos\\TCC-PetLife\\Mobile\\PetLifeApp\\PetLifeApp\\PetLifeApp.csproj",
+  "projectFilePath": "C:\\Users\\Aluno\\Source\\Repos\\TCC-PetLife\\Mobile\\PetLifeApp\\PetLifeApp\\PetLifeApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Aluno\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Aluno\\.nuget\\packages\\mysqlconnector\\2.2.7\\mysqlconnector.2.2.7.nupkg.sha512",
