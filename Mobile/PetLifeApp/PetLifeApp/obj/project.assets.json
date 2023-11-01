@@ -1111,11 +1111,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aluno\\Desktop\\TCC\\TCC-PetLife\\Mobile\\PetLifeApp\\PetLifeApp\\PetLifeApp.csproj",
+      "projectUniqueName": "C:\\Users\\Aluno\\Source\\Repos\\TCC-PetLife\\Mobile\\PetLifeApp\\PetLifeApp\\PetLifeApp.csproj",
       "projectName": "PetLifeApp",
-      "projectPath": "C:\\Users\\Aluno\\Desktop\\TCC\\TCC-PetLife\\Mobile\\PetLifeApp\\PetLifeApp\\PetLifeApp.csproj",
+      "projectPath": "C:\\Users\\Aluno\\Source\\Repos\\TCC-PetLife\\Mobile\\PetLifeApp\\PetLifeApp\\PetLifeApp.csproj",
       "packagesPath": "C:\\Users\\Aluno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Aluno\\Desktop\\TCC\\TCC-PetLife\\Mobile\\PetLifeApp\\PetLifeApp\\obj\\",
+      "outputPath": "C:\\Users\\Aluno\\Source\\Repos\\TCC-PetLife\\Mobile\\PetLifeApp\\PetLifeApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

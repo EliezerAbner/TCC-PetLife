@@ -8,72 +8,81 @@
 
 
     <ContentPage.Content>
-        <yummy:PancakeView BackgroundColor="Transparent" CornerRadius="20">
-            
-            <yummy:PancakeView.Shadow>
-                <yummy:DropShadow Color="#000" Offset="2,2" BlurRadius="4"/>
-            </yummy:PancakeView.Shadow>
-            
-            <StackLayout VerticalOptions="CenterAndExpand">
-                
-                <Image Source="petLifeLogo"
-                           WidthRequest="30"
-                           HeightRequest="300"
-                           Margin="0,50,0,0"/>
-                
-                <Label Text="Insira aqui o email do seu aplicativo"
-                           HorizontalTextAlignment="Center"
-                           Margin="20,0,20,0"/>
+        <StackLayout>
+            <StackLayout x:Name="slEmail"
+                         VerticalOptions="CenterAndExpand"
+                         HorizontalOptions="CenterAndExpand">
 
-                <Entry x:Name="txtEmail"
-                           Placeholder="Email do aplicativo"
-                           PlaceholderColor="#242424"
-                           HorizontalTextAlignment="Center"
-                           TextColor="#242424"                          
-                           Keyboard="Email"
-                           Margin="20,0,20,0"/>
+                <Frame WidthRequest="250"
+                       HeightRequest="350"
+                       CornerRadius="20">
+                    
+                    <StackLayout>
+                        <Image Source="Petlife_logo"/>
 
-                <Button x:Name="btnLogin"
-                            Clicked="btnLogin_Clicked"
-                            Text="Próximo"
-                            FontSize="18"
-                            TextColor="#242424"
-                            CornerRadius="10"
-                            BackgroundColor="#00BF63"
-                            Margin="20,0,20,0"/>
-                                        
-                <Label Text="Insira aqui a senha do seu aplicativo"
-                           HorizontalTextAlignment="Center"
-                           Margin="20,0,20,0"/>
+                        <Label Text="Insira seu email"
+                               TextColor="Black"/>
+                        
+                        <Entry x:Name="txtEmail"
+                               TextColor="Black"
+                               Keyboard="Email"/>
 
-                <Entry x:Name="txtSenha"
-                           Placeholder="Senha do aplicativo"
-                           PlaceholderColor="#242424"
-                           HorizontalTextAlignment="Center"
-                           TextColor="#242424"                          
-                           Keyboard="Email"
-                           Margin="20,0,20,0"/>
+                        <StackLayout Orientation="Horizontal"
+                                     HorizontalOptions="FillAndExpand"
+                                     VerticalOptions="EndAndExpand"
+                                     Margin="0,20">
 
-                <Button x:Name="btnSenha"
-                            Clicked="btnSenha_Clicked"
-                            Text="Próximo"
-                            FontSize="18"
-                            TextColor="#242424"
-                            CornerRadius="10"
-                            BackgroundColor="#00BF63"
-                            Margin="20,0,20,0"/>
+                            <Button x:Name="btnCriarConta"
+                                    Clicked="btnCriarConta_Clicked"
+                                    Text="Criar Conta"
+                                    TextColor="Blue"
+                                    Margin="0,0,20,0"
+                                    BackgroundColor="Transparent"/>
 
-
-                <Button x:Name="btnLogin"
-                            Clicked="btnLogin_Clicked"
-                            Text="Próximo"
-                            FontSize="18"
-                            TextColor="#242424"
-                            CornerRadius="10"
-                            BackgroundColor="#00BF63"
-                            Margin="20,0,20,0"/>
+                            <Button x:Name="btnProximo"
+                                    Clicked="btnProximo_Clicked"
+                                    Text="Avançar"
+                                    TextColor="Black"
+                                    CornerRadius="30"
+                                    BackgroundColor="#00BF63"/>
+                            
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
 
             </StackLayout>
-        </yummy:PancakeView>
+
+            <StackLayout x:Name="slSenha"
+                         VerticalOptions="CenterAndExpand"
+                         HorizontalOptions="CenterAndExpand">
+
+                <Frame WidthRequest="250"
+                       HeightRequest="350"
+                       CornerRadius="20">
+
+                    <StackLayout>
+                        <Image Source="Petlife_logo"/>
+
+                        <Label Text="Insira sua Senha"
+                               TextColor="Black"/>
+
+                        <Entry x:Name="txtSenha"
+                               TextColor="Black"
+                               IsPassword="True"/>
+
+                        <Button x:Name="btnLogin"
+                                Clicked="btnLogin_Clicked"
+                                Margin="0,20"
+                                VerticalOptions="EndAndExpand"
+                                HorizontalOptions="CenterAndExpand"
+                                Text="Fazer Login"
+                                TextColor="Black"
+                                CornerRadius="30"
+                                BackgroundColor="#00BF63"/>
+                    </StackLayout>
+                </Frame>
+
+            </StackLayout>
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>

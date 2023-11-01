@@ -3795,11 +3795,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aluno\\Desktop\\TCC\\TCC-PetLife\\Mobile\\PetLifeApp\\PetLifeApp.Android\\PetLifeApp.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Aluno\\Source\\Repos\\TCC-PetLife\\Mobile\\PetLifeApp\\PetLifeApp.Android\\PetLifeApp.Android.csproj",
       "projectName": "PetLifeApp.Android",
-      "projectPath": "C:\\Users\\Aluno\\Desktop\\TCC\\TCC-PetLife\\Mobile\\PetLifeApp\\PetLifeApp.Android\\PetLifeApp.Android.csproj",
+      "projectPath": "C:\\Users\\Aluno\\Source\\Repos\\TCC-PetLife\\Mobile\\PetLifeApp\\PetLifeApp.Android\\PetLifeApp.Android.csproj",
       "packagesPath": "C:\\Users\\Aluno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Aluno\\Desktop\\TCC\\TCC-PetLife\\Mobile\\PetLifeApp\\PetLifeApp.Android\\obj\\",
+      "outputPath": "C:\\Users\\Aluno\\Source\\Repos\\TCC-PetLife\\Mobile\\PetLifeApp\\PetLifeApp.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -3820,8 +3820,8 @@
       "frameworks": {
         "monoandroid13.0": {
           "projectReferences": {
-            "C:\\Users\\Aluno\\Desktop\\TCC\\TCC-PetLife\\Mobile\\PetLifeApp\\PetLifeApp\\PetLifeApp.csproj": {
-              "projectPath": "C:\\Users\\Aluno\\Desktop\\TCC\\TCC-PetLife\\Mobile\\PetLifeApp\\PetLifeApp\\PetLifeApp.csproj"
+            "C:\\Users\\Aluno\\Source\\Repos\\TCC-PetLife\\Mobile\\PetLifeApp\\PetLifeApp\\PetLifeApp.csproj": {
+              "projectPath": "C:\\Users\\Aluno\\Source\\Repos\\TCC-PetLife\\Mobile\\PetLifeApp\\PetLifeApp\\PetLifeApp.csproj"
             }
           }
         }
@@ -3834,6 +3834,14 @@
             "target": "Package",
             "version": "[2.2.7, )"
           },
+          "MySqlConnector": {
+            "target": "Package",
+            "version": "[2.2.7, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.3, )"
+          },
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[13.0.3, )"
@@ -3842,9 +3850,21 @@
             "target": "Package",
             "version": "[1.7.0, )"
           },
+          "Xamarin.Essentials": {
+            "target": "Package",
+            "version": "[1.7.0, )"
+          },
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[5.0.0.2196, )"
+          },
+          "Xamarin.Forms": {
+            "target": "Package",
+            "version": "[5.0.0.2196, )"
+          },
+          "Xamarin.Forms.PancakeView": {
+            "target": "Package",
+            "version": "[2.3.0.759, )"
           },
           "Xamarin.Forms.PancakeView": {
             "target": "Package",

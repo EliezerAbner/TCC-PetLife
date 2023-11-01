@@ -5,7 +5,7 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using PetLifeApp.Controller;
-using PetLifeApp.Views;
+using PetLifeApp.Views.Home;
 using PetLifeApp.Views.Login;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -16,47 +16,76 @@ namespace PetLifeApp.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class PageLogin : ContentPage
     {
+		private LoginCliente login;
+		private LoginController fazerLogin;
+		private int emailId;
+
         public PageLogin()
         {
             InitializeComponent();
-        }
+            slEmail.IsVisible = true;
+            slSenha.IsVisible = false;
+
+			fazerLogin = new LoginController();
+			login = new LoginCliente();
+			txtEmail.Focus();
+		}
 
 		private void btnLogin_Clicked(object sender, EventArgs e)
 		{
-			
-		}
-
-		private void btnSenha_Clicked(object sender, EventArgs e)
-		{
-			string emailInserido = txtEmail.Text; // Recebe de txt email inserido
-			LoginController loginController = new LoginController(); // Crie uma instância do seu controlador
-
-			// criando instancia da classe login para capturar email
-			Login login = new Login()
+			if (txtSenha.Text != "")
 			{
-				Email = emailInserido
+				login.Senha = txtSenha.Text;
 
-			};
+				int clienteId = fazerLogin.VerificarSenha(login);
 
-			// Chame o método VerificarEmail
-			int emailId = loginController.VerificarEmail(login);
-
-			if (emailId != 0)
-			{
-				if (emailId == login)
+				if(clienteId != 0)
 				{
-					// O email está registrado no banco de dados
-					// Agora você pode prosseguir para a próxima etapa, que é verificar a senha ou navegar para a próxima página
+					MessagingCenter.Send<PageLogin, string>(this, "clienteId", $"{clienteId}");
+
+					var pagAnterior = Navigation.NavigationStack.LastOrDefault();
+					Navigation.PushAsync(new FlyoutHome());
+					Navigation.RemovePage( pagAnterior );
 				}
 			}
-			else
+		}
+
+		private void btnProximo_Clicked(object sender, EventArgs e)
+		{
+			try
 			{
-				// O email não está registrado no banco de dados
-				// Você pode mostrar uma mensagem de erro ao usuário
-				DisplayAlert("Erro", "O email não está registrado", "OK");
+				if (txtEmail.Text.Contains("@")) 
+				{
+					login.Email = txtEmail.Text;
+
+					//emailId = fazerLogin.VerificarEmail(login);
+
+					if (true) //emailId != 0
+					{
+						slEmail.IsVisible = false;
+						slSenha.IsVisible = true;
+						txtSenha.Focus();
+					}
+					else
+					{
+						DisplayAlert("Login", "Erro ao logar. Verifique seu email e tente novamente", "OK");
+						txtEmail.Text = string.Empty;
+					}
+				}
+				else
+				{
+					DisplayAlert("Login", "Erro ao logar. Verifique seu email e tente novamente", "OK");
+				}
+			}
+			catch (Exception ex)
+			{
+				DisplayAlert("Erro", $"Infelizmente não estamos conseguindo te logar no momento. Tente novamente em instantes. Erro: {ex.Message}", "OK");
 			}
 		}
 
-	}
+		private void btnCriarConta_Clicked(object sender, EventArgs e)
+		{
+			Navigation.PushAsync(new PageNovoCliente());
+		}
 	}
 }

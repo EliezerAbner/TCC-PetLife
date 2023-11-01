@@ -32,7 +32,7 @@ namespace PetLifeApp.Services
             return clienteId;
         }
 
-        public void NovoCliente(Cliente cliente, Endereco endereco, Login login)
+        public void NovoCliente(Cliente cliente, Endereco endereco, LoginCliente login)
         {
 
             using (MySqlConnection con = new MySqlConnection(conn))
@@ -47,7 +47,7 @@ namespace PetLifeApp.Services
             }
         }
 
-        public void EditarCliente(Cliente cliente, Endereco endereco, Login login)
+        public void EditarCliente(Cliente cliente, Endereco endereco, LoginCliente login)
         {
             using (MySqlConnection con = new MySqlConnection(conn))
             {

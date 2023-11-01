@@ -17,7 +17,7 @@ namespace PetLifeApp.Controller
             conn = conexao.Conn;
         }
 
-        public int VerificarEmail(Login login)
+        public int VerificarEmail(LoginCliente login)
         {
             string sql = $"SELECT emailId FROM email WHERE email='{login.Email}'";
             int emailId;
@@ -35,7 +35,7 @@ namespace PetLifeApp.Controller
             return emailId;
         }
 
-        public int VerificarSenha(Login login)
+        public int VerificarSenha(LoginCliente login)
         {
             string sql = $"SELECT clienteId FROM login WHERE emailId={login.EmailId} AND senha={login.Senha}";
             int clienteId;

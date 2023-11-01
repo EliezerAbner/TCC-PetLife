@@ -42,3 +42,10 @@ C:\Users\Aluno\Desktop\TCC\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\ne
 C:\Users\Aluno\Desktop\TCC\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\PetLifeApp.dll
 C:\Users\Aluno\Desktop\TCC\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\refint\PetLifeApp.dll
 C:\Users\Aluno\Desktop\TCC\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\PetLifeApp.pdb
+C:\Users\Aluno\Source\Repos\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\Views\FlyoutMenuPage.xaml.g.cs
+C:\Users\Aluno\Source\Repos\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\Views\HomePage.xaml.g.cs
+C:\Users\Aluno\Source\Repos\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\Views\Login\PageLogin.xaml.g.cs
+C:\Users\Aluno\Source\Repos\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\Views\Login\PageNovoCliente.xaml.g.cs
+C:\Users\Aluno\Source\Repos\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\Views\Login\PageWelcome.xaml.g.cs
+C:\Users\Aluno\Source\Repos\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\Views\PageMeusPets.xaml.g.cs
+C:\Users\Aluno\Source\Repos\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\Views\PagePrincipal.xaml.g.cs
