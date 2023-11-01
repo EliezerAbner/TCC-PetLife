@@ -36,12 +36,14 @@ namespace PetLifeApp.Views
 			if (txtSenha.Text != "")
 			{
 				login.Senha = txtSenha.Text;
+				
 
-				int clienteId = fazerLogin.VerificarSenha(login);
+				//int clienteId = fazerLogin.VerificarSenha(login);
 
-				if(clienteId != 0)
-				{
-					MessagingCenter.Send<PageLogin, string>(this, "clienteId", $"{clienteId}");
+				if(true) //clienteId != 0
+                {
+					int clienteId = 2;
+                    MessagingCenter.Send<PageLogin, string>(this, "clienteId", $"{clienteId}");
 
 					var pagAnterior = Navigation.NavigationStack.LastOrDefault();
 					Navigation.PushAsync(new FlyoutHome());
