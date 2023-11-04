@@ -12,6 +12,7 @@
                FontSize="25"/>
 
         <Button Text="Testar Conexão"
+                Clicked="bt_Clicked"
                 CornerRadius="30"
                 x:Name="bt"/>
 

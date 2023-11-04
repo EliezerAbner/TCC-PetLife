@@ -12,7 +12,11 @@
                          BackgroundColor="#00BF63"
                          HeightRequest="60">
                 
-                <Label Text="Meus Pets"/>
+                <Label Text="Meus Pets"
+                       VerticalTextAlignment="Center"
+                       FontSize="25"
+                       Margin="30,0"
+                       TextColor="White"/>
 
             </StackLayout>
 

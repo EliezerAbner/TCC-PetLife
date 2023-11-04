@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:PetLifeApp.Views.Home"
              x:Class="PetLifeApp.Views.Home.FlyoutHome"
-             Title="Home">
+             Title="Home"
+            NavigationPage.HasNavigationBar="False">
     
     <FlyoutPage.Flyout>
         <local:FlyoutMenuPage x:Name="flyout"/>
