@@ -27,7 +27,7 @@ namespace PetLifeApp.Controller
                 con.Open();
                 using (MySqlCommand cmd = new MySqlCommand(sql, con))
                 {
-                    emailId = (int)cmd.ExecuteScalar();
+                    emailId = Convert.ToInt32(cmd.ExecuteScalar());
                 }
                 con.Close();
             }
@@ -37,7 +37,7 @@ namespace PetLifeApp.Controller
 
         public int VerificarSenha(LoginCliente login)
         {
-            string sql = $"SELECT clienteId FROM login WHERE emailId={login.EmailId} AND senha={login.Senha}";
+            string sql = $"SELECT clienteId FROM login WHERE emailId={login.EmailId} AND senha='{login.Senha}'";
             int clienteId;
 
             using (MySqlConnection con = new MySqlConnection(conn))
@@ -45,7 +45,7 @@ namespace PetLifeApp.Controller
                 con.Open();
                 using (MySqlCommand cmd = new MySqlCommand(sql, con))
                 {
-                    clienteId = (int)cmd.ExecuteScalar();
+                    clienteId = Convert.ToInt32(cmd.ExecuteScalar());
                 }
                 con.Close();
             }

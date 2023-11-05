@@ -23,7 +23,7 @@ namespace PetLifeApp.Views.Login
         {
             Cliente cliente = new Cliente()
             {
-                DataNascimento = DateTime.Now.ToString(),
+                DataNascimento = dpDataNascimento.Date.ToString(),
                 Nome = txtNome.Text,
                 Telefone = txtTelefone.Text
             };
@@ -34,7 +34,7 @@ namespace PetLifeApp.Views.Login
                 Numero = txtNumero.Text,
                 Cep = txtCep.Text,
                 Cidade = txtCidade.Text,
-                Estado = txtEstado.Text
+                Estado = pickerEstado.SelectedItem.ToString()
             };
 
             LoginCliente login = new LoginCliente()
@@ -43,13 +43,44 @@ namespace PetLifeApp.Views.Login
                 Senha = txtSenha.Text
             };
 
-            ClienteController cadastrar = new ClienteController();
-            cadastrar.NovoCliente(cliente, endereco, login);
+            try
+            {
+                ClienteController cadastrar = new ClienteController();
+                cadastrar.NovoCliente(cliente, endereco, login);
+
+                Navigation.PopAsync();
+            }
+            catch (Exception)
+            {
+                DisplayAlert("Erro", "Infelizmente estamos com dificuldades no momento, tente novamente mais tarde", "OK");
+            }
         }
 
         private void btnLogin_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new PageLogin());
+        }
+
+        private void btnContinuar_Clicked(object sender, EventArgs e)
+        {
+            Button teste = sender as Button;
+
+            switch (teste.Text)
+            {
+                case "Continuar":
+
+                    sl01.IsVisible = false;
+                    sl02.IsVisible = true;
+
+                    ClienteController carregarEstado = new ClienteController();
+                    pickerEstado.ItemsSource = carregarEstado.BuscaEstados();
+                    break;
+
+                case "Cadastrar Endereço":
+                    sl02.IsVisible = false;
+                    sl03.IsVisible = true;
+                    break;
+            }
         }
     }
 }

@@ -37,7 +37,7 @@ namespace PetLifeApp.Services
 
             using (MySqlConnection con = new MySqlConnection(conn))
             {
-                string sql = "CALL novo_cliente('" + cliente.Nome + "', " + cliente.DataNascimento + ", '" + login.Email + "', '" + login.Senha + "', '" + endereco.Rua + "', '" + endereco.Numero + "', '" + endereco.Cep + "', '" + endereco.Cidade + "', '" + endereco.Estado + "', '" + cliente.Telefone + "')";
+                string sql = "CALL novo_cliente('" + cliente.Nome + "', '" + cliente.DataNascimento + "', '" + login.Email + "', '" + login.Senha + "', '" + endereco.Rua + "', '" + endereco.Numero + "', '" + endereco.Cep + "', '" + endereco.Cidade + "', '" + endereco.Estado + "', '" + cliente.Telefone + "')";
                 con.Open();
                 using (MySqlCommand cmd = new MySqlCommand(sql, con))
                 {
@@ -73,6 +73,29 @@ namespace PetLifeApp.Services
                 }
                 con.Close();
             }
+        }
+
+        public List<String> BuscaEstados()
+        {
+            List<String> list = new List<String>();
+            string sql = "SELECT * FROM estado";
+
+            using (MySqlConnection con = new MySqlConnection(conn))
+            {
+                con.Open();
+                using (MySqlCommand cmd = new MySqlCommand(sql, con))
+                {
+                    using (MySqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            list.Add(reader.GetString(0));
+                        }
+                    }
+                }
+                con.Close();
+            }
+            return list;
         }
     }
 }

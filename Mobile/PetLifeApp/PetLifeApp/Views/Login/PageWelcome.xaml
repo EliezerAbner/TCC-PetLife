@@ -8,7 +8,6 @@
     <ContentPage.Content>
         <RelativeLayout>
             <Image Source="fundo_caoverde"
-                   
                    Aspect="AspectFill"
                    RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width}"
                    RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height}"/>

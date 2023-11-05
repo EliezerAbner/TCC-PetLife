@@ -18,7 +18,6 @@ namespace PetLifeApp.Views
     {
 		private LoginCliente login;
 		private LoginController fazerLogin;
-		private int emailId;
 
         public PageLogin()
         {
@@ -38,11 +37,10 @@ namespace PetLifeApp.Views
 				login.Senha = txtSenha.Text;
 				
 
-				//int clienteId = fazerLogin.VerificarSenha(login);
+				int clienteId = fazerLogin.VerificarSenha(login);
 
-				if(true) //clienteId != 0
+				if(clienteId != 0)
                 {
-					int clienteId = 2;
                     MessagingCenter.Send<PageLogin, string>(this, "clienteId", $"{clienteId}");
 
 					var pagAnterior = Navigation.NavigationStack.LastOrDefault();
@@ -60,10 +58,11 @@ namespace PetLifeApp.Views
 				{
 					login.Email = txtEmail.Text;
 
-					//emailId = fazerLogin.VerificarEmail(login);
+					int emailId = fazerLogin.VerificarEmail(login);
 
-					if (true) //emailId != 0
+					if (emailId != 0)
 					{
+						login.EmailId= emailId;
 						slEmail.IsVisible = false;
 						slSenha.IsVisible = true;
 						txtSenha.Focus();

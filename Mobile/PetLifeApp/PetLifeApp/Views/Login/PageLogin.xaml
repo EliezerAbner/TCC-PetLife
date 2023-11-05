@@ -35,14 +35,14 @@
                             <Button x:Name="btnCriarConta"
                                     Clicked="btnCriarConta_Clicked"
                                     Text="Criar Conta"
-                                    TextColor="Blue"
+                                    TextColor="#00BF63"
                                     Margin="0,0,20,0"
                                     BackgroundColor="Transparent"/>
 
                             <Button x:Name="btnProximo"
                                     Clicked="btnProximo_Clicked"
                                     Text="Avançar"
-                                    TextColor="Black"
+                                    TextColor="White"
                                     CornerRadius="30"
                                     BackgroundColor="#00BF63"/>
                             
