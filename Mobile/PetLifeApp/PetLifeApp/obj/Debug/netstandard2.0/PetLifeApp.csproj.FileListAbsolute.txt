@@ -1,0 +1,9 @@
+C:\Users\Aluno\Source\Repos\EliezerAbner\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\PetLifeApp.csproj.AssemblyReference.cache
+C:\Users\Aluno\Source\Repos\EliezerAbner\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\PetLifeApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aluno\Source\Repos\EliezerAbner\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Aluno\Source\Repos\EliezerAbner\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Aluno\Source\Repos\EliezerAbner\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\Views\Rastreador\App.xaml.g.cs
+C:\Users\Aluno\Source\Repos\EliezerAbner\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\Views\Rastreador\Constants\MainPage.xaml.g.cs
+C:\Users\Aluno\Source\Repos\EliezerAbner\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\PetLifeApp.AssemblyInfoInputs.cache
+C:\Users\Aluno\Source\Repos\EliezerAbner\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\PetLifeApp.AssemblyInfo.cs
+C:\Users\Aluno\Source\Repos\EliezerAbner\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\PetLifeApp.csproj.CoreCompileInputs.cache
