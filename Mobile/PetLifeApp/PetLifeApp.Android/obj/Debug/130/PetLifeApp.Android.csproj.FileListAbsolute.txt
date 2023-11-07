@@ -1290,3 +1290,4 @@ C:\Programas\Xamarin\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\
 C:\Programas\Xamarin\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\stamp\_GenerateJavaStubs.stamp
 C:\Programas\Xamarin\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\stamp\_GeneratePackageManagerJava.stamp
 C:\Programas\Xamarin\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\stamp\_ResolveLibraryProjectImports.stamp
+C:\Programas\Xamarin\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\res\drawable\pet_test.jpg

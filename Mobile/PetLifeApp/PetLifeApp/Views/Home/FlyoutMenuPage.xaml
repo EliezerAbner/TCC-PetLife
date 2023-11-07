@@ -35,8 +35,7 @@
                 <x:Array Type="{x:Type local:FlyoutItemPage}">
                     <local:FlyoutItemPage Title="Home" IconSource="home.png" TargetPage="{x:Type home:FlyoutHome}"/>
                     <local:FlyoutItemPage Title="Meus Pets" IconSource="home.png" TargetPage="{x:Type pet:PageMeusPets}"/>
-                    <local:FlyoutItemPage Title="Rastreadores" IconSource="home.png" TargetPage="{x:Type teste:MainPage}"/>
-                    
+
                 </x:Array>
             </ListView.ItemsSource>
             <ListView.ItemTemplate>
