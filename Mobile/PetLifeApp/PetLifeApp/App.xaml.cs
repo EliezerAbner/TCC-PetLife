@@ -1,6 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using PetLifeApp.Views.Compra;
 
 namespace PetLifeApp
 {
@@ -10,7 +11,7 @@ namespace PetLifeApp
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new MainPage());
+            MainPage = new NavigationPage(new PageAnuncio());
         }
 
         protected override void OnStart()

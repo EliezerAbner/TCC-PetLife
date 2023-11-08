@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PetLifeApp.Views.Compra.PageAnuncio">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame CornerRadius="20" BackgroundColor="Transparent" HorizontalOptions="CenterAndExpand">
+                <Label Text=" O melhor para o seu companheiro de quatro patas. Compre nossos produtos agora mesmo!" TextColor="Black" FontAttributes="Bold" FontSize="Large"/>
+            </Frame>
+            <Image Source="teste_anuncio.png"/>
+            <Button Text="Comprar" BackgroundColor="Green" CornerRadius="15" x:Name="Comprar" Clicked="Comprar_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -21,7 +21,6 @@ C:\Users\Aluno\source\repos\EliezerAbner\TCC-PetLife\Mobile\PetLifeApp\PetLifeAp
 C:\Users\Aluno\source\repos\EliezerAbner\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\PetLifeApp.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Aluno\source\repos\EliezerAbner\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\Aluno\source\repos\EliezerAbner\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
-C:\Users\Aluno\source\repos\EliezerAbner\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\Views\PageAlimentador.xaml.g.cs
 C:\Users\Aluno\source\repos\EliezerAbner\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\PetLifeApp.AssemblyInfoInputs.cache
 C:\Users\Aluno\source\repos\EliezerAbner\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\PetLifeApp.AssemblyInfo.cs
 C:\Users\Aluno\source\repos\EliezerAbner\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\PetLifeApp.csproj.CoreCompileInputs.cache
@@ -45,3 +44,7 @@ C:\Users\Aluno\Source\Repos\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\n
 C:\Users\Aluno\Source\Repos\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\PetLifeApp.dll
 C:\Users\Aluno\Source\Repos\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\refint\PetLifeApp.dll
 C:\Users\Aluno\Source\Repos\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\PetLifeApp.pdb
+C:\Users\Aluno\Source\Repos\EliezerAbner\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\Views\Alimentador\PageAlimentador.xaml.g.cs
+C:\Users\Aluno\Source\Repos\EliezerAbner\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\Views\Compra\PageComprar.xaml.g.cs
+C:\Users\Aluno\Source\Repos\EliezerAbner\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\Views\Compra\PageAnuncio.xaml.g.cs
+C:\Users\Aluno\Source\Repos\EliezerAbner\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\Views\Compra\PageFormulario.xaml.g.cs

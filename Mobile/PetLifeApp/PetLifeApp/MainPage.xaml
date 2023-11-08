@@ -19,7 +19,7 @@
                IsVisible="True"
                TextColor="Black"
                FontSize="25"/>
-        <Button Text="Alimentador" BackgroundColor="Orange" CornerRadius="15" x:Name="Alimentador" Clicked="Alimentador_Clicked"/>
+        <Button Text="Alimentador" BackgroundColor="Orange" CornerRadius="15" x:Name="Alimentador" Clicked="Alimentador_Clicked"/>        
     </StackLayout>
 
 </ContentPage>
