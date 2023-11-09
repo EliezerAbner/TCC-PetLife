@@ -50,9 +50,9 @@ namespace PetLifeApp.Views.Login
 
                 Navigation.PopAsync();
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                DisplayAlert("Erro", "Infelizmente estamos com dificuldades no momento, tente novamente mais tarde", "OK");
+                DisplayAlert("Erro", $"Infelizmente estamos com dificuldades no momento, tente novamente mais tarde. Erro: {ex.Message}", "OK");
             }
         }
 
@@ -69,17 +69,102 @@ namespace PetLifeApp.Views.Login
             {
                 case "Continuar":
 
-                    sl01.IsVisible = false;
-                    sl02.IsVisible = true;
+                    if (VerificaCamposVazios("etapa1"))
+                    {
+                        ClienteController carneFresca = new ClienteController();
+                        string resultado = carneFresca.Validacao(txtEmail.Text, txtTelefone.Text);
 
-                    ClienteController carregarEstado = new ClienteController();
-                    pickerEstado.ItemsSource = carregarEstado.BuscaEstados();
+                        if (resultado != "ok")
+                        {
+                            CorrecaoValidacao(resultado);
+                            break;
+                        }
+
+                        sl01.IsVisible = false;
+                        sl02.IsVisible = true;
+
+                        pickerEstado.ItemsSource = carneFresca.BuscaEstados();
+                    }
+                    else
+                    {
+                        DisplayAlert("Erro", "Preencha os campos vazios!", "OK");
+                    }
                     break;
 
                 case "Cadastrar Endereço":
-                    sl02.IsVisible = false;
-                    sl03.IsVisible = true;
+
+                    if (VerificaCamposVazios("etapa2"))
+                    {
+                        sl02.IsVisible = false;
+                        sl03.IsVisible = true;
+                    }
+                    else
+                    {
+                        DisplayAlert("Erro", "Preencha os campos vazios!", "OK");
+                    }
                     break;
+            }
+        }
+
+        private void CorrecaoValidacao(string resultado)
+        {
+            switch (resultado)
+            {
+                case "email":
+                    txtEmail.TextColor = Color.FromHex("#F0555E");
+                    lblEmail.IsVisible = true;
+                    break;
+
+                case "telefone":
+                    txtTelefone.TextColor = Color.FromHex("#F0555E");
+                    lblTelefone.IsVisible = true;
+                    break;
+            }
+        }
+
+        private bool VerificaCamposVazios(string etapa)
+        {
+
+            switch (etapa)
+            {
+                case "etapa1":
+                    if(txtNome.Text == null || txtEmail.Text == null || txtTelefone.Text == null || dpDataNascimento.Date == DateTime.Today)
+                    {
+                        return false;
+                    }
+
+                    if((DateTime.Today.Year - dpDataNascimento.Date.Year) < 18)
+                    {
+                        DisplayAlert("Erro", "Agradecemos pelo seu entusiasmo, no entanto, apenas maiores de 18 anos podem abrir uma conta PetLife.", "OK");
+                        btnContinuar.IsEnabled = true;
+
+                        return false;
+                    }
+                    break;
+
+                case "etapa2":
+                    if(txtCep.Text == null || txtRua.Text == null || txtNumero.Text == null || txtCidade.Text == null || pickerEstado.SelectedItem == null)
+                    {
+                        return false;
+                    }
+                    break;
+            }
+            return true;
+        }
+
+        private void txtSenhaConfirmacao_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            if (txtSenha.Text != txtSenhaConfirmacao.Text)
+            {
+                txtSenhaConfirmacao.TextColor = Color.FromHex("#F0555E");
+                lblSenha.IsVisible = true;
+                btnCadastrar.IsEnabled = false;
+            }
+            else
+            {
+                txtSenhaConfirmacao.TextColor = Color.Black;
+                lblSenha.IsVisible = false;
+                btnCadastrar.IsEnabled = true;
             }
         }
     }

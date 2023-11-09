@@ -35,26 +35,39 @@
                                            Border="{yummy:BorderMarkup Color=#242424, Thickness='1'}"
                                            Margin="0,0,0,10">
 
-                            <Entry x:Name="txtEmail"
+                            <StackLayout>
+                                <Entry x:Name="txtEmail"
                                    Placeholder="Email"
                                    Keyboard="Email"
                                    ReturnType="Next"
                                    PlaceholderColor="#242424"
                                    TextColor="#242424"
                                    Margin="3"/>
+                            </StackLayout>
                         </yummy:PancakeView>
+                        <Label x:Name="lblEmail" 
+                                   IsVisible="False"
+                                   Text="** Este email já foi cadastrado"
+                                   TextColor="#F0555E"/>
 
                         <yummy:PancakeView BackgroundColor="Transparent"
                                    CornerRadius="10"
                                    Margin="0,0,0,10"
                                    Border="{yummy:BorderMarkup Color=#242424, Thickness='1'}">
 
-                            <Entry x:Name="txtTelefone"
+                            <StackLayout>
+                                <Entry x:Name="txtTelefone"
                                     Placeholder="Telefone"
+                                    Keyboard="Telephone"
                                     PlaceholderColor="#242424"
                                     TextColor="#242424"
                                     Margin="3"/>
+                            </StackLayout>
                         </yummy:PancakeView>
+                        <Label x:Name="lblTelefone" 
+                                   IsVisible="False"
+                                   Text="** Este telefone já foi cadastrado"
+                                   TextColor="#F0555E"/>
 
                         <yummy:PancakeView BackgroundColor="Transparent"
                                            Border="{yummy:BorderMarkup Color=#242424, Thickness='1'}"
@@ -103,7 +116,7 @@
                             <Entry x:Name="txtCep"
                                    Placeholder="CEP"
                                    PlaceholderColor="#242424"
-                                   Keyboard="Default"
+                                   Keyboard="Numeric"
                                    ReturnType="Next"
                                    TextColor="#242424"
                                    Margin="3"/>
@@ -202,6 +215,7 @@
 
                             <Entry x:Name="txtSenhaConfirmacao"
                                    IsPassword="True"
+                                   TextChanged="txtSenhaConfirmacao_TextChanged"
                                    Keyboard="Default"
                                    ReturnType="Next"
                                    Placeholder="Confirme sua Senha"
@@ -209,6 +223,10 @@
                                    TextColor="#242424"
                                    Margin="3"/>
                         </yummy:PancakeView>
+                        <Label x:Name="lblSenha" 
+                                   IsVisible="False"
+                                   Text="** As senhas não batem"
+                                   TextColor="#F0555E"/>
 
                         <Button x:Name="btnCadastrar"
                                 Clicked="btnCadastrar_Clicked"
