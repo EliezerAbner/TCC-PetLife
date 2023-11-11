@@ -68,9 +68,17 @@
                                FontSize="13"
                                TextColor="Black"/>
                     </StackLayout>
-
                 </StackLayout>
             </Frame>
+
+            <StackLayout VerticalOptions="EndAndExpand" 
+                         Margin="0,50"
+                         Orientation="Horizontal"
+                         HorizontalOptions="Center">
+                <Button Text="Teste" CornerRadius="40"/>
+                <Button Text="Teste" CornerRadius="40"/>
+                <Button Text="Teste" CornerRadius="40"/>
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
