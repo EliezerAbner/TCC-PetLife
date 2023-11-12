@@ -18,8 +18,8 @@ namespace PetLifeApp.Controller
 
         public void NovoPet(Pet pet)
         {
-            string sql = $"INSERT INTO pet (status, clienteId,nome,rg,dataNascimento,peso,porte,raca,observacao) " +
-                         $"VALUES (1, {pet.ClienteId}, '{pet.Nome}', '{pet.Rg}', '{pet.DataNascimento}', '{pet.Peso}', '{pet.Porte}', '{pet.Raca}', '{pet.Observacao}')";
+            string sql = "INSERT INTO pet (status, clienteId,nome,especie,dataNascimento,peso,porte,raca,observacao) " +
+                         $"VALUES (1, {pet.ClienteId}, '{pet.Nome}', '{pet.Especie}', '{pet.DataNascimento}', '{pet.Peso}', '{pet.Porte}', '{pet.Raca}', '{pet.Observacao}')";
 
             using (MySqlConnection con = new MySqlConnection(conn))
             {
@@ -35,7 +35,8 @@ namespace PetLifeApp.Controller
         public void EditarPet(Pet pet)
         {
             string sql = $"UPDATE pet " +
-                         $"SET cliente={pet.ClienteId}, nome='{pet.Nome}', rg='{pet.Rg}', dataNascimento='{pet.DataNascimento}', peso={pet.Peso}, porte={pet.Porte}, raca='{pet.Raca}', observacao='{pet.Observacao}'";
+                         $"SET clienteId={pet.ClienteId}, nome='{pet.Nome}', especie='{pet.Especie}', dataNascimento='{pet.DataNascimento}', peso={pet.Peso}, porte='{pet.Porte}', raca='{pet.Raca}', observacao='{pet.Observacao}'" +
+                         $"WHERE petId={pet.PetId}";
 
             using (MySqlConnection con = new MySqlConnection(conn))
             {
@@ -75,21 +76,26 @@ namespace PetLifeApp.Controller
                 {
                     using (MySqlDataReader reader = cmd.ExecuteReader())
                     {
-                        Pet listaPet = new Pet();
-
                         while (reader.Read())
                         {
-                            listaPet.PetId = (int)reader.GetInt32(0);
-                            listaPet.ClienteId = (int)reader.GetInt32(1);
-                            listaPet.Nome = Convert.ToString(reader.GetString(2));
-                            listaPet.Rg = Convert.ToString(reader.GetString(3));
-                            listaPet.DataNascimento = Convert.ToString(reader.GetDateTime(4));
-                            listaPet.Peso = Convert.ToDecimal(reader.GetFloat(5));
-                            listaPet.Porte = Convert.ToString(reader.GetString(6));
-                            listaPet.Raca = Convert.ToString(reader.GetString(7));
-                            listaPet.Observacao = Convert.ToString(reader.GetString(8));
-                        }
-                        lista.Add(listaPet);
+                            Pet listaPet = new Pet()
+                            {
+                                PetId = reader.GetInt32(0),
+                                ClienteId = reader.GetInt32(1),
+                                Especie = reader.GetString(3),
+                                Nome = reader.GetString(4),
+                                DataNascimento = Convert.ToString(reader.GetDateTime(5)),
+                                Peso = Convert.ToDecimal(reader.GetFloat(6)),
+                                Porte = reader.GetString(7),
+                                Raca = reader.GetString(8),
+                                Observacao = reader.GetString(9),
+                            };
+
+                            if(listaPet.PetId != 0)
+                            {
+                                lista.Add(listaPet);
+                            }
+                        }  
                     }
                 }
                 con.Close();

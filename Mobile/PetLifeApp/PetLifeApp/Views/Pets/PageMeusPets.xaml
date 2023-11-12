@@ -10,75 +10,85 @@
             <StackLayout VerticalOptions="Start"
                          Orientation="Horizontal"
                          BackgroundColor="#00BF63"
-                         HeightRequest="80">
+                         HeightRequest="80"
+                         Margin="0,0,0,30">
 
                 <Label Text="Meus Pets"
                        VerticalTextAlignment="Center"
                        FontSize="25"
                        Margin="30,0"
                        TextColor="White"/>
-            </StackLayout>
-
-            <StackLayout Orientation="Horizontal"
-                         Margin="0,50">
-
-                <Label Text="Meus Pets"
-                           TextColor="Black"
-                           FontSize="25"
-                           VerticalTextAlignment="Center"/>
 
                 <Button x:Name="btnAddPet"
                         Text="+"
                         FontSize="35"
                         Clicked="btnAddPet_Clicked"
                         HeightRequest="50"
-                        WidthRequest="50"
+                        WidthRequest="80"
                         BackgroundColor="#00BF63"
                         HorizontalOptions="EndAndExpand"/>
             </StackLayout>
 
-            <Frame CornerRadius="10"
-                   VerticalOptions="CenterAndExpand"
-                   HeightRequest="200"
-                   BackgroundColor="#D8E3F2"
-                   Margin="5,5">
-                <StackLayout Orientation="Horizontal">
-                    <Image Source="pet_test"
-                           HeightRequest="150"/>
+            <ListView x:Name="lvPets" 
+                      IsVisible="True" 
+                      HasUnevenRows="True"
+                      ItemSelected="lvPets_ItemSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Frame BackgroundColor="Azure"
+                                   CornerRadius="20"
+                                   Margin="10,10">
+                                <Grid>
+                                    <StackLayout Orientation="Horizontal">
+                                        <Image Source="{Binding Especie}"
+                                               HeightRequest="100"/>
 
-                    <StackLayout Margin="5,0">
-                        <Label x:Name="lblNomePet"
-                           Text="Nome do Pet"
-                           TextColor="Black"
-                           FontSize="23"/>
+                                        <StackLayout Margin="20,0">
+                                            <Label Text="{Binding Nome}"
+                                                   FontSize="23"
+                                                   TextColor="Black"/>
 
-                        <Label x:Name="lblObservacao"
-                               Text="Contrary to popular belief, Lorem Ipsum is not simply random text."
-                               FontSize="15"
-                               TextColor="Black"/>
+                                            <Label Text="{Binding Observacao}"
+                                                   TextColor="Black"/>
 
-                        <Label x:Name="lblDataNascimento"
-                               Text="25/04/2019"
-                               Margin="0,15,0,0"
-                               FontSize="13"
-                               TextColor="Black"/>
+                                            <StackLayout Orientation="Horizontal" Margin="0,10,0,0" HorizontalOptions="StartAndExpand">
+                                                <Label Text="{Binding Especie}"
+                                                       TextColor="Black"/>
 
-                        <Label x:Name="lblRaca"
-                               Text="Axalote"
-                               FontSize="13"
-                               TextColor="Black"/>
-                    </StackLayout>
-                </StackLayout>
-            </Frame>
+                                                <Label Text="{Binding Raca}"
+                                                       TextColor="Black"/>
+                                            </StackLayout>
+                                        </StackLayout>
+                                    </StackLayout>
+                                </Grid>
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+                
+            </ListView>
+            
+            <StackLayout x:Name="slAddPet" 
+                         IsVisible="False"
+                         VerticalOptions="CenterAndExpand"
+                         HorizontalOptions="CenterAndExpand">
 
-            <StackLayout VerticalOptions="EndAndExpand" 
-                         Margin="0,50"
-                         Orientation="Horizontal"
-                         HorizontalOptions="Center">
-                <Button Text="Teste" CornerRadius="40"/>
-                <Button Text="Teste" CornerRadius="40"/>
-                <Button Text="Teste" CornerRadius="40"/>
+                <Image Source="paw"/>
+
+                <Label Text="Adicione seus pets aqui"
+                       FontSize="30"
+                       TextColor="Black"/>
+
+                <Button x:Name="btnAddPet2"
+                        Text="Adicionar Pet"
+                        Clicked="btnAddPet_Clicked"
+                        TextColor="#00BF63"
+                        FontSize="20"
+                        BackgroundColor="Transparent"/>
+
             </StackLayout>
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

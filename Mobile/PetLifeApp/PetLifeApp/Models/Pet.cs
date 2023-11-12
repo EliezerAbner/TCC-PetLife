@@ -5,7 +5,7 @@ using System.Text;
 
 namespace PetLifeApp.Models
 {
-    class Pet
+    public class Pet
     {
         private string dataNascimento;
         public string DataNascimento
@@ -16,7 +16,7 @@ namespace PetLifeApp.Models
         public int PetId { get; set; }
         public int ClienteId { get; set; }
         public string Nome { get; set; }
-        public string Rg { get; set; }
+        public string Especie { get; set; }
         public decimal Peso { get; set; }
         public string Porte { get; set; }
         public string Raca { get; set; }
