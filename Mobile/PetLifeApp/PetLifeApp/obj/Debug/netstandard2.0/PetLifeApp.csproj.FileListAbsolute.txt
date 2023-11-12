@@ -56,3 +56,7 @@ C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\P
 C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\refint\PetLifeApp.dll
 C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\PetLifeApp.pdb
 C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\Views\Pets\PageAddNovoPet.xaml.g.cs
+C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\Views\Alimentadores\PageAddAlimentador.xaml.g.cs
+C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\Views\Alimentadores\PageAlimentadores.xaml.g.cs
+C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\Views\Compra\PageCompra.xaml.g.cs
+C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\Views\Alimentadores\PageAlimentadorInfo.xaml.g.cs

@@ -20,7 +20,7 @@ namespace PetLifeApp.Views.Home {
         private global::Xamarin.Forms.Button btnVerMaisPet;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Xamarin.Forms.Label lblNomeCachorro;
+        private global::Xamarin.Forms.CarouselView cvPet;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.Button btnVerMaisAlimentador;
@@ -32,7 +32,7 @@ namespace PetLifeApp.Views.Home {
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(PageHome));
             btnVerMaisPet = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "btnVerMaisPet");
-            lblNomeCachorro = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "lblNomeCachorro");
+            cvPet = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.CarouselView>(this, "cvPet");
             btnVerMaisAlimentador = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "btnVerMaisAlimentador");
             lblAlimentador = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "lblAlimentador");
         }

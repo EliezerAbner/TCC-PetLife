@@ -20,7 +20,22 @@ namespace PetLifeApp.Controller
         {
             using (MySqlConnection con = new MySqlConnection(conn))
             {
-                string sql = $"INSERT INTO alimentador (clienteId, identificador, status) VALUES ({al.ClienteId}, '{al.Identificador}', 1)";
+                string sql = $"INSERT INTO alimentador (nomeAlimentador, clienteId, identificador, status) VALUES ('{al.NomeAlimentador}', {al.ClienteId}, '{al.Identificador}', 1)";
+
+                con.Open();
+                using (MySqlCommand cmd = new MySqlCommand(sql, con))
+                {
+                    cmd.ExecuteNonQuery();
+                }
+                con.Close();
+            }
+        }
+
+        public void EditarAlimentador(Alimentador al)
+        {
+            using (MySqlConnection con = new MySqlConnection(conn))
+            {
+                string sql = $"UPDATE alimentador SET nomeAlimentador='{al.NomeAlimentador}', clienteId={al.ClienteId}, identificador='{al.Identificador}' WHERE alimentadorId={al.AlimentadorId}";
 
                 con.Open();
                 using (MySqlCommand cmd = new MySqlCommand(sql, con))
@@ -51,7 +66,7 @@ namespace PetLifeApp.Controller
             string sql = $"SELECT * FROM alimentador WHERE clienteId={clienteId}";
             List<Alimentador> lista = new List<Alimentador>();
 
-            using (MySqlConnection con = new MySqlConnection())
+            using (MySqlConnection con = new MySqlConnection(conn))
             {
                 con.Open();
                 using (MySqlCommand cmd = new MySqlCommand(sql, con))
@@ -63,8 +78,9 @@ namespace PetLifeApp.Controller
                         while (reader.Read())
                         {
                             al.AlimentadorId = reader.GetInt32(0);
-                            al.ClienteId = reader.GetInt32(1);
-                            al.Identificador = reader.GetString(2);    
+                            al.NomeAlimentador = reader.GetString(1);
+                            al.ClienteId = reader.GetInt32(3);
+                            al.Identificador = reader.GetString(4);    
                         }
                         lista.Add(al);
                     }

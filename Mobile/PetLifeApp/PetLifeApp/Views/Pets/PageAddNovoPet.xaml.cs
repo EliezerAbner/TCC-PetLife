@@ -40,11 +40,14 @@ namespace PetLifeApp.Views.Pets
             dpDataNascimento.Date = Convert.ToDateTime(editPet.DataNascimento);
 
             btnCadastrar.Text = "Editar";
+            btnExcluir.IsVisible = true;
         }
 
         private void BtnCancelar_Clicked(object sender, EventArgs e)
         {
-            Navigation.PopAsync();
+            var pagAnterior = Navigation.NavigationStack.LastOrDefault();
+            Navigation.PushAsync(new PageMeusPets());
+            Navigation.RemovePage(pagAnterior);
         }
 
         private void BtnCadastrar_Clicked(object sender, EventArgs e)
@@ -119,11 +122,34 @@ namespace PetLifeApp.Views.Pets
             {
                 "Cachorro",
                 "Gato",
+                "Ave",
                 "Outros"
             };
 
             pkEspecie.ItemsSource = listaEspecie;
             pkPorte.ItemsSource = listaPorte;
+        }
+
+        private async void BtnExcluir_Clicked(object sender, EventArgs e)
+        {
+            bool resp = await DisplayAlert("Excluir", "Deseja mesmo excluir esse pet?", "Sim", "Não");
+
+            if (resp)
+            {
+                try
+                {
+                    PetController controller = new PetController();
+                    controller.ExcluirPet(petId);
+
+                    var pagAnterior = Navigation.NavigationStack.LastOrDefault();
+                    await Navigation.PushAsync(new PageMeusPets());
+                    Navigation.RemovePage(pagAnterior);
+                }
+                catch (Exception ex)
+                {
+                    await DisplayAlert("Erro", $"Não estamos conseguindo realizar essa operação. Erro: {ex.Message}", "OK");
+                }
+            }
         }
     }
 }

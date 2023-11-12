@@ -125,6 +125,13 @@
                         Text="Cancelar"
                         CornerRadius="30"/>
 
+                <Button x:Name="btnExcluir"
+                        Clicked="BtnExcluir_Clicked"
+                        IsVisible="False"
+                        BackgroundColor="#BF3124"
+                        Text="Excluir"
+                        CornerRadius="30"/>
+
                 <Button x:Name="btnCadastrar"
                         Clicked="BtnCadastrar_Clicked"
                         BackgroundColor="#00BF63"

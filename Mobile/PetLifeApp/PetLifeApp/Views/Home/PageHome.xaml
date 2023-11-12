@@ -6,7 +6,7 @@
              NavigationPage.HasNavigationBar="False"
              BackgroundColor="White">
     
-    <ScrollView>
+    <ContentPage.Content>
         <StackLayout>
             <StackLayout BackgroundColor="#00BF63"
                          HeightRequest="250">
@@ -33,22 +33,32 @@
                         BackgroundColor="Transparent"
                         HorizontalOptions="EndAndExpand"/>
             </StackLayout>
+
+            <CarouselView x:Name="cvPet" IsVisible="True">
+                <CarouselView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout>
+                            <Frame HasShadow="True"
+                                   CornerRadius="30"
+                                   WidthRequest="100"
+                                   HeightRequest="100"
+                                   HorizontalOptions="StartAndExpand">
+
+                                <StackLayout>
+                                    <Image Source="{Binding Especie}"/>
+
+                                    <Label Text="{Binding Nome}"
+                                           TextColor="Black"
+                                           HorizontalOptions="Center"
+                                           VerticalOptions="EndAndExpand"/>
+                                </StackLayout>
+                            </Frame>
+                        </StackLayout>
+                    </DataTemplate>
+                </CarouselView.ItemTemplate>
+            </CarouselView>
             
-            <Frame CornerRadius="30"
-                   WidthRequest="100"
-                   HeightRequest="100"
-                   HorizontalOptions="StartAndExpand">
-
-                <StackLayout>
-                    <Image Source="pet_img"/>
-
-                    <Label x:Name="lblNomeCachorro"
-                           Text="Cachorro 1"
-                           TextColor="Black"
-                           HorizontalOptions="Center"
-                           VerticalOptions="EndAndExpand"/>
-                </StackLayout>
-            </Frame>
+            
 
             <StackLayout Margin="20,30"
                          Orientation="Horizontal"
@@ -82,5 +92,5 @@
                 </StackLayout>
             </Frame>
         </StackLayout>
-    </ScrollView>
+    </ContentPage.Content>
 </ContentPage>

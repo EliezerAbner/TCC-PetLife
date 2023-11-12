@@ -43,11 +43,15 @@ namespace PetLifeApp.Views.Pets
 
         private void btnAddPet_Clicked(object sender, EventArgs e)
         {
+            var pagAnterior = Navigation.NavigationStack.LastOrDefault();
             Navigation.PushAsync(new PageAddNovoPet());
+            Navigation.RemovePage(pagAnterior);
+            
         }
 
         private void lvPets_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
+            var pagAnterior = Navigation.NavigationStack.LastOrDefault();
             Navigation.PushAsync(new PageAddNovoPet(e.SelectedItem as Pet));
         }
     }

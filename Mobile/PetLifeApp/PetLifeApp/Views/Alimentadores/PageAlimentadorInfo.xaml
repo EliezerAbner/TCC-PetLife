@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:microcharts="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms"
+             x:Class="PetLifeApp.Views.Alimentadores.PageAlimentadorInfo"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="White">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout VerticalOptions="Start"
+                         Orientation="Horizontal"
+                         BackgroundColor="#00BF63"
+                         HeightRequest="80"
+                         Margin="0,0,0,30">
+
+                <Label x:Name="lblPageTitulo"
+                       VerticalTextAlignment="Center"
+                       FontSize="25"
+                       Margin="30,0"
+                       TextColor="White"/>
+
+                <Button x:Name="btnEditar"
+                        Text="Editar"
+                        Clicked="btnEditar_Clicked"
+                        HeightRequest="50"
+                        WidthRequest="80"
+                        BackgroundColor="Transparent"
+                        HorizontalOptions="EndAndExpand"/>
+            </StackLayout>
+
+            <Frame Margin="10"
+                   CornerRadius="20">
+                <StackLayout>
+                    <Label Text="2,400 Kg"
+                           FontSize="25"
+                           TextColor="Black"/>
+
+                    <Label Text="Consumo médio de ração"
+                           TextColor="Black"/>
+
+                    <microcharts:ChartView x:Name="chartRacao"
+                                           HeightRequest="300"/>
+                </StackLayout>
+            </Frame>
+
+            <Frame Margin="10"
+                   CornerRadius="20">
+                <StackLayout>
+                    <Label Text="3,900 Litros"
+                           FontSize="25"
+                           TextColor="Black"/>
+
+                    <Label Text="Consumo médio de água"
+                           TextColor="Black"/>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

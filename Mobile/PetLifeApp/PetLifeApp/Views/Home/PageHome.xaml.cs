@@ -1,9 +1,10 @@
-﻿using System;
+﻿using PetLifeApp.Controller;
+using PetLifeApp.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -15,6 +16,25 @@ namespace PetLifeApp.Views.Home
         public PageHome()
         {
             InitializeComponent();
+
+            try
+            {
+                PetController controller = new PetController();
+                List<Pet> listaPet = new List<Pet>();
+
+                if(listaPet.Count > 0 )
+                {
+                    cvPet.ItemsSource = listaPet;
+                }
+                else
+                {
+
+                }
+            }
+            catch (Exception ex)
+            {
+                DisplayAlert("Erro", $"{ex.Message}", "OK");
+            }
         }
 
         private void btnVerMaisPet_Clicked(object sender, EventArgs e)

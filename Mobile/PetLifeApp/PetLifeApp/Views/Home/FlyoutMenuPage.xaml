@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:PetLifeApp.Models"
              xmlns:home="clr-namespace:PetLifeApp.Views.Home"
              xmlns:pet="clr-namespace:PetLifeApp.Views.Pets"
-             xmlns:teste="clr-namespace:PetLifeApp"
+             xmlns:alimentador="clr-namespace:PetLifeApp.Views.Alimentadores"
              x:Class="PetLifeApp.Views.Home.FlyoutMenuPage"
              BackgroundColor="White"
              Title="Teste">
@@ -35,7 +35,7 @@
                 <x:Array Type="{x:Type local:FlyoutItemPage}">
                     <local:FlyoutItemPage Title="Home" IconSource="home.png" TargetPage="{x:Type home:FlyoutHome}"/>
                     <local:FlyoutItemPage Title="Meus Pets" IconSource="home.png" TargetPage="{x:Type pet:PageMeusPets}"/>
-
+                    <local:FlyoutItemPage Title="Alimentadores" IconSource="home.png" TargetPage="{x:Type alimentador:PageAlimentadores}"/>
                 </x:Array>
             </ListView.ItemsSource>
             <ListView.ItemTemplate>

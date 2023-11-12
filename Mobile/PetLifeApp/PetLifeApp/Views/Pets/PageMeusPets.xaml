@@ -5,7 +5,7 @@
              NavigationPage.HasNavigationBar="False"
              BackgroundColor="White">
     
-    <ContentPage.Content>
+    <ScrollView>
         <StackLayout>
             <StackLayout VerticalOptions="Start"
                          Orientation="Horizontal"
@@ -90,5 +90,5 @@
             </StackLayout>
             
         </StackLayout>
-    </ContentPage.Content>
+    </ScrollView>
 </ContentPage>
