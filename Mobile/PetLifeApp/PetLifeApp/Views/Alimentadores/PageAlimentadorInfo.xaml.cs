@@ -13,8 +13,6 @@ namespace PetLifeApp.Views.Alimentadores
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class PageAlimentadorInfo : ContentPage
 	{
-        private ChartEntry[] RacaoConsSem;
-        private ChartEntry[] AguaConsSem;
         private int alimentadorId;
 
         public PageAlimentadorInfo (Alimentador alInfo)
@@ -22,13 +20,41 @@ namespace PetLifeApp.Views.Alimentadores
             alimentadorId = 6;
 
 			InitializeComponent ();
-            CarregarDados();
+            
 
 			lblPageTitulo.Text = alInfo.NomeAlimentador;
 
+            var entries = new[]
+{
+    new ChartEntry(212)
+    {
+        Label = "UWP",
+        ValueLabel = "112",
+        Color = SKColor.Parse("#2c3e50")
+    },
+    new ChartEntry(248)
+    {
+        Label = "Android",
+        ValueLabel = "648",
+        Color = SKColor.Parse("#77d065")
+    },
+    new ChartEntry(128)
+    {
+        Label = "iOS",
+        ValueLabel = "428",
+        Color = SKColor.Parse("#b455b6")
+    },
+    new ChartEntry(514)
+    {
+        Label = "Forms",
+        ValueLabel = "214",
+        Color = SKColor.Parse("#3498db")
+    }
+};
+
             chartRacao.Chart = new BarChart
             {
-                Entries = RacaoConsSem,
+                Entries = entries,
                 LabelTextSize = 18,
                 MaxValue = 3000
             };
@@ -40,40 +66,5 @@ namespace PetLifeApp.Views.Alimentadores
         }
 
 
-        private void CarregarDados()
-        {
-            CalcularConsumo();
-
-            float[] floatArray = { 100, 500, 1000, 1500, 2000, 2500, 3000 };
-
-
-            RacaoConsSem = new ChartEntry[7];
-
-            for ( int i = RacaoConsSem.Length; i == 0; i--)
-            {
-                ChartEntry ce = new ChartEntry(floatArray[i])
-                {
-                    Label = "Domingo",
-                    ValueLabel = "214",
-                    Color = SKColor.Parse("#00BF63")
-                };
-
-                RacaoConsSem[i] = ce;
-            }
-        }
-
-        private void CalcularConsumo()
-        {
-            List<DadosAlimentador> listaDados = new List<DadosAlimentador>();
-            List<DadosAlimentadorDia> consumoSemanal = new List<DadosAlimentadorDia>();
-
-            AlimentadorController controller = new AlimentadorController();
-            listaDados = controller.ObterDados(alimentadorId);
-
-            DadosAlimentadorDia da = new DadosAlimentadorDia
-            {
-                QtdeConsumidaAgua = 
-            };
-        }
     }
 }
