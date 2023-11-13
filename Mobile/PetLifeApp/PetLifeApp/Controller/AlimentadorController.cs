@@ -92,7 +92,12 @@ namespace PetLifeApp.Controller
 
         public List<DadosAlimentador> ObterDados(int alimentadorId)
         {
-            string sql = $"SELECT * FROM dadosRecebidos WHERE alimentadorId={alimentadorId}";
+            
+
+            string sql = $"SELECT * FROM dadosRecebidos " +
+                         $"WHERE alimentadorId={alimentadorId} AND horaRecolhida >= (DAY(CURDATE()) - 7) AND horaRecolhida <= CURDATE() " +
+                         $"ORDER BY horaRecolhida DESC";
+            
             List<DadosAlimentador> listaDados = new List<DadosAlimentador>();
 
             using (MySqlConnection con = new MySqlConnection(conn))
@@ -138,6 +143,5 @@ namespace PetLifeApp.Controller
                 }
             }
         }
-
     }
 }

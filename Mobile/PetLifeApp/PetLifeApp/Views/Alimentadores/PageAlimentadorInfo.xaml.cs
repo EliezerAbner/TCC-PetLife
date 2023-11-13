@@ -5,9 +5,6 @@ using SkiaSharp;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -16,18 +13,22 @@ namespace PetLifeApp.Views.Alimentadores
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class PageAlimentadorInfo : ContentPage
 	{
-        private ChartEntry[] EntradaRacao;
+        private ChartEntry[] RacaoConsSem;
+        private ChartEntry[] AguaConsSem;
+        private int alimentadorId;
 
         public PageAlimentadorInfo (Alimentador alInfo)
 		{
+            alimentadorId = 6;
+
 			InitializeComponent ();
-            test();
+            CarregarDados();
 
 			lblPageTitulo.Text = alInfo.NomeAlimentador;
 
             chartRacao.Chart = new BarChart
             {
-                Entries = EntradaRacao,
+                Entries = RacaoConsSem,
                 LabelTextSize = 18,
                 MaxValue = 3000
             };
@@ -41,14 +42,14 @@ namespace PetLifeApp.Views.Alimentadores
 
         private void CarregarDados()
         {
-            AlimentadorController controller = new AlimentadorController();
-            controller.ObterDados();
+            CalcularConsumo();
 
             float[] floatArray = { 100, 500, 1000, 1500, 2000, 2500, 3000 };
 
-            EntradaRacao = new ChartEntry[7];
 
-            for (int i = 0; i < EntradaRacao.Length; i++)
+            RacaoConsSem = new ChartEntry[7];
+
+            for ( int i = RacaoConsSem.Length; i == 0; i--)
             {
                 ChartEntry ce = new ChartEntry(floatArray[i])
                 {
@@ -57,54 +58,22 @@ namespace PetLifeApp.Views.Alimentadores
                     Color = SKColor.Parse("#00BF63")
                 };
 
-                EntradaRacao[i] = ce;
+                RacaoConsSem[i] = ce;
             }
         }
 
-        private readonly ChartEntry[] entriesAgua = new[]
+        private void CalcularConsumo()
         {
-            new ChartEntry(3000)
+            List<DadosAlimentador> listaDados = new List<DadosAlimentador>();
+            List<DadosAlimentadorDia> consumoSemanal = new List<DadosAlimentadorDia>();
+
+            AlimentadorController controller = new AlimentadorController();
+            listaDados = controller.ObterDados(alimentadorId);
+
+            DadosAlimentadorDia da = new DadosAlimentadorDia
             {
-                Label = "Domingo",
-                ValueLabel = "214",
-                Color = SKColor.Parse("#00BF63")
-            },
-            new ChartEntry(3000)
-            {
-                Label = "Segunda",
-                ValueLabel = "112",
-                Color = SKColor.Parse("#00BF63")
-            },
-            new ChartEntry(3000)
-            {
-                Label = "Terça",
-                ValueLabel = "648",
-                Color = SKColor.Parse("#00BF63")
-            },
-            new ChartEntry(3000)
-            {
-                Label = "Quarta",
-                ValueLabel = "428",
-                Color = SKColor.Parse("#00BF63")
-            },
-            new ChartEntry(3000)
-            {
-                Label = "Quinta",
-                ValueLabel = "214",
-                Color = SKColor.Parse("#00BF63")
-            },
-            new ChartEntry(3000)
-            {
-                Label = "Sexta",
-                ValueLabel = "214",
-                Color = SKColor.Parse("#00BF63")
-            },
-            new ChartEntry(3000)
-            {
-                Label = "Sábado",
-                ValueLabel = "214",
-                Color = SKColor.Parse("#00BF63")
-            }
-        };
+                QtdeConsumidaAgua = 
+            };
+        }
     }
 }
