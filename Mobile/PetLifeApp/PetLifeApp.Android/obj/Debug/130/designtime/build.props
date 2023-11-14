@@ -25,11 +25,7 @@ androidgeneratejnimarshalmethods=false
 os=windows_nt
 androidincludedebugsymbols=true
 androidpackagenamingpolicy=lowercasecrc64
-<<<<<<< HEAD
-_nugetassetstimestamp=638321954448612539
-=======
-_nugetassetstimestamp=638354221547042169
->>>>>>> origin/Eliezer
+_nugetassetstimestamp=638355852681767021
 typemapkind=strings-asm
 androidsupportedabis=arm64-v8a
 armeabi-v7a
