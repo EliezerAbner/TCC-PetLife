@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PetLifeApp.Views.Catalogo.CarrinhoDeComprasPage"
+             NavigationPage.HasNavigationBar="False">
+
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+
+            <Label Text="Carrinho de compras" 
+                   VerticalOptions="StartAndExpand" 
+                   Margin="0,0,0,40" 
+                   FontSize="30"
+                   FontAttributes="bold"
+                   TextColor="Green"
+                   HorizontalTextAlignment="Center">
+            </Label>
+
+            <Grid HorizontalOptions="FillAndExpand">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+            </Grid>
+
+            <Frame>
+            <!-- Primeira Linha -->
+            <StackLayout Grid.Row="0" Orientation="Horizontal">
+                    <Image Source="catalogo_rastreador"
+                           Aspect="AspectFill"
+                           HeightRequest="200"
+                           WidthRequest="200"
+                           HorizontalOptions="Start"
+                           Margin="0,0,20,0"/>
+
+                <StackLayout Orientation="Vertical" Grid.Row="1">
+                    
+                    <Label Text="Rastreador" 
+                           Margin="0,0,0,20" 
+                           FontSize="20"
+                           FontAttributes="bold"
+                           TextColor="Green"
+                           HorizontalTextAlignment="Center"
+                           VerticalOptions="Center"/>
+
+                    <Button Text="adicionar" TextColor="white" BackgroundColor="green"></Button>
+
+                    <Label Text="Rastreia seu pet em tempo real, não perca seu pet de vista" 
+                           Margin="0,0,0,20" 
+                           FontSize="20"
+                           TextColor="black"
+                           HorizontalTextAlignment="Start"
+                           VerticalOptions="Center"/>
+                    
+                </StackLayout>
+            </StackLayout>
+
+            </Frame>
+            <Frame>
+                <!-- Segunda Linha -->
+                <StackLayout Grid.Row="1" Grid.Column="0"  Orientation="Horizontal">
+
+                    <Image Source="catalogo_alimentador"
+                               Aspect="AspectFill"
+                               HeightRequest="200"
+                               WidthRequest="200"
+                               HorizontalOptions="Start"
+                               Margin="0,0,20,0"/>
+                    
+                    <StackLayout Orientation="Vertical" Grid.Row="1">
+                        
+                    <Label Text="Alimentador" 
+                               Margin="0,0,0,20" 
+                               FontSize="20"
+                               FontAttributes="bold"
+                               TextColor="Green"
+                               HorizontalTextAlignment="Center"
+                               VerticalOptions="Center"/>
+
+                    <Button Text="adicionar" TextColor="white" BackgroundColor="green"></Button>
+
+                    <Label Text="Tenha a alimentação balanceada e controlada na palma da sua mão" 
+                           Margin="0,0,0,20" 
+                           FontSize="20"
+                           TextColor="black"
+                           HorizontalTextAlignment="Start"
+                           VerticalOptions="Center"/>
+
+                    </StackLayout>
+                </StackLayout>
+
+            </Frame>
+
+                    <Button Margin="20,20,20,0" 
+                    Text="FINALIZAR COMPRA" 
+                    CornerRadius="30"
+                    BackgroundColor="Green"
+                    TextColor="White">
+            </Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
