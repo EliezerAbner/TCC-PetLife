@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PetLifeApp.Views.Home.PageHome"
+             Title="Teste"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="White">
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout BackgroundColor="#00BF63"
+                         HeightRequest="250">
+                <Label Text="teste 123"
+                       FontSize="30"
+                       TextColor="White"    
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"/>
+
+            </StackLayout>
+
+            <StackLayout Margin="20,30"
+                         Orientation="Horizontal"
+                         HorizontalOptions="FillAndExpand">
+                
+                <Label Text="Meus Pets"
+                       TextColor="Black"
+                       FontSize="20"/>
+
+                <Button x:Name="btnVerMaisPet"
+                        Clicked="btnVerMaisPet_Clicked"
+                        Text="Ver Mais"
+                        TextColor="Blue"
+                        BackgroundColor="Transparent"
+                        HorizontalOptions="EndAndExpand"/>
+            </StackLayout>
+
+            <CarouselView x:Name="cvPet" IsVisible="True">
+                <CarouselView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout>
+                            <Frame HasShadow="True"
+                                   CornerRadius="30"
+                                   WidthRequest="100"
+                                   HeightRequest="100"
+                                   HorizontalOptions="StartAndExpand">
+
+                                <StackLayout>
+                                    <Image Source="{Binding Especie}"/>
+
+                                    <Label Text="{Binding Nome}"
+                                           TextColor="Black"
+                                           HorizontalOptions="Center"
+                                           VerticalOptions="EndAndExpand"/>
+                                </StackLayout>
+                            </Frame>
+                        </StackLayout>
+                    </DataTemplate>
+                </CarouselView.ItemTemplate>
+            </CarouselView>
+            
+            
+
+            <StackLayout Margin="20,30"
+                         Orientation="Horizontal"
+                         HorizontalOptions="FillAndExpand">
+
+                <Label Text="Meus Alimentadores"
+                       TextColor="Black"
+                       FontSize="20"/>
+
+                <Button x:Name="btnVerMaisAlimentador"
+                        Clicked="btnVerMaisAlimentador_Clicked"
+                        Text="Ver Mais"
+                        TextColor="Blue"
+                        BackgroundColor="Transparent"
+                        HorizontalOptions="EndAndExpand"/>
+            </StackLayout>
+
+            <Frame CornerRadius="30"
+                   WidthRequest="100"
+                   HeightRequest="100"
+                   HorizontalOptions="StartAndExpand">
+
+                <StackLayout>
+                    <Image Source="petFood_img"/>
+
+                    <Label x:Name="lblAlimentador"
+                           Text="Alimentador 1"
+                           TextColor="Black"
+                           HorizontalOptions="Center"
+                           VerticalOptions="EndAndExpand"/>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

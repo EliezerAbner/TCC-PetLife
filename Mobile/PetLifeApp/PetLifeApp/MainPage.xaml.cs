@@ -1,4 +1,5 @@
 ﻿using PetLifeApp.Models;
+using PetLifeApp.Services;
 using System;
 using Xamarin.Forms;
 
@@ -13,27 +14,36 @@ namespace PetLifeApp
 
         private void bt_Clicked(object sender, EventArgs e)
         {
-            Cliente teste = new Cliente()
+            Cliente cliente = new Cliente()
             {
-                Nome = "Teste 01",
-                dataNascimento = DateTime.Now,
-                Email = "teste@teste.com",
-                Rua = "Av Brasil",
-                Numero = 564,
-                Cep = "87043698",
-                Cidade = "Maringá",
+                DataNascimento = DateTime.Now.ToString(),
+                Nome = "Teste 03",
+                Telefone = "44997541269"
+            };
+
+            Endereco endereco = new Endereco()
+            {
+                Cep = "9999999",
+                Cidade = "Curitiba",
                 Estado = "PR",
-                Telefone = "(44) 9 9874-2145"
+                Numero = 69,
+                Rua = "Rua Trave Tristes"
+            };
+
+            Login login = new Login()
+            {
+                Email = "teste@teste.com",
+                Senha = "123",
             };
 
             try
             {
-                teste.NovoCliente();
-                DisplayAlert("Sucesso", "Deu bom :)", "OK");
+                ClienteController testeConexao = new ClienteController();
+                testeConexao.NovoCliente(cliente, endereco, login);
             }
             catch (Exception ex)
             {
-                DisplayAlert("Erro", $"{ex.Message}", "OK");
+                DisplayAlert("Erro", $"Erro: {ex.Message}", "OK");
             }
         }
     }

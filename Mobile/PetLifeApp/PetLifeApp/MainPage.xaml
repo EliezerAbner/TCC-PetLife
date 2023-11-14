@@ -12,9 +12,9 @@
                FontSize="25"/>
 
         <Button Text="Testar Conexão"
+                Clicked="bt_Clicked"
                 CornerRadius="30"
-                x:Name="bt"
-                Clicked="bt_Clicked"/>
+                x:Name="bt"/>
 
         <Label x:Name="teste"
                IsVisible="True"

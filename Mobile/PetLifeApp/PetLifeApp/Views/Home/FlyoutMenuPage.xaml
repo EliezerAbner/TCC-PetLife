@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:PetLifeApp.Models"
+             xmlns:home="clr-namespace:PetLifeApp.Views.Home"
+             xmlns:pet="clr-namespace:PetLifeApp.Views.Pets"
+             xmlns:alimentador="clr-namespace:PetLifeApp.Views.Alimentadores"
+             x:Class="PetLifeApp.Views.Home.FlyoutMenuPage"
+             BackgroundColor="White"
+             Title="Teste">
+
+    <StackLayout>
+
+        <StackLayout HeightRequest="200"
+                     BackgroundColor="#00BF63">
+
+            <Button BackgroundColor="Black"
+                    CornerRadius="40"
+                    HeightRequest="80"
+                    WidthRequest="80"
+                    HorizontalOptions="StartAndExpand"
+                    Margin="20,10"/>
+            
+            <Label x:Name="lblName"
+                   Text="Xaolin de Paula Tejano"
+                   TextColor="White"
+                   Margin="20,10"
+                   FontSize="25"/>
+        </StackLayout>
+        
+        <ListView x:Name="listView" 
+                  x:FieldModifier="public"
+                  Margin="0,20">
+            <ListView.ItemsSource>
+                <x:Array Type="{x:Type local:FlyoutItemPage}">
+                    <local:FlyoutItemPage Title="Home" IconSource="home.png" TargetPage="{x:Type home:FlyoutHome}"/>
+                    <local:FlyoutItemPage Title="Meus Pets" IconSource="home.png" TargetPage="{x:Type pet:PageMeusPets}"/>
+                    <local:FlyoutItemPage Title="Alimentadores" IconSource="home.png" TargetPage="{x:Type alimentador:PageAlimentadores}"/>
+                </x:Array>
+            </ListView.ItemsSource>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="33"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Image Source="{Binding IconSource}"/>
+                            <Label Grid.Column="1" 
+                                   Text="{Binding Title}"
+                                   TextColor="Black"
+                                   FontSize="20"/>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

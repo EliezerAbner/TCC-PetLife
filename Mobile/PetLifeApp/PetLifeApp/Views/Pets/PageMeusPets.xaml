@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PetLifeApp.Views.Pets.PageMeusPets"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="White">
+    
+    <ScrollView>
+        <StackLayout>
+            <StackLayout VerticalOptions="Start"
+                         Orientation="Horizontal"
+                         BackgroundColor="#00BF63"
+                         HeightRequest="80"
+                         Margin="0,0,0,30">
+
+                <Label Text="Meus Pets"
+                       VerticalTextAlignment="Center"
+                       FontSize="25"
+                       Margin="30,0"
+                       TextColor="White"/>
+
+                <Button x:Name="btnAddPet"
+                        Text="+"
+                        FontSize="35"
+                        Clicked="btnAddPet_Clicked"
+                        HeightRequest="50"
+                        WidthRequest="80"
+                        BackgroundColor="#00BF63"
+                        HorizontalOptions="EndAndExpand"/>
+            </StackLayout>
+
+            <ListView x:Name="lvPets" 
+                      IsVisible="True" 
+                      HasUnevenRows="True"
+                      ItemSelected="lvPets_ItemSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Frame BackgroundColor="Azure"
+                                   CornerRadius="20"
+                                   Margin="10,10">
+                                <Grid>
+                                    <StackLayout Orientation="Horizontal">
+                                        <Image Source="{Binding Especie}"
+                                               HeightRequest="100"/>
+
+                                        <StackLayout Margin="20,0">
+                                            <Label Text="{Binding Nome}"
+                                                   FontSize="23"
+                                                   TextColor="Black"/>
+
+                                            <Label Text="{Binding Observacao}"
+                                                   TextColor="Black"/>
+
+                                            <StackLayout Orientation="Horizontal" Margin="0,10,0,0" HorizontalOptions="StartAndExpand">
+                                                <Label Text="{Binding Especie}"
+                                                       TextColor="Black"/>
+
+                                                <Label Text="{Binding Raca}"
+                                                       TextColor="Black"/>
+                                            </StackLayout>
+                                        </StackLayout>
+                                    </StackLayout>
+                                </Grid>
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+                
+            </ListView>
+            
+            <StackLayout x:Name="slAddPet" 
+                         IsVisible="False"
+                         VerticalOptions="CenterAndExpand"
+                         HorizontalOptions="CenterAndExpand">
+
+                <Image Source="paw"/>
+
+                <Label Text="Adicione seus pets aqui"
+                       FontSize="30"
+                       TextColor="Black"/>
+
+                <Button x:Name="btnAddPet2"
+                        Text="Adicionar Pet"
+                        Clicked="btnAddPet_Clicked"
+                        TextColor="#00BF63"
+                        FontSize="20"
+                        BackgroundColor="Transparent"/>
+
+            </StackLayout>
+            
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

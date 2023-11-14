@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             x:Class="PetLifeApp.Views.Pets.PageAddNovoPet"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="White">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout VerticalOptions="Start"
+                         Orientation="Horizontal"
+                         BackgroundColor="#00BF63"
+                         HeightRequest="80"
+                         Margin="0,0,0,30">
+
+                <Label Text="Novo Pet"
+                       VerticalTextAlignment="Center"
+                       FontSize="25"
+                       Margin="30,0"
+                       TextColor="White"/>
+            </StackLayout>
+
+            <StackLayout>
+                <yummy:PancakeView  CornerRadius="10"
+                                    Margin="10,10"
+                                    Border="{yummy:BorderMarkup Color=#000000, Thickness='1'}">
+                    
+                    <Entry x:Name="txtNomePet"
+                           Margin="10,0"
+                           Placeholder="Nome do Pet"
+                           TextColor="Black"
+                           ReturnType="Next"
+                           PlaceholderColor="Black"/>
+                </yummy:PancakeView>
+            </StackLayout>
+
+            <yummy:PancakeView CornerRadius="10"
+                               Margin="10,0"
+                               Border="{yummy:BorderMarkup Color=#000000, Thickness='1'}">
+
+                <Picker x:Name="pkEspecie"
+                        Title="Selecione a Espécie"
+                        TextColor="Black"
+                        TitleColor="Black"
+                        WidthRequest="90"/>
+            </yummy:PancakeView>
+
+            <StackLayout Orientation="Horizontal"
+                         Margin="0,10">
+
+                <yummy:PancakeView  CornerRadius="10"
+                                    Margin="10,0"
+                                    Border="{yummy:BorderMarkup Color=#000000, Thickness='1'}">
+
+                    <Entry x:Name="txtRaca"
+                           Margin="10,0,0,0"
+                           Placeholder="Raça"
+                           ReturnType="Next"
+                           WidthRequest="120"
+                           TextColor="Black"
+                           PlaceholderColor="Black"/>
+                </yummy:PancakeView>
+
+                <yummy:PancakeView CornerRadius="10"
+                                   Border="{yummy:BorderMarkup Color=#000000, Thickness='1'}">
+                    
+                    <Picker x:Name="pkPorte"
+                            Title="Sel. Porte"
+                            TextColor="Black"
+                            TitleColor="Black"
+                            WidthRequest="90"/>
+                </yummy:PancakeView>
+            </StackLayout>
+
+            <yummy:PancakeView CornerRadius="10"
+                               Margin="10,10"
+                               Border="{yummy:BorderMarkup Color=#000000, Thickness='1'}">
+                <Entry x:Name="txtPeso"
+                        WidthRequest="80"
+                        Keyboard="Numeric"
+                        ReturnType="Next"
+                        Placeholder="Peso"
+                        TextColor="Black"
+                        PlaceholderColor="Black"/>
+            </yummy:PancakeView>
+
+            <yummy:PancakeView CornerRadius="10"
+                               Margin="10,10"
+                               Border="{yummy:BorderMarkup Color=#000000, Thickness='1'}">
+                
+                <StackLayout Orientation="Horizontal" Margin="10,0,10,0">
+                    <Label Text="Data de Nascimento:"
+                            VerticalTextAlignment="Center"
+                            FontSize="18"
+                            TextColor="Black"/>
+
+                    <DatePicker x:Name="dpDataNascimento"
+                                TextColor="Black"
+                                VerticalOptions="Center"/>
+                </StackLayout>
+            </yummy:PancakeView>
+
+            <yummy:PancakeView CornerRadius="10"
+                               Margin="10,10"
+                               Border="{yummy:BorderMarkup Color=#000000, Thickness='1'}">
+
+                <StackLayout>
+                    <Label Text="Adicione uma observação:"
+                           Margin="10,10"
+                           TextColor="Black"/>
+                    
+                    <Editor x:Name="txtObservacao"
+                            Keyboard="Default"
+                            TextColor="Black"
+                            HeightRequest="160"/>
+                </StackLayout>
+            </yummy:PancakeView>
+
+            <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="CenterAndExpand"
+                         Margin="0,20,0,0">
+                
+                <Button x:Name="btnCancelar"
+                        Clicked="BtnCancelar_Clicked"
+                        Text="Cancelar"
+                        CornerRadius="30"/>
+
+                <Button x:Name="btnExcluir"
+                        Clicked="BtnExcluir_Clicked"
+                        IsVisible="False"
+                        BackgroundColor="#BF3124"
+                        Text="Excluir"
+                        CornerRadius="30"/>
+
+                <Button x:Name="btnCadastrar"
+                        Clicked="BtnCadastrar_Clicked"
+                        BackgroundColor="#00BF63"
+                        Text="Cadastrar"
+                        CornerRadius="30"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

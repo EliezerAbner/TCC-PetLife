@@ -1,4 +1,8 @@
 FormsViewGroup.dll
+Microcharts.Droid.dll
+SkiaSharp.dll
+SkiaSharp.Views.Android.dll
+SkiaSharp.Views.Forms.dll
 Xamarin.AndroidX.Activity.dll
 Xamarin.AndroidX.Annotation.dll
 Xamarin.AndroidX.Annotation.Experimental.dll
@@ -52,6 +56,7 @@ Xamarin.AndroidX.VersionedParcelable.dll
 Xamarin.AndroidX.ViewPager.dll
 Xamarin.AndroidX.ViewPager2.dll
 Xamarin.Essentials.dll
+Xamarin.Forms.PancakeView.dll
 Xamarin.Forms.Platform.Android.dll
 Xamarin.Forms.Platform.dll
 Xamarin.Google.Android.Material.dll
