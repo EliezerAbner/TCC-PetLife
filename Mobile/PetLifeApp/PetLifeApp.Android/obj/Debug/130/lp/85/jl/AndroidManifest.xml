@@ -15,8 +15,14 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
     package="androidx.localbroadcastmanager" >
+=======
+    package="androidx.drawerlayout" >
+>>>>>>> origin/Gilmar
 
-    <uses-sdk android:minSdkVersion="14" />
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="29" />
 
 </manifest>

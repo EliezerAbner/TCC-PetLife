@@ -1,7 +1,8 @@
-﻿using System;
+﻿using PetLifeApp.Catalogo;
+using PetLifeApp.Views.Login;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-using PetLifeApp.Views.Home;
 
 namespace PetLifeApp
 {
@@ -11,7 +12,8 @@ namespace PetLifeApp
         {
             InitializeComponent();
 
-            MainPage = new FlyoutHome();
+            MainPage = new NavigationPage(new catalogo_produtos());
+            // Abre a main page em "PageWelcome" localizada em: view > login 
         }
 
         protected override void OnStart()

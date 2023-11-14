@@ -1,3 +1,4 @@
+<<<<<<< HEAD:Mobile/PetLifeApp/PetLifeApp.Android/obj/Debug/130/lp/83/jl/proguard.txt
 # Copyright (C) 2017 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -16,3 +17,25 @@
 -keepclassmembers class androidx.transition.ChangeBounds$* extends android.animation.AnimatorListenerAdapter {
   androidx.transition.ChangeBounds$ViewBounds mViewBounds;
 }
+=======
+-keepattributes *Annotation*
+
+-keepclassmembers enum androidx.lifecycle.Lifecycle$Event {
+    <fields>;
+}
+
+-keep !interface * implements androidx.lifecycle.LifecycleObserver {
+}
+
+-keep class * implements androidx.lifecycle.GeneratedAdapter {
+    <init>(...);
+}
+
+-keepclassmembers class ** {
+    @androidx.lifecycle.OnLifecycleEvent *;
+}
+
+# this rule is need to work properly when app is compiled with api 28, see b/142778206
+# Also this rule prevents registerIn from being inlined.
+-keepclassmembers class androidx.lifecycle.ReportFragment$LifecycleCallbacks { *; }
+>>>>>>> origin/Gilmar:Mobile/PetLifeApp/PetLifeApp.Android/obj/Debug/130/lp/61/jl/proguard.txt

@@ -5,7 +5,7 @@ VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetLifeApp.Android", "PetLifeApp.Android\PetLifeApp.Android.csproj", "{23469E8A-245A-4F0A-80AB-A330C869FBFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetLifeApp", "PetLifeApp\PetLifeApp.csproj", "{68FB0B41-D07F-4352-88D0-3F9FC65D6FA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PetLifeApp", "PetLifeApp\PetLifeApp.csproj", "{68FB0B41-D07F-4352-88D0-3F9FC65D6FA9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

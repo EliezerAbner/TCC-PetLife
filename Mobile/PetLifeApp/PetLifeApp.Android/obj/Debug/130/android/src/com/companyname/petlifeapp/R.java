@@ -9858,6 +9858,7 @@ public final class R {
     public static final int abc_vector_test=0x7f070054;
     public static final int avd_hide_password=0x7f070055;
     public static final int avd_show_password=0x7f070056;
+<<<<<<< HEAD
     public static final int ave=0x7f070057;
     public static final int btn_checkbox_checked_mtrl=0x7f070058;
     public static final int btn_checkbox_checked_to_unchecked_mtrl_animation=0x7f070059;
@@ -9868,12 +9869,28 @@ public final class R {
     public static final int btn_radio_on_mtrl=0x7f07005e;
     public static final int btn_radio_on_to_off_mtrl_animation=0x7f07005f;
     public static final int cachorro=0x7f070060;
+=======
+    public static final int btn_checkbox_checked_mtrl=0x7f070057;
+    public static final int btn_checkbox_checked_to_unchecked_mtrl_animation=0x7f070058;
+    public static final int btn_checkbox_unchecked_mtrl=0x7f070059;
+    public static final int btn_checkbox_unchecked_to_checked_mtrl_animation=0x7f07005a;
+    public static final int btn_radio_off_mtrl=0x7f07005b;
+    public static final int btn_radio_off_to_on_mtrl_animation=0x7f07005c;
+    public static final int btn_radio_on_mtrl=0x7f07005d;
+    public static final int btn_radio_on_to_off_mtrl_animation=0x7f07005e;
+    public static final int catalogo_alimentador=0x7f07005f;
+    public static final int catalogo_rastreador=0x7f070060;
+>>>>>>> origin/Gilmar
     public static final int design_fab_background=0x7f070061;
     public static final int design_ic_visibility=0x7f070062;
     public static final int design_ic_visibility_off=0x7f070063;
     public static final int design_password_eye=0x7f070064;
     public static final int design_snackbar_background=0x7f070065;
+<<<<<<< HEAD
     public static final int gato=0x7f070066;
+=======
+    public static final int fundo_caoverde=0x7f070066;
+>>>>>>> origin/Gilmar
     public static final int ic_arrow_down_24dp=0x7f070067;
     public static final int ic_clock_black_24dp=0x7f070068;
     public static final int ic_keyboard_black_24dp=0x7f070069;
@@ -9914,6 +9931,7 @@ public final class R {
     public static final int notification_template_icon_low_bg=0x7f07008c;
     public static final int notification_tile_bg=0x7f07008d;
     public static final int notify_panel_notification_icon_bg=0x7f07008e;
+<<<<<<< HEAD
     public static final int outros=0x7f07008f;
     public static final int paw=0x7f070090;
     public static final int pencil=0x7f070091;
@@ -9926,6 +9944,18 @@ public final class R {
     public static final int test_custom_background=0x7f070098;
     public static final int tooltip_frame_dark=0x7f070099;
     public static final int tooltip_frame_light=0x7f07009a;
+=======
+    public static final int pet_life_fundo_branco=0x7f07008f;
+    public static final int pet_life_fundo_transparente=0x7f070090;
+    public static final int petfood=0x7f070091;
+    public static final int petlife_logo=0x7f070092;
+    public static final int petlocation=0x7f070093;
+    public static final int pets=0x7f070094;
+    public static final int preference_list_divider_material=0x7f070095;
+    public static final int test_custom_background=0x7f070096;
+    public static final int tooltip_frame_dark=0x7f070097;
+    public static final int tooltip_frame_light=0x7f070098;
+>>>>>>> origin/Gilmar
   }
   public static final class id {
     public static final int ALT=0x7f080000;

@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             x:Class="PetLifeApp.Views.Login.PageNovoCliente"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="White">
+
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout x:Name="sl01" VerticalOptions="CenterAndExpand" IsVisible="true">
+                <Frame CornerRadius="20">
+
+                    <StackLayout>
+                        <Image Source="petLife_logo"
+                               HeightRequest="150"/>
+
+                        <yummy:PancakeView BackgroundColor="Transparent"
+                                           CornerRadius="10"
+                                           Border="{yummy:BorderMarkup Color=#242424, Thickness='1'}"
+                                           Margin="0,0,0,10">
+
+                            <Entry x:Name="txtNome"
+                                   Placeholder="Seu nome"
+                                   ReturnType="Next"
+                                   VerticalTextAlignment="Center"
+                                   Keyboard="Default"
+                                   PlaceholderColor="#242424"
+                                   TextColor="#242424"
+                                   Margin="3"/>
+                        </yummy:PancakeView>
+
+                        <yummy:PancakeView BackgroundColor="Transparent"
+                                           CornerRadius="10"
+                                           Border="{yummy:BorderMarkup Color=#242424, Thickness='1'}"
+                                           Margin="0,0,0,10">
+
+                            <StackLayout>
+                                <Entry x:Name="txtEmail"
+                                   Placeholder="Email"
+                                   Keyboard="Email"
+                                   ReturnType="Next"
+                                   PlaceholderColor="#242424"
+                                   TextColor="#242424"
+                                   Margin="3"/>
+                            </StackLayout>
+                        </yummy:PancakeView>
+                        <Label x:Name="lblEmail" 
+                                   IsVisible="False"
+                                   Text="** Este email já foi cadastrado"
+                                   TextColor="#F0555E"/>
+
+                        <yummy:PancakeView BackgroundColor="Transparent"
+                                   CornerRadius="10"
+                                   Margin="0,0,0,10"
+                                   Border="{yummy:BorderMarkup Color=#242424, Thickness='1'}">
+
+                            <StackLayout>
+                                <Entry x:Name="txtTelefone"
+                                    Placeholder="Telefone"
+                                    Keyboard="Telephone"
+                                    PlaceholderColor="#242424"
+                                    TextColor="#242424"
+                                    Margin="3"/>
+                            </StackLayout>
+                        </yummy:PancakeView>
+                        <Label x:Name="lblTelefone" 
+                                   IsVisible="False"
+                                   Text="** Este telefone já foi cadastrado"
+                                   TextColor="#F0555E"/>
+
+                        <yummy:PancakeView BackgroundColor="Transparent"
+                                           Border="{yummy:BorderMarkup Color=#242424, Thickness='1'}"
+                                           CornerRadius="10">
+
+                            <StackLayout Orientation="Horizontal" Margin="10,0,10,0">
+                                <Label Text="Data de Nascimento:"
+                                       VerticalTextAlignment="Center"
+                                       FontSize="18"
+                                       TextColor="#242424"/>
+
+                                <DatePicker x:Name="dpDataNascimento"
+                                            TextColor="Black"
+                                            VerticalOptions="Center"/>
+                            </StackLayout>
+                        </yummy:PancakeView>
+
+                        <StackLayout Orientation="Horizontal" Margin="0,50,0,0" HorizontalOptions="CenterAndExpand">
+                            <Button x:Name="btnLogin"
+                                    Clicked="btnLogin_Clicked"
+                                    Text="Já possui uma conta?"
+                                    BackgroundColor="Transparent"
+                                    TextColor="#00BF63"/>
+                            
+                            <Button x:Name="btnContinuar"
+                                    Clicked="btnContinuar_Clicked"
+                                    Text="Continuar"
+                                    BackgroundColor="#00BF63"
+                                    CornerRadius="30"/>
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+
+            <StackLayout x:Name="sl02" VerticalOptions="CenterAndExpand" IsVisible="false">
+                <Frame CornerRadius="20">
+                    <StackLayout Margin="10,50">
+                        <Image Source="petLife_logo"
+                               HeightRequest="150"/>
+
+                        <yummy:PancakeView BackgroundColor="Transparent"
+                                   CornerRadius="10"
+                                   Margin="0,0,0,10"
+                                   Border="{yummy:BorderMarkup Color=#242424, Thickness='1'}">
+
+                            <Entry x:Name="txtCep"
+                                   Placeholder="CEP"
+                                   PlaceholderColor="#242424"
+                                   Keyboard="Numeric"
+                                   ReturnType="Next"
+                                   TextColor="#242424"
+                                   Margin="3"/>
+                        </yummy:PancakeView>
+
+                        <yummy:PancakeView BackgroundColor="Transparent"
+                                           CornerRadius="10"
+                                           Margin="0,0,0,10"
+                                           Border="{yummy:BorderMarkup Color=#242424, Thickness='1'}">
+
+                            <Entry x:Name="txtRua"
+                                    Placeholder="Rua"
+                                   ReturnType="Next"
+                                    PlaceholderColor="#242424"
+                                    TextColor="#242424"
+                                    Margin="3"/>
+                        </yummy:PancakeView>
+
+                        <yummy:PancakeView BackgroundColor="Transparent"
+                                           CornerRadius="10"
+                                           Margin="0,0,0,10"
+                                           Border="{yummy:BorderMarkup Color=#242424, Thickness='1'}">
+
+                            <Entry x:Name="txtNumero"
+                                   Keyboard="Numeric"
+                                   ReturnType="Next"
+                                   Placeholder="Numero da Casa"
+                                   PlaceholderColor="#242424"
+                                   TextColor="#242424"
+                                   Margin="3"/>
+                        </yummy:PancakeView>
+
+                        <yummy:PancakeView BackgroundColor="Transparent"
+                                           CornerRadius="10"
+                                           Margin="0,0,0,10"
+                                           Border="{yummy:BorderMarkup Color=#242424, Thickness='1'}">
+
+                            <Entry x:Name="txtCidade"
+                                   Keyboard="Default"
+                                   ReturnType="Next"
+                                   Placeholder="Cidade"
+                                   PlaceholderColor="#242424"
+                                   TextColor="#242424"
+                                   Margin="3"/>
+                        </yummy:PancakeView>
+
+                        <yummy:PancakeView BackgroundColor="Transparent"
+                                           Margin="0,0,0,10"
+                                           CornerRadius="10"
+                                           Border="{yummy:BorderMarkup Color=#242424, Thickness='1'}">
+
+                            <Picker x:Name="pickerEstado"
+                                    Title="Estado"
+                                    TitleColor="Black"
+                                    TextColor="Black"
+                                    Margin="10,0"/>
+                        </yummy:PancakeView>
+
+                        <Button x:Name="btnContinuar02"
+                                Clicked="btnContinuar_Clicked"
+                                Text="Cadastrar Endereço"
+                                VerticalOptions="End"
+                                HorizontalOptions="CenterAndExpand"
+                                BackgroundColor="#00BF63"
+                                CornerRadius="30"
+                                Margin="0,10"/>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+
+            <StackLayout x:Name="sl03" VerticalOptions="CenterAndExpand" IsVisible="False">
+                <Frame>
+                    <StackLayout>
+                        <Image Source="petLife_logo"
+                               HeightRequest="150"/>
+
+                        <yummy:PancakeView BackgroundColor="Transparent"
+                                   CornerRadius="10"
+                                   Margin="0,0,0,10"
+                                   Border="{yummy:BorderMarkup Color=#242424, Thickness='1'}">
+
+                            <Entry x:Name="txtSenha"
+                                    IsPassword="True"
+                                   Keyboard="Default"
+                                   ReturnType="Next"
+                                    Placeholder="Insira uma senha"
+                                    PlaceholderColor="#242424"
+                                    TextColor="#242424"
+                                    Margin="3"/>
+                        </yummy:PancakeView>
+
+                        <yummy:PancakeView BackgroundColor="Transparent"
+                                           CornerRadius="10"
+                                           Margin="0,0,0,10"
+                                           Border="{yummy:BorderMarkup Color=#242424, Thickness='1'}">
+
+                            <Entry x:Name="txtSenhaConfirmacao"
+                                   IsPassword="True"
+                                   TextChanged="txtSenhaConfirmacao_TextChanged"
+                                   Keyboard="Default"
+                                   ReturnType="Next"
+                                   Placeholder="Confirme sua Senha"
+                                   PlaceholderColor="#242424"
+                                   TextColor="#242424"
+                                   Margin="3"/>
+                        </yummy:PancakeView>
+                        <Label x:Name="lblSenha" 
+                                   IsVisible="False"
+                                   Text="** As senhas não batem"
+                                   TextColor="#F0555E"/>
+
+                        <Button x:Name="btnCadastrar"
+                                Clicked="btnCadastrar_Clicked"
+                                Text="Finalizar Cadastro"
+                                FontSize="18"
+                                TextColor="White"
+                                CornerRadius="40"
+                                BackgroundColor="#00BF63"
+                                Margin="20"/>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

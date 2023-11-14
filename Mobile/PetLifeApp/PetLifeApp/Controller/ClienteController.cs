@@ -32,12 +32,11 @@ namespace PetLifeApp.Services
             return clienteId;
         }
 
-        public void NovoCliente(Cliente cliente, Endereco endereco, Login login)
+        public void NovoCliente(Cliente cliente, Endereco endereco, LoginCliente login)
         {
-
             using (MySqlConnection con = new MySqlConnection(conn))
             {
-                string sql = $"CALL novo_cliente('{cliente.Nome}', '{cliente.DataNascimento}', '{login.Email}', '{login.Senha}', '{endereco.Rua}', '{endereco.Numero}', '{endereco.Cep}', '{endereco.Cidade}', '{endereco.Estado}', '{cliente.Telefone}')";
+                string sql = "CALL novo_cliente('" + cliente.Nome + "', '" + cliente.DataNascimento + "', '" + login.Email + "', '" + login.Senha + "', '" + endereco.Rua + "', '" + endereco.Numero + "', '" + endereco.Cep + "', '" + endereco.Cidade + "', '" + endereco.Estado + "', '" + cliente.Telefone + "')";
                 con.Open();
                 using (MySqlCommand cmd = new MySqlCommand(sql, con))
                 {
@@ -47,7 +46,7 @@ namespace PetLifeApp.Services
             }
         }
 
-        public void EditarCliente(Cliente cliente, Endereco endereco, Login login)
+        public void EditarCliente(Cliente cliente, Endereco endereco, LoginCliente login)
         {
             using (MySqlConnection con = new MySqlConnection(conn))
             {
@@ -73,6 +72,72 @@ namespace PetLifeApp.Services
                 }
                 con.Close();
             }
+        }
+
+        public List<String> BuscaEstados()
+        {
+            List<String> list = new List<String>();
+            string sql = "SELECT * FROM estado";
+
+            using (MySqlConnection con = new MySqlConnection(conn))
+            {
+                con.Open();
+                using (MySqlCommand cmd = new MySqlCommand(sql, con))
+                {
+                    using (MySqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            list.Add(reader.GetString(0));
+                        }
+                    }
+                }
+                con.Close();
+            }
+            return list;
+        }
+
+        public string Validacao(string email, string telefone)
+        {
+            using (MySqlConnection con = new MySqlConnection(conn))
+            {
+                string sql = $"SELECT emailId FROM email WHERE email ='{email}' AND status=1";
+
+                con.Open();
+                int result = 0;
+
+                using (MySqlCommand cmd = new MySqlCommand(sql, con))
+                {
+                    result = Convert.ToInt32(cmd.ExecuteScalar());
+                }
+                con.Close();
+
+                if (result != 0)
+                {
+                    return "email";
+                }
+            }
+
+            using (MySqlConnection con = new MySqlConnection(conn))
+            {
+                string sql = $"SELECT telefoneId FROM telefone WHERE telefone = '{telefone}' AND status=1";
+
+                con.Open();
+                string result = "";
+
+                using (MySqlCommand cmd = new MySqlCommand(sql, con))
+                {
+                    result = Convert.ToString(cmd.ExecuteScalar());
+                }
+                con.Close();
+
+                if (result != "")
+                {
+                    return "telefone";
+                }
+            }
+
+            return "ok";
         }
     }
 }

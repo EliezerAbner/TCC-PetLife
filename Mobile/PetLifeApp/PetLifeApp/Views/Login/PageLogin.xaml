@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             x:Class="PetLifeApp.Views.PageLogin"
+             BackgroundColor="White"
+             NavigationPage.HasNavigationBar="False">
+
+
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout x:Name="slEmail"
+                         VerticalOptions="CenterAndExpand"
+                         HorizontalOptions="CenterAndExpand">
+
+                <Frame WidthRequest="250"
+                       HeightRequest="350"
+                       CornerRadius="20">
+                    
+                    <StackLayout>
+                        <Image Source="Petlife_logo"/>
+
+                        <Label Text="Insira seu email"
+                               TextColor="Black"/>
+                        
+                        <Entry x:Name="txtEmail"
+                               TextColor="Black"
+                               Keyboard="Email"/>
+
+                        <StackLayout Orientation="Horizontal"
+                                     HorizontalOptions="FillAndExpand"
+                                     VerticalOptions="EndAndExpand"
+                                     Margin="0,20">
+
+                            <Button x:Name="btnCriarConta"
+                                    Clicked="btnCriarConta_Clicked"
+                                    Text="Criar Conta"
+                                    TextColor="#00BF63"
+                                    Margin="0,0,20,0"
+                                    BackgroundColor="Transparent"/>
+
+                            <Button x:Name="btnProximo"
+                                    Clicked="btnProximo_Clicked"
+                                    Text="Avançar"
+                                    TextColor="White"
+                                    CornerRadius="30"
+                                    BackgroundColor="#00BF63"/>
+                            
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+
+            </StackLayout>
+
+            <StackLayout x:Name="slSenha"
+                         VerticalOptions="CenterAndExpand"
+                         HorizontalOptions="CenterAndExpand">
+
+                <Frame WidthRequest="250"
+                       HeightRequest="350"
+                       CornerRadius="20">
+
+                    <StackLayout>
+                        <Image Source="Petlife_logo"/>
+
+                        <Label Text="Insira sua Senha"
+                               TextColor="Black"/>
+
+                        <Entry x:Name="txtSenha"
+                               TextColor="Black"
+                               IsPassword="True"/>
+
+                        <Button x:Name="btnLogin"
+                                Clicked="btnLogin_Clicked"
+                                Margin="0,20"
+                                VerticalOptions="EndAndExpand"
+                                HorizontalOptions="CenterAndExpand"
+                                Text="Fazer Login"
+                                TextColor="Black"
+                                CornerRadius="30"
+                                BackgroundColor="#00BF63"/>
+                    </StackLayout>
+                </Frame>
+
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

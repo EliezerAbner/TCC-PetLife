@@ -5,7 +5,7 @@ using System.Text;
 
 namespace PetLifeApp.Models
 {
-    class Login
+    class LoginCliente
     {
         private string senha;
 

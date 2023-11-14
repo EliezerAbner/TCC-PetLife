@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
+<<<<<<< HEAD
   ~ Copyright (C) 2020 The Android Open Source Project
+=======
+  ~ Copyright 2017 The Android Open Source Project
+>>>>>>> origin/Gilmar
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -15,7 +19,11 @@
   ~ limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
     package="androidx.tracing" >
+=======
+    package="androidx.lifecycle.livedata.core" >
+>>>>>>> origin/Gilmar
 
     <uses-sdk
         android:minSdkVersion="14"

@@ -14,7 +14,11 @@ namespace PetLifeApp.Droid
 {
 	
 	
+<<<<<<< HEAD
 	[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Android.Build.Tasks", "13.2.0.99")]
+=======
+	[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Android.Build.Tasks", "13.2.0.93")]
+>>>>>>> origin/Gilmar
 	public partial class Resource
 	{
 		
@@ -21610,6 +21614,7 @@ namespace PetLifeApp.Droid
 			public const int avd_show_password = 2131165270;
 			
 			// aapt resource value: 0x7F070057
+<<<<<<< HEAD
 			public const int Ave = 2131165271;
 			
 			// aapt resource value: 0x7F070058
@@ -21638,6 +21643,36 @@ namespace PetLifeApp.Droid
 			
 			// aapt resource value: 0x7F070060
 			public const int Cachorro = 2131165280;
+=======
+			public const int btn_checkbox_checked_mtrl = 2131165271;
+			
+			// aapt resource value: 0x7F070058
+			public const int btn_checkbox_checked_to_unchecked_mtrl_animation = 2131165272;
+			
+			// aapt resource value: 0x7F070059
+			public const int btn_checkbox_unchecked_mtrl = 2131165273;
+			
+			// aapt resource value: 0x7F07005A
+			public const int btn_checkbox_unchecked_to_checked_mtrl_animation = 2131165274;
+			
+			// aapt resource value: 0x7F07005B
+			public const int btn_radio_off_mtrl = 2131165275;
+			
+			// aapt resource value: 0x7F07005C
+			public const int btn_radio_off_to_on_mtrl_animation = 2131165276;
+			
+			// aapt resource value: 0x7F07005D
+			public const int btn_radio_on_mtrl = 2131165277;
+			
+			// aapt resource value: 0x7F07005E
+			public const int btn_radio_on_to_off_mtrl_animation = 2131165278;
+			
+			// aapt resource value: 0x7F07005F
+			public const int catalogo_alimentador = 2131165279;
+			
+			// aapt resource value: 0x7F070060
+			public const int catalogo_rastreador = 2131165280;
+>>>>>>> origin/Gilmar
 			
 			// aapt resource value: 0x7F070061
 			public const int design_fab_background = 2131165281;
@@ -21655,7 +21690,11 @@ namespace PetLifeApp.Droid
 			public const int design_snackbar_background = 2131165285;
 			
 			// aapt resource value: 0x7F070066
+<<<<<<< HEAD
 			public const int Gato = 2131165286;
+=======
+			public const int fundo_caoverde = 2131165286;
+>>>>>>> origin/Gilmar
 			
 			// aapt resource value: 0x7F070067
 			public const int ic_arrow_down_24dp = 2131165287;
@@ -21777,6 +21816,7 @@ namespace PetLifeApp.Droid
 			// aapt resource value: 0x7F07008E
 			public const int notify_panel_notification_icon_bg = 2131165326;
 			
+<<<<<<< HEAD
 			// aapt resource value: 0x7F07008F
 			public const int Outros = 2131165327;
 			
@@ -21812,6 +21852,37 @@ namespace PetLifeApp.Droid
 			
 			// aapt resource value: 0x7F07009A
 			public const int tooltip_frame_light = 2131165338;
+=======
+			// aapt resource value: 0x7F070091
+			public const int petFood = 2131165329;
+			
+			// aapt resource value: 0x7F070092
+			public const int Petlife_logo = 2131165330;
+			
+			// aapt resource value: 0x7F070093
+			public const int petLocation = 2131165331;
+			
+			// aapt resource value: 0x7F070094
+			public const int pets = 2131165332;
+			
+			// aapt resource value: 0x7F07008F
+			public const int Pet_Life_fundo_branco = 2131165327;
+			
+			// aapt resource value: 0x7F070090
+			public const int Pet_Life_fundo_transparente = 2131165328;
+			
+			// aapt resource value: 0x7F070095
+			public const int preference_list_divider_material = 2131165333;
+			
+			// aapt resource value: 0x7F070096
+			public const int test_custom_background = 2131165334;
+			
+			// aapt resource value: 0x7F070097
+			public const int tooltip_frame_dark = 2131165335;
+			
+			// aapt resource value: 0x7F070098
+			public const int tooltip_frame_light = 2131165336;
+>>>>>>> origin/Gilmar
 			
 			static Drawable()
 			{
