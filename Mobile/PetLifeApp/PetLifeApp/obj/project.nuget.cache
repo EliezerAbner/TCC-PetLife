@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hI6adX9wSJmXWwbc5JdzGmgagIRd2R5/XNdvJpoaXFi4QOP6w39cNrxkHYJaMXvZJ4eFSU0wWHX3y2oW4idogA==",
+  "dgSpecHash": "gIFhJX9pyWsdRuZKnK1Fvyk1sFyFb3UsoMhpTXzYxOouamOOEuuQDPI9sSfkmC/xe5euxg0aDev9BWjBSHNJ3A==",
   "success": true,
-  "projectFilePath": "C:\\Programas\\Xamarin\\TCC-PetLife\\Mobile\\PetLifeApp\\PetLifeApp\\PetLifeApp.csproj",
+  "projectFilePath": "C:\\Programas\\TCC-PetLife\\Mobile\\PetLifeApp\\PetLifeApp\\PetLifeApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\eliez\\.nuget\\packages\\microcharts\\0.9.5.9\\microcharts.0.9.5.9.nupkg.sha512",
     "C:\\Users\\eliez\\.nuget\\packages\\microcharts.forms\\0.9.5.9\\microcharts.forms.0.9.5.9.nupkg.sha512",

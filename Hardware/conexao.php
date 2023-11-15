@@ -1,8 +1,8 @@
 <?php
 $servername = "localhost";
 $database = "petlifedb";
-$username = "xaolin";
-$password = "7951";
+$username = "dfsd";
+$password = "sadsad";
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $database);
 // Check connection

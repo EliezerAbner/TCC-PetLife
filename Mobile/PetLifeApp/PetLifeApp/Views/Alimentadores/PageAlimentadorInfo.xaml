@@ -5,7 +5,7 @@
              x:Class="PetLifeApp.Views.Alimentadores.PageAlimentadorInfo"
              NavigationPage.HasNavigationBar="False"
              BackgroundColor="White">
-    <ContentPage.Content>
+    <ScrollView>
         <StackLayout>
             <StackLayout VerticalOptions="Start"
                          Orientation="Horizontal"
@@ -52,8 +52,61 @@
 
                     <Label Text="Consumo médio de água"
                            TextColor="Black"/>
+
+                    <microcharts:ChartView x:Name="chartAgua"
+                       HeightRequest="300"/>
+                </StackLayout>
+            </Frame>
+
+            <Frame Margin="10"
+                   CornerRadius="10">
+                <StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Horários"
+                               VerticalTextAlignment="Center"
+                               FontSize="25"
+                               TextColor="Black"/>
+
+                        <Button x:Name="btnAddHorario"
+                                Clicked="btnAddHorario_Clicked"
+                                Text="Add Novo Horário"
+                                TextColor="#00BF63"
+                                BackgroundColor="Transparent"
+                                HorizontalOptions="EndAndExpand"/>
+                    </StackLayout>
+
+                    <Frame CornerRadius="10" 
+                           x:Name="frameAddHorario"
+                           IsVisible="true">
+
+                        <StackLayout>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Adicione um horário"
+                                       FontSize="14"
+                                       VerticalTextAlignment="Center"
+                                       TextColor="Black"/>
+
+                                <TimePicker x:Name="tpHorario"
+                                            TextColor="Black"
+                                            HorizontalOptions="EndAndExpand"/>
+                            </StackLayout>
+
+                            <StackLayout Orientation="Horizontal">
+                                <!--insira algo aq-->
+                            </StackLayout>
+
+                            <Button x:Name="btnCadHorario"
+                                    Clicked="btnCadHorario_Clicked"
+                                    Text="Adicionar Horário"
+                                    TextColor="White"
+                                    HorizontalOptions="EndAndExpand"
+                                    CornerRadius="10"
+                                    BackgroundColor="#00BF63"/>
+                        </StackLayout>
+                    </Frame>
+
                 </StackLayout>
             </Frame>
         </StackLayout>
-    </ContentPage.Content>
+    </ScrollView>
 </ContentPage>

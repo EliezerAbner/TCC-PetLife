@@ -22,7 +22,18 @@ namespace PetLifeApp.Controller
 
             using (MySqlConnection con = new MySqlConnection(conn))
             {
-                string sql = $"CALL novo_alimentador({al.ClienteId},'{al.NomeAlimentador}','{al.Identificador}')";
+                string sql = $"CALL novo_alimentador({al.ClienteId}, '{al.NomeAlimentador}', '{al.Identificador}')";
+                con.Open();
+                using (MySqlCommand cmd = new MySqlCommand(sql, con))
+                {
+                    cmd.ExecuteNonQuery();
+                }
+                con.Close();
+            }
+
+            using (MySqlConnection con = new MySqlConnection(conn))
+            {
+                string sql = $"SELECT alimentadorId FROM alimentador WHERE nomeAlimentador='{al.NomeAlimentador}'";
                 con.Open();
                 using (MySqlCommand cmd = new MySqlCommand(sql, con))
                 {
@@ -37,7 +48,7 @@ namespace PetLifeApp.Controller
         {
             using (MySqlConnection con = new MySqlConnection(conn))
             {
-                string sql = $"UPDATE alimentador SET nomeAlimentador='{al.NomeAlimentador}', clienteId={al.ClienteId}, identificador='{al.Identificador}' WHERE alimentadorId={al.AlimentadorId}";
+                string sql = $"UPDATE alimentador SET nomeAlimentador='{al.NomeAlimentador}' WHERE alimentadorId={al.AlimentadorId}";
 
                 con.Open();
                 using (MySqlCommand cmd = new MySqlCommand(sql, con))
@@ -74,17 +85,22 @@ namespace PetLifeApp.Controller
                 using (MySqlCommand cmd = new MySqlCommand(sql, con))
                 {
                     using (MySqlDataReader reader = cmd.ExecuteReader())
-                    {
-                        Alimentador al = new Alimentador();
-
+                    { 
                         while (reader.Read())
                         {
-                            al.AlimentadorId = reader.GetInt32(0);
-                            al.NomeAlimentador = reader.GetString(1);
-                            al.ClienteId = reader.GetInt32(3);
-                            al.Identificador = reader.GetString(4);    
+                            Alimentador al = new Alimentador()
+                            {
+                                AlimentadorId = reader.GetInt32(0),
+                                NomeAlimentador = reader.GetString(1),
+                                ClienteId = reader.GetInt32(3),
+                                Identificador = reader.GetString(4),
+                            };
+                            
+                            if (al.AlimentadorId != 0)
+                            {
+                                lista.Add(al);
+                            }
                         }
-                        lista.Add(al);
                     }
                 }
                 con.Close();

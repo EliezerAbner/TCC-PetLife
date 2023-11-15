@@ -31,6 +31,13 @@ namespace PetLifeApp.Views.Alimentadores
                 LabelTextSize = 18,
                 MaxValue = 1000
             };
+
+            chartAgua.Chart = new BarChart
+            {
+                Entries = entries,
+                LabelTextSize = 18,
+                MaxValue = 1000
+            };
         }
 
         private void btnEditar_Clicked(object sender, EventArgs e)
@@ -85,6 +92,16 @@ namespace PetLifeApp.Views.Alimentadores
                     Color = SKColor.Parse("#00BF63")
                 },
             };
+        }
+
+        private void btnCadHorario_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnAddHorario_Clicked(object sender, EventArgs e)
+        {
+            frameAddHorario.IsVisible = true;
         }
     }
 }

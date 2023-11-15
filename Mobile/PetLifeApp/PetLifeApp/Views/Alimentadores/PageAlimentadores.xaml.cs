@@ -26,14 +26,15 @@ namespace PetLifeApp.Views.Alimentadores
                 AlimentadorController controller = new AlimentadorController();
                 listaAlim = controller.ListaAlimentadores(clienteId);
 
-                if(listaAlim.Count != 0)
+                if(listaAlim.Count > 0)
                 {
                     lvAlimentadores.ItemsSource = listaAlim;
+                    slNoAlim.IsVisible = false;
                 }
                 else
                 {
                     lvAlimentadores.IsVisible = false;
-                    slAddAlim.IsVisible = true;
+                    slNoAlim.IsVisible = true;
                 }
             }
             catch (Exception ex) 
@@ -41,7 +42,7 @@ namespace PetLifeApp.Views.Alimentadores
                 DisplayAlert("Erro", $"{ex.Message}", "OK");
 
                 lvAlimentadores.IsVisible = false;
-                slAddAlim.IsVisible = true;
+                slNoAlim.IsVisible = true;
             }
         }
 
@@ -74,7 +75,7 @@ namespace PetLifeApp.Views.Alimentadores
                 {
                     ClienteId = clienteId,
                     Identificador = txtIdentificador.Text,
-                    NomeAlimentador = txtIdentificador.Text,
+                    NomeAlimentador = txtNomeAlimentador.Text,
                 };
 
                 try
@@ -88,6 +89,9 @@ namespace PetLifeApp.Views.Alimentadores
 
                         AlimentadorController alController = new AlimentadorController();
                         lvAlimentadores.ItemsSource = alController.ListaAlimentadores(clienteId);
+
+                        slForm.IsVisible = false;
+                        slAddAlim.IsVisible = true;
                     }
                     else
                     {

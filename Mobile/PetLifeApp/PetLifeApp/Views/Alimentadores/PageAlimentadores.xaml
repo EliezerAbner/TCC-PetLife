@@ -17,15 +17,6 @@
                        FontSize="25"
                        Margin="30,0"
                        TextColor="White"/>
-
-                <Button x:Name="btnAddAlim"
-                        Text="+"
-                        FontSize="35"
-                        Clicked="BtnAddAlim_Clicked"
-                        HeightRequest="50"
-                        WidthRequest="65"
-                        BackgroundColor="#00BF63"
-                        HorizontalOptions="EndAndExpand"/>
             </StackLayout>
 
             <StackLayout x:Name="slAddAlim">
