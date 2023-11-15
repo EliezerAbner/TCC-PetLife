@@ -9,10 +9,7 @@
     ".NETStandard,Version=v2.0/": {
       "PetLifeApp/1.0.0": {
         "dependencies": {
-<<<<<<< HEAD
           "Microcharts.Forms": "0.9.5.9",
-=======
->>>>>>> origin/Gilmar
           "MySqlConnector": "2.2.7",
           "NETStandard.Library": "2.0.3",
           "Newtonsoft.Json": "13.0.3",
@@ -24,7 +21,6 @@
           "PetLifeApp.dll": {}
         }
       },
-<<<<<<< HEAD
       "Microcharts/0.9.5.9": {
         "dependencies": {
           "SkiaSharp": "2.80.2",
@@ -56,8 +52,6 @@
           }
         }
       },
-=======
->>>>>>> origin/Gilmar
       "Microsoft.NETCore.Platforms/1.1.0": {},
       "Microsoft.NETCore.Targets/1.1.0": {},
       "MySqlConnector/2.2.7": {
@@ -87,7 +81,6 @@
           }
         }
       },
-<<<<<<< HEAD
       "SkiaSharp/2.80.2": {
         "dependencies": {
           "System.Memory": "4.5.5"
@@ -105,8 +98,6 @@
           "Xamarin.Forms": "5.0.0.2196"
         }
       },
-=======
->>>>>>> origin/Gilmar
       "System.Buffers/4.5.1": {
         "runtime": {
           "lib/netstandard2.0/System.Buffers.dll": {
@@ -184,10 +175,7 @@
           }
         }
       },
-<<<<<<< HEAD
       "System.ValueTuple/4.5.0": {},
-=======
->>>>>>> origin/Gilmar
       "Xamarin.Essentials/1.7.0": {
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -235,7 +223,6 @@
       "serviceable": false,
       "sha512": ""
     },
-<<<<<<< HEAD
     "Microcharts/0.9.5.9": {
       "type": "package",
       "serviceable": true,
@@ -250,8 +237,6 @@
       "path": "microcharts.forms/0.9.5.9",
       "hashPath": "microcharts.forms.0.9.5.9.nupkg.sha512"
     },
-=======
->>>>>>> origin/Gilmar
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
       "serviceable": true,
@@ -287,7 +272,6 @@
       "path": "newtonsoft.json/13.0.3",
       "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
     },
-<<<<<<< HEAD
     "SkiaSharp/2.80.2": {
       "type": "package",
       "serviceable": true,
@@ -302,8 +286,6 @@
       "path": "skiasharp.views.forms/2.80.2",
       "hashPath": "skiasharp.views.forms.2.80.2.nupkg.sha512"
     },
-=======
->>>>>>> origin/Gilmar
     "System.Buffers/4.5.1": {
       "type": "package",
       "serviceable": true,
@@ -360,7 +342,6 @@
       "path": "system.threading.tasks.extensions/4.5.4",
       "hashPath": "system.threading.tasks.extensions.4.5.4.nupkg.sha512"
     },
-<<<<<<< HEAD
     "System.ValueTuple/4.5.0": {
       "type": "package",
       "serviceable": true,
@@ -368,8 +349,6 @@
       "path": "system.valuetuple/4.5.0",
       "hashPath": "system.valuetuple.4.5.0.nupkg.sha512"
     },
-=======
->>>>>>> origin/Gilmar
     "Xamarin.Essentials/1.7.0": {
       "type": "package",
       "serviceable": true,

@@ -15,7 +15,6 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-<<<<<<< HEAD
     package="androidx.versionedparcelable" >
 
     <uses-sdk
@@ -24,14 +23,5 @@
 
     <application>
     </application>
-=======
-    package="androidx.core" >
-
-    <uses-sdk
-        android:minSdkVersion="14"
-        android:targetSdkVersion="30" />
-
-    <application android:appComponentFactory="androidx.core.app.CoreComponentFactory" />
->>>>>>> origin/Gilmar
 
 </manifest>

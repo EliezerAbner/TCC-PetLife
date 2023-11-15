@@ -16,19 +16,21 @@ namespace PetLifeApp.Controller
             conn = conexao.Conn;
         }
 
-        public void NovoAlimentador(Alimentador al)
+        public bool NovoAlimentador(Alimentador al)
         {
+            bool opOk = false;
+
             using (MySqlConnection con = new MySqlConnection(conn))
             {
-                string sql = $"INSERT INTO alimentador (nomeAlimentador, clienteId, identificador, status) VALUES ('{al.NomeAlimentador}', {al.ClienteId}, '{al.Identificador}', 1)";
-
+                string sql = $"CALL novo_alimentador({al.ClienteId},'{al.NomeAlimentador}','{al.Identificador}')";
                 con.Open();
                 using (MySqlCommand cmd = new MySqlCommand(sql, con))
                 {
-                    cmd.ExecuteNonQuery();
+                    opOk = Convert.ToBoolean(cmd.ExecuteScalar());
                 }
                 con.Close();
             }
+            return opOk;
         }
 
         public void EditarAlimentador(Alimentador al)

@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-<<<<<<< HEAD:Mobile/PetLifeApp/PetLifeApp.Android/obj/Debug/130/lp/104/jl/AndroidManifest.xml
   ~ Copyright 2017 The Android Open Source Project
-=======
-  ~ Copyright (C) 2017 The Android Open Source Project
->>>>>>> origin/Gilmar:Mobile/PetLifeApp/PetLifeApp.Android/obj/Debug/130/lp/60/jl/AndroidManifest.xml
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -19,14 +15,10 @@
   ~ limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-<<<<<<< HEAD:Mobile/PetLifeApp/PetLifeApp.Android/obj/Debug/130/lp/104/jl/AndroidManifest.xml
     package="androidx.lifecycle.livedata" >
-=======
-    package="androidx.arch.core" >
->>>>>>> origin/Gilmar:Mobile/PetLifeApp/PetLifeApp.Android/obj/Debug/130/lp/60/jl/AndroidManifest.xml
 
     <uses-sdk
         android:minSdkVersion="14"
-        android:targetSdkVersion="28" />
+        android:targetSdkVersion="30" />
 
 </manifest>

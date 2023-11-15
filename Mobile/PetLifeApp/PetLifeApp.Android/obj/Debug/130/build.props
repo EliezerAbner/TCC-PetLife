@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 bundleassemblies=false
 aotassemblies=false
 androidaddkeepalives=
@@ -26,7 +25,7 @@ androidgeneratejnimarshalmethods=false
 os=windows_nt
 androidincludedebugsymbols=true
 androidpackagenamingpolicy=lowercasecrc64
-_nugetassetstimestamp=638355852681767021
+_nugetassetstimestamp=638355934669192146
 typemapkind=strings-asm
 androidsupportedabis=arm64-v8a
 armeabi-v7a
@@ -34,40 +33,3 @@ x86
 x86_64
 androidmanifestplaceholders=
 projectfullpath=c:\programas\xamarin\tcc-petlife\mobile\petlifeapp\petlifeapp.android\petlifeapp.android.csproj
-=======
-bundleassemblies=false
-aotassemblies=false
-androidaddkeepalives=
-androidaotmode=none
-androidembedprofilers=
-androidenableprofiledaot=
-androiddextool=d8
-androidlinktool=
-androidlinkresources=
-androidpackageformat=apk
-embedassembliesintoapk=false
-androidlinkmode=none
-androidlinkskip=
-androidsdkbuildtoolsversion=32.0.0
-androidsdkpath=c:\program files (x86)\android\android-sdk\
-androidndkpath=
-javasdkpath=c:\program files\microsoft\jdk-11.0.16.101-hotspot\
-androidsequencepointsmode=none
-xamarinandroidversion=13.2.0-0
-monosymbolarchive=false
-androiduselatestplatformsdk=false
-targetframeworkversion=v13.0
-androidcreatepackageperabi=
-androidgeneratejnimarshalmethods=false
-os=windows_nt
-androidincludedebugsymbols=true
-androidpackagenamingpolicy=lowercasecrc64
-_nugetassetstimestamp=638355055329448311
-typemapkind=strings-asm
-androidsupportedabis=arm64-v8a
-armeabi-v7a
-x86
-x86_64
-androidmanifestplaceholders=
-projectfullpath=c:\users\aluno\source\repos\tcc-petlife\mobile\petlifeapp\petlifeapp.android\petlifeapp.android.csproj
->>>>>>> origin/Gilmar

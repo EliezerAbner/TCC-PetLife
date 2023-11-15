@@ -76,7 +76,7 @@
                                 VerticalOptions="EndAndExpand"
                                 HorizontalOptions="CenterAndExpand"
                                 Text="Fazer Login"
-                                TextColor="Black"
+                                TextColor="White"
                                 CornerRadius="30"
                                 BackgroundColor="#00BF63"/>
                     </StackLayout>

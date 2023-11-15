@@ -59,5 +59,50 @@ namespace PetLifeApp.Views.Alimentadores
         {
             Navigation.PushAsync(new PageAlimentadorInfo(e.SelectedItem as Alimentador));
         }
+
+        private void TapGestureRecognizer_Tapped(object sender, EventArgs e)
+        {
+            slAddAlim.IsVisible = false;
+            slForm.IsVisible = true;
+        }
+
+        private void btnCadastrar_Clicked(object sender, EventArgs e)
+        {
+            if (txtIdentificador.Text != null || txtNomeAlimentador.Text != null)
+            {
+                Alimentador novoAlimentador = new Alimentador()
+                {
+                    ClienteId = clienteId,
+                    Identificador = txtIdentificador.Text,
+                    NomeAlimentador = txtIdentificador.Text,
+                };
+
+                try
+                {
+                    AlimentadorController alimentadorController = new AlimentadorController();
+                    bool opOk = alimentadorController.NovoAlimentador(novoAlimentador);
+
+                    if (opOk)
+                    {
+                        lvAlimentadores.ItemsSource = null;
+
+                        AlimentadorController alController = new AlimentadorController();
+                        lvAlimentadores.ItemsSource = alController.ListaAlimentadores(clienteId);
+                    }
+                    else
+                    {
+                        DisplayAlert("Erro", "Erro ao cadastrar o alimentador. Tente novamente", "OK");
+                    }
+                }
+                catch (Exception ex)
+                {
+                    DisplayAlert("Erro", $"{ex.Message}", "OK");
+                }
+            }
+            else
+            {
+                DisplayAlert("Erro","Preencha os campos restantes","OK");
+            }
+        }
     }
 }

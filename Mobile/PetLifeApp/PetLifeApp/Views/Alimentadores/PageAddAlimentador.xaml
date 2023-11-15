@@ -1,12 +1,32 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="PetLifeApp.Views.Alimentadores.PageAddAlimentador">
+             xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             x:Class="PetLifeApp.Views.Alimentadores.PageAddAlimentador"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="White">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <StackLayout VerticalOptions="Start"
+                         Orientation="Horizontal"
+                         BackgroundColor="#00BF63"
+                         HeightRequest="80"
+                         Margin="0,0,0,30">
+
+                <Label Text="Novo Alimentador"
+                       VerticalTextAlignment="Center"
+                       FontSize="25"
+                       Margin="30,0"
+                       TextColor="White"/>
+            </StackLayout>
+
+            <yummy:PancakeView CornerRadius="10"
+                               Margin="10,0"
+                               Border="{yummy:BorderMarkup Color=#000000, Thickness='1'}">
+
+                <Entry x:Name="txt"/>
+            </yummy:PancakeView>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

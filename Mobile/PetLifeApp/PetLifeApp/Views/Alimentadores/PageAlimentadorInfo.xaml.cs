@@ -14,57 +14,77 @@ namespace PetLifeApp.Views.Alimentadores
     public partial class PageAlimentadorInfo : ContentPage
 	{
         private int alimentadorId;
+        private ChartEntry[] entries;
 
         public PageAlimentadorInfo (Alimentador alInfo)
 		{
             alimentadorId = 6;
 
 			InitializeComponent ();
-            
+            CarregarChart();
 
 			lblPageTitulo.Text = alInfo.NomeAlimentador;
-
-            var entries = new[]
-{
-    new ChartEntry(212)
-    {
-        Label = "UWP",
-        ValueLabel = "112",
-        Color = SKColor.Parse("#2c3e50")
-    },
-    new ChartEntry(248)
-    {
-        Label = "Android",
-        ValueLabel = "648",
-        Color = SKColor.Parse("#77d065")
-    },
-    new ChartEntry(128)
-    {
-        Label = "iOS",
-        ValueLabel = "428",
-        Color = SKColor.Parse("#b455b6")
-    },
-    new ChartEntry(514)
-    {
-        Label = "Forms",
-        ValueLabel = "214",
-        Color = SKColor.Parse("#3498db")
-    }
-};
 
             chartRacao.Chart = new BarChart
             {
                 Entries = entries,
                 LabelTextSize = 18,
-                MaxValue = 3000
+                MaxValue = 1000
             };
-		}
+        }
 
         private void btnEditar_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new PageAddAlimentador());
         }
 
-
+        private void CarregarChart()
+        {
+            entries = new[] 
+            {
+                new ChartEntry(212)
+                {
+                    Label = "Domingo",
+                    ValueLabel = "112",
+                    Color = SKColor.Parse("#00BF63")
+                },
+                new ChartEntry(248)
+                {
+                    Label = "Segunda",
+                    ValueLabel = "648",
+                    Color = SKColor.Parse("#00BF63")
+                },
+                new ChartEntry(128)
+                {
+                    Label = "Terça",
+                    ValueLabel = "428",
+                    Color = SKColor.Parse("#00BF63")
+                },
+                new ChartEntry(514)
+                {
+                    Label = "Quarta",
+                    ValueLabel = "214",
+                    Color = SKColor.Parse("#00BF63")
+                },
+                new ChartEntry(514)
+                {
+                    Label = "Quinta",
+                    ValueLabel = "214",
+                    Color = SKColor.Parse("#00BF63")
+                },
+                new ChartEntry(514)
+                {
+                    Label = "Sexta",
+                    ValueLabel = "214",
+                    Color = SKColor.Parse("#00BF63")
+                },
+                new ChartEntry(514)
+                {
+                    Label = "Sábado",
+                    ValueLabel = "214",
+                    Color = SKColor.Parse("#00BF63")
+                },
+            };
+        }
     }
 }

@@ -4132,32 +4132,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Aluno\\.nuget\\packages\\": {},
+    "C:\\Users\\eliez\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
       "projectUniqueName": "C:\\Programas\\Xamarin\\TCC-PetLife\\Mobile\\PetLifeApp\\PetLifeApp.Android\\PetLifeApp.Android.csproj",
       "projectName": "PetLifeApp.Android",
       "projectPath": "C:\\Programas\\Xamarin\\TCC-PetLife\\Mobile\\PetLifeApp\\PetLifeApp.Android\\PetLifeApp.Android.csproj",
       "packagesPath": "C:\\Users\\eliez\\.nuget\\packages\\",
       "outputPath": "C:\\Programas\\Xamarin\\TCC-PetLife\\Mobile\\PetLifeApp\\PetLifeApp.Android\\obj\\",
-=======
-      "projectUniqueName": "C:\\Users\\Aluno\\Source\\Repos\\TCC-PetLife\\Mobile\\PetLifeApp\\PetLifeApp.Android\\PetLifeApp.Android.csproj",
-      "projectName": "PetLifeApp.Android",
-      "projectPath": "C:\\Users\\Aluno\\Source\\Repos\\TCC-PetLife\\Mobile\\PetLifeApp\\PetLifeApp.Android\\PetLifeApp.Android.csproj",
-      "packagesPath": "C:\\Users\\Aluno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Aluno\\Source\\Repos\\TCC-PetLife\\Mobile\\PetLifeApp\\PetLifeApp.Android\\obj\\",
->>>>>>> origin/Gilmar
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Aluno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\eliez\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4171,13 +4163,8 @@
       "frameworks": {
         "monoandroid13.0": {
           "projectReferences": {
-<<<<<<< HEAD
             "C:\\Programas\\Xamarin\\TCC-PetLife\\Mobile\\PetLifeApp\\PetLifeApp\\PetLifeApp.csproj": {
               "projectPath": "C:\\Programas\\Xamarin\\TCC-PetLife\\Mobile\\PetLifeApp\\PetLifeApp\\PetLifeApp.csproj"
-=======
-            "C:\\Users\\Aluno\\Source\\Repos\\TCC-PetLife\\Mobile\\PetLifeApp\\PetLifeApp\\PetLifeApp.csproj": {
-              "projectPath": "C:\\Users\\Aluno\\Source\\Repos\\TCC-PetLife\\Mobile\\PetLifeApp\\PetLifeApp\\PetLifeApp.csproj"
->>>>>>> origin/Gilmar
             }
           }
         }
@@ -4186,6 +4173,10 @@
     "frameworks": {
       "monoandroid13.0": {
         "dependencies": {
+          "Microcharts.Forms": {
+            "target": "Package",
+            "version": "[0.9.5.9, )"
+          },
           "Microcharts.Forms": {
             "target": "Package",
             "version": "[0.9.5.9, )"
@@ -4218,8 +4209,6 @@
             "target": "Package",
             "version": "[5.0.0.2196, )"
           },
-<<<<<<< HEAD
-=======
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[5.0.0.2196, )"
@@ -4228,7 +4217,6 @@
             "target": "Package",
             "version": "[2.3.0.759, )"
           },
->>>>>>> origin/Gilmar
           "Xamarin.Forms.PancakeView": {
             "target": "Package",
             "version": "[2.3.0.759, )"

@@ -15,11 +15,7 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-<<<<<<< HEAD
     package="androidx.dynamicanimation" >
-=======
-    package="androidx.appcompat.resources" >
->>>>>>> origin/Gilmar
 
     <uses-sdk android:minSdkVersion="14" />
 
