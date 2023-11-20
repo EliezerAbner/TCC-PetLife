@@ -7,20 +7,10 @@ namespace PetLifeApp.Models
     class HorariosAlimentador
     {
         public int HorariosAlimentadorId { get; set; }
-        private string horario;
-        public string Horario 
-        { 
-            get { return horario; }
-            set { horario = ConversorDatas(value); }
-        }
-        public decimal QtdeDespejar { get; set; }
+        public int AlimentadorId { get; set; }
+        public TimeSpan Horario { get; set; }
+        public decimal QtdeDespejarAgua { get; set; }
+        public decimal QtdeDespejarRacao { get; set; }
 
-        private string ConversorDatas(string valorAntigo)
-        {
-            DateTime dataAntiga = Convert.ToDateTime(valorAntigo);
-            string dataConvertida = dataAntiga.ToString("yyyy-MM-dd HH:mm:ss");
-
-            return dataConvertida;
-        }
     }
 }

@@ -31,10 +31,16 @@
             <Frame Margin="10"
                    CornerRadius="20">
                 <StackLayout>
-                    <Label Text="2,400 Kg"
-                           FontSize="25"
-                           TextColor="Black"/>
+                    <StackLayout Orientation="Horizontal">
+                        <Label x:Name="lblMediaRacao"
+                               FontSize="25"
+                               TextColor="Black"/>
 
+                        <Label Text="g"
+                               FontSize="25"
+                               TextColor="Black"/>
+                    </StackLayout>
+                    
                     <Label Text="Consumo médio de ração"
                            TextColor="Black"/>
 
@@ -46,9 +52,15 @@
             <Frame Margin="10"
                    CornerRadius="20">
                 <StackLayout>
-                    <Label Text="3,900 Litros"
-                           FontSize="25"
-                           TextColor="Black"/>
+                    <StackLayout Orientation="Horizontal">
+                        <Label x:Name="lblMediaAgua"
+                               FontSize="25"
+                               TextColor="Black"/>
+
+                        <Label Text="mL"
+                               FontSize="25"
+                               TextColor="Black"/>
+                    </StackLayout>
 
                     <Label Text="Consumo médio de água"
                            TextColor="Black"/>
@@ -77,7 +89,7 @@
 
                     <Frame CornerRadius="10" 
                            x:Name="frameAddHorario"
-                           IsVisible="true">
+                           IsVisible="false">
 
                         <StackLayout>
                             <StackLayout Orientation="Horizontal">
@@ -92,7 +104,43 @@
                             </StackLayout>
 
                             <StackLayout Orientation="Horizontal">
-                                <!--insira algo aq-->
+                                <Label Text="Quantidade de Ração"
+                                       FontSize="14"
+                                       VerticalTextAlignment="Center"
+                                       TextColor="Black"/>
+
+                                <Entry x:Name="txtQtdeRacao"
+                                       Placeholder="00,00"
+                                       PlaceholderColor="Black"
+                                       TextColor="Black"
+                                       Keyboard="Numeric"
+                                       ReturnType="Next"
+                                       HorizontalOptions="CenterAndExpand"/>
+
+                                <Label Text="g"
+                                       FontSize="14"
+                                       VerticalTextAlignment="Center"
+                                       TextColor="Black"/>
+                            </StackLayout>
+
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Quantidade de Água      "
+                                       FontSize="14"
+                                       VerticalTextAlignment="Center"
+                                       TextColor="Black"/>
+
+                                <Entry x:Name="txtQtdeAgua"
+                                       Placeholder="00,00"
+                                       PlaceholderColor="Black"
+                                       TextColor="Black"
+                                       Keyboard="Numeric"
+                                       ReturnType="Next"
+                                       HorizontalOptions="CenterAndExpand"/>
+
+                                <Label Text="mL"
+                                       FontSize="14"
+                                       VerticalTextAlignment="Center"
+                                       TextColor="Black"/>
                             </StackLayout>
 
                             <Button x:Name="btnCadHorario"
@@ -105,8 +153,85 @@
                         </StackLayout>
                     </Frame>
 
+                    <ListView x:Name="lvHorarios" HasUnevenRows="True" SeparatorColor="Black">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <StackLayout>
+                                        <SwipeView>
+                                            <SwipeView.RightItems>
+                                                <SwipeItem x:Name="btnApagar" 
+                                                           Text="Apagar"
+                                                           IconImageSource="trash" 
+                                                           BackgroundColor="LightPink" 
+                                                           Clicked="btnApagar_Clicked" 
+                                                           CommandParameter="{Binding .}"/>
+                                            </SwipeView.RightItems>
+
+                                            <Grid>
+                                                <Frame>
+                                                    <StackLayout>
+                                                        <StackLayout Orientation="Horizontal">
+                                                            <Label Text="Horário"
+                                                                   FontSize="20"
+                                                                   TextColor="#00BF63"/>
+
+                                                            <Label Text="{Binding Horario}"
+                                                                   HorizontalOptions="EndAndExpand"
+                                                                   FontSize="20"
+                                                                   TextColor="#00BF63"/>
+                                                        </StackLayout>
+
+                                                        <StackLayout Orientation="Horizontal"
+                                                                     Margin="0,20,0,0">
+
+                                                            <Label Text="Qtde a despejar de água"
+                                                                   FontSize="17"
+                                                                   TextColor="Black"/>
+
+                                                            <Label Text="{Binding QtdeDespejarAgua}"
+                                                                   VerticalTextAlignment="Center"
+                                                                   HorizontalOptions="CenterAndExpand"
+                                                                   FontSize="17"
+                                                                   TextColor="Black"/>
+
+                                                            <Label Text="mL"
+                                                                   VerticalTextAlignment="Center"
+                                                                   FontSize="14"
+                                                                   TextColor="Black"/>
+                                                        </StackLayout>
+
+                                                        <StackLayout Orientation="Horizontal"
+                                                                     Margin="0,3,0,0">
+
+                                                            <Label Text="Qtde a despejar de ração"
+                                                                   FontSize="17"
+                                                                   TextColor="Black"/>
+
+                                                            <Label Text="{Binding QtdeDespejarRacao}"
+                                                                   VerticalTextAlignment="Center"
+                                                                   HorizontalOptions="CenterAndExpand"
+                                                                   FontSize="17"
+                                                                   TextColor="Black"/>
+
+                                                            <Label Text="g"
+                                                                   VerticalTextAlignment="Center"
+                                                                   FontSize="14"
+                                                                   TextColor="Black"/>
+                                                        </StackLayout>
+                                                    </StackLayout>
+                                                </Frame>
+                                            </Grid>
+                                        </SwipeView>
+                                    </StackLayout>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
                 </StackLayout>
             </Frame>
+
+            <Label Text="Teste"/>
         </StackLayout>
     </ScrollView>
 </ContentPage>

@@ -1947,6 +1947,7 @@ int drawable preference_list_divider_material 0x7f07009f
 int drawable test_custom_background 0x7f0700a0
 int drawable tooltip_frame_dark 0x7f0700a1
 int drawable tooltip_frame_light 0x7f0700a2
+int drawable trash 0x7f0700a3
 int id ALT 0x7f080000
 int id BOTTOM_END 0x7f080001
 int id BOTTOM_START 0x7f080002

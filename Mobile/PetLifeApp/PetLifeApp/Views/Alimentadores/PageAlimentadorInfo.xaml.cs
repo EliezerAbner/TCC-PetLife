@@ -14,29 +14,51 @@ namespace PetLifeApp.Views.Alimentadores
     public partial class PageAlimentadorInfo : ContentPage
 	{
         private int alimentadorId;
-        private ChartEntry[] entries;
+
+        private decimal qtdeDisponivelRacao;
+        private decimal qtdeDisponivelAgua;
+
+        private ChartEntry[] dadosAgua = new ChartEntry[7];
+        private ChartEntry[] dadosRacao = new ChartEntry[7];
 
         public PageAlimentadorInfo (Alimentador alInfo)
 		{
-            alimentadorId = 6;
+            InitializeComponent();
 
-			InitializeComponent ();
+            qtdeDisponivelAgua = 500;
+            qtdeDisponivelRacao = 320;
+            //---------------------------------
+
+            alimentadorId = alInfo.AlimentadorId;
+            lblPageTitulo.Text = alInfo.NomeAlimentador;
+
+            
             CarregarChart();
 
-			lblPageTitulo.Text = alInfo.NomeAlimentador;
+            try
+            {
+                AlimentadorController controller = new AlimentadorController();
+                lvHorarios.ItemsSource = controller.ListaHorarios(alimentadorId);
+            }
+            catch (Exception ex)
+            {
+                DisplayAlert("Erro", $"{ex.Message}", "OK");
+            }
 
             chartRacao.Chart = new BarChart
             {
-                Entries = entries,
-                LabelTextSize = 18,
-                MaxValue = 1000
+                Entries = dadosRacao,
+                LabelOrientation = Orientation.Horizontal,
+                LabelTextSize = 20,
+                MaxValue = 3000
             };
 
             chartAgua.Chart = new BarChart
             {
-                Entries = entries,
-                LabelTextSize = 18,
-                MaxValue = 1000
+                Entries = dadosAgua,
+                LabelOrientation = Orientation.Horizontal,
+                LabelTextSize = 24,
+                MaxValue = 3000
             };
         }
 
@@ -47,61 +69,108 @@ namespace PetLifeApp.Views.Alimentadores
 
         private void CarregarChart()
         {
-            entries = new[] 
+            List<DadosAlimentador> dados = new List<DadosAlimentador>();
+            int counter = 0;
+
+            dadosAgua = new ChartEntry[7];
+            dadosRacao = new ChartEntry[7];
+
+            decimal[] mediaAgua = new decimal[7];
+            decimal[] mediaRacao = new decimal[7];
+
+            try
             {
-                new ChartEntry(212)
+                AlimentadorController ac = new AlimentadorController();
+                dados = ac.ObterDados(alimentadorId);
+
+                foreach (DadosAlimentador dado in dados)
                 {
-                    Label = "Domingo",
-                    ValueLabel = "112",
-                    Color = SKColor.Parse("#00BF63")
-                },
-                new ChartEntry(248)
-                {
-                    Label = "Segunda",
-                    ValueLabel = "648",
-                    Color = SKColor.Parse("#00BF63")
-                },
-                new ChartEntry(128)
-                {
-                    Label = "Terça",
-                    ValueLabel = "428",
-                    Color = SKColor.Parse("#00BF63")
-                },
-                new ChartEntry(514)
-                {
-                    Label = "Quarta",
-                    ValueLabel = "214",
-                    Color = SKColor.Parse("#00BF63")
-                },
-                new ChartEntry(514)
-                {
-                    Label = "Quinta",
-                    ValueLabel = "214",
-                    Color = SKColor.Parse("#00BF63")
-                },
-                new ChartEntry(514)
-                {
-                    Label = "Sexta",
-                    ValueLabel = "214",
-                    Color = SKColor.Parse("#00BF63")
-                },
-                new ChartEntry(514)
-                {
-                    Label = "Sábado",
-                    ValueLabel = "214",
-                    Color = SKColor.Parse("#00BF63")
-                },
-            };
+                    ChartEntry racao = new ChartEntry((float)dado.QtdeConsumidaRacao)
+                    {
+                        Label = dado.Dia,
+                        ValueLabel = Convert.ToString(dado.QtdeConsumidaRacao),
+                        Color = SKColor.Parse("#00BF63")
+                    };
+                    dadosRacao[counter] = racao;
+                    mediaRacao[counter] = dado.QtdeConsumidaRacao;
+
+                    ChartEntry agua = new ChartEntry((float)dado.QtdeConsumidaAgua)
+                    {
+                        Label = dado.Dia,
+                        ValueLabel = Convert.ToString(dado.QtdeConsumidaAgua),
+                        Color = SKColor.Parse("#00BF63")
+                    };
+                    dadosAgua[counter] = agua;
+                    mediaAgua[counter] = dado.QtdeConsumidaAgua;
+
+                    counter++;
+                }
+
+                lblMediaAgua.Text = Convert.ToString(mediaAgua.Sum() / mediaAgua.Length);
+                lblMediaRacao.Text = Convert.ToString(mediaRacao.Sum() / mediaRacao.Length);
+            }
+            catch (Exception ex)
+            {
+                DisplayAlert("Erro", $"{ex.Message}", "OK");
+            }
         }
 
         private void btnCadHorario_Clicked(object sender, EventArgs e)
         {
+            if(txtQtdeAgua.Text != null && txtQtdeRacao.Text != null)
+            {
+                if (Convert.ToDecimal(txtQtdeAgua.Text) >= qtdeDisponivelAgua)
+                {
+                    DisplayAlert("Alerta", $"Quantidade de água acima da capacidade do alimentador", "OK");
+                    txtQtdeAgua.Focus();
+                }
+                else if (Convert.ToDecimal(txtQtdeRacao.Text) >= qtdeDisponivelRacao)
+                {
+                    DisplayAlert("Alerta", $"Quantidade de ração acima da capacidade do alimentador", "OK");
+                    txtQtdeRacao.Focus();
+                }
+                else
+                {
+                    HorariosAlimentador h = new HorariosAlimentador()
+                    {
+                        AlimentadorId = alimentadorId,
+                        Horario = tpHorario.Time,
+                        QtdeDespejarAgua = Convert.ToDecimal(txtQtdeAgua.Text),
+                        QtdeDespejarRacao = Convert.ToDecimal(txtQtdeRacao.Text)
+                    };
 
+                    try
+                    {
+                        AlimentadorController ac = new AlimentadorController();
+                        ac.DefinirHorarios(h);
+
+                        frameAddHorario.IsVisible = false;
+
+                        lvHorarios.ItemsSource = null;
+                        lvHorarios.ItemsSource = ac.ListaHorarios(alimentadorId);
+                    }
+                    catch (Exception ex)
+                    {
+                        DisplayAlert("Erro", $"{ex.Message}", "OK");
+                    }
+                }
+            }
+            else
+            {
+                DisplayAlert("Erro", "Preencha os campos vazios", "OK");
+            }
         }
 
         private void btnAddHorario_Clicked(object sender, EventArgs e)
         {
             frameAddHorario.IsVisible = true;
+
+            DateTime teste = Convert.ToDateTime(tpHorario.Time);
+        }
+
+        private void btnApagar_Clicked(object sender, EventArgs e)
+        {
+
         }
     }
 }

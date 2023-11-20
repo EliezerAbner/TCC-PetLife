@@ -1,8 +1,11 @@
 ﻿using MySqlConnector;
 using PetLifeApp.Models;
+using SkiaSharp;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Text.RegularExpressions;
+using Xamarin.Essentials;
 
 namespace PetLifeApp.Controller
 {
@@ -110,56 +113,86 @@ namespace PetLifeApp.Controller
 
         public List<DadosAlimentador> ObterDados(int alimentadorId)
         {
-            
+            string sql = "SELECT DAY(horaRecolhida), SUM(qtdConsumidaAgua), SUM(qtdConsumidaRacao)" +
+                         " FROM dadosRecebidos" +
+                        $" WHERE alimentadorId={alimentadorId}" +
+                         " GROUP BY DAY(horaRecolhida) DESC LIMIT 7";
 
-            string sql = $"SELECT * FROM dadosRecebidos " +
-                         $"WHERE alimentadorId={alimentadorId} AND horaRecolhida >= (DAY(CURDATE()) - 7) AND horaRecolhida <= CURDATE() " +
-                         $"ORDER BY horaRecolhida DESC";
-            
             List<DadosAlimentador> listaDados = new List<DadosAlimentador>();
+
+            using(MySqlConnection con = new MySqlConnection(conn))
+            {
+                con.Open();
+                using (MySqlCommand cmd = new MySqlCommand(sql, con))
+                {
+                    using (MySqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            DadosAlimentador dados = new DadosAlimentador()
+                            {
+                                Dia = Convert.ToString(reader[0]),
+                                QtdeConsumidaAgua = Convert.ToDecimal(reader.GetFloat(1)),
+                                QtdeConsumidaRacao = Convert.ToDecimal(reader.GetFloat(2))
+                            };
+                            listaDados.Add(dados);
+                        }
+                    }
+                }
+                con.Close();
+            }            
+
+            return listaDados;
+
+            
+        }
+
+        public void DefinirHorarios(HorariosAlimentador h)
+        {
+            string sql = $"INSERT INTO horarios (alimentadorId, horario, qtdeDespejarRacao, qtdeDespejarAgua) VALUES({h.AlimentadorId},'{h.Horario}',{h.QtdeDespejarRacao}, {h.QtdeDespejarAgua})";
 
             using (MySqlConnection con = new MySqlConnection(conn))
             {
                 con.Open();
                 using (MySqlCommand cmd = new MySqlCommand(sql, con))
                 {
-                    using (MySqlDataReader reader = cmd.ExecuteReader()) 
-                    {
-                        DadosAlimentador dados = new DadosAlimentador();
+                    cmd.ExecuteNonQuery();
+                }
+                con.Close();
+            }
+        }
 
+        public List<HorariosAlimentador> ListaHorarios(int alimentadorId)
+        {
+            List<HorariosAlimentador> lista = new List<HorariosAlimentador>();
+            string sql = $"SELECT * FROM horarios WHERE alimentadorId={alimentadorId}";
+
+            using (MySqlConnection con = new MySqlConnection(conn))
+            {
+                con.Open();
+                using (MySqlCommand cmd = new MySqlCommand(sql, con))
+                {
+                    using (MySqlDataReader reader = cmd.ExecuteReader())
+                    {
                         while (reader.Read())
                         {
-                            dados.DadosAlimentadorId = reader.GetInt32(0);
-                            dados.DataRecolhida = Convert.ToString(reader.GetString(1));
-                            dados.QtdeConsumidaAgua = Convert.ToDecimal(reader.GetFloat(2));
-                            dados.QtdeConsumidaRacao = Convert.ToDecimal(reader.GetFloat(3));
-                        }
+                            HorariosAlimentador h = new HorariosAlimentador()
+                            {
+                                HorariosAlimentadorId = reader.GetInt32(0),
+                                AlimentadorId = reader.GetInt32(1),
+                                Horario = reader.GetTimeSpan(2),
+                                QtdeDespejarRacao = reader.GetDecimal(3),
+                                QtdeDespejarAgua = reader.GetDecimal(4)
+                            };
 
-                        listaDados.Add(dados);
+                            lista.Add(h);
+                        }
                     }
                 }
                 con.Close();
             }
 
-            return listaDados;
-        }
-
-        public void DefinirHorarios(List<HorariosAlimentador> horarios, int alimentadorId)
-        {
-            foreach (HorariosAlimentador h in horarios)
-            {
-                string sql = $"INSERT INTO horarios (alimentadorId, horario, quantidadeDespejar) VALUES({alimentadorId},'{h.Horario}',{h.QtdeDespejar})";
-
-                using (MySqlConnection con = new MySqlConnection(conn))
-                {
-                    con.Open();
-                    using (MySqlCommand cmd = new MySqlCommand(sql, con))
-                    {
-                        cmd.ExecuteNonQuery();
-                    }
-                    con.Close();
-                }
-            }
+            return lista;
         }
     }
 }

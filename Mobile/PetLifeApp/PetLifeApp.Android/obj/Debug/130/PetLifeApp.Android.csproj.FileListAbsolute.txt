@@ -1376,3 +1376,4 @@ C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\stam
 C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\stamp\_GenerateJavaStubs.stamp
 C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\stamp\_GeneratePackageManagerJava.stamp
 C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\stamp\_ResolveLibraryProjectImports.stamp
+C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\res\drawable\trash.png
