@@ -28,7 +28,8 @@
                         HorizontalOptions="EndAndExpand"/>
             </StackLayout>
 
-            <Frame Margin="10"
+            <Frame x:Name="frameRacao"
+                   Margin="10"
                    CornerRadius="20">
                 <StackLayout>
                     <StackLayout Orientation="Horizontal">
@@ -49,7 +50,8 @@
                 </StackLayout>
             </Frame>
 
-            <Frame Margin="10"
+            <Frame x:Name="frameAgua"
+                   Margin="10"
                    CornerRadius="20">
                 <StackLayout>
                     <StackLayout Orientation="Horizontal">
@@ -230,6 +232,19 @@
                     </ListView>
                 </StackLayout>
             </Frame>
+
+            <StackLayout x:Name="slNoHorario" 
+                         IsVisible="false"
+                         VerticalOptions="CenterAndExpand"
+                         HorizontalOptions="CenterAndExpand">
+
+                <Image Source="clock"/>
+
+                <Label Text="Configure seu alimentador aqui"
+                       HorizontalOptions="Center"
+                       FontSize="20"
+                       TextColor="Black"/>
+            </StackLayout>
 
             <Label Text="Teste"/>
         </StackLayout>

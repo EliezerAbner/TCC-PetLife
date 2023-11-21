@@ -32,34 +32,46 @@ namespace PetLifeApp.Views.Alimentadores
             alimentadorId = alInfo.AlimentadorId;
             lblPageTitulo.Text = alInfo.NomeAlimentador;
 
-            
-            CarregarChart();
-
             try
             {
+                List<HorariosAlimentador> h = new List<HorariosAlimentador>();
                 AlimentadorController controller = new AlimentadorController();
-                lvHorarios.ItemsSource = controller.ListaHorarios(alimentadorId);
+                h = controller.ListaHorarios(alimentadorId);
+
+                if (h.Count > 0)
+                {
+                    lvHorarios.ItemsSource = h;
+
+                    CarregarChart();
+
+                    chartRacao.Chart = new BarChart
+                    {
+                        Entries = dadosRacao,
+                        LabelOrientation = Orientation.Horizontal,
+                        LabelTextSize = 20,
+                        MaxValue = 3000
+                    };
+
+                    chartAgua.Chart = new BarChart
+                    {
+                        Entries = dadosAgua,
+                        LabelOrientation = Orientation.Horizontal,
+                        LabelTextSize = 24,
+                        MaxValue = 3000
+                    };
+                }
+                else
+                {
+                    lvHorarios.IsVisible = false;
+                    frameAgua.IsVisible = false;
+                    frameRacao.IsVisible = false;
+                    slNoHorario.IsVisible = true;
+                }
             }
             catch (Exception ex)
             {
-                DisplayAlert("Erro", $"{ex.Message}", "OK");
+                DisplayAlert("Erro", $"{ex.Message}", "OK"); 
             }
-
-            chartRacao.Chart = new BarChart
-            {
-                Entries = dadosRacao,
-                LabelOrientation = Orientation.Horizontal,
-                LabelTextSize = 20,
-                MaxValue = 3000
-            };
-
-            chartAgua.Chart = new BarChart
-            {
-                Entries = dadosAgua,
-                LabelOrientation = Orientation.Horizontal,
-                LabelTextSize = 24,
-                MaxValue = 3000
-            };
         }
 
         private void btnEditar_Clicked(object sender, EventArgs e)
@@ -148,6 +160,7 @@ namespace PetLifeApp.Views.Alimentadores
 
                         lvHorarios.ItemsSource = null;
                         lvHorarios.ItemsSource = ac.ListaHorarios(alimentadorId);
+                        lvHorarios.IsVisible = true;
                     }
                     catch (Exception ex)
                     {
@@ -164,13 +177,18 @@ namespace PetLifeApp.Views.Alimentadores
         private void btnAddHorario_Clicked(object sender, EventArgs e)
         {
             frameAddHorario.IsVisible = true;
-
-            DateTime teste = Convert.ToDateTime(tpHorario.Time);
+            slNoHorario.IsVisible = false;
         }
 
         private void btnApagar_Clicked(object sender, EventArgs e)
         {
+            HorariosAlimentador h = sender as HorariosAlimentador;
 
+            AlimentadorController ac = new AlimentadorController();
+            ac.ExcluirHorarios(h.HorariosAlimentadorId);
+
+            lvHorarios.ItemsSource = null;
+            lvHorarios.ItemsSource = ac.ListaHorarios(alimentadorId);
         }
     }
 }

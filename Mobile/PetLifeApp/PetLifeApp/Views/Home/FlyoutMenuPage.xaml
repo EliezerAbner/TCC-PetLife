@@ -2,9 +2,11 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:PetLifeApp.Models"
+             xmlns:config="clr-namespace:PetLifeApp.Views.Configuracoes"
              xmlns:home="clr-namespace:PetLifeApp.Views.Home"
              xmlns:pet="clr-namespace:PetLifeApp.Views.Pets"
              xmlns:alimentador="clr-namespace:PetLifeApp.Views.Alimentadores"
+             xmlns:rastreador="clr-namespace:PetLifeApp.Views.Rastreadores"
              x:Class="PetLifeApp.Views.Home.FlyoutMenuPage"
              BackgroundColor="White"
              Title="Teste">
@@ -33,9 +35,11 @@
                   Margin="0,20">
             <ListView.ItemsSource>
                 <x:Array Type="{x:Type local:FlyoutItemPage}">
-                    <local:FlyoutItemPage Title="Home" IconSource="home.png" TargetPage="{x:Type home:FlyoutHome}"/>
-                    <local:FlyoutItemPage Title="Meus Pets" IconSource="home.png" TargetPage="{x:Type pet:PageMeusPets}"/>
-                    <local:FlyoutItemPage Title="Alimentadores" IconSource="home.png" TargetPage="{x:Type alimentador:PageAlimentadores}"/>
+                    <local:FlyoutItemPage Title="Home" TargetPage="{x:Type home:FlyoutHome}"/>
+                    <local:FlyoutItemPage Title="Meus Pets" TargetPage="{x:Type pet:PageMeusPets}"/>
+                    <local:FlyoutItemPage Title="Alimentadores" TargetPage="{x:Type alimentador:PageAlimentadores}"/>
+                    <local:FlyoutItemPage Title="Rastreadores" TargetPage="{x:Type rastreador:PageRastreadores}"/>
+                    <local:FlyoutItemPage Title="Configurações" TargetPage="{x:Type config:PageConfiguracoes}"/>
                 </x:Array>
             </ListView.ItemsSource>
             <ListView.ItemTemplate>
@@ -57,5 +61,21 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
+
+        <Button x:Name="btnLogout"
+                Clicked="btnLogout_Clicked"
+                TextTransform="None"
+                FontSize="20"
+                Text="Logout"
+                BackgroundColor="Transparent"
+                TextColor="Black"/>
+
+        <Button x:Name="btnSair"
+                Clicked="btnSair_Clicked"
+                TextTransform="None"
+                FontSize="20"
+                Text="Sair"
+                BackgroundColor="Transparent"
+                TextColor="Black"/>
     </StackLayout>
 </ContentPage>

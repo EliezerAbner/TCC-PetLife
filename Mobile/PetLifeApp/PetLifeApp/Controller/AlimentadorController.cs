@@ -142,14 +142,27 @@ namespace PetLifeApp.Controller
                 con.Close();
             }            
 
-            return listaDados;
+            return listaDados;   
+        }
 
-            
+        public void ExcluirHorarios(int horariosId)
+        {
+            using (MySqlConnection con = new MySqlConnection(conn))
+            {
+                string sql = $"UPDATE horarios SET status=0 WHERE horariosId={horariosId}";
+
+                con.Open();
+                using (MySqlCommand cmd = new MySqlCommand(sql, con))
+                {
+                    cmd.ExecuteNonQuery();
+                }
+                con.Close();
+            }
         }
 
         public void DefinirHorarios(HorariosAlimentador h)
         {
-            string sql = $"INSERT INTO horarios (alimentadorId, horario, qtdeDespejarRacao, qtdeDespejarAgua) VALUES({h.AlimentadorId},'{h.Horario}',{h.QtdeDespejarRacao}, {h.QtdeDespejarAgua})";
+            string sql = $"INSERT INTO horarios (alimentadorId, status, horario, qtdeDespejarRacao, qtdeDespejarAgua) VALUES({h.AlimentadorId}, 1,'{h.Horario}',{h.QtdeDespejarRacao}, {h.QtdeDespejarAgua})";
 
             using (MySqlConnection con = new MySqlConnection(conn))
             {
@@ -165,7 +178,7 @@ namespace PetLifeApp.Controller
         public List<HorariosAlimentador> ListaHorarios(int alimentadorId)
         {
             List<HorariosAlimentador> lista = new List<HorariosAlimentador>();
-            string sql = $"SELECT * FROM horarios WHERE alimentadorId={alimentadorId}";
+            string sql = $"SELECT * FROM horarios WHERE alimentadorId={alimentadorId} AND status=1";
 
             using (MySqlConnection con = new MySqlConnection(conn))
             {
@@ -180,12 +193,15 @@ namespace PetLifeApp.Controller
                             {
                                 HorariosAlimentadorId = reader.GetInt32(0),
                                 AlimentadorId = reader.GetInt32(1),
-                                Horario = reader.GetTimeSpan(2),
-                                QtdeDespejarRacao = reader.GetDecimal(3),
-                                QtdeDespejarAgua = reader.GetDecimal(4)
+                                Horario = reader.GetTimeSpan(3),
+                                QtdeDespejarRacao = reader.GetDecimal(4),
+                                QtdeDespejarAgua = reader.GetDecimal(5)
                             };
 
-                            lista.Add(h);
+                            if (h.AlimentadorId != 0)
+                            {
+                                lista.Add(h);
+                            }
                         }
                     }
                 }
