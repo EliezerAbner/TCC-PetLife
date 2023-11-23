@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:maps="clr-namespace:Xamarin.Forms.GoogleMaps;assembly=Xamarin.Forms.GoogleMaps"
+             x:Class="PetLifeApp.Views.GPS.PageGPS">
+
+    <RelativeLayout>
+
+        <!-- Mapa -->
+        <maps:Map x:Name="map"
+                  RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width}"
+                  RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height}"/>
+
+        <!-- Botão de volta -->
+        <Button Text="Voltar" Clicked="Button_Clicked_1"
+                BackgroundColor="#90ee90" CornerRadius="25" WidthRequest="100" HeightRequest="50"
+                RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.05}"
+                RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.05}"
+                HorizontalOptions="Center" VerticalOptions="Center">
+            <Button.Triggers>
+                <Trigger TargetType="Button" Property="IsPressed" Value="True">
+                    <Setter Property="Scale" Value="1.2" />
+                </Trigger>
+                <Trigger TargetType="Button" Property="IsPressed" Value="False">
+                    <Setter Property="Scale" Value="1" />
+                </Trigger>
+            </Button.Triggers>
+        </Button>
+
+    </RelativeLayout>
+
+
+</ContentPage>

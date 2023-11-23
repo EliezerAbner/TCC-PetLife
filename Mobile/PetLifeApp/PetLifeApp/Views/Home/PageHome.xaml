@@ -34,6 +34,22 @@
                         HorizontalOptions="EndAndExpand"/>
             </StackLayout>
 
+            <StackLayout Margin="20,30"
+                         Orientation="Horizontal"
+                         HorizontalOptions="FillAndExpand">
+
+                <Label Text="GPS"
+                       TextColor="Black"
+                       FontSize="20"/>
+
+                <Button x:Name="btnGPS"
+                        Clicked="btnGPS_Clicked"
+                        Text="Ver Mais"
+                        TextColor="Blue"
+                        BackgroundColor="Transparent"
+                        HorizontalOptions="EndAndExpand"/>
+            </StackLayout>
+
             <CarouselView x:Name="cvPet" IsVisible="True">
                 <CarouselView.ItemTemplate>
                     <DataTemplate>
