@@ -56,7 +56,7 @@
             },
             "Xamarin.AndroidX.Core": {
               "target": "Package",
-              "version": "[1.12.0.2, )"
+              "version": "[1.7.0.2, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",

@@ -6,7 +6,6 @@ SkiaSharp.Views.Forms.dll
 Xamarin.AndroidX.Activity.dll
 Xamarin.AndroidX.Annotation.dll
 Xamarin.AndroidX.Annotation.Experimental.dll
-Xamarin.AndroidX.Annotation.Jvm.dll
 Xamarin.AndroidX.AppCompat.AppCompatResources.dll
 Xamarin.AndroidX.AppCompat.dll
 Xamarin.AndroidX.Arch.Core.Common.dll
@@ -15,7 +14,6 @@ Xamarin.AndroidX.AsyncLayoutInflater.dll
 Xamarin.AndroidX.Browser.dll
 Xamarin.AndroidX.CardView.dll
 Xamarin.AndroidX.Collection.dll
-Xamarin.AndroidX.Collection.Jvm.dll
 Xamarin.AndroidX.Concurrent.Futures.dll
 Xamarin.AndroidX.ConstraintLayout.Core.dll
 Xamarin.AndroidX.ConstraintLayout.dll
@@ -47,11 +45,9 @@ Xamarin.AndroidX.Navigation.Runtime.dll
 Xamarin.AndroidX.Navigation.UI.dll
 Xamarin.AndroidX.Preference.dll
 Xamarin.AndroidX.Print.dll
-Xamarin.AndroidX.ProfileInstaller.ProfileInstaller.dll
 Xamarin.AndroidX.RecyclerView.dll
 Xamarin.AndroidX.SavedState.dll
 Xamarin.AndroidX.SlidingPaneLayout.dll
-Xamarin.AndroidX.Startup.StartupRuntime.dll
 Xamarin.AndroidX.SwipeRefreshLayout.dll
 Xamarin.AndroidX.Tracing.Tracing.dll
 Xamarin.AndroidX.Transition.dll
@@ -73,19 +69,14 @@ Xamarin.GooglePlayServices.Maps.dll
 Xamarin.GooglePlayServices.Tasks.dll
 Xamarin.Jetbrains.Annotations.dll
 Xamarin.Kotlin.StdLib.dll
-Xamarin.KotlinX.Coroutines.Android.dll
-Xamarin.KotlinX.Coroutines.Core.Jvm.dll
 androidx.versionedparcelable.versionedparcelable.aar
-androidx.tracing.tracing.aar
-androidx.startup.startup-runtime.aar
-androidx.profileinstaller.profileinstaller.aar
 androidx.arch.core.core-runtime.aar
 androidx.lifecycle.lifecycle-runtime.aar
-androidx.interpolator.interpolator.aar
 androidx.annotation.annotation-experimental.aar
 androidx.core.core.aar
 androidx.customview.customview.aar
 androidx.viewpager.viewpager.aar
+androidx.tracing.tracing.aar
 androidx.savedstate.savedstate.aar
 androidx.lifecycle.lifecycle-viewmodel.aar
 androidx.lifecycle.lifecycle-livedata-core.aar
@@ -97,6 +88,7 @@ androidx.fragment.fragment.aar
 androidx.recyclerview.recyclerview.aar
 androidx.viewpager2.viewpager2.aar
 androidx.vectordrawable.vectordrawable.aar
+androidx.interpolator.interpolator.aar
 androidx.vectordrawable.vectordrawable-animated.aar
 androidx.transition.transition.aar
 androidx.print.print.aar

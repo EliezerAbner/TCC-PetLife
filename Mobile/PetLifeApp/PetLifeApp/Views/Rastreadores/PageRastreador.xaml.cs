@@ -36,12 +36,12 @@ namespace PetLifeApp.Views.Rastreadores
             {
                 DisplayAlert("Erro", $"{ex.Message}", "OK");
             }
-            
 
-            //if (listaRastreadores.Count > 0)
-            //{
-            //    lvRastreador.ItemsSource = listaRastreadores;
-            //}
+
+            if (listaRastreadores.Count > 0)
+            {
+                lvRastreador.ItemsSource = listaRastreadores;
+            }
         }
 
         private void TapGestureRecognizer_Tapped(object sender, EventArgs e)
@@ -57,7 +57,11 @@ namespace PetLifeApp.Views.Rastreadores
 
         private void lvRastreador_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
-
+            Rastreador r = e.SelectedItem as Rastreador;
+            if (r != null)
+            {
+                Navigation.PushAsync(new PageMapa(r));
+            }
         }
     }
 }

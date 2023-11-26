@@ -29,3 +29,4 @@ C:\Programas\Xamarin\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstand
 C:\Programas\Xamarin\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\PetLifeApp.pdb
 C:\Programas\Xamarin\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\Views\Rastreadores\PageRastreador.xaml.g.cs
 C:\Programas\Xamarin\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\PetLifeApp.sourcelink.json
+C:\Programas\Xamarin\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\Views\Rastreadores\PageMapa.xaml.g.cs

@@ -67,7 +67,37 @@
                 </Frame>
             </StackLayout>
 
-            
+            <ListView x:Name="lvRastreador" 
+                      IsVisible="true" 
+                      HasUnevenRows="True"
+                      ItemSelected="lvRastreador_ItemSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Frame BackgroundColor="Azure"
+                                   CornerRadius="20"
+                                   Margin="10,10">
+                                <Grid>
+                                    <StackLayout Orientation="Horizontal">
+                                        <Image Source="{Binding Especie}"
+                                               HeightRequest="100"/>
+
+                                        <StackLayout Margin="20,0" VerticalOptions="CenterAndExpand">
+                                            <Label Text="{Binding NomePet}"
+                                                   FontSize="23"
+                                                   TextColor="Black"/>
+
+                                            <Label Text="{Binding Identificador}"
+                                                   TextColor="Black"/>
+                                        </StackLayout>
+                                    </StackLayout>
+                                </Grid>
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+
+            </ListView>
         </StackLayout>
     </ScrollView>
 </ContentPage>

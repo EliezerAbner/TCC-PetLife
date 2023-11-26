@@ -4,7 +4,7 @@ using System.Text;
 
 namespace PetLifeApp.Models
 {
-    class Rastreador
+    public class Rastreador
     {
         public int RastreadorId { get; set; }
         public int ClienteId { get; set; }
