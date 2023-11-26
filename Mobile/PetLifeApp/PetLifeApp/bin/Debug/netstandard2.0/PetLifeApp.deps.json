@@ -15,6 +15,7 @@
           "Newtonsoft.Json": "13.0.3",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196",
+          "Xamarin.Forms.GoogleMaps": "5.0.0",
           "Xamarin.Forms.PancakeView": "2.3.0.759"
         },
         "runtime": {
@@ -203,6 +204,17 @@
           }
         }
       },
+      "Xamarin.Forms.GoogleMaps/5.0.0": {
+        "dependencies": {
+          "Xamarin.Forms": "5.0.0.2196"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.GoogleMaps.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.0"
+          }
+        }
+      },
       "Xamarin.Forms.PancakeView/2.3.0.759": {
         "dependencies": {
           "System.ComponentModel": "4.3.0",
@@ -362,6 +374,13 @@
       "sha512": "sha512-zSXDiZukojtEBmZKUUG1yYBwlB9tI8JLPkc6n+Sm1PAX01QyzErWE9AaFJgP7usyoGHn92l4HnQF7A+/MPI6VA==",
       "path": "xamarin.forms/5.0.0.2196",
       "hashPath": "xamarin.forms.5.0.0.2196.nupkg.sha512"
+    },
+    "Xamarin.Forms.GoogleMaps/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+1QJx2C7Sa87rPnTsAHnmRc0q4RunQMGc5/P3emIyNunM/qXUC9sTn+s/vJEUpvheXf8STBR51xctRAdNM9rFA==",
+      "path": "xamarin.forms.googlemaps/5.0.0",
+      "hashPath": "xamarin.forms.googlemaps.5.0.0.nupkg.sha512"
     },
     "Xamarin.Forms.PancakeView/2.3.0.759": {
       "type": "package",

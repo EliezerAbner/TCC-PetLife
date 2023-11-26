@@ -54,6 +54,10 @@
               "target": "Package",
               "version": "[13.0.3, )"
             },
+            "Xamarin.AndroidX.Core": {
+              "target": "Package",
+              "version": "[1.12.0.2, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.7.0, )"
@@ -61,6 +65,10 @@
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[5.0.0.2196, )"
+            },
+            "Xamarin.Forms.GoogleMaps": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             },
             "Xamarin.Forms.PancakeView": {
               "target": "Package",
@@ -137,6 +145,10 @@
               "target": "Package",
               "version": "[5.0.0.2196, )"
             },
+            "Xamarin.Forms.GoogleMaps": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "Xamarin.Forms.PancakeView": {
               "target": "Package",
               "version": "[2.3.0.759, )"
@@ -153,7 +165,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

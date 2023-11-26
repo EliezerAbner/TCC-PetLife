@@ -27,12 +27,9 @@ namespace PetLifeApp.Views.Home
             var item = e.SelectedItem as FlyoutItemPage;
             if (item != null)
             {
-                Device.BeginInvokeOnMainThread(() => 
-                {
-                    Detail = new NavigationPage((Page)Activator.CreateInstance(item.TargetPage));
-                    flyout.listView.SelectedItem = null;
-                    IsPresented = false;
-                });
+                Detail = new NavigationPage((Page)Activator.CreateInstance(item.TargetPage));
+                flyout.listView.SelectedItem = null;
+                IsPresented = false;
             }
         }
     }

@@ -48,7 +48,11 @@ namespace PetLifeApp.Controller
 
         public List<Rastreador> ListaRastreadores(int clienteId)
         {
-            string sql = $"SELECT * FROM rastreador WHERE clienteId={clienteId}";
+            string sql = " SELECT r.identificador, r.clienteId, p.nome, p.especie " +
+                         " FROM rastreador r " +
+                         " INNER JOIN pet p " +
+                         " ON r.petId = p.petId " +
+                        $" WHERE r.clienteId={clienteId}";
             List<Rastreador> lista = new List<Rastreador>();
 
             using (MySqlConnection con = new MySqlConnection(conn))
@@ -58,15 +62,18 @@ namespace PetLifeApp.Controller
                 {
                     using (MySqlDataReader reader = cmd.ExecuteReader())
                     {
-                        Rastreador r = new Rastreador();
-
                         while (reader.Read())
                         {
-                            r.RastreadorId = reader.GetInt32(0);
-                            r.ClienteId = reader.GetInt32(1);
-                            r.Identificador = reader.GetString(2);
+                            Rastreador r = new Rastreador()
+                            {
+                                Identificador = reader.GetString(0),
+                                ClienteId = reader.GetInt32(1),
+                                NomePet = reader.GetString(2),
+                                Especie = reader.GetString(3),
+                            };
+                            lista.Add(r);
                         }
-                        lista.Add(r);
+                        
                     }
                 }
                 con.Close();

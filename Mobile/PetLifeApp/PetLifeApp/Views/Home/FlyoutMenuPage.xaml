@@ -37,7 +37,7 @@
                 <x:Array Type="{x:Type local:FlyoutItemPage}">
                     <local:FlyoutItemPage Title="Meus Pets" TargetPage="{x:Type pet:PageMeusPets}"/>
                     <local:FlyoutItemPage Title="Alimentadores" TargetPage="{x:Type alimentador:PageAlimentadores}"/>
-                    <local:FlyoutItemPage Title="Rastreadores" TargetPage="{x:Type rastreador:PageRastreadores}"/>
+                    <local:FlyoutItemPage Title="Rastreadores" TargetPage="{x:Type rastreador:PageRastreador}"/>
                     <local:FlyoutItemPage Title="Configurações" TargetPage="{x:Type config:PageConfiguracoes}"/>
                 </x:Array>
             </ListView.ItemsSource>

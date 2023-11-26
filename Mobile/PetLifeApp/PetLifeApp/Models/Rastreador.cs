@@ -9,7 +9,8 @@ namespace PetLifeApp.Models
         public int RastreadorId { get; set; }
         public int ClienteId { get; set; }
         public int PetId { get; set; }
+        public string NomePet { get; set; }
+        public string Especie { get; set; }
         public string Identificador { get; set; }
-        public string NomeRastreador { get; set; }
     }
 }
