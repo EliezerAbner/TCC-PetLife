@@ -771,6 +771,10 @@ C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\res\
 C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\res\drawable\catalogo_alimentador.png
 C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\res\drawable\pet_life_fundo_transparente.png
 C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\res\drawable\pet_life_fundo_branco.png
+C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\res\drawable\trash.png
+C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\res\drawable\clock.png
+C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\res\drawable\pin_map.png
+C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\res\drawable\pin_ico.png
 C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\uploadflags.txt
 C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\resolvedassemblies.hash
 C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\android\assets\FormsViewGroup.dll
@@ -1376,7 +1380,3 @@ C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\stam
 C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\stamp\_GenerateJavaStubs.stamp
 C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\stamp\_GeneratePackageManagerJava.stamp
 C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\stamp\_ResolveLibraryProjectImports.stamp
-C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\res\drawable\trash.png
-C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\res\drawable\clock.png
-C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\res\drawable\pin_map.png
-C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\res\drawable\pin_ico.png

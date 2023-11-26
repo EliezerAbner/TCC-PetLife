@@ -41,12 +41,10 @@ namespace PetLifeApp.Views
 
 				if(clienteId != 0)
                 {
-                    MessagingCenter.Send<PageLogin, string>(this, "clienteId", $"{clienteId}");
-
-					var pagAnterior = Navigation.NavigationStack.LastOrDefault();
-					Navigation.PushAsync(new FlyoutHome());
-					Navigation.RemovePage( pagAnterior );
-				}
+                    var pagAnterior = Navigation.NavigationStack.LastOrDefault();
+                    Navigation.PushAsync(new FlyoutHome(clienteId));
+                    Navigation.RemovePage(pagAnterior);
+                }
 			}
 		}
 

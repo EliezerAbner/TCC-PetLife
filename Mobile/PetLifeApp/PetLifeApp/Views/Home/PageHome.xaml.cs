@@ -7,45 +7,54 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using PetLifeApp.Views.Alimentadores;
+using PetLifeApp.Views.Pets;
 
 namespace PetLifeApp.Views.Home
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class PageHome : ContentPage
     {
+        private int clienteId;
+
         public PageHome()
         {
             InitializeComponent();
 
-            try
+            MessagingCenter.Subscribe<Page, int>(this, "clienteId", (sender, message) =>
             {
-                PetController controller = new PetController();
-                List<Pet> listaPet = new List<Pet>();
+                clienteId = message;
 
-                if(listaPet.Count > 0 )
+                try
                 {
-                    cvPet.ItemsSource = listaPet;
-                }
-                else
-                {
+                    PetController controller = new PetController();
+                    List<Pet> listaPet = new List<Pet>();
+                    listaPet = controller.CarregarPets(clienteId);
+
+                    if (listaPet.Count > 0)
+                    {
+                        cvPet.ItemsSource = listaPet;
+                    }
 
                 }
-            }
-            catch (Exception ex)
-            {
-                DisplayAlert("Erro", $"{ex.Message}", "OK");
-            }
+                catch (Exception ex)
+                {
+                    DisplayAlert("Erro", $"{ex.Message}", "OK");
+                }
+                //MessagingCenter.Unsubscribe<FlyoutHome, int>(this, "clienteId");
+            });
+
+            MessagingCenter.Send(this, "clienteId2", clienteId);
         }
 
         private void btnVerMaisPet_Clicked(object sender, EventArgs e)
         {
-            //Pet by Vector Place
-            //Pet-Food by Andinur Studio
+            Navigation.PushAsync(new PageAlimentadores());
         }
 
         private void btnVerMaisAlimentador_Clicked(object sender, EventArgs e)
         {
-
+            Navigation.PushAsync(new PageMeusPets());
         }
     }
 }

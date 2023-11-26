@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:PetLifeApp.Views.Home"
              x:Class="PetLifeApp.Views.Home.FlyoutHome"
              Title="Home"
-            NavigationPage.HasNavigationBar="False">
+             NavigationPage.HasNavigationBar="false">
     
     <FlyoutPage.Flyout>
         <local:FlyoutMenuPage x:Name="flyout"/>

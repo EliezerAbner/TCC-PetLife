@@ -14,16 +14,23 @@ namespace PetLifeApp.Views.Pets
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class PageMeusPets : ContentPage
 	{
+        private int clienteId;
+
 		public PageMeusPets ()
 		{
 			InitializeComponent ();
+
+            MessagingCenter.Subscribe<PageLogin, string>(this, "clienteId", (view, message) =>
+            {
+                clienteId = Convert.ToInt32(message);
+            });
 
             PetController carregarPets = new PetController();
             List<Pet> listaPet = new List<Pet> ();
 
 			try
 			{
-                listaPet = carregarPets.CarregarPets(6);
+                listaPet = carregarPets.CarregarPets(clienteId);
 
                 if (listaPet.Count > 0)
                 {

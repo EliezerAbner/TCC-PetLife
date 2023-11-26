@@ -35,7 +35,6 @@
                   Margin="0,20">
             <ListView.ItemsSource>
                 <x:Array Type="{x:Type local:FlyoutItemPage}">
-                    <local:FlyoutItemPage Title="Home" TargetPage="{x:Type home:FlyoutHome}"/>
                     <local:FlyoutItemPage Title="Meus Pets" TargetPage="{x:Type pet:PageMeusPets}"/>
                     <local:FlyoutItemPage Title="Alimentadores" TargetPage="{x:Type alimentador:PageAlimentadores}"/>
                     <local:FlyoutItemPage Title="Rastreadores" TargetPage="{x:Type rastreador:PageRastreadores}"/>
