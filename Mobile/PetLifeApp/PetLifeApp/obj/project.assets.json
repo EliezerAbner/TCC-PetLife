@@ -269,7 +269,7 @@
           "lib/netstandard2.0/_._": {}
         }
       },
-      "Xamarin.Essentials/1.7.0": {
+      "Xamarin.Essentials/1.8.0": {
         "type": "package",
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -308,18 +308,6 @@
         "build": {
           "buildTransitive/Xamarin.Forms.props": {},
           "buildTransitive/Xamarin.Forms.targets": {}
-        }
-      },
-      "Xamarin.Forms.GoogleMaps/5.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Forms": "5.0.0.2012"
-        },
-        "compile": {
-          "lib/netstandard2.0/Xamarin.Forms.GoogleMaps.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Xamarin.Forms.GoogleMaps.dll": {}
         }
       },
       "Xamarin.Forms.PancakeView/2.3.0.759": {
@@ -1096,18 +1084,18 @@
         "version.txt"
       ]
     },
-    "Xamarin.Essentials/1.7.0": {
-      "sha512": "xfUJNxtfMC05VBej7fVUg6Zd9VwM2kqW9LH0tcrSA6IsBTl0EsIGkYUOz1BoKT2rseWW8o3kTi5WH/yZV4GgJw==",
+    "Xamarin.Essentials/1.8.0": {
+      "sha512": "g1yB0CkX7BVOx84P0SLm8guypbEfigqjddZsI9KgJzba6yRRcekBqDp6YTT1hO8ZcFcW8VZbsymejTJftJoQyg==",
       "type": "package",
-      "path": "xamarin.essentials/1.7.0",
+      "path": "xamarin.essentials/1.8.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE",
         "icon.png",
-        "lib/monoandroid10.0/Xamarin.Essentials.dll",
-        "lib/monoandroid10.0/Xamarin.Essentials.pdb",
-        "lib/monoandroid10.0/Xamarin.Essentials.xml",
+        "lib/monoandroid13.0/Xamarin.Essentials.dll",
+        "lib/monoandroid13.0/Xamarin.Essentials.pdb",
+        "lib/monoandroid13.0/Xamarin.Essentials.xml",
         "lib/netstandard1.0/Xamarin.Essentials.dll",
         "lib/netstandard1.0/Xamarin.Essentials.pdb",
         "lib/netstandard1.0/Xamarin.Essentials.xml",
@@ -1134,7 +1122,7 @@
         "lib/xamarinwatchos10/Xamarin.Essentials.pdb",
         "lib/xamarinwatchos10/Xamarin.Essentials.xml",
         "readme.txt",
-        "xamarin.essentials.1.7.0.nupkg.sha512",
+        "xamarin.essentials.1.8.0.nupkg.sha512",
         "xamarin.essentials.nuspec"
       ]
     },
@@ -1354,23 +1342,6 @@
         "xamarin.forms.nuspec"
       ]
     },
-    "Xamarin.Forms.GoogleMaps/5.0.0": {
-      "sha512": "+1QJx2C7Sa87rPnTsAHnmRc0q4RunQMGc5/P3emIyNunM/qXUC9sTn+s/vJEUpvheXf8STBR51xctRAdNM9rFA==",
-      "type": "package",
-      "path": "xamarin.forms.googlemaps/5.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.txt",
-        "lib/MonoAndroid10.0/Xamarin.Forms.GoogleMaps.Android.dll",
-        "lib/MonoAndroid10.0/Xamarin.Forms.GoogleMaps.dll",
-        "lib/Xamarin.iOS10/Xamarin.Forms.GoogleMaps.dll",
-        "lib/Xamarin.iOS10/Xamarin.Forms.GoogleMaps.iOS.dll",
-        "lib/netstandard2.0/Xamarin.Forms.GoogleMaps.dll",
-        "xamarin.forms.googlemaps.5.0.0.nupkg.sha512",
-        "xamarin.forms.googlemaps.nuspec"
-      ]
-    },
     "Xamarin.Forms.PancakeView/2.3.0.759": {
       "sha512": "TGVsLJuGd/PKlyhmcBxZnHhHqyhYppzyrdb2q/sy+S6dQYkeGM8A+HmIIHVhbi7r8Sjasa/HRBkOmTSYQOZzhQ==",
       "type": "package",
@@ -1414,9 +1385,8 @@
       "MySqlConnector >= 2.2.7",
       "NETStandard.Library >= 2.0.3",
       "Newtonsoft.Json >= 13.0.3",
-      "Xamarin.Essentials >= 1.7.0",
+      "Xamarin.Essentials >= 1.8.0",
       "Xamarin.Forms >= 5.0.0.2196",
-      "Xamarin.Forms.GoogleMaps >= 5.0.0",
       "Xamarin.Forms.PancakeView >= 2.3.0.759"
     ]
   },
@@ -1485,15 +1455,11 @@
           },
           "Xamarin.Essentials": {
             "target": "Package",
-            "version": "[1.7.0, )"
+            "version": "[1.8.0, )"
           },
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[5.0.0.2196, )"
-          },
-          "Xamarin.Forms.GoogleMaps": {
-            "target": "Package",
-            "version": "[5.0.0, )"
           },
           "Xamarin.Forms.PancakeView": {
             "target": "Package",

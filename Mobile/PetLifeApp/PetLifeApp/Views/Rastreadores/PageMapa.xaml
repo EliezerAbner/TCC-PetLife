@@ -1,14 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:maps="clr-namespace:Xamarin.Forms.GoogleMaps;assembly=Xamarin.Forms.GoogleMaps"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             
              x:Class="PetLifeApp.Views.Rastreadores.PageMapa">
     <RelativeLayout>
 
         <!-- Mapa -->
-        <maps:Map x:Name="map"
-                  RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width}"
-                  RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height}"/>
+        
 
         <!-- Botão de volta -->
         <Button x:Name="btnVoltar" Text="Voltar" Clicked="btnVoltar_Clicked"

@@ -20,13 +20,13 @@ C:\Programas\Xamarin\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstand
 C:\Programas\Xamarin\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\Views\Login\PageWelcome.xaml.g.cs
 C:\Programas\Xamarin\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\Views\Pets\PageAddNovoPet.xaml.g.cs
 C:\Programas\Xamarin\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\Views\Pets\PageMeusPets.xaml.g.cs
+C:\Programas\Xamarin\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\Views\Rastreadores\PageMapa.xaml.g.cs
+C:\Programas\Xamarin\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\Views\Rastreadores\PageRastreador.xaml.g.cs
 C:\Programas\Xamarin\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\PetLifeApp.AssemblyInfoInputs.cache
 C:\Programas\Xamarin\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\PetLifeApp.AssemblyInfo.cs
 C:\Programas\Xamarin\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\PetLifeApp.csproj.CoreCompileInputs.cache
+C:\Programas\Xamarin\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\PetLifeApp.sourcelink.json
 C:\Programas\Xamarin\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Programas\Xamarin\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\PetLifeApp.dll
 C:\Programas\Xamarin\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\refint\PetLifeApp.dll
 C:\Programas\Xamarin\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\PetLifeApp.pdb
-C:\Programas\Xamarin\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\Views\Rastreadores\PageRastreador.xaml.g.cs
-C:\Programas\Xamarin\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\PetLifeApp.sourcelink.json
-C:\Programas\Xamarin\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp\obj\Debug\netstandard2.0\Views\Rastreadores\PageMapa.xaml.g.cs

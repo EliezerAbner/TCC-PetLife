@@ -13,9 +13,8 @@
           "MySqlConnector": "2.2.7",
           "NETStandard.Library": "2.0.3",
           "Newtonsoft.Json": "13.0.3",
-          "Xamarin.Essentials": "1.7.0",
+          "Xamarin.Essentials": "1.8.0",
           "Xamarin.Forms": "5.0.0.2196",
-          "Xamarin.Forms.GoogleMaps": "5.0.0",
           "Xamarin.Forms.PancakeView": "2.3.0.759"
         },
         "runtime": {
@@ -177,7 +176,7 @@
         }
       },
       "System.ValueTuple/4.5.0": {},
-      "Xamarin.Essentials/1.7.0": {
+      "Xamarin.Essentials/1.8.0": {
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
         },
@@ -201,17 +200,6 @@
           "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {
             "assemblyVersion": "2.0.0.0",
             "fileVersion": "5.0.0.786"
-          }
-        }
-      },
-      "Xamarin.Forms.GoogleMaps/5.0.0": {
-        "dependencies": {
-          "Xamarin.Forms": "5.0.0.2196"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Xamarin.Forms.GoogleMaps.dll": {
-            "assemblyVersion": "5.0.0.0",
-            "fileVersion": "5.0.0.0"
           }
         }
       },
@@ -361,12 +349,12 @@
       "path": "system.valuetuple/4.5.0",
       "hashPath": "system.valuetuple.4.5.0.nupkg.sha512"
     },
-    "Xamarin.Essentials/1.7.0": {
+    "Xamarin.Essentials/1.8.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-xfUJNxtfMC05VBej7fVUg6Zd9VwM2kqW9LH0tcrSA6IsBTl0EsIGkYUOz1BoKT2rseWW8o3kTi5WH/yZV4GgJw==",
-      "path": "xamarin.essentials/1.7.0",
-      "hashPath": "xamarin.essentials.1.7.0.nupkg.sha512"
+      "sha512": "sha512-g1yB0CkX7BVOx84P0SLm8guypbEfigqjddZsI9KgJzba6yRRcekBqDp6YTT1hO8ZcFcW8VZbsymejTJftJoQyg==",
+      "path": "xamarin.essentials/1.8.0",
+      "hashPath": "xamarin.essentials.1.8.0.nupkg.sha512"
     },
     "Xamarin.Forms/5.0.0.2196": {
       "type": "package",
@@ -374,13 +362,6 @@
       "sha512": "sha512-zSXDiZukojtEBmZKUUG1yYBwlB9tI8JLPkc6n+Sm1PAX01QyzErWE9AaFJgP7usyoGHn92l4HnQF7A+/MPI6VA==",
       "path": "xamarin.forms/5.0.0.2196",
       "hashPath": "xamarin.forms.5.0.0.2196.nupkg.sha512"
-    },
-    "Xamarin.Forms.GoogleMaps/5.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-+1QJx2C7Sa87rPnTsAHnmRc0q4RunQMGc5/P3emIyNunM/qXUC9sTn+s/vJEUpvheXf8STBR51xctRAdNM9rFA==",
-      "path": "xamarin.forms.googlemaps/5.0.0",
-      "hashPath": "xamarin.forms.googlemaps.5.0.0.nupkg.sha512"
     },
     "Xamarin.Forms.PancakeView/2.3.0.759": {
       "type": "package",
