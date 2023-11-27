@@ -83,7 +83,7 @@ namespace PetLifeApp.Controller
 
         public DadosRastreador Localizacao(string identificador)
         {
-            string sql = $"SELECT MAX(rastreadorDadosId), dataRecolhida, latitude, longitude FROM rastreadorDados WHERE identificador='{identificador}'";
+            string sql = $"SELECT rastreadorDadosId, dataRecolhida, latitude, longitude FROM rastreadorDados WHERE identificador='{identificador}' ORDER BY rastreadorDadosId DESC LIMIT 1";
             DadosRastreador dados = new DadosRastreador();
 
             using (MySqlConnection con = new MySqlConnection(conn))
@@ -105,6 +105,36 @@ namespace PetLifeApp.Controller
                 con.Close();
             }
             return dados;
+        }
+
+        public List<DadosRastreador> Caminho(string identificador)
+        {
+            List<DadosRastreador> linha = new List<DadosRastreador> ();
+            string sql = $"SELECT dataRecolhida, latitude, longitude FROM rastreadorDados WHERE identificador={identificador} ORDER BY dataRecolhida LIMIT 20";
+
+            using(MySqlConnection con = new MySqlConnection(conn))
+            {
+                con.Open();
+                using(MySqlCommand cmd = new MySqlCommand(sql, con))
+                {
+                    using(MySqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            DadosRastreador dr = new DadosRastreador()
+                            {
+                                DataRecolhida = Convert.ToString(reader.GetMySqlDateTime(0)),
+                                Latitude = reader.GetString(1),
+                                Longitude = reader.GetString(2)
+                            };
+                            linha.Add(dr);
+                        }
+                    }
+                }    
+                con.Close();
+            }
+
+            return linha;
         }
     }
 }

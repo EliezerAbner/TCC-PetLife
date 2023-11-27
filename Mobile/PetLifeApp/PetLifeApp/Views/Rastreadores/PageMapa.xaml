@@ -1,12 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-             
-             x:Class="PetLifeApp.Views.Rastreadores.PageMapa">
+             xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+             x:Class="PetLifeApp.Views.Rastreadores.PageMapa"
+             NavigationPage.HasNavigationBar="false">
     <RelativeLayout>
 
         <!-- Mapa -->
-        
+        <maps:Map IsShowingUser="True"
+                  x:Name="map"
+                  RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width}"
+                  RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height}"/>
+
+        <Button x:Name="btnAtualizar"
+                Clicked="Atualizar"
+                ImageSource="reload"
+                BackgroundColor="#00BF63" CornerRadius="25" WidthRequest="50" HeightRequest="50"
+                RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.80}"
+                RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.05}"/>
 
         <!-- Botão de volta -->
         <Button x:Name="btnVoltar" Text="Voltar" Clicked="btnVoltar_Clicked"

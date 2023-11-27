@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+AEsAGYZ9tKtERaYaTwx65n5NnETY1F/a04uNJaVuj2hoQ5p/elSq4kQ8fKPXzPVcRpQ/hq1mjAWPU7d+p5wWQ==",
+  "dgSpecHash": "DVz5nDm6q2FjB+kxQbBDYwNAF34ZqTFqdheT7HyOKPPie8IVvsLKBEbwf0SY+F3qaZIcdeDQxE/S9wXrhAT4Hw==",
   "success": true,
-  "projectFilePath": "C:\\Programas\\Xamarin\\TCC-PetLife\\Mobile\\PetLifeApp\\PetLifeApp\\PetLifeApp.csproj",
+  "projectFilePath": "C:\\Programas\\TCC-PetLife\\Mobile\\PetLifeApp\\PetLifeApp\\PetLifeApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\eliez\\.nuget\\packages\\microcharts\\0.9.5.9\\microcharts.0.9.5.9.nupkg.sha512",
     "C:\\Users\\eliez\\.nuget\\packages\\microcharts.forms\\0.9.5.9\\microcharts.forms.0.9.5.9.nupkg.sha512",
@@ -24,6 +24,7 @@
     "C:\\Users\\eliez\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
     "C:\\Users\\eliez\\.nuget\\packages\\xamarin.essentials\\1.8.0\\xamarin.essentials.1.8.0.nupkg.sha512",
     "C:\\Users\\eliez\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512",
+    "C:\\Users\\eliez\\.nuget\\packages\\xamarin.forms.maps\\5.0.0.2196\\xamarin.forms.maps.5.0.0.2196.nupkg.sha512",
     "C:\\Users\\eliez\\.nuget\\packages\\xamarin.forms.pancakeview\\2.3.0.759\\xamarin.forms.pancakeview.2.3.0.759.nupkg.sha512"
   ],
   "logs": []
