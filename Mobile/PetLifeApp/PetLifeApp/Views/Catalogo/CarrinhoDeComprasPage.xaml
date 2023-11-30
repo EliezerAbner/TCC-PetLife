@@ -4,12 +4,12 @@
              x:Class="PetLifeApp.Views.Catalogo.CarrinhoDeComprasPage"
              NavigationPage.HasNavigationBar="False">
 
-    <ContentPage.Content>
+    <ScrollView>
         <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
 
-            <Label Text="Carrinho de compras" 
+            <Label Text="CATALOGO DE PRODUTOS" 
                    VerticalOptions="StartAndExpand" 
-                   Margin="0,0,0,40" 
+                   Margin="0,40,0,40" 
                    FontSize="30"
                    FontAttributes="bold"
                    TextColor="Green"
@@ -37,17 +37,17 @@
                 <StackLayout Orientation="Vertical" Grid.Row="1">
                     
                     <Label Text="Rastreador" 
-                           Margin="0,0,0,20" 
+                           Margin="0,0,0,5" 
                            FontSize="20"
                            FontAttributes="bold"
                            TextColor="Green"
                            HorizontalTextAlignment="Center"
                            VerticalOptions="Center"/>
 
-                    <Button Text="adicionar" TextColor="white" BackgroundColor="green"></Button>
+                        <Button x:Name="ComprarButton1" Text="Comprar" TextColor="white" BackgroundColor="green"></Button>
 
-                    <Label Text="Rastreia seu pet em tempo real, não perca seu pet de vista" 
-                           Margin="0,0,0,20" 
+                        <Label Text="Não perca seu pet de vista, rastreie em tempo real" 
+                           Margin="0,0,20,20" 
                            FontSize="20"
                            TextColor="black"
                            HorizontalTextAlignment="Start"
@@ -66,38 +66,34 @@
                                HeightRequest="200"
                                WidthRequest="200"
                                HorizontalOptions="Start"
-                               Margin="0,0,20,0"/>
-                    
+                               Margin="0,0,20,20"/>
+
                     <StackLayout Orientation="Vertical" Grid.Row="1">
-                        
-                    <Label Text="Alimentador" 
-                               Margin="0,0,0,20" 
+
+                        <Label Text="Alimentador" 
+                               Margin="0,0,0,5" 
                                FontSize="20"
                                FontAttributes="bold"
                                TextColor="Green"
                                HorizontalTextAlignment="Center"
                                VerticalOptions="Center"/>
 
-                    <Button Text="adicionar" TextColor="white" BackgroundColor="green"></Button>
+                        <Button x:Name="ComprarButton2" Text="Comprar" TextColor="white" BackgroundColor="green"></Button>
 
-                    <Label Text="Tenha a alimentação balanceada e controlada na palma da sua mão" 
+                        <Label Text="Tenha a alimentação do seu pet, balanceada e controlada na palma da sua mão" 
                            Margin="0,0,0,20" 
-                           FontSize="20"
+                           FontSize="16"
                            TextColor="black"
                            HorizontalTextAlignment="Start"
                            VerticalOptions="Center"/>
 
                     </StackLayout>
                 </StackLayout>
-
             </Frame>
-
-                    <Button Margin="20,20,20,0" 
-                    Text="FINALIZAR COMPRA" 
-                    CornerRadius="30"
-                    BackgroundColor="Green"
-                    TextColor="White">
-            </Button>
+            <Frame>
+                <Label x:Name="CarrinhoInfoLabel" Margin="20,20,20,20" Text="Carrinho vazio" HorizontalOptions="CenterAndExpand" VerticalOptions="End"/>
+            </Frame>
+            <Button x:Name="ProsseguirButton" Margin="20,20,20,20" Text="Prosseguir" CornerRadius="30" BackgroundColor="Green" TextColor="White"></Button>
         </StackLayout>
-    </ContentPage.Content>
+    </ScrollView>
 </ContentPage>

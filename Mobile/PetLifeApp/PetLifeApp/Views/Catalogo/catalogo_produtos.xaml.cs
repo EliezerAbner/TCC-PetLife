@@ -16,12 +16,21 @@ namespace PetLifeApp.Catalogo
         public catalogo_produtos()
         {
             InitializeComponent();
+            TipoCartaoPicker.SelectedIndex = 0;
         }
 
-        private async void Button_Clicked(object sender, EventArgs e)
-        {                          
-            await Navigation.PushAsync(new CarrinhoDeComprasPage());
-           
+        private void FinalizarCompra_Clicked(object sender, EventArgs e)
+        {
+            
+            string nome = NomeEntry.Text;
+            string endereco = EnderecoEntry.Text;
+            string numeroCartao = NumeroCartaoEntry.Text;
+            string dataValidade = DataValidadeEntry.Text;
+            string cvv = CvvEntry.Text;
+            string tipoCartao = TipoCartaoPicker.SelectedItem.ToString();
+
+            
+            DisplayAlert("Compra Concluída", "Obrigado por sua compra!", "OK");
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using PetLifeApp.Catalogo;
+using PetLifeApp.Views.Catalogo;
 using PetLifeApp.Views.Login;
 using System;
 using Xamarin.Forms;
@@ -12,7 +13,7 @@ namespace PetLifeApp
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new catalogo_produtos());
+            MainPage = new NavigationPage(new CarrinhoDeComprasPage());
             // Abre a main page em "PageWelcome" localizada em: view > login 
         }
 
