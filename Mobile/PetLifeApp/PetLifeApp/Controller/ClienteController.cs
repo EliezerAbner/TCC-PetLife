@@ -139,5 +139,54 @@ namespace PetLifeApp.Services
 
             return "ok";
         }
+
+        public (Cliente, LoginCliente, Endereco) CarregarCliente(int clienteId)
+        {
+            Cliente cliente = new Cliente();
+            LoginCliente login = new LoginCliente();
+            Endereco endereco = new Endereco();
+
+            string sql = " SELECT c.clienteId, c.nome, c.dataNascimento, email.email, l.senha, e.rua, e.numero, e.cep, cidade.nomeCidade, estado.estado " +
+                         " FROM cliente c " +
+                         " INNER JOIN email " +
+                            " ON email.clienteId = c.clienteId " +
+                         " INNER JOIN login l " +
+                            " ON l.clienteId = c.clienteId " +
+                         " INNER JOIN endereco e " +
+                            " ON e.clienteId = c.clienteId " +
+                         " INNER JOIN cidade " +
+                            " ON cidade.cidadeId = e.cidadeId " +
+                         " INNER JOIN estado " +
+                            " ON estado.estado = cidade.estadoId " +
+                        $" WHERE c.clienteId = {clienteId}";
+
+            using (MySqlConnection con = new MySqlConnection(conn))
+            {
+                con.Open();
+                using (MySqlCommand cmd = new MySqlCommand(sql,con))
+                {
+                    using (MySqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            cliente.Id = reader.GetInt32(0);
+                            cliente.Nome = reader.GetString(1);
+                            cliente.Telefone = reader.GetString(2);
+                            cliente.DataNascimento = reader.GetString(3);
+                            login.Email = reader.GetString(4);
+                            login.Senha = reader.GetString(5);
+                            endereco.Rua = reader.GetString(6);
+                            endereco.Numero = reader.GetString(7);
+                            endereco.Cep = reader.GetString(8);
+                            endereco.Cidade = reader.GetString(9);
+                            endereco.Estado = reader.GetString(10);
+                        }
+                    }
+                }
+                con.Close();
+            }
+            return (cliente, login, endereco);
+            //(int resultInt, string resultString) = CarregarCliente();
+        }
     }
 }
