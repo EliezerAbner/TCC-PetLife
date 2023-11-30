@@ -16,12 +16,14 @@ namespace PetLifeApp.Controller
             conn = conexao.Conn;
         }
 
-        public void NovoRastreador(Rastreador r)
+        public bool NovoRastreador(Rastreador r)
         {
-            string sql = $"INSERT INTO rastreador (clienteId, identificador, status) VALUES ({r.ClienteId},{r.Identificador}, 1)";
+            bool deuBom;
 
             using (MySqlConnection con = new MySqlConnection(conn))
             {
+                string sql = $"call novo_rastreador({r.ClienteId}, {r.PetId}, '{r.Identificador}')";
+
                 con.Open();
                 using (MySqlCommand cmd = new MySqlCommand(sql, con))
                 {
@@ -29,6 +31,20 @@ namespace PetLifeApp.Controller
                 }
                 con.Close();
             }
+
+            using (MySqlConnection con = new MySqlConnection(conn))
+            {
+                string sql = $"SELECT rastreadorId FROM rastreador WHERE identificador='{r.Identificador}'";
+
+                con.Open();
+                using (MySqlCommand cmd = new MySqlCommand(sql, con))
+                {
+                    deuBom = Convert.ToBoolean(cmd.ExecuteScalar());
+                }
+                con.Close();
+            }
+
+            return deuBom;
         }
 
         public void ExcluirRastreador(int rastreadorId)

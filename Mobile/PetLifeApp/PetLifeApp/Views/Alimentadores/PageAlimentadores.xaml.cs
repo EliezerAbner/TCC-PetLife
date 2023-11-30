@@ -19,35 +19,37 @@ namespace PetLifeApp.Views.Alimentadores
         {
             InitializeComponent();
 
-            MessagingCenter.Subscribe<Page, int>(this, "clienteId", (sender, message) =>
+            //MessagingCenter.Subscribe<Page, int>(this, "clienteId", (sender, message) =>
+            //{
+                
+            //});
+
+            clienteId = 6;
+
+            try
             {
-                clienteId = message;
+                List<Alimentador> listaAlim = new List<Alimentador>();
+                AlimentadorController controller = new AlimentadorController();
+                listaAlim = controller.ListaAlimentadores(clienteId);
 
-                try
+                if (listaAlim.Count > 0)
                 {
-                    List<Alimentador> listaAlim = new List<Alimentador>();
-                    AlimentadorController controller = new AlimentadorController();
-                    listaAlim = controller.ListaAlimentadores(message);
-
-                    if (listaAlim.Count > 0)
-                    {
-                        lvAlimentadores.ItemsSource = listaAlim;
-                        slNoAlim.IsVisible = false;
-                    }
-                    else
-                    {
-                        lvAlimentadores.IsVisible = false;
-                        slNoAlim.IsVisible = true;
-                    }
+                    lvAlimentadores.ItemsSource = listaAlim;
+                    slNoAlim.IsVisible = false;
                 }
-                catch (Exception ex)
+                else
                 {
-                    DisplayAlert("Erro", $"{ex.Message}", "OK");
-
                     lvAlimentadores.IsVisible = false;
                     slNoAlim.IsVisible = true;
                 }
-            });
+            }
+            catch (Exception ex)
+            {
+                DisplayAlert("Erro", $"{ex.Message}", "OK");
+
+                lvAlimentadores.IsVisible = false;
+                slNoAlim.IsVisible = true;
+            }
         }
 
         private void BtnAddAlim_Clicked(object sender, EventArgs e)

@@ -5,6 +5,7 @@ using Xamarin.Forms.Maps;
 using PetLifeApp.Models;
 using PetLifeApp.Controller;
 using System.Collections.Generic;
+using Xamarin.Essentials;
 
 namespace PetLifeApp.Views.Rastreadores
 {
@@ -39,6 +40,11 @@ namespace PetLifeApp.Views.Rastreadores
                 DisplayAlert("Erro", $"{ex.Message}", "OK");
             }
         }
+
+        //public override void OnAppearing()
+        //{
+        //    Timer locationUpdateTimer = new Timer()
+        //}
 
         private void btnVoltar_Clicked(object sender, EventArgs e)
         {

@@ -20,6 +20,8 @@ namespace PetLifeApp.Views.Pets
 		{
 			InitializeComponent ();
 
+            clienteId = 6;
+
             MessagingCenter.Subscribe<PageLogin, string>(this, "clienteId", (view, message) =>
             {
                 clienteId = Convert.ToInt32(message);

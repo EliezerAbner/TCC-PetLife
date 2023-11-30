@@ -52,7 +52,39 @@ namespace PetLifeApp.Views.Rastreadores
 
         private void btnCadastrar_Clicked(object sender, EventArgs e)
         {
+            if (txtIdentificador.Text !=  null && pickerPet.SelectedItem != null)
+            {
+                Rastreador novoRastreador = new Rastreador()
+                {
+                    ClienteId = clienteId,
+                    Identificador = txtIdentificador.Text,
+                    PetId = pickerPet.SelectedIndex,
+                };
 
+                try
+                {
+                    RastreadorController rc = new RastreadorController();
+                    bool deuBom = rc.NovoRastreador(novoRastreador);
+
+                    if (deuBom)
+                    {
+                        slAddRas.IsVisible = true;
+                        slForm.IsVisible = false;
+                    }
+                    else
+                    {
+                        DisplayAlert("Erro", "Houve um erro ao cadastrar seu rastreador. Verifique o identificador e tente novamente.", "OK");
+                    }
+                }
+                catch (Exception ex)
+                {
+                    DisplayAlert("Erro", $"{ex.Message}", "OK");
+                }
+            }
+            else
+            {
+                DisplayAlert("Erro", $"Preencha os campos vazios.", "OK");
+            }
         }
 
         private void lvRastreador_ItemSelected(object sender, SelectedItemChangedEventArgs e)

@@ -182,13 +182,21 @@ namespace PetLifeApp.Views.Alimentadores
 
         private void btnApagar_Clicked(object sender, EventArgs e)
         {
-            HorariosAlimentador h = sender as HorariosAlimentador;
+            try
+            {
+                var menu = sender as MenuItem;
+                HorariosAlimentador h = menu.CommandParameter as HorariosAlimentador;
 
-            AlimentadorController ac = new AlimentadorController();
-            ac.ExcluirHorarios(h.HorariosAlimentadorId);
+                AlimentadorController ac = new AlimentadorController();
+                ac.ExcluirHorarios(h.HorariosAlimentadorId);
 
-            lvHorarios.ItemsSource = null;
-            lvHorarios.ItemsSource = ac.ListaHorarios(alimentadorId);
+                lvHorarios.ItemsSource = null;
+                lvHorarios.ItemsSource = ac.ListaHorarios(alimentadorId);
+            }
+            catch (Exception ex)
+            {
+                DisplayAlert("Erro", $"{ex.Message}", "OK");
+            }
         }
     }
 }

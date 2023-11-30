@@ -4,6 +4,24 @@
              xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
              x:Class="PetLifeApp.Views.Rastreadores.PageMapa"
              NavigationPage.HasNavigationBar="false">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="ImageButton">
+                <Setter Property="VisualStateManager.VisualStateGroups">
+                    <VisualStateGroupList>
+                        <VisualStateGroup x:Name="CommonStates">
+                            <VisualState x:Name="Normal" />
+                            <VisualState x:Name="Pressed">
+                                <VisualState.Setters>
+                                    <Setter Property="Scale" Value="0.9" />
+                                </VisualState.Setters>
+                            </VisualState>
+                        </VisualStateGroup>
+                    </VisualStateGroupList>
+                </Setter>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
     <RelativeLayout>
 
         <!-- Mapa -->
@@ -12,28 +30,34 @@
                   RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width}"
                   RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height}"/>
 
-        <Button x:Name="btnAtualizar"
-                Clicked="Atualizar"
-                ImageSource="reload"
-                BackgroundColor="#00BF63" CornerRadius="25" WidthRequest="50" HeightRequest="50"
-                RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.80}"
-                RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.05}"/>
 
-        <!-- Botão de volta -->
-        <Button x:Name="btnVoltar" Text="Voltar" Clicked="btnVoltar_Clicked"
-                BackgroundColor="#00BF63" CornerRadius="25" WidthRequest="100" HeightRequest="50"
-                RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.05}"
-                RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.05}"
-                HorizontalOptions="Center" VerticalOptions="Center">
-            <Button.Triggers>
-                <Trigger TargetType="Button" Property="IsPressed" Value="True">
-                    <Setter Property="Scale" Value="1.2" />
-                </Trigger>
-                <Trigger TargetType="Button" Property="IsPressed" Value="False">
-                    <Setter Property="Scale" Value="1" />
-                </Trigger>
-            </Button.Triggers>
-        </Button>
+        <Grid>
+            <!-- Retângulo com os ImageButtons -->
+            <Frame BackgroundColor="Green" 
+                   Opacity="0.85" CornerRadius="10"
+                   HeightRequest="30"
+                   RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.50}"
+                   RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.05}">
 
+
+            <!-- Grid para os ImageButtons -->
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <!-- ImageButton associado ao Botão 1 -->
+                    <ImageButton Source="voltar.png" Grid.Column="0" BackgroundColor="Transparent"  Margin="1" HeightRequest="40" WidthRequest="40"/>
+
+                    <!-- ImageButton associado ao Botão 2 -->
+                    <ImageButton Source="atualizar.png" Grid.Column="1" BackgroundColor="Transparent"  Margin="1" HeightRequest="40" WidthRequest="40" />
+
+                    <!-- ImageButton associado ao Botão 3 -->
+                    <ImageButton Source="caminho.png" Grid.Column="2" BackgroundColor="Transparent" Margin="1" HeightRequest="40" WidthRequest="40" />
+                </Grid>
+            </Frame>
+        </Grid>
     </RelativeLayout>
 </ContentPage>

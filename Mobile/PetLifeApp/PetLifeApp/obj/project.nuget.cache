@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "DVz5nDm6q2FjB+kxQbBDYwNAF34ZqTFqdheT7HyOKPPie8IVvsLKBEbwf0SY+F3qaZIcdeDQxE/S9wXrhAT4Hw==",
+  "dgSpecHash": "0BxJ2aP1KQ8lxAdQAKjIjf2jyhwWYHIP8uXXzKMKXSlxAw8w/YA2TKOvMOhp+O/Pd/TWGZTOPwtLNRc6rs6Knw==",
   "success": true,
-  "projectFilePath": "C:\\Programas\\TCC-PetLife\\Mobile\\PetLifeApp\\PetLifeApp\\PetLifeApp.csproj",
+  "projectFilePath": "C:\\Programas\\Xamarin\\TCC-PetLife\\Mobile\\PetLifeApp\\PetLifeApp\\PetLifeApp.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\eliez\\.nuget\\packages\\com.airbnb.xamarin.forms.lottie\\4.0.10\\com.airbnb.xamarin.forms.lottie.4.0.10.nupkg.sha512",
     "C:\\Users\\eliez\\.nuget\\packages\\microcharts\\0.9.5.9\\microcharts.0.9.5.9.nupkg.sha512",
     "C:\\Users\\eliez\\.nuget\\packages\\microcharts.forms\\0.9.5.9\\microcharts.forms.0.9.5.9.nupkg.sha512",
     "C:\\Users\\eliez\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
