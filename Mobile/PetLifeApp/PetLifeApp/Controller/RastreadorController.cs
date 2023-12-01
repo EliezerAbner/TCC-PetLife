@@ -126,7 +126,7 @@ namespace PetLifeApp.Controller
         public List<DadosRastreador> Caminho(string identificador)
         {
             List<DadosRastreador> linha = new List<DadosRastreador> ();
-            string sql = $"SELECT dataRecolhida, latitude, longitude FROM rastreadorDados WHERE identificador={identificador} ORDER BY dataRecolhida LIMIT 20";
+            string sql = $"SELECT dataRecolhida, latitude, longitude FROM rastreadorDados WHERE identificador='{identificador}' ORDER BY dataRecolhida DESC LIMIT 20";
 
             using(MySqlConnection con = new MySqlConnection(conn))
             {

@@ -93,6 +93,7 @@ namespace PetLifeApp.Views.Rastreadores
             if (r != null)
             {
                 Navigation.PushAsync(new PageMapa(r));
+                lvRastreador.SelectedItem = null;
             }
         }
     }

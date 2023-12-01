@@ -24,7 +24,7 @@
                     Margin="20,10"/>
             
             <Label x:Name="lblName"
-                   Text="Xaolin de Paula Tejano"
+                   Text="Xaolin de Paula"
                    TextColor="White"
                    Margin="20,10"
                    FontSize="25"/>

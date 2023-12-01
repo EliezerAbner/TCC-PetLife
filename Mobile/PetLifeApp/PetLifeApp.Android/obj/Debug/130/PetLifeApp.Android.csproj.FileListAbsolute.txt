@@ -1557,3 +1557,6 @@ C:\Programas\Xamarin\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\
 C:\Programas\Xamarin\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\res\mipmap-xxxhdpi\ic_launcher_background.png
 C:\Programas\Xamarin\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\res\mipmap-xxxhdpi\ic_launcher_foreground.png
 C:\Programas\Xamarin\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\res\mipmap-xxxhdpi\ic_launcher_monochrome.png
+C:\Programas\Xamarin\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\res\drawable\reload_ico.png
+C:\Programas\Xamarin\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\res\drawable\left_ico.png
+C:\Programas\Xamarin\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\res\drawable\map_ico.png

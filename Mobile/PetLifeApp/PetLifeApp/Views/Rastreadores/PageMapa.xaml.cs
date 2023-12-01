@@ -34,6 +34,7 @@ namespace PetLifeApp.Views.Rastreadores
                 map.Pins.Add(local);
                 map.MoveToRegion(MapSpan.FromCenterAndRadius(local.Position,
                     Distance.FromMeters(200)));
+                map.HasZoomEnabled = false;
             }
             catch (Exception ex)
             {
@@ -73,20 +74,27 @@ namespace PetLifeApp.Views.Rastreadores
         {
             try
             {
-                List<DadosRastreador> linha = new List<DadosRastreador>();
-                RastreadorController rc = new RastreadorController();
-                linha = rc.Caminho(rastreador.Identificador);
-
-                pegadas.StrokeColor = Color.FromHex("#00BF63");
-                pegadas.StrokeWidth = 5;
-
-                foreach(DadosRastreador r in linha)
+                if (map.MapElements.Contains(pegadas))
                 {
-                    Position p = new Position(Convert.ToDouble(r.Latitude), Convert.ToDouble(r.Longitude));
-                    pegadas.Geopath.Add(p);
+                    map.MapElements.Remove(pegadas);
                 }
+                else
+                {
+                    List<DadosRastreador> linha = new List<DadosRastreador>();
+                    RastreadorController rc = new RastreadorController();
+                    linha = rc.Caminho(rastreador.Identificador);
 
-                map.MapElements.Add(pegadas);
+                    pegadas.StrokeColor = Color.FromHex("#00BF63");
+                    pegadas.StrokeWidth = 5;
+
+                    foreach (DadosRastreador r in linha)
+                    {
+                        Position p = new Position(Convert.ToDouble(r.Latitude), Convert.ToDouble(r.Longitude));
+                        pegadas.Geopath.Add(p);
+                    }
+
+                    map.MapElements.Add(pegadas);
+                }
             }
             catch (Exception ex)
             {
@@ -107,6 +115,21 @@ namespace PetLifeApp.Views.Rastreadores
                 Position p = new Position(Convert.ToDouble(r.Latitude), Convert.ToDouble(r.Longitude));
                 pegadas.Geopath.Add(p);
             }
+        }
+
+        private void btnVoltar_Clicked_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnAtualizar_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCaminho_Clicked(object sender, EventArgs e)
+        {
+
         }
     }
 }

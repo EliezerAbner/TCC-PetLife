@@ -31,33 +31,38 @@
                   RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height}"/>
 
 
-        <Grid>
-            <!-- Retângulo com os ImageButtons -->
-            <Frame BackgroundColor="Green" 
-                   Opacity="0.85" CornerRadius="10"
-                   HeightRequest="30"
-                   RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.50}"
-                   RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.05}">
+        <Frame  RelativeLayout.WidthConstraint="200"
+                RelativeLayout.HeightConstraint="70"
+                RelativeLayout.XConstraint="{ConstraintExpression Type=Constant, Property=Width, Constant=82}"
+                RelativeLayout.YConstraint="{ConstraintExpression Type=Constant, Property=Height, Constant=670}"
+                Opacity="0.80"
+                BackgroundColor="#00BF63"
+                CornerRadius="30">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
 
+                <ImageButton x:Name="btnVoltar"
+                             Clicked="btnVoltar_Clicked"
+                             BackgroundColor="Transparent"
+                             Source="left_ico"
+                             Grid.Column="0"/>
 
-            <!-- Grid para os ImageButtons -->
-                <Grid>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="*" />
-                        <ColumnDefinition Width="*" />
-                        <ColumnDefinition Width="*" />
-                    </Grid.ColumnDefinitions>
+                <ImageButton x:Name="btnAtualizar"
+                             Clicked="Atualizar"
+                             BackgroundColor="Transparent"
+                             Source="reload_ico"
+                             Grid.Column="1"/>
 
-                    <!-- ImageButton associado ao Botão 1 -->
-                    <ImageButton Source="voltar.png" Grid.Column="0" BackgroundColor="Transparent"  Margin="1" HeightRequest="40" WidthRequest="40"/>
-
-                    <!-- ImageButton associado ao Botão 2 -->
-                    <ImageButton Source="atualizar.png" Grid.Column="1" BackgroundColor="Transparent"  Margin="1" HeightRequest="40" WidthRequest="40" />
-
-                    <!-- ImageButton associado ao Botão 3 -->
-                    <ImageButton Source="caminho.png" Grid.Column="2" BackgroundColor="Transparent" Margin="1" HeightRequest="40" WidthRequest="40" />
-                </Grid>
-            </Frame>
-        </Grid>
+                <ImageButton x:Name="btnCaminho"
+                             Clicked="TracarCaminho"
+                             BackgroundColor="Transparent"
+                             Source="map_ico"
+                             Grid.Column="2"/>
+            </Grid>
+        </Frame>
     </RelativeLayout>
 </ContentPage>
