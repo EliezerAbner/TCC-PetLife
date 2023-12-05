@@ -2,6 +2,7 @@
 using PetLifeApp.Models;
 using PetLifeApp.Views.Compra;
 using PetLifeApp.Views.Home;
+using PetLifeApp.Views.Rastreadores;
 using System;
 using System.Collections.Generic;
 using Xamarin.Forms;
@@ -64,7 +65,12 @@ namespace PetLifeApp.Views.Alimentadores
 
         private void lvAlimentadores_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
-            Navigation.PushAsync(new PageAlimentadorInfo(e.SelectedItem as Alimentador));
+            Alimentador a = e.SelectedItem as Alimentador;
+            if (a != null)
+            {
+                Navigation.PushAsync(new PageAlimentadorInfo(a));
+                lvAlimentadores.SelectedItem = null;
+            }
         }
 
         private void TapGestureRecognizer_Tapped(object sender, EventArgs e)

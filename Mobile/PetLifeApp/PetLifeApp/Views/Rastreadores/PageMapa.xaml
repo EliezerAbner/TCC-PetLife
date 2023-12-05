@@ -24,17 +24,16 @@
     </ContentPage.Resources>
     <RelativeLayout>
 
-        <!-- Mapa -->
         <maps:Map IsShowingUser="True"
                   x:Name="map"
                   RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width}"
                   RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height}"/>
 
 
-        <Frame  RelativeLayout.WidthConstraint="200"
+        <Frame  RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.60}"
                 RelativeLayout.HeightConstraint="70"
-                RelativeLayout.XConstraint="{ConstraintExpression Type=Constant, Property=Width, Constant=82}"
-                RelativeLayout.YConstraint="{ConstraintExpression Type=Constant, Property=Height, Constant=670}"
+                RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.20}"
+                RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.88}"
                 Opacity="0.80"
                 BackgroundColor="#00BF63"
                 CornerRadius="30">

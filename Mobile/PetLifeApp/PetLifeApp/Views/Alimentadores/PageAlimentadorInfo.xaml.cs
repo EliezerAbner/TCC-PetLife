@@ -13,7 +13,7 @@ namespace PetLifeApp.Views.Alimentadores
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class PageAlimentadorInfo : ContentPage
 	{
-        private int alimentadorId;
+        private string alimentadorId;
 
         private decimal qtdeDisponivelRacao;
         private decimal qtdeDisponivelAgua;
@@ -29,7 +29,7 @@ namespace PetLifeApp.Views.Alimentadores
             qtdeDisponivelRacao = 320;
             //---------------------------------
 
-            alimentadorId = alInfo.AlimentadorId;
+            alimentadorId = alInfo.Identificador;
             lblPageTitulo.Text = alInfo.NomeAlimentador;
 
             try
@@ -43,22 +43,6 @@ namespace PetLifeApp.Views.Alimentadores
                     lvHorarios.ItemsSource = h;
 
                     CarregarChart();
-
-                    chartRacao.Chart = new BarChart
-                    {
-                        Entries = dadosRacao,
-                        LabelOrientation = Orientation.Horizontal,
-                        LabelTextSize = 20,
-                        MaxValue = 3000
-                    };
-
-                    chartAgua.Chart = new BarChart
-                    {
-                        Entries = dadosAgua,
-                        LabelOrientation = Orientation.Horizontal,
-                        LabelTextSize = 24,
-                        MaxValue = 3000
-                    };
                 }
                 else
                 {
@@ -84,42 +68,67 @@ namespace PetLifeApp.Views.Alimentadores
             List<DadosAlimentador> dados = new List<DadosAlimentador>();
             int counter = 0;
 
-            dadosAgua = new ChartEntry[7];
-            dadosRacao = new ChartEntry[7];
-
-            decimal[] mediaAgua = new decimal[7];
-            decimal[] mediaRacao = new decimal[7];
-
             try
             {
                 AlimentadorController ac = new AlimentadorController();
                 dados = ac.ObterDados(alimentadorId);
 
-                foreach (DadosAlimentador dado in dados)
+                if (dados.Count == 7 )
                 {
-                    ChartEntry racao = new ChartEntry((float)dado.QtdeConsumidaRacao)
-                    {
-                        Label = dado.Dia,
-                        ValueLabel = Convert.ToString(dado.QtdeConsumidaRacao),
-                        Color = SKColor.Parse("#00BF63")
-                    };
-                    dadosRacao[counter] = racao;
-                    mediaRacao[counter] = dado.QtdeConsumidaRacao;
+                    dadosAgua = new ChartEntry[dados.Count];
+                    dadosRacao = new ChartEntry[dados.Count];
 
-                    ChartEntry agua = new ChartEntry((float)dado.QtdeConsumidaAgua)
-                    {
-                        Label = dado.Dia,
-                        ValueLabel = Convert.ToString(dado.QtdeConsumidaAgua),
-                        Color = SKColor.Parse("#00BF63")
-                    };
-                    dadosAgua[counter] = agua;
-                    mediaAgua[counter] = dado.QtdeConsumidaAgua;
+                    decimal[] mediaAgua = new decimal[dados.Count];
+                    decimal[] mediaRacao = new decimal[dados.Count];
 
-                    counter++;
+                    foreach (DadosAlimentador dado in dados)
+                    {
+                        ChartEntry racao = new ChartEntry((float)dado.QtdeConsumidaRacao)
+                        {
+                            Label = dado.Dia,
+                            ValueLabel = Convert.ToString(dado.QtdeConsumidaRacao),
+                            Color = SKColor.Parse("#00BF63")
+                        };
+                        dadosRacao[counter] = racao;
+                        mediaRacao[counter] = dado.QtdeConsumidaRacao;
+
+                        ChartEntry agua = new ChartEntry((float)dado.QtdeConsumidaAgua)
+                        {
+                            Label = dado.Dia,
+                            ValueLabel = Convert.ToString(dado.QtdeConsumidaAgua),
+                            Color = SKColor.Parse("#00BF63")
+                        };
+                        dadosAgua[counter] = agua;
+                        mediaAgua[counter] = dado.QtdeConsumidaAgua;
+
+                        counter++;
+                    }
+
+                    lblMediaAgua.Text = Convert.ToString(mediaAgua.Sum() / mediaAgua.Length);
+                    lblMediaRacao.Text = Convert.ToString(mediaRacao.Sum() / mediaRacao.Length);
+
+                    chartRacao.Chart = new BarChart
+                    {
+                        Entries = dadosRacao,
+                        LabelOrientation = Orientation.Horizontal,
+                        LabelTextSize = 20,
+                        MaxValue = 3000
+                    };
+
+                    chartAgua.Chart = new BarChart
+                    {
+                        Entries = dadosAgua,
+                        LabelOrientation = Orientation.Horizontal,
+                        LabelTextSize = 24,
+                        MaxValue = 3000
+                    };
                 }
-
-                lblMediaAgua.Text = Convert.ToString(mediaAgua.Sum() / mediaAgua.Length);
-                lblMediaRacao.Text = Convert.ToString(mediaRacao.Sum() / mediaRacao.Length);
+                else
+                {
+                    DisplayAlert("Uma pena", $"Sei que você está ancioso, mas os resultados estarão disponíveis em {7 - dados.Count} dias", "OK");
+                    frameAgua.IsVisible = false;
+                    frameRacao.IsVisible = false;
+                }
             }
             catch (Exception ex)
             {

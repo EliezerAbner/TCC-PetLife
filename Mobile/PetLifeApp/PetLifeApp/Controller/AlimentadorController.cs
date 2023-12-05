@@ -93,13 +93,12 @@ namespace PetLifeApp.Controller
                         {
                             Alimentador al = new Alimentador()
                             {
-                                AlimentadorId = reader.GetInt32(0),
+                                Identificador = reader.GetString(0),
                                 NomeAlimentador = reader.GetString(1),
-                                ClienteId = reader.GetInt32(3),
-                                Identificador = reader.GetString(4),
+                                ClienteId = reader.GetInt32(3)
                             };
                             
-                            if (al.AlimentadorId != 0)
+                            if (al.Identificador != null)
                             {
                                 lista.Add(al);
                             }
@@ -111,11 +110,11 @@ namespace PetLifeApp.Controller
             return lista;
         }
 
-        public List<DadosAlimentador> ObterDados(int alimentadorId)
+        public List<DadosAlimentador> ObterDados(string identificador)
         {
-            string sql = "SELECT DAY(horaRecolhida), SUM(qtdConsumidaAgua), SUM(qtdConsumidaRacao)" +
-                         " FROM dadosRecebidos" +
-                        $" WHERE alimentadorId={alimentadorId}" +
+            string sql = " SELECT DAY(horaRecolhida), SUM(qtdConsumidaAgua), SUM(qtdConsumidaRacao)" +
+                         " FROM alimentadorDadosRecolhidos" +
+                        $" WHERE identificador='{identificador}'" +
                          " GROUP BY DAY(horaRecolhida) DESC LIMIT 7";
 
             List<DadosAlimentador> listaDados = new List<DadosAlimentador>();
@@ -149,7 +148,7 @@ namespace PetLifeApp.Controller
         {
             using (MySqlConnection con = new MySqlConnection(conn))
             {
-                string sql = $"UPDATE horarios SET status=0 WHERE horariosId={horariosId}";
+                string sql = $"UPDATE alimentadorHorarios SET status=0 WHERE identificador={horariosId}";
 
                 con.Open();
                 using (MySqlCommand cmd = new MySqlCommand(sql, con))
@@ -162,7 +161,7 @@ namespace PetLifeApp.Controller
 
         public void DefinirHorarios(HorariosAlimentador h)
         {
-            string sql = $"INSERT INTO horarios (alimentadorId, status, horario, qtdeDespejarRacao, qtdeDespejarAgua) VALUES({h.AlimentadorId}, 1,'{h.Horario}',{h.QtdeDespejarRacao}, {h.QtdeDespejarAgua})";
+            string sql = $"INSERT INTO alimentadorHorarios (identificador, status, horario, qtdeDespejarRacao, qtdeDespejarAgua) VALUES('{h.AlimentadorId}', 1,'{h.Horario}',{h.QtdeDespejarRacao}, {h.QtdeDespejarAgua})";
 
             using (MySqlConnection con = new MySqlConnection(conn))
             {
@@ -175,10 +174,10 @@ namespace PetLifeApp.Controller
             }
         }
 
-        public List<HorariosAlimentador> ListaHorarios(int alimentadorId)
+        public List<HorariosAlimentador> ListaHorarios(string identificador)
         {
             List<HorariosAlimentador> lista = new List<HorariosAlimentador>();
-            string sql = $"SELECT * FROM horarios WHERE alimentadorId={alimentadorId} AND status=1";
+            string sql = $"SELECT * FROM alimentadorHorarios WHERE identificador='{identificador}' AND status=1";
 
             using (MySqlConnection con = new MySqlConnection(conn))
             {
@@ -192,13 +191,13 @@ namespace PetLifeApp.Controller
                             HorariosAlimentador h = new HorariosAlimentador()
                             {
                                 HorariosAlimentadorId = reader.GetInt32(0),
-                                AlimentadorId = reader.GetInt32(1),
+                                AlimentadorId = reader.GetString(1),
                                 Horario = reader.GetTimeSpan(3),
                                 QtdeDespejarRacao = reader.GetDecimal(4),
                                 QtdeDespejarAgua = reader.GetDecimal(5)
                             };
 
-                            if (h.AlimentadorId != 0)
+                            if (h.AlimentadorId != null)
                             {
                                 lista.Add(h);
                             }
