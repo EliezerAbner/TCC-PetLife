@@ -20,7 +20,11 @@ namespace PetLifeApp.Views.Rastreadores
         {
             InitializeComponent();
 
-            clienteId = 6;
+            if (Application.Current.Properties.ContainsKey("clienteId"))
+            {
+                string clientId = Application.Current.Properties["clienteId"] as string;
+                clienteId = int.Parse(clientId);
+            }
 
             List<Rastreador> listaRastreadores = new List<Rastreador>();
 

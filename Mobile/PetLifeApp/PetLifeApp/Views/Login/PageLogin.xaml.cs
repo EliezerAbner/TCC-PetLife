@@ -10,6 +10,7 @@ using PetLifeApp.Views.Login;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using PetLifeApp.Models;
+using Xamarin.Forms.PlatformConfiguration.AndroidSpecific;
 
 namespace PetLifeApp.Views
 {
@@ -18,6 +19,7 @@ namespace PetLifeApp.Views
     {
 		private LoginCliente login;
 		private LoginController fazerLogin;
+		private int clienteId;
 
         public PageLogin()
         {
@@ -37,10 +39,13 @@ namespace PetLifeApp.Views
 				login.Senha = txtSenha.Text;
 				
 
-				int clienteId = fazerLogin.VerificarSenha(login);
+				clienteId = fazerLogin.VerificarSenha(login);
 
 				if(clienteId != 0)
                 {
+					string teste = Convert.ToString(clienteId);
+                    Xamarin.Forms.Application.Current.Properties["clienteId"] = teste;
+
                     var pagAnterior = Navigation.NavigationStack.LastOrDefault();
                     Navigation.PushAsync(new FlyoutHome(clienteId));
                     Navigation.RemovePage(pagAnterior);

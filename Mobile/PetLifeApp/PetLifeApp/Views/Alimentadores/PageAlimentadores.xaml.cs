@@ -20,12 +20,11 @@ namespace PetLifeApp.Views.Alimentadores
         {
             InitializeComponent();
 
-            //MessagingCenter.Subscribe<Page, int>(this, "clienteId", (sender, message) =>
-            //{
-                
-            //});
-
-            clienteId = 6;
+            if (Application.Current.Properties.ContainsKey("clienteId"))
+            {
+                string clientId = Application.Current.Properties["clienteId"] as string;
+                clienteId = int.Parse(clientId);
+            }
 
             try
             {

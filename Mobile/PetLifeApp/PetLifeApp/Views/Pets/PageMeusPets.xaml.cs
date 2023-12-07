@@ -20,12 +20,11 @@ namespace PetLifeApp.Views.Pets
 		{
 			InitializeComponent ();
 
-            clienteId = 6;
-
-            MessagingCenter.Subscribe<PageLogin, string>(this, "clienteId", (view, message) =>
+            if (Application.Current.Properties.ContainsKey("clienteId"))
             {
-                clienteId = Convert.ToInt32(message);
-            });
+                string clientId = Application.Current.Properties["clienteId"] as string;
+                clienteId = int.Parse(clientId);
+            }
 
             PetController carregarPets = new PetController();
             List<Pet> listaPet = new List<Pet> ();

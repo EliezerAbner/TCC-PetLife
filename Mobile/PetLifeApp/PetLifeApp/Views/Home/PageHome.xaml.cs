@@ -21,30 +21,28 @@ namespace PetLifeApp.Views.Home
         {
             InitializeComponent();
 
-            MessagingCenter.Subscribe<Page, int>(this, "clienteId", (sender, message) =>
+            if (Application.Current.Properties.ContainsKey("clienteId"))
             {
-                clienteId = message;
+                string clientId = Application.Current.Properties["clienteId"] as string;
+                clienteId = int.Parse(clientId);
+            }
 
-                try
+            try
+            {
+                PetController controller = new PetController();
+                List<Pet> listaPet = new List<Pet>();
+                listaPet = controller.CarregarPets(clienteId);
+
+                if (listaPet.Count > 0)
                 {
-                    PetController controller = new PetController();
-                    List<Pet> listaPet = new List<Pet>();
-                    listaPet = controller.CarregarPets(clienteId);
-
-                    if (listaPet.Count > 0)
-                    {
-                        cvPet.ItemsSource = listaPet;
-                    }
-
+                    cvPet.ItemsSource = listaPet;
                 }
-                catch (Exception ex)
-                {
-                    DisplayAlert("Erro", $"{ex.Message}", "OK");
-                }
-                //MessagingCenter.Unsubscribe<FlyoutHome, int>(this, "clienteId");
-            });
 
-            MessagingCenter.Send(this, "clienteId2", clienteId);
+            }
+            catch (Exception ex)
+            {
+                DisplayAlert("Erro", $"{ex.Message}", "OK");
+            }
         }
 
         private void btnVerMaisPet_Clicked(object sender, EventArgs e)
