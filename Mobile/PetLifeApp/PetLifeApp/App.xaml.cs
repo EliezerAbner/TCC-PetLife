@@ -1,6 +1,8 @@
 ﻿using PetLifeApp.Catalogo;
+using PetLifeApp.Views.Configuracoes;
 using PetLifeApp.Views.Login;
 using System;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -12,7 +14,14 @@ namespace PetLifeApp
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new PageWelcome());
+            if (Connectivity.NetworkAccess == NetworkAccess.None || Connectivity.NetworkAccess == NetworkAccess.Local)
+            {
+                MainPage = new NavigationPage(new PageNoInternet());
+            }
+            else
+            {
+                MainPage = new NavigationPage(new PageWelcome());
+            }  
         }
 
         protected override void OnStart()

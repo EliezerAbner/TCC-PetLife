@@ -1,12 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using PetLifeApp.Views.Login;
 using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using PetLifeApp.Views.Configuracoes;
+using PetLifeApp.Models;
+using PetLifeApp.Views.Home;
 
 [assembly: ExportFont("Roboto-Black.ttf", Alias = "Roboto-Black")]
 [assembly: ExportFont("baloo-chettan-regular.ttf", Alias = "baloo-chettan-regular")]
@@ -28,9 +27,7 @@ namespace PetLifeApp.Views.Login
 
         private void btnLogin_Clicked(object sender, EventArgs e)
         {
-            var pagAnterior = Navigation.NavigationStack.LastOrDefault();
             Navigation.PushAsync(new PageLogin());
-            Navigation.RemovePage(pagAnterior);
         }
     }
 }

@@ -140,6 +140,22 @@ namespace PetLifeApp.Services
             return "ok";
         }
 
+        public string CarregarNome (int clienteId)
+        {
+            string nome = "";
+            string sql = $"SELECT nome FROM cliente WHERE clienteId={clienteId}";
+            using (MySqlConnection con = new MySqlConnection(conn))
+            {
+                con.Open();
+                using (MySqlCommand cmd = new MySqlCommand (sql, con))
+                {
+                    nome = Convert.ToString(cmd.ExecuteScalar());
+                }
+                con.Close();
+            }
+            return nome;
+        }
+
         public (Cliente, LoginCliente, Endereco) CarregarCliente(int clienteId)
         {
             Cliente cliente = new Cliente();

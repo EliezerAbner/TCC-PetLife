@@ -31,6 +31,7 @@
                     <Button x:Name="btnLogin"
                             Clicked="btnLogin_Clicked"
                             Text="Fazer Login"
+                            TextTransform="None"
                             FontFamily="baloo-chettan-regular"
                             FontSize="23"
                             TextColor="#242424"

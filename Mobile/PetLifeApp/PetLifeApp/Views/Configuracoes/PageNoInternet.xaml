@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:lottie="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
+             x:Class="PetLifeApp.Views.Configuracoes.PageNoInternet"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="White">
+    
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <lottie:AnimationView Animation="petLife_NoInternet.json"
+                                  AnimationSource="AssetOrBundle"
+                                  RepeatMode="Infinite"
+                                  CacheComposition="False"
+                                  AutoPlay="True"
+                                  VerticalOptions="CenterAndExpand"
+                                  HeightRequest="250"/>
+
+            <Label Text="Sem Conexão"
+                   TextColor="Black"
+                   FontSize="23"
+                   Margin="3"
+                   VerticalOptions="StartAndExpand"
+                   HorizontalTextAlignment="Center"/>
+        </StackLayout>
+        
+    </ContentPage.Content>
+</ContentPage>

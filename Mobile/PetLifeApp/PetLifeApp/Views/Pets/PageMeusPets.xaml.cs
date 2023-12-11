@@ -1,6 +1,7 @@
 ﻿using PetLifeApp.Controller;
 using PetLifeApp.Models;
 using PetLifeApp.Views.Pets;
+using PetLifeApp.Views.Rastreadores;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -59,8 +60,12 @@ namespace PetLifeApp.Views.Pets
 
         private void lvPets_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
-            var pagAnterior = Navigation.NavigationStack.LastOrDefault();
-            Navigation.PushAsync(new PageAddNovoPet(e.SelectedItem as Pet));
+            Pet p = e.SelectedItem as Pet;
+            if (p != null)
+            {
+                Navigation.PushAsync(new PageAddNovoPet(p));
+                lvPets.SelectedItem = null;
+            }
         }
     }
 }

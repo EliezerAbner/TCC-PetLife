@@ -84,6 +84,7 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="Assets\petLife_splashScreen.json" />
+    <AndroidAsset Include="Assets\petLife_NoInternet.json" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
     <None Include="Properties\AndroidManifest.xml" />
