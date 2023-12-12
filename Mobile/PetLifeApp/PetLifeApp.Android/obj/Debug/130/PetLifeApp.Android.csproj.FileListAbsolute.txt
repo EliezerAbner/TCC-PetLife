@@ -1606,3 +1606,10 @@ C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\andr
 C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\android\src\mono\com\airbnb\lottie\LottieOnCompositionLoadedListenerImplementor.java
 C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\android\src\mono\com\airbnb\lottie\OnCompositionLoadedListenerImplementor.java
 C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\android\src\mono\com\airbnb\lottie\PerformanceTracker_FrameListenerImplementor.java
+C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\res\drawable\config_manual.png
+C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\res\drawable\config_dustbin.png
+C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\res\drawable\config_account.png
+C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\res\drawable\config_chip.png
+C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\res\drawable\config_close.png
+C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\res\drawable\config_error.png
+C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\res\drawable\config_edit.png

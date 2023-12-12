@@ -1,12 +1,220 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="PetLifeApp.Views.Configuracoes.PageConfiguracoes">
-    <ContentPage.Content>
+             x:Class="PetLifeApp.Views.Configuracoes.PageConfiguracoes"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="#F2F2F8">
+    <ScrollView>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <StackLayout VerticalOptions="Start"
+                         Orientation="Horizontal"
+                         BackgroundColor="#00BF63"
+                         HeightRequest="80"
+                         Margin="0,0,0,30">
+
+                <Label Text="Configurações"
+                       VerticalTextAlignment="Center"
+                       FontSize="25"
+                       Margin="30,0"
+                       TextColor="White"/>
+            </StackLayout>
+
+            <Label Text="Minha Conta"
+                   TextColor="#00BF63"
+                   TextTransform="Uppercase"
+                   Margin="7,0"
+                   FontSize="20"/>
+
+            <Frame BackgroundColor="White"
+                   Padding="14"
+                   CornerRadius="10"
+                   Margin="7,0">
+
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="EditarConta"/>
+                </Frame.GestureRecognizers>
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="config_account"
+                           HeightRequest="30"/>
+
+
+                    <Label Text="Editar Conta"
+                           x:Name="lblEditarConta"
+                           TextColor="Black"
+                           FontSize="20"
+                           VerticalTextAlignment="Center"
+                           Margin="35,0"/>
+                </StackLayout>
+            </Frame>
+
+            <Frame BackgroundColor="White"
+                   Padding="14"
+                   CornerRadius="10"
+                   Margin="7,0">
+
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="ExcluirConta"/>
+                </Frame.GestureRecognizers>
+
+                <StackLayout Orientation="Horizontal">
+
+                    <Image Source="config_close"
+                           HeightRequest="30"/>
+
+
+                    <Label Text="Excluir Conta"
+                           x:Name="lblExcluirConta"
+                           TextColor="Red"
+                           FontSize="20"
+                           VerticalTextAlignment="Center"
+                           Margin="35,0"/>
+                </StackLayout>
+            </Frame>
+
+            <Label Text="Meus Dispositivos"
+                   TextColor="#00BF63"
+                   TextTransform="Uppercase"
+                   Margin="7,40,0,0"
+                   FontSize="20"/>
+
+            <Frame BackgroundColor="White"
+                   Padding="14"
+                   CornerRadius="10"
+                   Margin="7,0">
+
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="EditarAlimentador"/>
+                </Frame.GestureRecognizers>
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="config_edit"
+                           HeightRequest="30"/>
+
+
+                    <Label Text="Editar Alimentador"
+                           x:Name="lblEditarAlimentador"
+                           TextColor="Black"
+                           FontSize="20"
+                           VerticalTextAlignment="Center"
+                           Margin="35,0"/>
+                </StackLayout>
+            </Frame>
+
+            <Frame BackgroundColor="White"
+                   Padding="14"
+                   CornerRadius="10"
+                   Margin="7,0">
+
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="ExcluirAlimentador"/>
+                </Frame.GestureRecognizers>
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="config_dustbin"
+                           HeightRequest="30"/>
+
+
+                    <Label Text="Excluir Alimentador"
+                           x:Name="lblExcluirAlimentador"
+                           TextColor="Red"
+                           FontSize="20"
+                           VerticalTextAlignment="Center"
+                           Margin="35,0"/>
+                </StackLayout>
+            </Frame>
+
+            <Frame BackgroundColor="White"
+                   Padding="14"
+                   CornerRadius="10"
+                   Margin="7,0">
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="config_dustbin"
+                           HeightRequest="30"/>
+
+
+                    <Label Text="Excluir Rastreador"
+                           x:Name="lblExcluirRastreador"
+                           TextColor="Red"
+                           FontSize="20"
+                           VerticalTextAlignment="Center"
+                           Margin="35,0"/>
+                </StackLayout>
+            </Frame>
+
+            <Label Text="Outros"
+                   TextColor="#00BF63"
+                   TextTransform="Uppercase"
+                   Margin="7,40,0,0"
+                   FontSize="20"/>
+
+            <Frame BackgroundColor="White"
+                   Padding="14"
+                   CornerRadius="10"
+                   Margin="7,0">
+
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="ReportarErro"/>
+                </Frame.GestureRecognizers>
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="config_error"
+                           HeightRequest="30"/>
+
+
+                    <Label Text="Reportar Erro"
+                           x:Name="lblReportarErro"
+                           TextColor="Black"
+                           FontSize="20"
+                           VerticalTextAlignment="Center"
+                           Margin="35,0"/>
+                </StackLayout>
+            </Frame>
+
+            <Frame BackgroundColor="White"
+                   Padding="14"
+                   Margin="7,0"
+                   CornerRadius="10">
+
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="Sobre"/>
+                </Frame.GestureRecognizers>
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="config_manual"
+                           HeightRequest="30"/>
+
+
+                    <Label Text="Sobre"
+                           TextColor="Black"
+                           FontSize="20"
+                           VerticalTextAlignment="Center"
+                           Margin="35,0"/>
+                </StackLayout>
+            </Frame>
+
+            <Frame BackgroundColor="White"
+                   Padding="14"
+                   CornerRadius="10"
+                   Margin="7,0,7,30">
+
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="Experimental"/>
+                </Frame.GestureRecognizers>
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="config_chip"
+                           HeightRequest="30"/>
+
+                    <Label Text="Experimental"
+                           x:Name="lblExperimental"
+                           TextColor="Black"
+                           FontSize="20"
+                           VerticalTextAlignment="Center"
+                           Margin="35,0"/>
+                </StackLayout>
+            </Frame>
         </StackLayout>
-    </ContentPage.Content>
+    </ScrollView>
 </ContentPage>
