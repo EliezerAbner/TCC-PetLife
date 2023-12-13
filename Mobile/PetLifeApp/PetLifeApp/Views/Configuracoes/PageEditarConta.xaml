@@ -1,12 +1,189 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="PetLifeApp.Views.Configuracoes.PageEditarConta">
-    <ContentPage.Content>
+             xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             x:Class="PetLifeApp.Views.Configuracoes.PageEditarConta"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="White">
+    <ScrollView>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <StackLayout VerticalOptions="Start"
+                         Orientation="Horizontal"
+                         BackgroundColor="#00BF63"
+                         HeightRequest="80"
+                         Margin="0,0,0,30">
+
+                <Label Text="Meus Dados"
+                       VerticalTextAlignment="Center"
+                       FontSize="25"
+                       Margin="30,0"
+                       TextColor="White"/>
+            </StackLayout>
+
+            <Label Text="Informações Básicas"
+                   TextColor="#00BF63"
+                   TextTransform="Uppercase"
+                   Margin="7,0,0,10"
+                   FontSize="20"/>
+
+            <yummy:PancakeView BackgroundColor="Transparent"
+                               CornerRadius="10"
+                               Border="{yummy:BorderMarkup Color=#242424, Thickness='1'}"
+                               Margin="7,5">
+
+                <Entry x:Name="txtNome"
+                       Placeholder="Seu nome"
+                       ReturnType="Next"
+                       VerticalTextAlignment="Center"
+                       Keyboard="Default"
+                       PlaceholderColor="#242424"
+                       TextColor="#242424"
+                       Margin="3"/>
+            </yummy:PancakeView>
+
+            <yummy:PancakeView BackgroundColor="Transparent"
+                               CornerRadius="10"
+                               Border="{yummy:BorderMarkup Color=#242424, Thickness='1'}"
+                               Margin="7,5">
+
+                <StackLayout>
+                    <Entry x:Name="txtEmail"
+                           Placeholder="Email"
+                           Keyboard="Email"
+                           ReturnType="Next"
+                           PlaceholderColor="#242424"
+                           TextColor="#242424"
+                           Margin="3"/>
+                </StackLayout>
+            </yummy:PancakeView>
+
+            <yummy:PancakeView BackgroundColor="Transparent"
+                               CornerRadius="10"
+                               Margin="7,5"
+                               Border="{yummy:BorderMarkup Color=#242424, Thickness='1'}">
+
+                <StackLayout>
+                    <Entry x:Name="txtTelefone"
+                            Placeholder="Telefone"
+                            Keyboard="Telephone"
+                            PlaceholderColor="#242424"
+                            TextColor="#242424"
+                            Margin="3"/>
+                </StackLayout>
+            </yummy:PancakeView>
+
+            <yummy:PancakeView BackgroundColor="Transparent"
+                               Border="{yummy:BorderMarkup Color=#242424, Thickness='1'}"
+                               CornerRadius="10"
+                               Margin="7,5">
+
+                <StackLayout Orientation="Horizontal" Margin="10,0,10,0">
+                    <Label Text="Data de Nascimento:"
+                           VerticalTextAlignment="Center"
+                           FontSize="18"
+                           TextColor="#242424"/>
+
+                    <DatePicker x:Name="dpDataNascimento"
+                                TextColor="Black"
+                                VerticalOptions="Center"/>
+                </StackLayout>
+            </yummy:PancakeView>
+
+            <Label Text="Endereço"
+                   TextColor="#00BF63"
+                   TextTransform="Uppercase"
+                   Margin="7,15"
+                   FontSize="20"/>
+
+            <yummy:PancakeView BackgroundColor="Transparent"
+                               CornerRadius="10"
+                               Margin="7,5"
+                               Border="{yummy:BorderMarkup Color=#242424, Thickness='1'}">
+
+                <Entry x:Name="txtCep"
+                       Placeholder="CEP"
+                       PlaceholderColor="#242424"
+                       Keyboard="Numeric"
+                       ReturnType="Next"
+                       TextColor="#242424"
+                       Margin="3"/>
+            </yummy:PancakeView>
+
+            <yummy:PancakeView BackgroundColor="Transparent"
+                               CornerRadius="10"
+                               Margin="7,5"
+                               Border="{yummy:BorderMarkup Color=#242424, Thickness='1'}">
+
+                <Entry x:Name="txtRua"
+                       Placeholder="Rua"
+                       ReturnType="Next"
+                       PlaceholderColor="#242424"
+                       TextColor="#242424"
+                       Margin="3"/>
+            </yummy:PancakeView>
+
+            <yummy:PancakeView BackgroundColor="Transparent"
+                               CornerRadius="10"
+                               Margin="7,5"
+                               Border="{yummy:BorderMarkup Color=#242424, Thickness='1'}">
+
+                <Entry x:Name="txtNumero"
+                       Keyboard="Numeric"
+                       ReturnType="Next"
+                       Placeholder="Numero da Casa"
+                       PlaceholderColor="#242424"
+                       TextColor="#242424"
+                       Margin="3"/>
+            </yummy:PancakeView>
+
+            <yummy:PancakeView BackgroundColor="Transparent"
+                               CornerRadius="10"
+                               Margin="7,5"
+                               Border="{yummy:BorderMarkup Color=#242424, Thickness='1'}">
+
+                <Entry x:Name="txtCidade"
+                       Keyboard="Default"
+                       ReturnType="Next"
+                       Placeholder="Cidade"
+                       PlaceholderColor="#242424"
+                       TextColor="#242424"
+                       Margin="3"/>
+            </yummy:PancakeView>
+
+            <yummy:PancakeView BackgroundColor="Transparent"
+                   Margin="7,5"
+                   CornerRadius="10"
+                   Border="{yummy:BorderMarkup Color=#242424, Thickness='1'}">
+
+                <Picker x:Name="pickerEstado"
+                        Title="Estado"
+                        TitleColor="Black"
+                        TextColor="Black" 
+                        Margin="10,0"/>
+            </yummy:PancakeView>
+
+            <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="CenterAndExpand"
+                         Margin="7,5,7,15">
+                
+                <Button x:Name="btnEditar"
+                        Clicked="btnEditar_Clicked"
+                        Text="Editar"
+                        TextTransform="None"
+                        FontSize="18"
+                        TextColor="White"
+                        CornerRadius="40"
+                        BackgroundColor="#00BF63"/>
+
+                <Button x:Name="btnCancelar"
+                        Clicked="btnCancelar_Clicked"
+                        Text="Cancelar"
+                        TextTransform="None"
+                        FontSize="18"
+                        TextColor="White"
+                        CornerRadius="40"
+                        BackgroundColor="Gray"/>
+            </StackLayout>
         </StackLayout>
-    </ContentPage.Content>
+    </ScrollView>
 </ContentPage>

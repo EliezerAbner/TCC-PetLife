@@ -50,7 +50,7 @@ namespace PetLifeApp.Services
         {
             using (MySqlConnection con = new MySqlConnection(conn))
             {
-                string sql = "CALL editar_cliente(" + ObterId(cliente.Nome) + " '" + cliente.Nome + "', " + cliente.DataNascimento + ", '" + login.Email + "', '" + login.Senha + "', '" + endereco.Rua + "', '" + endereco.Numero + "', '" + endereco.Cep + "', '" + endereco.Cidade + "', '" + endereco.Estado + "', '" + cliente.Telefone + "')";
+                string sql = $"CALL editar_cliente({cliente.Id}, '{cliente.Nome}', '{cliente.DataNascimento}', '{login.Email}', '{login.Senha}', '{endereco.Rua}', {endereco.Numero}, '{endereco.Cep}', '{endereco.Cidade}', '{endereco.Estado}', '{cliente.Telefone}')";
                 con.Open();
                 using (MySqlCommand cmd = new MySqlCommand(sql, con))
                 {
@@ -162,7 +162,7 @@ namespace PetLifeApp.Services
             LoginCliente login = new LoginCliente();
             Endereco endereco = new Endereco();
 
-            string sql = " SELECT c.clienteId, c.nome, c.dataNascimento, email.email, l.senha, e.rua, e.numero, e.cep, cidade.nomeCidade, estado.estado " +
+            string sql = " SELECT c.clienteId, c.nome, c.dataNascimento, email.email, l.senha, t.telefone, e.rua, e.numero, e.cep, cidade.nomeCidade, estado.estado " +
                          " FROM cliente c " +
                          " INNER JOIN email " +
                             " ON email.clienteId = c.clienteId " +
@@ -170,6 +170,8 @@ namespace PetLifeApp.Services
                             " ON l.clienteId = c.clienteId " +
                          " INNER JOIN endereco e " +
                             " ON e.clienteId = c.clienteId " +
+                         " INNER JOIN telefone t " +
+                            " ON t.clienteId = c.clienteId"+
                          " INNER JOIN cidade " +
                             " ON cidade.cidadeId = e.cidadeId " +
                          " INNER JOIN estado " +
@@ -187,12 +189,12 @@ namespace PetLifeApp.Services
                         {
                             cliente.Id = reader.GetInt32(0);
                             cliente.Nome = reader.GetString(1);
-                            cliente.Telefone = reader.GetString(2);
-                            cliente.DataNascimento = reader.GetString(3);
-                            login.Email = reader.GetString(4);
-                            login.Senha = reader.GetString(5);
+                            cliente.DataNascimento = Convert.ToString(reader.GetDateTime(2));
+                            login.Email = reader.GetString(3);
+                            login.Senha = reader.GetString(4);
+                            cliente.Telefone = reader.GetString(5);
                             endereco.Rua = reader.GetString(6);
-                            endereco.Numero = reader.GetString(7);
+                            endereco.Numero = Convert.ToString(reader.GetInt32(7));
                             endereco.Cep = reader.GetString(8);
                             endereco.Cidade = reader.GetString(9);
                             endereco.Estado = reader.GetString(10);
@@ -202,7 +204,6 @@ namespace PetLifeApp.Services
                 con.Close();
             }
             return (cliente, login, endereco);
-            //(int resultInt, string resultString) = CarregarCliente();
         }
     }
 }

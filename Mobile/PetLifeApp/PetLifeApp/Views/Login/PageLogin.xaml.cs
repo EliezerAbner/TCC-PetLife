@@ -37,9 +37,16 @@ namespace PetLifeApp.Views
 			if (txtSenha.Text != "")
 			{
 				login.Senha = txtSenha.Text;
-				
 
-				clienteId = fazerLogin.VerificarSenha(login);
+
+				try
+				{
+                    clienteId = fazerLogin.VerificarSenha(login);
+                }
+				catch (Exception ex)
+				{
+					DisplayAlert("Erro", $"{ex.Message}", "OK");
+				}
 
 				if(clienteId != 0)
                 {

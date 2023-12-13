@@ -19,7 +19,7 @@ namespace PetLifeApp.Controller
 
         public int VerificarEmail(LoginCliente login)
         {
-            string sql = $"SELECT emailId FROM email WHERE email='{login.Email}'";
+            string sql = $"SELECT emailId FROM email WHERE email='{login.Email}' AND status=1";
             int emailId;
 
             using (MySqlConnection con = new MySqlConnection(conn))

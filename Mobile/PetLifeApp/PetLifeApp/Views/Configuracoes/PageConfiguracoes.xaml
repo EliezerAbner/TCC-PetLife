@@ -187,6 +187,7 @@
 
 
                     <Label Text="Sobre"
+                           x:Name="lblSobre"
                            TextColor="Black"
                            FontSize="20"
                            VerticalTextAlignment="Center"

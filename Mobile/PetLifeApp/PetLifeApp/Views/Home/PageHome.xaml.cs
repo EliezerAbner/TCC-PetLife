@@ -38,6 +38,15 @@ namespace PetLifeApp.Views.Home
                     cvPet.ItemsSource = listaPet;
                 }
 
+                AlimentadorController ac = new AlimentadorController();
+                List<Alimentador> listaAlim = new List<Alimentador>();
+                listaAlim = ac.ListaAlimentadores(clienteId);
+
+                if (listaAlim.Count > 0)
+                {
+                    cvAlimentador.ItemsSource = listaAlim;
+                }
+
             }
             catch (Exception ex)
             {
@@ -47,12 +56,12 @@ namespace PetLifeApp.Views.Home
 
         private void btnVerMaisPet_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new PageAlimentadores());
+            Navigation.PushAsync(new PageMeusPets());
         }
 
         private void btnVerMaisAlimentador_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new PageMeusPets());
+            Navigation.PushAsync(new PageAlimentadores());
         }
     }
 }
