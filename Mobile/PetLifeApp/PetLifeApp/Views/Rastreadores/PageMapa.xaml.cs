@@ -6,6 +6,7 @@ using PetLifeApp.Models;
 using PetLifeApp.Controller;
 using System.Collections.Generic;
 using Xamarin.Essentials;
+using System.Globalization;
 
 namespace PetLifeApp.Views.Rastreadores
 {
@@ -27,9 +28,12 @@ namespace PetLifeApp.Views.Rastreadores
                 RastreadorController rc = new RastreadorController();
                 localizacao = rc.Localizacao(rastreador.Identificador);
 
+                double lat = double.Parse(localizacao.Latitude, CultureInfo.InvariantCulture);
+                double lon = double.Parse(localizacao.Longitude, CultureInfo.InvariantCulture);
+
                 local.Label = rastreador.NomePet;
                 local.Type = PinType.Generic;
-                local.Position = new Position(Convert.ToDouble(localizacao.Latitude), Convert.ToDouble(localizacao.Longitude));
+                local.Position = new Position(lat, lon);
 
                 map.Pins.Add(local);
                 map.MoveToRegion(MapSpan.FromCenterAndRadius(local.Position,
@@ -59,7 +63,10 @@ namespace PetLifeApp.Views.Rastreadores
                 RastreadorController rc = new RastreadorController();
                 localizacao = rc.Localizacao(rastreador.Identificador);
 
-                local.Position = new Position(Convert.ToDouble(localizacao.Latitude), Convert.ToDouble(localizacao.Longitude));
+                double lat = double.Parse(localizacao.Latitude, CultureInfo.InvariantCulture);
+                double lon = double.Parse(localizacao.Longitude, CultureInfo.InvariantCulture);
+
+                local.Position = new Position(lat,lon);
                 map.MoveToRegion(MapSpan.FromCenterAndRadius(local.Position,
                     Distance.FromMeters(200)));
             }

@@ -54,8 +54,10 @@ namespace PetLifeApp.Views
                     Xamarin.Forms.Application.Current.Properties["clienteId"] = teste;
 
                     var pagAnterior = Navigation.NavigationStack.LastOrDefault();
+					//var pagWelcome = Navigation.NavigationStack.;
                     Navigation.PushAsync(new FlyoutHome(clienteId));
                     Navigation.RemovePage(pagAnterior);
+					//Navigation.RemovePage(pagWelcome);
                 }
 			}
 		}

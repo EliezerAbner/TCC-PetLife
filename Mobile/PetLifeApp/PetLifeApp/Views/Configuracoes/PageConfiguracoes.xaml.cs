@@ -117,7 +117,7 @@ namespace PetLifeApp.Views.Configuracoes
 
         private void Sobre(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new PageSobre());
+           
         }
     }
 }

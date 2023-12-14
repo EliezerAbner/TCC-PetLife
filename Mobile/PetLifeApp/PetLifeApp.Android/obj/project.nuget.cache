@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mgIV6sdpcqoPe7qqm84P5Ow30lTjlSTwsbrrLgclCQgwt9hvbUboQA0G1r1dd5dOPmgYOgd778wI0f2kFtM4Gg==",
+  "dgSpecHash": "HKt32MGtCXUMSXpiALXl3YeI3d9VcjuFoSKx4pGebsg238MnKwUH8q+N5a8H1pPVJquEvE/gaxurppp7iATYUQ==",
   "success": true,
-  "projectFilePath": "C:\\Programas\\TCC-PetLife\\Mobile\\PetLifeApp\\PetLifeApp.Android\\PetLifeApp.Android.csproj",
+  "projectFilePath": "C:\\Programas\\Xamarin\\TCC-PetLife\\Mobile\\PetLifeApp\\PetLifeApp.Android\\PetLifeApp.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\eliez\\.nuget\\packages\\com.airbnb.android.lottie\\3.7.0\\com.airbnb.android.lottie.3.7.0.nupkg.sha512",
     "C:\\Users\\eliez\\.nuget\\packages\\com.airbnb.xamarin.forms.lottie\\4.0.10\\com.airbnb.xamarin.forms.lottie.4.0.10.nupkg.sha512",
