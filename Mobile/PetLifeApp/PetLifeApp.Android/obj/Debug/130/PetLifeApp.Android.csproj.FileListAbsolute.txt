@@ -667,11 +667,6 @@ C:\Programas\Xamarin\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\
 C:\Programas\Xamarin\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\stamp\_ResolveLibraryProjectImports.stamp
 C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\bin\Debug\PetLifeApp.Android.dll
 C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\bin\Debug\PetLifeApp.Android.pdb
-C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\bin\Debug\com.companyname.petlifeapp.apk
-C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\bin\Debug\com.companyname.petlifeapp.aab
-C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\bin\Debug\com.companyname.petlifeapp-Signed.aab
-C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\bin\Debug\com.companyname.petlifeapp-Signed.apk
-C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\bin\Debug\com.companyname.petlifeapp-Signed.apk.idsig
 C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\bin\Debug\PetLifeApp.dll
 C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\bin\Debug\PetLifeApp.pdb
 C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\MonoAndroid,Version=v13.0.AssemblyAttributes.cs
@@ -699,10 +694,7 @@ C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\PetL
 C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\PetLifeApp.Android.csproj.CopyComplete
 C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\PetLifeApp.Android.dll
 C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\PetLifeApp.Android.pdb
-C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\android\bin\com.companyname.petlifeapp.apk
 C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\android\bin\base.zip
-C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\android\bin\com.companyname.petlifeapp.aab
-C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\android\bin\com.companyname.petlifeapp.apks
 C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\res\values\styles.xml
 C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\res\values\colors.xml
 C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\res\mipmap-anydpi-v26\icon.xml
@@ -1365,7 +1357,6 @@ C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\andr
 C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\android\src\mono\MonoPackageManager_Resources.java
 C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\android\src\xamarin\essentials\fileProvider.java
 C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\android\bin\packaged_resources
-C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\android\src\com\companyname\petlifeapp\R.java
 C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\android\compressed_assemblies.arm64-v8a.ll
 C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\android\compressed_assemblies.armeabi-v7a.ll
 C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\android\compressed_assemblies.x86.ll
@@ -1621,3 +1612,12 @@ C:\Programas\Xamarin\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\
 C:\Programas\Xamarin\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\android\bin\com.MdP.petlifeapp.aab
 C:\Programas\Xamarin\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\android\bin\com.MdP.petlifeapp.apks
 C:\Programas\Xamarin\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\android\src\com\mdp\petlifeapp\R.java
+C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\bin\Debug\com.MdP.petlifeapp.apk
+C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\bin\Debug\com.MdP.petlifeapp.aab
+C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\bin\Debug\com.MdP.petlifeapp-Signed.aab
+C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\bin\Debug\com.MdP.petlifeapp-Signed.apk
+C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\bin\Debug\com.MdP.petlifeapp-Signed.apk.idsig
+C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\android\bin\com.MdP.petlifeapp.apk
+C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\android\bin\com.MdP.petlifeapp.aab
+C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\android\bin\com.MdP.petlifeapp.apks
+C:\Programas\TCC-PetLife\Mobile\PetLifeApp\PetLifeApp.Android\obj\Debug\130\android\src\com\mdp\petlifeapp\R.java

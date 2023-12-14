@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PetLifeApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1af96415e01f1e4e23bd7b186d1e3d6057668c39")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("PetLifeApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PetLifeApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
